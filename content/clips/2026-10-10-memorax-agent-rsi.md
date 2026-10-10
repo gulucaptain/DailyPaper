@@ -1,7 +1,7 @@
 ---
 title: "从记忆到自进化：Agent 走向 RSI 的关键一步"
 slug: "memorax-agent-rsi"
-date: 2026-10-11T09:00:00+08:00
+date: 2026-10-10T09:00:00+08:00
 draft: false
 tags: ["MemoraX", "忆纪元", "郝建业", "RSI", "递归自我改进", "Agent记忆", "机器之心", "剪藏"]
 categories: ["观点、人物与社会"]
@@ -9,7 +9,7 @@ description: "MemoraX 提出：RSI 真正卡住的地方不是模型会不会干
 showToc: false
 ---
 
-> **来源**：机器之心 · 2026-10-11 · [原文链接](https://mp.weixin.qq.com/s/xwI10amzB69qmz0rJ3fNeQ)
+> **来源**：机器之心 · 2026-10-10 · [原文链接](https://mp.weixin.qq.com/s/xwI10amzB69qmz0rJ3fNeQ)
 
 > **分类**：主线相关（RSI 线索 + 记忆）：把「记忆」推为 RSI 的三段式基础设施（写入 / 迁移 / 反馈优化），并给出 Agentic RL 训练记忆写入策略的工业实例；但全部数字自报、无论文无开源，按企业技术稿加权
 
