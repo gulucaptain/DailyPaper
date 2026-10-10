@@ -1,0 +1,35 @@
+{{- /* Extend PaperMod's index with paper sections from the rendered article.
+Use the actual rendered heading ID so links stay aligned with Hugo's TOC. */ -}}
+{{- $index := slice -}}
+{{- range site.RegularPages.ByDate.Reverse -}}
+  {{- if and (not .Params.searchHidden) (ne .Layout "archives") (ne .Layout "search") -}}
+    {{- $page := . -}}
+    {{- $summary := .Description | default (.Summary | plainify | htmlUnescape) -}}
+    {{- $index = $index | append (dict "kind" "article" "title" .Title "content" .Plain "permalink" .RelPermalink "summary" ($summary | truncate 220) "date" (.Date.Format "2006-01-02") "issue" .Title "arxiv" "") -}}
+    {{- if eq .Section "posts" -}}
+      {{- range $i, $section := split (printf "%s" .Content) "<h3 " -}}
+        {{- if gt $i 0 -}}
+          {{- $section = index (split $section "<h2 ") 0 -}}
+          {{- $heading := findRESubmatch `^id="([^"]+)"[^>]*>(.*?)</h3>` $section 1 -}}
+          {{- $ids := findRESubmatch `https?://arxiv\.org/(?:abs|pdf)/([0-9]{4}\.[0-9]{4,5})` $section 1 -}}
+          {{- if and $heading $ids -}}
+            {{- $heading = index $heading 0 -}}
+            {{- $id := index (index $ids 0) 1 -}}
+            {{- $body := replaceRE `(?s)^.*?</h3>` "" $section -}}
+            {{- $intro := "" -}}
+            {{- with findRESubmatch `(?s)<p><strong>一句话总结[^<]*</strong>\s*(.*?)</p>` $body 1 -}}
+              {{- $intro = index (index . 0) 1 -}}
+            {{- else -}}
+              {{- with findRESubmatch `(?s)<p><strong>核心创新点[^<]*</strong></p>\s*<p>(.*?)</p>` $body 1 -}}
+                {{- $intro = index (index . 0) 1 -}}
+              {{- end -}}
+            {{- end -}}
+            {{- $intro = $intro | default ($body | plainify) | plainify | htmlUnescape | truncate 220 -}}
+            {{- $index = $index | append (dict "kind" "paper" "title" (index $heading 2 | plainify | htmlUnescape) "content" ($body | plainify | htmlUnescape) "permalink" (printf "%s#%s" $page.RelPermalink (index $heading 1)) "summary" $intro "date" ($page.Date.Format "2006-01-02") "issue" $page.Title "arxiv" $id) -}}
+          {{- end -}}
+        {{- end -}}
+      {{- end -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+{{- $index | jsonify -}}

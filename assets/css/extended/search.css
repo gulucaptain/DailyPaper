@@ -1,0 +1,8 @@
+/* Keep PaperMod's typography, cards, spacing, colors and dark mode. */
+.search-tools { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; margin: var(--content-gap) 0; font-size: 14px; color: var(--secondary); }
+.search-tools select { font: inherit; color: var(--primary); background: var(--entry); border: 1px solid var(--border); border-radius: var(--radius); padding: 5px 8px; margin-inline-end: 8px; }
+.searchResults .post-entry { margin-bottom: 0; }
+.searchResults .entry-header h2 { overflow-wrap: anywhere; }
+.searchResults .entry-content { -webkit-line-clamp: 3; }
+.searchResults .entry-link:focus-visible { outline: 2px solid var(--secondary); outline-offset: 2px; }
+#searchMore { color: var(--theme); font-size: 13px; line-height: 36px; background: var(--primary); border-radius: 18px; padding: 0 16px; cursor: pointer; }

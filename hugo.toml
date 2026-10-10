@@ -36,13 +36,18 @@ buildExpired = false
 
   [params.homeInfoParams]
     Title = "Hi, I'm gulucaptain 👋"
-    Content = "技术探索 · AI · 工程实践 · [📖 阅读剪藏](clips/)"
+    Content = "技术探索 · AI · 工程实践 · [搜索论文](search/) · [📖 阅读剪藏](clips/)"
 
   [[params.socialIcons]]
     name = "github"
     url = "https://gulucaptain.github.io/"
 
 [menu]
+  [[menu.main]]
+    identifier = "search"
+    name = "搜索"
+    url = "/search/"
+    weight = 5
   [[menu.main]]
     identifier = "posts"
     name = "文章"
