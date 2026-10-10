@@ -15,7 +15,7 @@ buildExpired = false
   env = "production"
   title = "gulucaptain's Blog"
   description = "技术探索与思考"
-  author = "elephantflow"
+  author = "gulucaptain"
   defaultTheme = "auto"
   disableThemeToggle = false
   ShowReadingTime = true
@@ -35,12 +35,12 @@ buildExpired = false
   tocopen = false
 
   [params.homeInfoParams]
-    Title = "Hi, I'm ElephantFlow 👋"
+    Title = "Hi, I'm gulucaptain 👋"
     Content = "技术探索 · AI · 工程实践 · [📖 阅读剪藏](clips/)"
 
   [[params.socialIcons]]
     name = "github"
-    url = "https://github.com/elephantflow"
+    url = "https://gulucaptain.github.io/"
 
 [menu]
   [[menu.main]]
