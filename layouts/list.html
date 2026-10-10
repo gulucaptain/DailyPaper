@@ -45,6 +45,13 @@
 {{- $pages = where $pages "Params.hiddenInHomeList" "!=" "true"  }}
 {{- end }}
 
+{{- if eq .Section "math" }}
+{{- $pages = $pages.ByDate.Reverse }}
+{{- if eq (len $pages) 0 }}
+<p class="post-description">暂无文章。</p>
+{{- end }}
+{{- end }}
+
 {{- $paginator := .Paginate $pages }}
 
 {{- if and .IsHome site.Params.homeInfoParams (eq $paginator.PageNumber 1) }}

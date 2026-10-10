@@ -31,7 +31,7 @@ hugo server
 搜索沿用 PaperMod 的 Fuse 引擎、搜索框与 `post-entry` 卡片，并支持深色模式。`layouts/index.json` 在 Hugo 构建时自动更新索引，无需维护额外数据库：
 
 - 所有未设置 `searchHidden: true` 的普通文章提供全文检索。
-- `content/posts/` 内使用现有 `### 论文标题` 格式，并在该节附 arXiv 链接的论文，会额外生成可直达标题锚点的搜索结果。
+- `content/posts/` 或 `content/math/` 内使用现有 `### 论文标题` 格式，并在该节附 arXiv 链接的论文，会额外生成可直达标题锚点的搜索结果。
 - 论文卡片优先使用该节的 `**一句话总结：**`，兼容旧文的 `**核心创新点**`；其余格式回退到该节文字。
 - 首页和文章列表沿用主题卡片，优先展示 front matter 的 `description`，缺省时使用自动摘要。正文内容保持原样。
 
@@ -40,3 +40,41 @@ hugo server
 ## 剪藏分类
 
 剪藏页左侧类别自动汇总自 `content/clips/` 文章的 `categories`，无需手动维护类别列表；未填写类别的文章归入“未分类”。默认显示全部文章，全部及分类筛选结果均按文章 `date` 从新到旧排列。手机端类别显示在列表上方，分类链接可复制分享，浏览器前进后退可恢复筛选。
+
+## Math 数学调研栏目
+
+导航中的 Math 指向 `/math/`，列表与正文复用“文章”的 PaperMod 模板，按日期从新到旧排列，每页 10 篇。暂无已发布文章时只显示“暂无文章。”。原有文章的标签元数据和标签链接继续保留，顶部导航不再显示标签入口。
+
+推荐每篇数学文章使用一个独立目录（Hugo leaf bundle），把正文和图片放在一起：
+
+```text
+content/
+├── posts/                         # 现有 ArXiv 日报
+├── clips/                         # 阅读剪藏
+└── math/
+    ├── _index.md                  # Math 栏目入口（已创建）
+    └── topic-slug/                # 后续创建：一个主题一篇文章
+        ├── index.md              # 标题、日期、摘要、正文
+        └── figures/              # 可选：该文插图
+archetypes/
+└── math/
+    └── index.md                  # 数学调研文章模板（已创建）
+```
+
+在仓库根目录创建文章：
+
+```sh
+hugo new content --kind math math/topic-slug
+hugo server -D
+```
+
+将 `topic-slug` 替换成稳定的英文主题名。编辑生成的 `content/math/topic-slug/index.md`：
+
+- `title`：文章标题；`date`：发布日期，决定排序。
+- `description`：简短介绍，用于列表卡片和搜索结果。
+- `tags`：如线性代数、概率论、优化；`categories` 默认 Math。
+- 正文按研究问题、基本概念、核心结论、证明思路、例子、延伸问题、参考资料组织，可按需删减。
+- 插图放在该文目录下，用 `![说明](figures/example.png)` 引用。
+- 模板默认 `draft: true`，预览确认后改为 `false` 并推送，才会正式发布。
+
+已发布的数学文章自动进入 Math、首页、归档和站内全文搜索；草稿不进入生产站点。目录按主题组织，数学分支用 tags 表达，避免建立多层分类目录而改变文章列表结构。

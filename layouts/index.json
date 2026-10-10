@@ -6,7 +6,7 @@ Use the actual rendered heading ID so links stay aligned with Hugo's TOC. */ -}}
     {{- $page := . -}}
     {{- $summary := .Description | default (.Summary | plainify | htmlUnescape) -}}
     {{- $index = $index | append (dict "kind" "article" "title" .Title "content" .Plain "permalink" .RelPermalink "summary" ($summary | truncate 220) "date" (.Date.Format "2006-01-02") "issue" .Title "arxiv" "") -}}
-    {{- if eq .Section "posts" -}}
+    {{- if in (slice "posts" "math") .Section -}}
       {{- range $i, $section := split (printf "%s" .Content) "<h3 " -}}
         {{- if gt $i 0 -}}
           {{- $section = index (split $section "<h2 ") 0 -}}

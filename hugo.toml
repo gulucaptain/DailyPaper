@@ -12,6 +12,7 @@ buildExpired = false
   pagerSize = 10
 
 [params]
+  mainSections = ["posts", "math"]
   env = "production"
   title = "gulucaptain's Blog"
   description = "技术探索与思考"
@@ -59,9 +60,9 @@ buildExpired = false
     url = "/clips/"
     weight = 15
   [[menu.main]]
-    identifier = "tags"
-    name = "标签"
-    url = "/tags/"
+    identifier = "math"
+    name = "Math"
+    url = "/math/"
     weight = 20
   [[menu.main]]
     identifier = "archives"
