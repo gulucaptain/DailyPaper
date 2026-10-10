@@ -26,7 +26,7 @@ hugo server
 
 ## 搜索与论文介绍
 
-顶部“搜索”和首页“搜索论文”进入 `/search/`。支持论文标题、中英文关键词、arXiv ID / URL、日报日期；可按论文或文章筛选，按相关度或最新日期排序。结果每次显示 20 条。
+顶部“搜索”和首页“搜索论文”进入 `/search/`。支持论文标题、中英文关键词、arXiv ID / URL、日报日期；可按论文或文章筛选，默认按日期从新到旧排列，也可切换为相关度排序。结果每次显示 20 条。
 
 搜索沿用 PaperMod 的 Fuse 引擎、搜索框与 `post-entry` 卡片，并支持深色模式。`layouts/index.json` 在 Hugo 构建时自动更新索引，无需维护额外数据库：
 
@@ -36,3 +36,7 @@ hugo server
 - 首页和文章列表沿用主题卡片，优先展示 front matter 的 `description`，缺省时使用自动摘要。正文内容保持原样。
 
 主题覆盖文件位于 `layouts/`、`assets/js/fastsearch.js` 和 `assets/css/extended/search.css`，没有改动 PaperMod 子模块；升级主题时需同时核对这些覆盖文件。
+
+## 剪藏分类
+
+剪藏页左侧类别自动汇总自 `content/clips/` 文章的 `categories`，无需手动维护类别列表；未填写类别的文章归入“未分类”。默认显示全部文章，全部及分类筛选结果均按文章 `date` 从新到旧排列。手机端类别显示在列表上方，分类链接可复制分享，浏览器前进后退可恢复筛选。

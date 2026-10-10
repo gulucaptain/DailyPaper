@@ -11,7 +11,7 @@ let data = [], fuse, matches = [], shown = 0, timer;
 const urlState = new URLSearchParams(location.search);
 input.value = urlState.get('q') || '';
 if (['all', 'paper', 'article'].includes(urlState.get('type'))) scope.value = urlState.get('type');
-if (urlState.get('sort') === 'newest') sort.value = 'newest';
+sort.value = urlState.get('sort') === 'relevance' ? 'relevance' : 'newest';
 
 function element(tag, className, text) {
     const node = document.createElement(tag);
@@ -51,7 +51,7 @@ function search() {
     if (!fuse) return;
     const query = input.value.trim();
     const url = new URL(location.href);
-    for (const [key, value] of [['q', query], ['type', scope.value === 'all' ? '' : scope.value], ['sort', sort.value === 'relevance' ? '' : sort.value]]) {
+    for (const [key, value] of [['q', query], ['type', scope.value === 'all' ? '' : scope.value], ['sort', sort.value === 'newest' ? '' : sort.value]]) {
         if (value) url.searchParams.set(key, value); else url.searchParams.delete(key);
     }
     history.replaceState(null, '', url);

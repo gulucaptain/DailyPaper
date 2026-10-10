@@ -1,21 +1,4 @@
 {{- define "main" }}
-<style>
-.clip-group {
-  font-size: 1.1rem;
-  margin: 2.2rem 0 .6rem;
-  padding-bottom: .35rem;
-  border-bottom: 1px solid var(--border);
-}
-.clip-group:first-of-type { margin-top: .5rem; }
-.clip-group .clip-count {
-  font-size: .78rem;
-  font-weight: 400;
-  color: var(--secondary);
-  margin-left: .45rem;
-}
-.clip-group-list .post-entry { margin-top: .8rem; }
-</style>
-
 <header class="page-header">
   {{- partial "breadcrumbs.html" . }}
   <h1>
@@ -38,31 +21,43 @@
   {{- end }}
 </header>
 
-{{- $pages := .RegularPages }}
-{{- $groups := slice "世界模型与具身智能" "产品、产业与资本" "观点、人物与社会" }}
-
-{{- range $g := $groups }}
-  {{- $gp := where $pages "Params.categories" "intersect" (slice $g) }}
-  {{- with $gp }}
-  <h2 class="clip-group">{{ $g }}<span class="clip-count">{{ len . }} 篇</span></h2>
-  <div class="clip-group-list">
-    {{- range . }}
-    <article class="post-entry">
-      <header class="entry-header">
-        <h2 class="entry-hint-parent">{{ .Title }}</h2>
-      </header>
-      {{- if (ne (.Param "hideSummary") true) }}
-      <div class="entry-content">
-        <p>{{ with .Description }}{{ . }}{{ else }}{{ .Summary | plainify | htmlUnescape }}{{ end }}</p>
-      </div>
-      {{- end }}
-      {{- if not (.Param "hideMeta") }}
-      <footer class="entry-footer">{{- partial "post_meta.html" . -}}</footer>
-      {{- end }}
-      <a class="entry-link" aria-label="post link to {{ .Title | plainify }}" href="{{ .Permalink }}"></a>
-    </article>
-    {{- end }}
-  </div>
+{{- $pages := .RegularPages.ByDate.Reverse }}
+{{- $counts := dict }}
+{{- range $pages }}
+  {{- $categories := .Params.categories | default (slice "未分类") }}
+  {{- range $categories | uniq }}
+    {{- $counts = merge $counts (dict . (add (index $counts . | default 0) 1)) }}
   {{- end }}
 {{- end }}
+<div class="clips-layout">
+  <aside class="clips-sidebar" aria-label="剪藏分类" hidden>
+    <h2>文章类别</h2>
+    <nav aria-label="按类别筛选">
+      <button type="button" class="clips-category" data-category="" aria-pressed="true" aria-controls="clips-results">全部文章 <span>{{ len $pages }} 篇</span></button>
+      {{- range $name, $count := $counts }}
+      <button type="button" class="clips-category" data-category="{{ $name }}" aria-pressed="false" aria-controls="clips-results">{{ $name }} <span>{{ $count }} 篇</span></button>
+      {{- end }}
+    </nav>
+  </aside>
+  <section class="clips-content" aria-label="剪藏文章">
+    <p id="clips-status" class="post-meta" role="status" aria-live="polite">全部文章 · {{ len $pages }} 篇 · 最新优先</p>
+    <noscript><p>当前显示全部文章，按日期从新到旧排列。启用 JavaScript 可按类别筛选。</p></noscript>
+    <div id="clips-results">
+      {{- range $pages }}
+      <article class="post-entry" data-categories="{{ .Params.categories | default (slice "未分类") | jsonify }}" data-date="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}">
+        <header class="entry-header"><h2 class="entry-hint-parent">{{ .Title }}</h2></header>
+        {{- if ne (.Param "hideSummary") true }}
+        <div class="entry-content"><p>{{ with .Description }}{{ . }}{{ else }}{{ .Summary | plainify | htmlUnescape }}{{ end }}</p></div>
+        {{- end }}
+        {{- if not (.Param "hideMeta") }}
+        <footer class="entry-footer">{{- partial "post_meta.html" . -}}</footer>
+        {{- end }}
+        <a class="entry-link" aria-label="post link to {{ .Title | plainify }}" href="{{ .RelPermalink }}"></a>
+      </article>
+      {{- end }}
+    </div>
+  </section>
+</div>
+{{- $script := resources.Get "js/clips-filter.js" | resources.Minify | fingerprint }}
+<script defer src="{{ $script.RelPermalink }}" integrity="{{ $script.Data.Integrity }}" crossorigin="anonymous"></script>
 {{- end }}

@@ -1,0 +1,23 @@
+/* PaperMod cards and theme variables; only the category/list layout is added. */
+.main:has(.clips-layout) { max-width: calc(var(--main-width) + 260px + var(--gap) * 3); }
+.clips-layout { display: grid; grid-template-columns: 220px minmax(0, 1fr); gap: calc(var(--gap) * 1.5); align-items: start; }
+.clips-sidebar { position: sticky; top: var(--gap); }
+.clips-sidebar h2 { font-size: 18px; margin-bottom: 12px; }
+.clips-sidebar nav { display: flex; flex-direction: column; gap: 8px; }
+.clips-category { text-align: start; padding: 12px; font: inherit; font-size: 14px; color: var(--secondary); background: var(--entry); border: 1px solid var(--border); border-radius: var(--radius); cursor: pointer; }
+.clips-category span { display: block; font-size: 12px; margin-top: 4px; color: var(--secondary); }
+.clips-category[aria-pressed="true"] { color: var(--primary); font-weight: 600; border-color: var(--secondary); background: var(--code-bg); }
+.clips-category:hover { border-color: var(--secondary); }
+.clips-category:focus-visible { outline: 2px solid var(--secondary); outline-offset: 2px; }
+.clips-content { min-width: 0; }
+#clips-status { margin-bottom: var(--content-gap); }
+.clips-layout:has(.clips-sidebar[hidden]) { grid-template-columns: 1fr; }
+@media (max-width: 800px) {
+  .clips-layout { grid-template-columns: 1fr; gap: var(--gap); }
+  .clips-sidebar { position: static; }
+  .clips-sidebar nav { flex-direction: row; flex-wrap: wrap; }
+  .clips-category { padding: 8px 12px; }
+  .clips-category span { display: inline; margin-inline-start: 6px; }
+}
+/* Theme resets may set display on article; preserve native hidden behavior. */
+#clips-results .post-entry[hidden], .clips-sidebar[hidden] { display: none; }
