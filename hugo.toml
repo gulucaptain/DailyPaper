@@ -1,6 +1,6 @@
 baseURL = "https://gulucaptain.github.io/DailyPaper/"
 languageCode = "zh-CN"
-title = "ElephantFlow's Blog"
+title = "gulucaptain's Blog"
 theme = "PaperMod"
 defaultContentLanguage = "zh"
 hasCJKLanguage = true
@@ -13,7 +13,7 @@ buildExpired = false
 
 [params]
   env = "production"
-  title = "ElephantFlow's Blog"
+  title = "gulucaptain's Blog"
   description = "技术探索与思考"
   author = "elephantflow"
   defaultTheme = "auto"
