@@ -1,4 +1,4 @@
-baseURL = "https://elephantflow.github.io/"
+baseURL = "https://gulucaptain.github.io/DailyPaper/"
 languageCode = "zh-CN"
 title = "ElephantFlow's Blog"
 theme = "PaperMod"
@@ -36,7 +36,7 @@ buildExpired = false
 
   [params.homeInfoParams]
     Title = "Hi, I'm ElephantFlow 👋"
-    Content = "技术探索 · AI · 工程实践 · [📖 阅读剪藏](/clips/)"
+    Content = "技术探索 · AI · 工程实践 · [📖 阅读剪藏](clips/)"
 
   [[params.socialIcons]]
     name = "github"
