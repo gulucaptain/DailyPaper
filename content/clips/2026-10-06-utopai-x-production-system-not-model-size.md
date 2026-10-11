@@ -1,7 +1,7 @@
 ---
 title: "一家影视公司为什么能做出全球第二的视频模型？答案藏在「生产系统」里"
 slug: "utopai-x-production-system-not-model-size"
-date: 2026-10-06T09:00:00+08:00
+date: 2026-10-06T12:20:00+08:00
 draft: false
 tags: ["Utopai Studios", "Utopai X", "PAI", "Production Intelligence", "Artificial Analysis", "Video Arena", "机器之心（ID：jiqizhixin）", "剪藏"]
 categories: ["产品、产业与资本"]

@@ -1,7 +1,7 @@
 ---
 title: "AI教母李飞飞最新访谈：10年后，只会剩下2类工作者"
 slug: "fei-fei-li-labor-contains-intelligence-spatial"
-date: 2026-10-06T09:00:00+08:00
+date: 2026-10-06T15:05:00+08:00
 draft: false
 tags: ["李飞飞", "Fei-Fei Li", "World Labs", "David Rogier", "MasterClass", "Silicon Valley Girl", "CVer（ID：CVer）", "剪藏"]
 categories: ["观点、人物与社会"]

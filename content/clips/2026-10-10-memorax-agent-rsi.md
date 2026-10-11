@@ -1,7 +1,7 @@
 ---
 title: "从记忆到自进化：Agent 走向 RSI 的关键一步"
 slug: "memorax-agent-rsi"
-date: 2026-10-10T09:00:00+08:00
+date: 2026-10-10T23:50:00+08:00
 draft: false
 tags: ["MemoraX", "忆纪元", "郝建业", "RSI", "递归自我改进", "Agent记忆", "机器之心", "剪藏"]
 categories: ["观点、人物与社会"]
