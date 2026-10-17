@@ -1,0 +1,14 @@
+/* Math paper metadata; inherit PaperMod colors in both themes. */
+.post-content .paper-meta { margin: -4px 0 24px; }
+.paper-meta-byline { display: flex; flex-wrap: wrap; gap: 2px 16px; color: var(--secondary); font-size: 14px; line-height: 1.7; }
+.paper-meta-note { margin-top: 3px; color: var(--secondary); font-size: 13px; line-height: 1.6; }
+.paper-meta-links { display: flex; flex-wrap: wrap; gap: 8px; margin: 13px 0 10px; }
+.post-content .paper-meta .paper-meta-button { display: inline-flex; align-items: center; gap: 8px; min-height: 34px; max-width: 100%; padding: 4px 11px; border: 1px solid var(--tertiary); border-radius: 5px; background: var(--theme); color: var(--primary); font-size: 13px; line-height: 1.5; text-decoration: none; box-shadow: none; overflow-wrap: anywhere; }
+.post-content .paper-meta .paper-meta-button:hover { background: var(--code-bg); border-color: var(--secondary); box-shadow: none; }
+.paper-meta-button:focus-visible { outline: 2px solid var(--secondary); outline-offset: 3px; }
+.post-content .paper-meta .paper-meta-button .paper-meta-arxiv { display: block; width: 48px; height: 23px; margin: 0; border-radius: 0; flex-shrink: 0; }
+.paper-meta-button svg { flex-shrink: 0; }
+.paper-meta-id { padding-inline-start: 8px; border-inline-start: 1px solid var(--tertiary); font-variant-numeric: tabular-nums; }
+.paper-meta-directions { display: flex; flex-wrap: wrap; gap: 6px; }
+.paper-meta-directions span { padding: 3px 8px; border-radius: 3px; background: var(--code-bg); color: var(--secondary); font-size: 12px; line-height: 1.6; }
+@media (max-width: 480px) { .paper-meta-byline { flex-direction: column; } }

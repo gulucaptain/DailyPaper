@@ -1,0 +1,11 @@
+{{- $arxiv := .Get "arxiv" -}}
+<div class="paper-meta">
+  <div class="paper-meta-byline"><span>{{ .Get "authors" }}</span><span>{{ .Get "source" }} · {{ .Get "date" }}</span></div>
+  {{ with .Get "note" }}<div class="paper-meta-note">{{ . }}</div>{{ end }}
+  <nav class="paper-meta-links" aria-label="论文资源">
+    {{ with $arxiv }}<a class="paper-meta-button" href="https://arxiv.org/abs/{{ . }}" aria-label="arXiv {{ . }}">{{ with resources.Get "icons/arxiv.svg" }}<img class="paper-meta-arxiv" src="{{ .RelPermalink }}" alt="arXiv" width="48" height="23">{{ end }}<span class="paper-meta-id">{{ . }}</span></a>{{ end }}
+    {{ with .Get "doi" }}<a class="paper-meta-button" href="https://doi.org/{{ . }}">DOI <span class="paper-meta-id">{{ . }}</span></a>{{ end }}
+    {{ with .Get "fulltext" }}<a class="paper-meta-button" href="{{ . }}"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8Z"/><path d="M14 2v6h6M8 13h8M8 17h6"/></svg>{{ $.Get "fulltextLabel" | default "全文" }}</a>{{ end }}
+  </nav>
+  {{ with .Get "directions" }}<div class="paper-meta-directions" aria-label="研究方向">{{ range split . "、" }}<span>{{ . }}</span>{{ end }}</div>{{ end }}
+</div>
