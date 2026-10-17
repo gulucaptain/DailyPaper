@@ -1,5 +1,5 @@
 ---
-title: "ArXiv 每日精选 · 2026-10-17"
+title: "AI每日精选 · 2026-10-17"
 date: "2026-10-17T10:41:04+08:00"
 draft: false
 tags: ["ArXiv", "论文精选", "AI研究", "具身智能", "触觉学习", "世界模型", "Flow Matching", "多模态生成", "AI Agent"]

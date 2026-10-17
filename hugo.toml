@@ -58,7 +58,7 @@ buildExpired = false
     weight = 5
   [[menu.main]]
     identifier = "posts"
-    name = "文章"
+    name = "AI论文"
     url = "/posts/"
     weight = 10
   [[menu.main]]
