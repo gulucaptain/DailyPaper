@@ -1,0 +1,2 @@
+{{- $opts := dict "output" "mathml" "displayMode" (eq (.Get "display") "true") -}}
+{{- transform.ToMath (trim .Inner "\n\r\t ") $opts -}}
