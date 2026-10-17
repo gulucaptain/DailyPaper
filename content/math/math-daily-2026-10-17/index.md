@@ -6,7 +6,7 @@ categories: ["Math"]
 tags: ["math.PR", "非马尔可夫过程", "分支过程", "自相互作用随机游走", "随机流", "强化随机游走", "随机时滞方程"]
 draft: false
 showToc: true
-tocopen: false
+tocopen: true
 ---
 
 > 本期以 arXiv math.PR **Fri, 16 Oct 2026** 为最新公告批次：45条；recent完整覆盖五个批次共279条。另回溯九月和十月完整索引，按v1日期与历史文章筛选近期未收录论文，故本期包含10月5日起的近期补遗，不将它们称为10月16日首次投稿。
