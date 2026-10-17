@@ -15,11 +15,7 @@ tocopen: true
 
 ### Localisation of the monkey walk with an "impurity" at the origin
 
-**原文：** [arXiv:2610.21864](https://arxiv.org/abs/2610.21864) · [全文v1](https://arxiv.org/html/2610.21864v1)。
-
-**作者与发表信息：** Wilfred Armfield、Cécile Mailler；arXiv预印本，v1提交于2026-10-15，次日公告。
-
-**研究方向：** 自相互作用随机游走、非马尔可夫过程。
+Wilfred Armfield、Cécile Mailler；arXiv预印本，v1提交于2026-10-15，次日公告 · 自相互作用随机游走、非马尔可夫过程 · [arXiv:2610.21864](https://arxiv.org/abs/2610.21864) · [全文v1](https://arxiv.org/html/2610.21864v1)
 
 **一句话总结：** 原点处较低的历史重定位概率，可以使长期记忆游走在足够强的异质参数区间中局域化。
 
@@ -43,11 +39,7 @@ tocopen: true
 
 ### A sharp survival threshold for branching Brownian motion in a self-generated resource environment
 
-**原文：** [arXiv:2610.21476](https://arxiv.org/abs/2610.21476) · [全文v1](https://arxiv.org/html/2610.21476v1)。
-
-**作者与发表信息：** Maciej Głuchowski、Georg Menz；arXiv预印本，v1提交于2026-10-15。
-
-**研究方向：** 分支过程。
+Maciej Głuchowski、Georg Menz；arXiv预印本，v1提交于2026-10-15 · 分支过程 · [arXiv:2610.21476](https://arxiv.org/abs/2610.21476) · [全文v1](https://arxiv.org/html/2610.21476v1)
 
 **一句话总结：** 在有限程、局部正相互作用核下，每个死亡粒子可支持的理论出生数量是否超过1，决定正概率生存是否可能。
 
@@ -73,11 +65,7 @@ tocopen: true
 
 ### Persistence in probability for stochastic delay equations with multiplicative noise
 
-**原文：** [arXiv:2610.21599](https://arxiv.org/abs/2610.21599) · [全文v1](https://arxiv.org/html/2610.21599v1)。
-
-**作者与发表信息：** Mark van den Bosch、John Ioannis Stavroulakis；arXiv math.DS预印本，交叉收录至math.PR；v1提交于2026-10-15。
-
-**研究方向：** 非马尔可夫过程。
+Mark van den Bosch、John Ioannis Stavroulakis；arXiv math.DS预印本，交叉收录至math.PR；v1提交于2026-10-15 · 非马尔可夫过程 · [arXiv:2610.21599](https://arxiv.org/abs/2610.21599) · [全文v1](https://arxiv.org/html/2610.21599v1)
 
 **一句话总结：** 一个不显含时滞长度的充分条件，保证正解在整个时间轴上一致地依概率远离零。
 
@@ -109,11 +97,7 @@ tocopen: true
 
 ### A Generalized Elephant Random Walk with Time-Dependent Memory
 
-**原文：** [arXiv:2610.16065](https://arxiv.org/abs/2610.16065) · [全文v1](https://arxiv.org/html/2610.16065v1)。
-
-**作者与发表信息：** Xiequan Fan、Yongcheng Qi；arXiv预印本，v1提交于2026-10-12。
-
-**研究方向：** 自相互作用随机游走、非马尔可夫过程。
+Xiequan Fan、Yongcheng Qi；arXiv预印本，v1提交于2026-10-12 · 自相互作用随机游走、非马尔可夫过程 · [arXiv:2610.16065](https://arxiv.org/abs/2610.16065) · [全文v1](https://arxiv.org/html/2610.16065v1)
 
 **一句话总结：** 时变象随机游走的高斯与鞅极限行为，可用累积方差序列是否发散统一组织。
 
@@ -143,11 +127,7 @@ a_n=2p_n-1,\quad A_1=A_2=\tfrac12,\quad A_n=\tfrac12\prod_{k=2}^{n-1}(1+a_k/k)^{
 
 ### The forward-loop-erased ants walk
 
-**原文：** [arXiv:2610.18453](https://arxiv.org/abs/2610.18453) · [全文v1](https://arxiv.org/html/2610.18453v1)。
-
-**作者与发表信息：** Wilfred Armfield、Cécile Mailler；arXiv预印本，v1提交于2026-10-13。
-
-**研究方向：** 自相互作用随机游走。
+Wilfred Armfield、Cécile Mailler；arXiv预印本，v1提交于2026-10-13 · 自相互作用随机游走 · [arXiv:2610.18453](https://arxiv.org/abs/2610.18453) · [全文v1](https://arxiv.org/html/2610.18453v1)
 
 **一句话总结：** 在巢穴到食物的图距离为2时，前向擦环强化机制可在不额外限制图形状的情况下找到最短路。
 
@@ -167,11 +147,7 @@ a_n=2p_n-1,\quad A_1=A_2=\tfrac12,\quad A_n=\tfrac12\prod_{k=2}^{n-1}(1+a_k/k)^{
 
 ### Stochastic Flows with Strong Shear - Part I: Strong Completeness and Set Attractors
 
-**原文：** [arXiv:2610.06321](https://arxiv.org/abs/2610.06321) · [全文v1](https://arxiv.org/html/2610.06321v1)。
-
-**作者与发表信息：** Dennis Chemnitz、Maximilian Engel、Michael Scheutzow；arXiv预印本，v1提交于2026-10-05；本期作为窗口内未收录的近期补遗。
-
-**研究方向：** 随机流。
+Dennis Chemnitz、Maximilian Engel、Michael Scheutzow；arXiv预印本，v1提交于2026-10-05；本期作为窗口内未收录的近期补遗 · 随机流 · [arXiv:2610.06321](https://arxiv.org/abs/2610.06321) · [全文v1](https://arxiv.org/html/2610.06321v1)
 
 **一句话总结：** 径向耗散并不保证全局随机流：足够强的角向剪切与同一噪声耦合，会产生依赖噪声实现的异常爆炸初值。
 
