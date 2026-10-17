@@ -25,11 +25,12 @@ tocopen: true
 
 ### Rolling-WAM: World Action Models with Rolling Imagination
 
-**链接：** https://arxiv.org/abs/2609.30247
-
-**项目主页：** https://rolling-wam.github.io/
-
-**作者 / 机构：** Yinghua Zhou, Junjie Ye, Yiqi Zhao, Hao Dong, Celina Shiyu Wang, Ruohai Ge, Tingyi Yang, Basile Van Hoorick, Gaurav Sukhatme, Vitor Guizilini, Yue Wang（University of Southern California；Brown University；Fudan University；Toyota Research Institute）
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2609.30247"
+  authors="Yinghua Zhou, Junjie Ye, Yiqi Zhao, Hao Dong, Celina Shiyu Wang, Ruohai Ge, Tingyi Yang, Basile Van Hoorick, Gaurav Sukhatme, Vitor Guizilini, Yue Wang（University of Southern California；Brown University；Fudan University；Toyota Research Institute）"
+  arxiv="2609.30247"
+  links="[{\"url\":\"https://rolling-wam.github.io/\",\"label\":\"项目主页\",\"kind\":\"project\"}]"
+>}}
 
 **一句话总结：** 南加州大学联合布朗大学、复旦大学与丰田研究院提出 **Rolling-WAM**，把联合视频—动作去噪**摊薄到连续的重规划周期**上——维护一个处于错开噪声水平的滑动窗口，每步只把即将执行的动作块完全去噪、对更远的块做部分细化，窗口随新观测前移时被保留的块继续去噪，在 LIBERO 取得 **98.1%**、RoboTwin **93.3%** 的同时带来 **4.5× 稳态重规划加速**，并在 Unitree G1 人形真机上验证。
 
@@ -54,9 +55,11 @@ tocopen: true
 
 ### World Action Agent: Harnessing VLMs for Robot Manipulation via World Action Rehearsal
 
-**链接：** https://arxiv.org/abs/2609.29964
-
-**作者 / 机构：** Yehang Zhang, Haojian Huang, Yifan Chang, Jianchong Su, Bohan Zhou, Yingjie Xu, Wosong Chen, Tianhao Zhou, Chenxu Wang, Tianyi Zhang, Yangkai Wei, Wenqian Li, Shiyuan Deng, Yinchuan Li, Ying-Cong Chen, Zexi Li（HKUST(GZ) 香港科技大学（广州）；CUHK 香港中文大学；Knowin AI）
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2609.29964"
+  authors="Yehang Zhang, Haojian Huang, Yifan Chang, Jianchong Su, Bohan Zhou, Yingjie Xu, Wosong Chen, Tianhao Zhou, Chenxu Wang, Tianyi Zhang, Yangkai Wei, Wenqian Li, Shiyuan Deng, Yinchuan Li, Ying-Cong Chen, Zexi Li（HKUST(GZ) 香港科技大学（广州）；CUHK 香港中文大学；Knowin AI）"
+  arxiv="2609.29964"
+>}}
 
 **一句话总结：** 港科大（广州）联合港中文与 Knowin AI 提出 **World Action Agent（WAA）**，一个让通用 VLM 以基础工具直接「驾驶」机器人的多智能体 harness——通过**接触视图**、**动作预演**与**视图内校正**构成的可视化动作工作区，让 VLM 在动作发出前先预览并修订，在 LIBERO-Pro 上取得 **75.6%** 平均成功率，超过端到端 VLA、code-as-policy 智能体与同骨干 visual-harness 基线；技能库仅从 LIBERO-90 演化，冻结后零学习迁移到 robosuite。
 
@@ -81,9 +84,11 @@ tocopen: true
 
 ### Representation World Model: Learning States, Transition and Executable Plans in Representation
 
-**链接：** https://arxiv.org/abs/2609.29171
-
-**作者 / 机构：** Yijun Yuan, Weicheng Zheng, Weibang Wang, Minghui Qin, Chang Sun, Junhao Huang, Kenan Li, Anmin Liu, Yicheng Yao, Hang Zhao（清华大学 MARS Lab；论文未在 arXiv 页面标注机构，此处据 arXiv comment 中标注的项目主页域名与作者信息推断，项目主页当前不可访问）
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2609.29171"
+  authors="Yijun Yuan, Weicheng Zheng, Weibang Wang, Minghui Qin, Chang Sun, Junhao Huang, Kenan Li, Anmin Liu, Yicheng Yao, Hang Zhao（清华大学 MARS Lab；论文未在 arXiv 页面标注机构，此处据 arXiv comment 中标注的项目主页域名与作者信息推断，项目主页当前不可访问）"
+  arxiv="2609.29171"
+>}}
 
 **一句话总结：** 清华团队提出 **Representation World Model（RWM）**，把状态、转移与可执行计划**全部学在表征空间里**——不训练显式动力学模型，而是沿由端点表征构造的潜路径施加局部逆动力学监督，使表征几何本身保留任务相关的状态与转移信息；推断时在当前与目标表征之间直接构造潜路径，用逆动力学还原动作，**无需递归 rollout、无需动作空间搜索**。
 
@@ -107,9 +112,11 @@ tocopen: true
 
 ### Underwater C3-JEPA: An Object-Centric Cross-View World Model for ROV Salvage
 
-**链接：** https://arxiv.org/abs/2609.30214
-
-**作者 / 机构：** Yuncong Yang, Jinlong Li, Yulong Xue, Feng Wu, Chunwen Zhang, Lei Qiao, Xuyang Wang（Underwater Engineering Institute, Shanghai Jiao Tong University 上海交通大学水下工程研究所）
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2609.30214"
+  authors="Yuncong Yang, Jinlong Li, Yulong Xue, Feng Wu, Chunwen Zhang, Lei Qiao, Xuyang Wang（Underwater Engineering Institute, Shanghai Jiao Tong University 上海交通大学水下工程研究所）"
+  arxiv="2609.30214"
+>}}
 
 **一句话总结：** 上海交通大学水下工程研究所提出 **Underwater C³-JEPA**（cross-view、control-conditioned、context-extended），一个面向近场重载水下 ROV 打捞的**以对象为中心的多视角预测式世界模型**——在**无接触传感器**的条件下，从同步多视角 RGB 观测与载具控制信号出发，在潜空间预测任务对象状态如何在接触交互下、并在载具水动力滞后影响下演化；预测器仅 **1.33M 参数**，可直接用于 MPC 候选评估与想象 rollout 行为智能体训练。
 
@@ -134,11 +141,12 @@ tocopen: true
 
 ### OCC4M: Object-Centric 4D Memory for Spatiotemporal Reasoning in Long-Horizon Manipulation
 
-**链接：** https://arxiv.org/abs/2609.28798
-
-**补充材料：** https://occ4m-sup.github.io/occ4m-supplementary/
-
-**作者 / 机构：** Jack B. Jedlicki, Tanguy Dieudonné, Heng Yang（Harvard Computational Robotics Group, Harvard University；ETH Zürich）
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2609.28798"
+  authors="Jack B. Jedlicki, Tanguy Dieudonné, Heng Yang（Harvard Computational Robotics Group, Harvard University；ETH Zürich）"
+  arxiv="2609.28798"
+  links="[{\"url\":\"https://occ4m-sup.github.io/occ4m-supplementary/\",\"label\":\"补充材料\",\"kind\":\"project\"}]"
+>}}
 
 **一句话总结：** 哈佛计算机器人组与苏黎世联邦理工提出 **OCC4M（"Occam"）**，一个在共享世界坐标系下维护持久轨迹、并显式表示时序/运动/容纳关系的**对象中心 4D 记忆**——VLM 查询这一结构化记忆来为无历史的底层执行挑选可行动目标，在七个条件、350 个 episode 上取得 **96.6% 记忆成功率**与 **88.9% 端到端成功率**，远超使用完整观测历史的 FrameSamp 基线（54.6% / 57.7%）；换视角后仍保持 100% / 98%，而全历史基线近乎归零。
 
@@ -163,9 +171,11 @@ tocopen: true
 
 ### Self-Adaptive VLA for Robust Robot Deployment
 
-**链接：** https://arxiv.org/abs/2609.30092
-
-**作者 / 机构：** Hongxin Zhang, Chunru Lin, Tsun-Hsuan Wang, Zhenjia Xu, Chuang Gan（University of Massachusetts Amherst；Genesis AI）
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2609.30092"
+  authors="Hongxin Zhang, Chunru Lin, Tsun-Hsuan Wang, Zhenjia Xu, Chuang Gan（University of Massachusetts Amherst；Genesis AI）"
+  arxiv="2609.30092"
+>}}
 
 **一句话总结：** 马萨诸塞大学阿默斯特分校与 Genesis AI 提出 **Self-Adaptive VLA**，一套让 VLA 策略在**部署期**利用自身 rollout 作为上下文、迭代适应硬件漂移的后训练方案——在 20 个未标定的部署环境（每环境一次未见过的硬件漂移）下，把执行器偏置导致的平均成功率从基座的 **7.5%** 提升到 **45.0%**（集成版 **72.5%**），联合编码器偏置下从 5.0% 提升到 46.3%（集成版 75.0%）。
 
@@ -189,9 +199,11 @@ tocopen: true
 
 ### Res-HIL: Human-Guided Residual Reinforcement Learning for Sample-Efficient Dexterous Manipulation
 
-**链接：** https://arxiv.org/abs/2609.30023
-
-**作者 / 机构：** Mariia Iavorskaia, Christian Dietz, Sebastian Albrecht, Majid Khadiv（Siemens AG, Research and Predevelopment, Germany；Technical University of Munich）
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2609.30023"
+  authors="Mariia Iavorskaia, Christian Dietz, Sebastian Albrecht, Majid Khadiv（Siemens AG, Research and Predevelopment, Germany；Technical University of Munich）"
+  arxiv="2609.30023"
+>}}
 
 **一句话总结：** 西门子研究院与慕尼黑工业大学提出 **Res-HIL**，一个**只学残差校正**的人机闭环强化学习框架——在冻结的模仿策略之上学习修正动作，每次人工干预同时提供两个互补信号（对残差策略的直接监督 + 对前序自主行为的奖励整形），配合残差策略零初始化；仅用 **20 条初始示教、10 分钟在线训练**，即在五个富接触任务上全面超越最优的全策略人环 RL 与无人指导的残差微调。
 
@@ -216,11 +228,12 @@ tocopen: true
 
 ### ViRDM: Taming Representation Distribution Matching for Few-Step Causal Video Generation
 
-**链接：** https://arxiv.org/abs/2609.28923
-
-**项目主页：** https://neu-vi.github.io/ViRDM/ ｜ **模型：** https://huggingface.co/cr8br0ze/ViRDM
-
-**作者 / 机构：** Zichong Meng, Chongjian Ge, Chun-Hao P. Huang, Yang Zhou, Huaizu Jiang（Northeastern University；Adobe Research）
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2609.28923"
+  authors="Zichong Meng, Chongjian Ge, Chun-Hao P. Huang, Yang Zhou, Huaizu Jiang（Northeastern University；Adobe Research）"
+  arxiv="2609.28923"
+  links="[{\"url\":\"https://neu-vi.github.io/ViRDM/\",\"label\":\"项目主页\",\"kind\":\"project\"},{\"url\":\"https://huggingface.co/cr8br0ze/ViRDM\",\"label\":\"模型\",\"kind\":\"huggingface\"}]"
+>}}
 
 **一句话总结：** 东北大学与 Adobe Research 提出 **ViRDM**，一套**无教师、无 critic** 的少步因果视频后训练配方——用预先算好的目标表征分布替代 DMD 所需的庞大冻结教师与在线 critic，配合随机截断的 clean-exit 监督、轻量 VAE 解码器与分阶段向量—雅可比积，仅 **20 次生成器更新、16 A100 GPU 小时**即在官方 VBench 上达到 **84.87**，超过此前最优少步因果基线 0.36，单卡峰值显存 77.1→48.3 GB、后训练时间 22→2 小时。
 

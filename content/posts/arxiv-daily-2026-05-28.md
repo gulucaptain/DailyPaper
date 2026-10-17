@@ -17,7 +17,10 @@ tocopen: true
 
 ### Generative Multi-Agent World Modeling Beyond Two Players
 
-**链接：** https://arxiv.org/abs/2605.28816
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2605.28816"
+  arxiv="2605.28816"
+>}}
 
 **一句话总结：** NVIDIA 提出首个可扩展多智能体交互世界模型，支持任意数量玩家同时独立控制，实现 24 FPS 实时生成，agent 间一致性显著优于 baseline。
 
@@ -43,7 +46,10 @@ tocopen: true
 
 ### Efficient High-Quality Video Generation with Sparse Sequence Parallelism, HiF8 Quantization, and Reinforcement Learning
 
-**链接：** https://arxiv.org/abs/2605.28691
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2605.28691"
+  arxiv="2605.28691"
+>}}
 
 **一句话总结：** OSP-Next 通过稀疏注意力、序列并行、8-bit 量化和 Mix-GRPO 后训练的系统级优化，在保持 VBench 83.73% 高分的同时实现单卡 1.64× 加速，同时兼容昇腾 950PR。
 
@@ -70,7 +76,10 @@ tocopen: true
 
 ### From Pixels to Words: Towards Native One-Vision Models at Scale
 
-**链接：** https://arxiv.org/abs/2605.28820
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2605.28820"
+  arxiv="2605.28820"
+>}}
 
 **一句话总结：** NEO-ov 提出无需外部编码器的端到端原生 VLM，通过完全消除模块边界，使跨帧和 pixel-word 对应关系在模型内部自发涌现，在精细视觉感知上超越模块化模型。
 
@@ -96,7 +105,10 @@ tocopen: true
 
 ### Robust Quantization for Vision-Language-Action Models via Composite Rotation and Per-step Scaling
 
-**链接：** https://arxiv.org/abs/2605.28803
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2605.28803"
+  arxiv="2605.28803"
+>}}
 
 **一句话总结：** Omega-QVLA 首次将 VLA 模型（含扩散动作头）整体压缩到 W4A4 精度，在 LIBERO 上 Pi 0.5 成功率 98.0%、GR00T N1.5 成功率 87.8%，分别超过 FP16 参考值（97.1% 和 87.0%），内存减少 71.3%。
 
@@ -122,7 +134,10 @@ tocopen: true
 
 ### Sim-to-Real Dexterous Manipulation with Physics-Grounded Contact Representation
 
-**链接：** https://arxiv.org/abs/2605.28812
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2605.28812"
+  arxiv="2605.28812"
+>}}
 
 **一句话总结：** CoP（Center-of-Pressure）提出基于物理原理的触觉表示，保留稠密接触信息同时保持仿真到真实的迁移鲁棒性，在多指手上实现零样本 sim-to-real 迁移，超越粗粒度和原始触觉基线。
 
@@ -148,7 +163,10 @@ tocopen: true
 
 ### SPRINT: Efficient Spectral Priors for Humanoid Athletic Sprints
 
-**链接：** https://arxiv.org/abs/2605.28549
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2605.28549"
+  arxiv="2605.28549"
+>}}
 
 **一句话总结：** SPRINT 利用频率自适应谱先验驱动人形机器人奔跑控制，仅用 5 段参考动作序列即可在 Unitree G1 上实现峰值 6 m/s 零样本 sim-to-real 迁移，并保持自然的步态转换。
 
@@ -174,7 +192,10 @@ tocopen: true
 
 ### BiDPO: Compositional Text-to-Image Generation Via Region-aware Bimodal Direct Preference Optimization
 
-**链接：** https://arxiv.org/abs/2605.28615
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2605.28615"
+  arxiv="2605.28615"
+>}}
 
 **一句话总结：** BiDPO 通过构建大规模偏好数据集 BiComp 并将 Diffusion DPO 扩展至图文双模态联合优化，加上区域级精细引导，系统性提升扩散模型对复杂组合文本提示的遵循能力。
 

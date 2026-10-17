@@ -17,7 +17,10 @@ tocopen: true
 
 ### Current World Models Lack a Persistent State Core
 
-**链接：** https://arxiv.org/abs/2606.20545
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2606.20545"
+  arxiv="2606.20545"
+>}}
 
 **一句话总结：** 提出 WRBench 基准，系统性揭露当前世界模型的核心盲点——无法在"无人观测"期间维持持续演化的世界状态，仅能跟踪当前帧，而非真正建模世界的动态发展。
 
@@ -44,7 +47,10 @@ tocopen: true
 
 ### MemoryWAM: Efficient World Action Modeling with Persistent Memory
 
-**链接：** https://arxiv.org/abs/2606.20562
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2606.20562"
+  arxiv="2606.20562"
+>}}
 
 **一句话总结：** 为机器人操控任务提出 MemoryWAM，通过混合持久记忆设计（近期帧 + 事件边界锚帧 + 压缩 gist 令牌）解决世界动作模型在长程非马尔可夫任务中推理效率与历史记忆的根本矛盾。
 
@@ -70,7 +76,10 @@ tocopen: true
 
 ### FlowBender: Feedback-Aware Training for Self-Correcting Conditional Flows
 
-**链接：** https://arxiv.org/abs/2606.20404
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2606.20404"
+  arxiv="2606.20404"
+>}}
 
 **一句话总结：** 提出 FlowBender，一个闭环训练框架，让条件扩散/流模型学会利用自身的"对齐误差"信号主动修正生成过程，从根本上解决条件生成中保真度与合理性的长期权衡难题。
 
@@ -98,7 +107,10 @@ tocopen: true
 
 ### Spatially Speculative Decoding: Accelerates Autoregressive Image Generation
 
-**链接：** https://arxiv.org/abs/2606.20543
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2606.20543"
+  arxiv="2606.20543"
+>}}
 
 **一句话总结：** 提出 Spatially Speculative Decoding（SSD），通过利用图像的 2D 空间相关性同时预测水平和垂直相邻 token，将自回归图像生成速度提升至多 13.3 倍，同时保持高保真度。
 
@@ -124,7 +136,10 @@ tocopen: true
 
 ### How Transparent is DiffusionGemma?
 
-**链接：** https://arxiv.org/abs/2606.20560
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2606.20560"
+  arxiv="2606.20560"
+>}}
 
 **一句话总结：** 系统性分析扩散式语言模型（DiffusionGemma）的可解释性，发现通过可解释 token 瓶颈可将其透明度提升至接近自回归模型（Gemma 4）水平，并揭示了扩散模型独有的推理现象。
 
@@ -151,7 +166,10 @@ tocopen: true
 
 ### The FID Lottery: Quantifying Hidden Randomness in Generative-Model Evaluation
 
-**链接：** https://arxiv.org/abs/2606.20536
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2606.20536"
+  arxiv="2606.20536"
+>}}
 
 **一句话总结：** 系统量化 FID 评估的随机性：重新训练模型比重新采样对 FID 的影响大 3.2 倍，且该差异不随规模增长而收窄，呼吁业界采用更严格的报告协议。
 
@@ -176,7 +194,10 @@ tocopen: true
 
 ### Generating Robot Hands from Human Demonstrations
 
-**链接：** https://arxiv.org/abs/2606.20549
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2606.20549"
+  arxiv="2606.20549"
+>}}
 
 **一句话总结：** 提出数据驱动框架，直接从 400 万帧人类日常操控示范中优化并生成树状结构机器人手设计，将机器人手的设计-控制联合搜索时间从数小时压缩至数分钟，并实现一件式打印制造。
 

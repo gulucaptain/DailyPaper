@@ -25,11 +25,12 @@ tocopen: true
 
 ### ViLoMan: Learning Visual-Proprioceptive Whole-Body Loco-Manipulation Skills for Humanoid Robots
 
-**链接：** https://arxiv.org/abs/2609.19340
-
-**项目主页：** https://viloman-anonymous.pages.dev/
-
-**作者 / 机构：** Zejie Tian, Ruibing Hou, Bingpeng Ma, Börje F. Karlsson, Shiguang Shan（中国科学院计算技术研究所人工智能安全国家重点实验室、中国科学院大学、北京人工智能研究院 BAAI）
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2609.19340"
+  authors="Zejie Tian, Ruibing Hou, Bingpeng Ma, Börje F. Karlsson, Shiguang Shan（中国科学院计算技术研究所人工智能安全国家重点实验室、中国科学院大学、北京人工智能研究院 BAAI）"
+  arxiv="2609.19340"
+  links="[{\"url\":\"https://viloman-anonymous.pages.dev/\",\"label\":\"项目主页\",\"kind\":\"project\"}]"
+>}}
 
 **一句话总结：** 中科院计算所与 BAAI 团队提出 **ViLoMan**，一个可扩展的人形全身 loco-manipulation 框架：先把人类—物体交互的部分运动学演示补全为**物理可执行**的完整机器人轨迹，再用**师生蒸馏**学出统一策略，从**机载深度观测与本体感受**直接映射到关节级全身动作，部署时既不需要参考运动也不需要中间指令。
 
@@ -53,9 +54,11 @@ tocopen: true
 
 ### Feeling Terrain Before Crossing: World Models for Off-Road Navigation
 
-**链接：** https://arxiv.org/abs/2609.19863
-
-**作者 / 机构：** E-In Son, Dong-Wook Kim, Ji-Hoon Hwang, Kangsun Lee, Jisung Bae, Jung-Taak Kim, Seung-Woo Seo（首尔大学电气与计算机工程系 Seoul National University）
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2609.19863"
+  authors="E-In Son, Dong-Wook Kim, Ji-Hoon Hwang, Kangsun Lee, Jisung Bae, Jung-Taak Kim, Seung-Woo Seo（首尔大学电气与计算机工程系 Seoul National University）"
+  arxiv="2609.19863"
+>}}
 
 **一句话总结：** 首尔大学团队提出 **Feel-WM**，首个在越野导航中**以本体感受为条件、并同时预测「机器人会感受到什么」**的世界模型：物理未来被表示为未来本体状态与失败风险，完全从机器人自身经验中学得、无需人工标注，规划器在打分时把失败风险与「离目标多近」分离加权。
 
@@ -79,9 +82,11 @@ tocopen: true
 
 ### TacSushi: Tactile-Grounded World-Action Modeling for Dexterous Sushi Manipulation
 
-**链接：** https://arxiv.org/abs/2609.19613
-
-**作者 / 机构：** Haodi Hu, Kaen Kogashi, Toshiaki Koike-Akino（南加州大学 University of Southern California、三菱电机研究院 MERL、三菱电机 Mitsubishi Electric）
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2609.19613"
+  authors="Haodi Hu, Kaen Kogashi, Toshiaki Koike-Akino（南加州大学 University of Southern California、三菱电机研究院 MERL、三菱电机 Mitsubishi Electric）"
+  arxiv="2609.19613"
+>}}
 
 **一句话总结：** USC 与 MERL 团队提出 **TacSushi**，一个以 Cosmos3 为骨干、触觉接地的世界—动作策略：训练时让解码器预测**已记录的未来后果**（未来视觉观测、任务进度、相对接触风险、触觉摘要），部署时把该解码器整体移除，从而让「未来物理后果」只作为监督信号存在而不进入推理图。
 
@@ -105,9 +110,11 @@ tocopen: true
 
 ### StageGuard: Learning Stage Transitions for Long-Horizon Robot Tasks via Agentic Distillation
 
-**链接：** https://arxiv.org/abs/2609.20791
-
-**作者 / 机构：** Jinbang Huang, Yuanzhao Hu, Zhiyuan Li, Ran Qi, Yixin Xiao, Yangzheng Wu, Tengyue Ba, Zhanguang Zhang, Yingxue Zhang（华为诺亚方舟实验室 Huawei Noah's Ark Lab、不列颠哥伦比亚大学 UBC、多伦多大学 University of Toronto、2012 Labs 基础模型部）
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2609.20791"
+  authors="Jinbang Huang, Yuanzhao Hu, Zhiyuan Li, Ran Qi, Yixin Xiao, Yangzheng Wu, Tengyue Ba, Zhanguang Zhang, Yingxue Zhang（华为诺亚方舟实验室 Huawei Noah's Ark Lab、不列颠哥伦比亚大学 UBC、多伦多大学 University of Toronto、2012 Labs 基础模型部）"
+  arxiv="2609.20791"
+>}}
 
 **一句话总结：** 华为诺亚方舟与多伦多大学团队提出 **StageGuard**，一个用于长程任务「阶段切换」判断的 agentic 蒸馏框架：教师模型结合演示轨迹生成关于子任务完成与策略切换的结构化解释，轻量学生 VLM 学会产出紧凑的自我解释并据此做监督微调，把大模型对「完成」的理解对齐到任务真实的完成标准上，同时支撑实时在线监控。
 
@@ -132,9 +139,11 @@ tocopen: true
 
 ### HIL-UMI: Bringing Human-in-the-Loop Post-Training of Vision-Language-Action Models to Universal Manipulation Interface
 
-**链接：** https://arxiv.org/abs/2609.20659
-
-**作者 / 机构：** Zimu Han, Yiming Zeng, Jiyao Zhang, Zihao Zhao, Yuanfei Wang, Yixiang Jin, Shiqi Li, Shuangben Chen, Wei Huang, Ruodai Li, Hui Shen, Hao Dong（西安交通大学、北京大学多媒体信息处理国家重点实验室与前沿计算研究中心、PrimeBot）
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2609.20659"
+  authors="Zimu Han, Yiming Zeng, Jiyao Zhang, Zihao Zhao, Yuanfei Wang, Yixiang Jin, Shiqi Li, Shuangben Chen, Wei Huang, Ruodai Li, Hui Shen, Hao Dong（西安交通大学、北京大学多媒体信息处理国家重点实验室与前沿计算研究中心、PrimeBot）"
+  arxiv="2609.20659"
+>}}
 
 **一句话总结：** 西安交大与北大团队提出 **HIL-UMI**，一套**免机器人**的人机闭环 VLA 后训练框架：操作员用手持 UMI 采集时，系统在同一路观测流上**只查询不执行**当前策略，用 Energy Score 比对人类轨迹与策略推断、仅在出现分布外区域时触发采集，另一条回路用在线优势预测挑出值得精炼的片段，最终用优势条件化行为克隆完成更新。
 
@@ -158,9 +167,11 @@ tocopen: true
 
 ### SkipVLA: Skipping VLA Steps with Classical Planning for Fast Robot Manipulation
 
-**链接：** https://arxiv.org/abs/2609.20648
-
-**作者 / 机构：** Kaivalya Agrawal, Md Ashiqur Rahman, Raymond A. Yeh, Zachary Kingston（普渡大学计算机科学系 Purdue University）
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2609.20648"
+  authors="Kaivalya Agrawal, Md Ashiqur Rahman, Raymond A. Yeh, Zachary Kingston（普渡大学计算机科学系 Purdue University）"
+  arxiv="2609.20648"
+>}}
 
 **一句话总结：** 普渡大学团队提出 **SkipVLA**，一种把预训练 VLA 与经典运动规划器结合的混合策略：**自由空间运动交给规划器、只在抓取与放置这类接触丰富技能时才查询 VLA**，并用 VLA 冻结的视觉—语言骨干预测每次规划的目标位姿——这个预测器无需引入任何额外演示即可学会。
 
@@ -184,9 +195,11 @@ tocopen: true
 
 ### Co-VLA: Consensus-based Federated Training for Vision-Language-Action Models
 
-**链接：** https://arxiv.org/abs/2609.19923
-
-**作者 / 机构：** Haolong Li, Guner Dilsad Er, Michael Muehlebach, Joerg Stueckler（奥格斯堡大学技术系统智能感知组 University of Augsburg、马克斯·普朗克智能系统研究所 Max Planck Institute for Intelligent Systems）
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2609.19923"
+  authors="Haolong Li, Guner Dilsad Er, Michael Muehlebach, Joerg Stueckler（奥格斯堡大学技术系统智能感知组 University of Augsburg、马克斯·普朗克智能系统研究所 Max Planck Institute for Intelligent Systems）"
+  arxiv="2609.19923"
+>}}
 
 **一句话总结：** 奥格斯堡大学与马普所团队提出 **Co-VLA**，把 **ADMM 共识优化**引入联邦 VLA 训练：通过共识变量与对偶更新把各 client 的本地模型耦合到一个共享全局模型上，同一套算法同时支持全量训练、LoRA 微调与自适应秩 SoRA 微调，在不共享数据的前提下协同训练。
 
@@ -210,9 +223,11 @@ tocopen: true
 
 ### LIFD: Anchored Diffusion for 3D-Aware Scene Memory in Robotic Manipulation
 
-**链接：** https://arxiv.org/abs/2609.19796
-
-**作者 / 机构：** Wenbo Li, Yiteng Chen, Wenhao Li, Qingyao Wu（华南理工大学软件学院 School of Software Engineering, South China University of Technology）
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2609.19796"
+  authors="Wenbo Li, Yiteng Chen, Wenhao Li, Qingyao Wu（华南理工大学软件学院 School of Software Engineering, South China University of Technology）"
+  arxiv="2609.19796"
+>}}
 
 **一句话总结：** 华南理工大学团队提出 **LIFD（Look, Imagine, Focus, and Do）**，一个用于机器人操作的持久化 3D 感知场景记忆框架：从多视角一致性中学出场景 token 表示，再用 rectified flow 从**单张 RGB 视图 + 递归记忆**补全它，补全过程通过**锚定引导交叉注意力**以当前几何特征为条件，最后由紧凑的 slot 特征接入操作策略。
 

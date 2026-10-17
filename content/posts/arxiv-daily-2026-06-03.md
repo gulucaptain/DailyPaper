@@ -17,7 +17,10 @@ tocopen: true
 
 ### Humanoid-GPT: Scaling Data and Structure for Zero-Shot Motion Tracking
 
-**链接：** https://arxiv.org/abs/2606.03985
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2606.03985"
+  arxiv="2606.03985"
+>}}
 
 **一句话总结：** 在 20 亿帧动捕数据上预训练 GPT 风格 Transformer，实现人形机器人全身运动追踪的零样本泛化，刷新性能上限。
 
@@ -41,7 +44,10 @@ tocopen: true
 
 ### PointAction: 3D Points as Universal Action Representations for Robot Control
 
-**链接：** https://arxiv.org/abs/2606.03943
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2606.03943"
+  arxiv="2606.03943"
+>}}
 
 **一句话总结：** 通过引入显式 4D 点云动态作为视频预测与机器人动作之间的结构化接口，将视频扩散模型预测直接桥接为可执行机器人动作。
 
@@ -65,7 +71,10 @@ tocopen: true
 
 ### AAD-1: Asymmetric Adversarial Distillation for One-Step Autoregressive Video Generation
 
-**链接：** https://arxiv.org/abs/2606.03972
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2606.03972"
+  arxiv="2606.03972"
+>}}
 
 **一句话总结：** 通过生成器-判别器非对称设计与分阶段训练策略，解决自回归视频生成对抗蒸馏中的运动崩塌和训练不稳定问题，实现单步视频生成 SOTA。
 
@@ -89,7 +98,10 @@ tocopen: true
 
 ### Video-Mirai: Autoregressive Video Diffusion Models Need Foresight
 
-**链接：** https://arxiv.org/abs/2606.03971
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2606.03971"
+  arxiv="2606.03971"
+>}}
 
 **一句话总结：** 通过非因果前瞻编码器将未来帧信息蒸馏进当前因果状态，弥补自回归视频扩散中的表示级规划缺口，推理时无任何额外开销。
 
@@ -113,7 +125,10 @@ tocopen: true
 
 ### Donk: Unified Video-Action Joint Denoising for Dexterous Action and Data Generation
 
-**链接：** https://arxiv.org/abs/2606.03868
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2606.03868"
+  arxiv="2606.03868"
+>}}
 
 **一句话总结：** 统一视频-动作联合去噪框架，在同一架构下实现灵巧手动作策略生成与视频-动作数据引擎两种模式。
 
@@ -137,7 +152,10 @@ tocopen: true
 
 ### SFMDS: Stable Flow Matching Dynamical Systems
 
-**链接：** https://arxiv.org/abs/2606.03834
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2606.03834"
+  arxiv="2606.03834"
+>}}
 
 **一句话总结：** 将 Flow Matching 与 Lyapunov 稳定性约束结合，为机器人运动生成提供同时满足高表达能力和形式化稳定保证的框架。
 
@@ -161,7 +179,10 @@ tocopen: true
 
 ### SimuScene: Simulation-Ready Compositional 3D Scene Reconstruction from a Single Image
 
-**链接：** https://arxiv.org/abs/2606.03994
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2606.03994"
+  arxiv="2606.03994"
+>}}
 
 **一句话总结：** 将物理引擎作为诊断工具嵌入3D重建过程，通过穿透和支撑失效的量化反馈驱动形状修正，从单张图像生成可直接用于物理仿真的组合场景。
 
@@ -185,7 +206,10 @@ tocopen: true
 
 ### VSTAT: Benchmarking Visual State Tracking in Multimodal Video Understanding
 
-**链接：** https://arxiv.org/abs/2606.03920
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2606.03920"
+  arxiv="2606.03920"
+>}}
 
 **一句话总结：** 构建专门诊断 MLLM 视觉状态追踪能力的视频 benchmark，揭示当前顶尖模型在需要跨帧连续感知任务上仍远低于人类水平。
 

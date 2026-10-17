@@ -25,11 +25,12 @@ tocopen: true
 
 ### Towards High-DoF Dexterous Manipulation through VLA Post-Training
 
-**链接：** https://arxiv.org/abs/2609.19666
-
-**项目主页：** https://wuji.tech/blog/post-training-0
-
-**作者 / 机构：** Junlei Zhu, Shenzhe Yao, Chaogui Huang, Wenkai Zhu, Jingwei Peng, Guanqi He, Sören Schwertfeger, Jiahao Chen, Yide Liu（无界智慧 Wuji Technology；上海科技大学信息科学与技术学院）
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2609.19666"
+  authors="Junlei Zhu, Shenzhe Yao, Chaogui Huang, Wenkai Zhu, Jingwei Peng, Guanqi He, Sören Schwertfeger, Jiahao Chen, Yide Liu（无界智慧 Wuji Technology；上海科技大学信息科学与技术学院）"
+  arxiv="2609.19666"
+  links="[{\"url\":\"https://wuji.tech/blog/post-training-0\",\"label\":\"项目主页\",\"kind\":\"project\"}]"
+>}}
 
 **一句话总结：** 无界智慧与上海科技大学团队给出一套把开源 VLA 基座后训练成**高自由度灵巧手**策略的四步流水线——学习式手部动作编解码器 → 监督微调 → 人类门控 DAgger → 真机潜空间残差 RL，在五个真实灵巧操作任务上每个任务 20 次试验**全部成功**。
 
@@ -53,9 +54,11 @@ tocopen: true
 
 ### MaskHarness-WAM: Instance-Grounded Harnessing for Long-Horizon Robot Manipulation
 
-**链接：** https://arxiv.org/abs/2609.19974
-
-**作者 / 机构：** Zitai Huang, Taiyi Su, Jian Zhu, Jianjun Zhang, Chong Ma, Tianbin Liu, Weiyi Lu, Yi Xu, Hanli Wang（同济大学 AIRC、美的集团 Midea Group）
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2609.19974"
+  authors="Zitai Huang, Taiyi Su, Jian Zhu, Jianjun Zhang, Chong Ma, Tianbin Liu, Weiyi Lu, Yi Xu, Hanli Wang（同济大学 AIRC、美的集团 Midea Group）"
+  arxiv="2609.19974"
+>}}
 
 **一句话总结：** 同济 AIRC 与美的团队提出 **MaskHarness-WAM**，用**目标掩码**把高层任务规划与底层世界动作模型（WAM）接起来：harness 负责拆子任务、维护目标实例身份、执行前验证掩码、确认完成后才推进，从而在「多个外观完全相同、必须按序操作」的长程任务上大幅超越有限视界策略。
 
@@ -79,11 +82,12 @@ tocopen: true
 
 ### Agile-WAM: An Agile Tactile World Action Model for Contact-Rich Robot Control
 
-**链接：** https://arxiv.org/abs/2609.20761
-
-**项目主页：** https://hanchuzhou.github.io/TARO_project_page/
-
-**作者 / 机构：** Hanchu Zhou, Dechen Gao, Boqi Zhao, Junshan Zhang（University of California, Davis）；Brendan Lynch, Raman Goyal, Begum Kasap（Analog Devices, San Jose）
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2609.20761"
+  authors="Hanchu Zhou, Dechen Gao, Boqi Zhao, Junshan Zhang（University of California, Davis）；Brendan Lynch, Raman Goyal, Begum Kasap（Analog Devices, San Jose）"
+  arxiv="2609.20761"
+  links="[{\"url\":\"https://hanchuzhou.github.io/TARO_project_page/\",\"label\":\"项目主页\",\"kind\":\"project\"}]"
+>}}
 
 **一句话总结：** UC Davis 与 Analog Devices 团队提出 **Agile-WAM**，一个「轻装上阵」的触觉世界动作模型：用两个 ResNet-18 分别编码视觉与触觉，在共享潜空间上直接做 vision-tactile-to-action 的 flow matching，联合生成动作块与未来视觉/触觉潜变量，把推理延迟压到 **11.9 ms**，真机五任务相对最强基线 **+29.4%**。
 
@@ -107,9 +111,11 @@ tocopen: true
 
 ### ReShoot: Generative Visual Domain Randomization of Recorded Robot Demonstrations for Visuomotor Policy Learning
 
-**链接：** https://arxiv.org/abs/2609.19661
-
-**作者 / 机构：** Chiyoung Kim, Min Sung Choi, Jinho Ju, Chanhoe Gu, Donghwan Hwang, Wonseok Choi, Woongsun Jeon, Minhyeok Lee（韩国中央大学 Chung-Ang University, Seoul）
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2609.19661"
+  authors="Chiyoung Kim, Min Sung Choi, Jinho Ju, Chanhoe Gu, Donghwan Hwang, Wonseok Choi, Woongsun Jeon, Minhyeok Lee（韩国中央大学 Chung-Ang University, Seoul）"
+  arxiv="2609.19661"
+>}}
 
 **一句话总结：** 韩国中央大学团队提出 **ReShoot**，把仿真里成熟的 domain randomization 搬到**已录制的真实演示**上：VLM 打字幕并改写单一视觉属性，边缘条件视频生成器同时重渲染两个相机视角，超分恢复锐度，VLM 再改写指令，**动作与本体感受原封不动**——于是「换一个外观」从一次采集变为一次生成，真机换色物体成功率从 **0.0% 提到 42.9% / 47.5%**。
 
@@ -133,9 +139,11 @@ tocopen: true
 
 ### GAVEL: Graph World Models for Verified and Efficient Long-Horizon LLM Task Planning
 
-**链接：** https://arxiv.org/abs/2609.19315
-
-**作者 / 机构：** Ruiyang Wang, Hao-Lun Hsu, Swarajh Mehta, Jiwoo Kim, Zhihao Dou, Miroslav Pajic（论文未在 arXiv 页面标注机构）
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2609.19315"
+  authors="Ruiyang Wang, Hao-Lun Hsu, Swarajh Mehta, Jiwoo Kim, Zhihao Dou, Miroslav Pajic（论文未在 arXiv 页面标注机构）"
+  arxiv="2609.19315"
+>}}
 
 **一句话总结：** 作者提出 **GAVEL**，用一张**显式图世界模型**为 LLM 长程规划做校验与修复：图中记录物体关系、动作前置条件与效果，以及对未观测物体位置的概率信念；能在执行前预测 LLM 生成动作的后果、检测违规并就地修复，只把需要语义推理的错误留给 LLM 重规划，使 Qwen3-8B 在 BEHAVIOR-1K 上的单任务成功率从 **41.2% 提到 91.8%**。
 
@@ -159,9 +167,11 @@ tocopen: true
 
 ### Beyond Patch Removal: Persistent Adversarial Effects in Vision-Language-Action Policies
 
-**链接：** https://arxiv.org/abs/2609.19669
-
-**作者 / 机构：** Enhao Wu, Fusen Guo, Yuxin Cao（UNSW Sydney、UNSW Canberra、National University of Singapore）；Ziyang Lyu, Lin Li, Wei Song（Southern Cross University、Griffith University）
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2609.19669"
+  authors="Enhao Wu, Fusen Guo, Yuxin Cao（UNSW Sydney、UNSW Canberra、National University of Singapore）；Ziyang Lyu, Lin Li, Wei Song（Southern Cross University、Griffith University）"
+  arxiv="2609.19669"
+>}}
 
 **一句话总结：** 新南威尔士大学、新加坡国立大学等团队指出，针对 VLA 策略的对抗补丁会造成两类效应——补丁存在时的**即时动作破坏**，以及补丁移除后仍然残留的**持续状态效应**；他们提出状态恢复协议把两者分离，发现五个动作块之后仅 **36.2%** 的 episode 仍可恢复，而同等动作误差量级的非对抗对照是 **89.9%**。
 
@@ -185,11 +195,12 @@ tocopen: true
 
 ### RetireOPD: Self-Retiring On-Policy Distillation for Agentic Reinforcement Learning
 
-**链接：** https://arxiv.org/abs/2609.20784
-
-**代码：** https://github.com/ZJU-REAL/SDAR
-
-**作者 / 机构：** Yan Yu, Zhengxi Lu, Yizhou Liu, Yichen Pan, Aozhe Wang, Qipeng Chen, Wenqi Zhang, Weiming Lu, Yongliang Shen（浙江大学）；Hua Yang, Qianglong Chen（阿里巴巴集团）
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2609.20784"
+  authors="Yan Yu, Zhengxi Lu, Yizhou Liu, Yichen Pan, Aozhe Wang, Qipeng Chen, Wenqi Zhang, Weiming Lu, Yongliang Shen（浙江大学）；Hua Yang, Qianglong Chen（阿里巴巴集团）"
+  arxiv="2609.20784"
+  links="[{\"url\":\"https://github.com/ZJU-REAL/SDAR\",\"label\":\"GitHub\",\"kind\":\"github\"}]"
+>}}
 
 **一句话总结：** 浙江大学与阿里团队提出 **RetireOPD**：先把「带特权技能的教师」解耦并用环境奖励单独优化，再让学生同时接受 RL 与 on-policy 蒸馏（OPD）训练；关键在于 **Adaptive Retirement（自适应退休）**——学生一旦与教师差距停止缩小且达到教师成功率的既定比例，就自行「让教师退休」，此后纯用 GRPO 继续训练，从而超越了它自己的教师。
 
@@ -213,9 +224,11 @@ tocopen: true
 
 ### Workspace Models: Lightweight Robotic Memory via Saliency-Driven Supervision
 
-**链接：** https://arxiv.org/abs/2609.20820
-
-**作者 / 机构：** Nitish Dashora, Idan Shenfeld, John Marangola, Pulkit Agrawal（Massachusetts Institute of Technology）；Douglas Chen, Max Simchowitz（Carnegie Mellon University）
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2609.20820"
+  authors="Nitish Dashora, Idan Shenfeld, John Marangola, Pulkit Agrawal（Massachusetts Institute of Technology）；Douglas Chen, Max Simchowitz（Carnegie Mellon University）"
+  arxiv="2609.20820"
+>}}
 
 **一句话总结：** MIT 与 CMU 团队（CoRL 2026）提出 **Workspace Models**：把「在闭环里反复查询 VLM 总结历史」的开销**摊销**到训练时——训练时用 VLM 判断哪些当前与历史信息是完成任务所必需的，再用集合重建解码损失蒸馏成一个轻量的 **workspace token**，部署时它可以直接替代观测喂给策略；结果不仅更快，成功率反而更高：四任务均值 **91.5%**，对比 Keyframe 基线的 **66.8%**。
 

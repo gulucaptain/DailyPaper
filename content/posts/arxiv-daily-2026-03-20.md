@@ -17,7 +17,10 @@ tocopen: true
 
 ### CubiD: Discrete Visual Generation on High-Dimensional Representation Tokens
 
-**链接：** https://arxiv.org/abs/2603.19232
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2603.19232"
+  arxiv="2603.19232"
+>}}
 
 **一句话总结：** 首个在高维（768–1024 维）预训练表示上实现离散生成的模型，打破了离散生成只能用低维 token（8–32 维）的瓶颈，同时让同一套 token 兼顾理解与生成任务。
 
@@ -42,7 +45,10 @@ tocopen: true
 
 ### Bridging Semantic and Kinematic Conditions with Diffusion-based Discrete Motion Tokenizer
 
-**链接：** https://arxiv.org/abs/2603.19227
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2603.19227"
+  arxiv="2603.19227"
+>}}
 
 **一句话总结：** 提出 MoTok，将扩散模型用作离散 motion tokenizer 的解码器，实现语义与运动学约束的有效融合，在 HumanML3D 上大幅超越先前最优方法。
 
@@ -66,7 +72,10 @@ tocopen: true
 
 ### FASTER: Rethinking Real-Time Flow VLAs
 
-**链接：** https://arxiv.org/abs/2603.19199
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2603.19199"
+  arxiv="2603.19199"
+>}}
 
 **一句话总结：** 重新审视 VLA 模型的实时反应延迟瓶颈，提出 Horizon-Aware Schedule，将即时反应的去噪步骤压缩 10 倍至单步，使机器人在真实世界中实现前所未有的实时响应能力。
 
@@ -90,7 +99,10 @@ tocopen: true
 
 ### SAMA: Factorized Semantic Anchoring and Motion Alignment for Instruction-Guided Video Editing
 
-**链接：** https://arxiv.org/abs/2603.19228
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2603.19228"
+  arxiv="2603.19228"
+>}}
 
 **一句话总结：** 将视频编辑分解为语义锚定与运动对齐两个独立模块，通过因式化预训练无需配对数据即可获得强零样本编辑能力，开源模型性能媲美商业系统 Kling-Omni。
 
@@ -114,7 +126,10 @@ tocopen: true
 
 ### Not All Features Are Created Equal: A Mechanistic Study of Vision-Language-Action Models
 
-**链接：** https://arxiv.org/abs/2603.19233
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2603.19233"
+  arxiv="2603.19233"
+>}}
 
 **一句话总结：** 对六款 VLA 模型（80M–7B）进行迄今最大规模机理分析，发现视觉通路主导动作生成、语言灵敏度依赖任务结构，揭示了 VLA 内部专家通路与 VLM 通路的功能分工。
 
@@ -139,7 +154,10 @@ tocopen: true
 
 ### Sparse Autoencoders Reveal Interpretable and Steerable Features in VLA Models
 
-**链接：** https://arxiv.org/abs/2603.19183
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2603.19183"
+  arxiv="2603.19183"
+>}}
 
 **一句话总结：** 将 SAE 用于 VLA 内部表示分析，发现多数特征对应记忆化演示片段，但部分特征对应可泛化的运动基元和语义属性，且这些特征可通过直接 steering 跨任务迁移。
 
@@ -164,7 +182,10 @@ tocopen: true
 
 ### Articulated-Body Dynamics Network: Dynamics-Grounded Prior for Robot Learning
 
-**链接：** https://arxiv.org/abs/2603.19078
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2603.19078"
+  arxiv="2603.19078"
+>}}
 
 **一句话总结：** 将铰接体动力学算法（Articulated Body Algorithm）的惯量传播结构嵌入图神经网络，为机器人策略学习提供物理先验，在真实人形和四足机器人上验证高效稳健的运动行为。
 
@@ -189,7 +210,10 @@ tocopen: true
 
 ### PRIOR: Perceptive Learning for Humanoid Locomotion with Reference Gait Priors
 
-**链接：** https://arxiv.org/abs/2603.18979
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2603.18979"
+  arxiv="2603.18979"
+>}}
 
 **一句话总结：** 基于 Isaac Lab 的高效可复现人形机器人运动学习框架，通过参数化步态生成器+自监督高度图重建+地形自适应落脚奖励，在所有测试地形上实现 100% 穿越成功率。
 

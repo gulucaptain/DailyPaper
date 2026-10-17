@@ -21,11 +21,13 @@ tocopen: true
 
 ### WorldPlay2: Extending Real-Time Interactive World Models in Control and Horizon
 
-**链接：** https://arxiv.org/abs/2609.35560
-
-**项目主页：** https://worldplay2.github.io/ ｜ **代码仓库：** https://github.com/WorldPlay2/WorldPlay2 （仓库当前仅有 README，完整复现代码尚未发布）
-
-**作者 / 机构：** Haiyu Zhang, Wenqiang Sun, Tengfei Wang, Junta Wu, Jun Zhang, Yunhong Wang, Yu Qiao, Chunchao Guo（论文未在 arXiv 页面标注机构；据其参考文献列表，作者群与作者们发表于 ICML 的 WorldPlay 工作高度重叠）
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2609.35560"
+  authors="Haiyu Zhang, Wenqiang Sun, Tengfei Wang, Junta Wu, Jun Zhang, Yunhong Wang, Yu Qiao, Chunchao Guo（论文未在 arXiv 页面标注机构；据其参考文献列表，作者群与作者们发表于 ICML 的 WorldPlay 工作高度重叠）"
+  arxiv="2609.35560"
+  links="[{\"url\":\"https://worldplay2.github.io/\",\"label\":\"项目主页\",\"kind\":\"project\"},{\"url\":\"https://github.com/WorldPlay2/WorldPlay2\",\"label\":\"GitHub\",\"kind\":\"github\"}]"
+  note="（仓库当前仅有 README，完整复现代码尚未发布）"
+>}}
 
 **一句话总结：** 一支此前已发表 WorldPlay 的团队推出续作 **WorldPlay2**，用**因子化混合控制接口**统一异构控制信号，并把历史上下文压缩成学生与教师**共享的 memory token**——蒸馏时按 clip 打分而不必处理整段 rollout，配合 **Stable Forcing** 稳住双向教师到自回归学生的蒸馏，目标是同时拿到实时响应、灵活控制与长程一致性。
 
@@ -50,11 +52,12 @@ tocopen: true
 
 ### Dexterous Tactile World Model
 
-**链接：** https://arxiv.org/abs/2609.34286
-
-**项目主页：** https://adonis-galaxy.github.io/dtwm-project-page/
-
-**作者 / 机构：** Ziyao Zeng, Xiatao Sun, Hao Wang, Yueyang Pan, Zhengxiang Yu, Fengyu Yang, Tianyu Liu, Zhiwen Fan, Daniel Rakita（Yale University 耶鲁大学；Texas A&M University 德州农工大学；University of California, Los Angeles 加州大学洛杉矶分校；University of Washington 华盛顿大学）
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2609.34286"
+  authors="Ziyao Zeng, Xiatao Sun, Hao Wang, Yueyang Pan, Zhengxiang Yu, Fengyu Yang, Tianyu Liu, Zhiwen Fan, Daniel Rakita（Yale University 耶鲁大学；Texas A&M University 德州农工大学；University of California, Los Angeles 加州大学洛杉矶分校；University of Washington 华盛顿大学）"
+  arxiv="2609.34286"
+  links="[{\"url\":\"https://adonis-galaxy.github.io/dtwm-project-page/\",\"label\":\"项目主页\",\"kind\":\"project\"}]"
+>}}
 
 **一句话总结：** 耶鲁大学团队提出 **DTWM（Dexterous Tactile World Model）**，一个以**双手触觉手套信号为条件**的视频世界模型——把触觉通过**零初始化残差**注入预训练 video diffusion transformer 中手部对应的视频 token 位置，并用因果 mask 阻止未来信息泄漏；相比架构、参数、训练完全匹配的纯视觉模型，对手部运动的**低估从 23% 降到 9%**，手部区域感知误差再降 7.4%，且收益随预测视野增长，靠后 chunk 的改进约为首个 chunk 的 **4.1 倍**。
 
@@ -79,11 +82,12 @@ tocopen: true
 
 ### Uni-VLaT: Whole-Body Tactile Adaptation of VLA Policies for Humanoid Loco-Manipulation
 
-**链接：** https://arxiv.org/abs/2609.35450
-
-**项目主页：** https://ggkiller-air.github.io/Uni-VLaT/
-
-**作者 / 机构：** Zihao Wang, Shutong Liu, Siqi Zheng, Liu Cao, Ruoqi Chen, Rundong Liu, Yanchao Yang, Mengdi Xu（Tsinghua University 清华大学；Beihang University 北京航空航天大学；Communication University of China 中国传媒大学；The University of Hong Kong 香港大学）
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2609.35450"
+  authors="Zihao Wang, Shutong Liu, Siqi Zheng, Liu Cao, Ruoqi Chen, Rundong Liu, Yanchao Yang, Mengdi Xu（Tsinghua University 清华大学；Beihang University 北京航空航天大学；Communication University of China 中国传媒大学；The University of Hong Kong 香港大学）"
+  arxiv="2609.35450"
+  links="[{\"url\":\"https://ggkiller-air.github.io/Uni-VLaT/\",\"label\":\"项目主页\",\"kind\":\"project\"}]"
+>}}
 
 **一句话总结：** 清华大学团队提出 **Uni-VLaT**，给预训练 VLA 策略加装一条**触觉通路**，其潜状态不止用于生成动作，还要**预测未来的触觉、本体感知与视觉表征**——这种预测式目标构建出一个「以触觉为锚」的多模态上下文；在五个真机任务上取得 **75%** 平均成功率，比无触觉输入基线高 **43 分**，比有触觉但无预测监督的基线高 **7 分**，且"Back-Tap Walking"提升达 85–90 分。
 
@@ -108,9 +112,11 @@ tocopen: true
 
 ### From Static to Dynamic: On-Policy Distillation from Image to Video Diffusion Models
 
-**链接：** https://arxiv.org/abs/2609.34371
-
-**作者 / 机构：** Bingqing Jiang, Li Luo, Zichao Yu, Yujin Han, Zhaolong Su, Difan Zou（The University of Hong Kong 香港大学；Cornell University 康奈尔大学）
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2609.34371"
+  authors="Bingqing Jiang, Li Luo, Zichao Yu, Yujin Han, Zhaolong Su, Difan Zou（The University of Hong Kong 香港大学；Cornell University 康奈尔大学）"
+  arxiv="2609.34371"
+>}}
 
 **一句话总结：** 香港大学与康奈尔大学提出 **MILD（Motion-Preserving Image-to-Video Latent Distillation）**，用**可学习线性连接器**跨过图像专家与视频学生在潜空间上的异构鸿沟，把更便宜、更强、更容易拿到的**图像专家**监督传给视频扩散模型做 on-policy 蒸馏；在 Wan2.1-1.3B / Wan2.2-5B / LTX-Video-2B 三个骨干上 VBench-2.0 达到 **53.92 / 54.66 / 49.06**，全面超过 video-teacher OPD 基线，**聚合显存下降 19.5–64.1%**。
 
@@ -135,9 +141,11 @@ tocopen: true
 
 ### WorldGuide: Learning Success-Failure Boundaries in Latent World Models for Vision-Language-Action Policies
 
-**链接：** https://arxiv.org/abs/2609.34206
-
-**作者 / 机构：** Lin Liu, Lu Zhang, Ziying Song, Wu Yang, Yuzheng Zhuang, Yunzhi Zhuge, Shuai Tao, Wulong Liu, Huchuan Lu（School of Information and Communication Engineering, Dalian University of Technology 大连理工大学；Nanyang Technological University 南洋理工大学；Beta Infinity）
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2609.34206"
+  authors="Lin Liu, Lu Zhang, Ziying Song, Wu Yang, Yuzheng Zhuang, Yunzhi Zhuge, Shuai Tao, Wulong Liu, Huchuan Lu（School of Information and Communication Engineering, Dalian University of Technology 大连理工大学；Nanyang Technological University 南洋理工大学；Beta Infinity）"
+  arxiv="2609.34206"
+>}}
 
 **一句话总结：** 大连理工大学联合南洋理工大学与 Beta Infinity 提出 **WorldGuide**，一个在潜世界模型里**显式学习成功与失败的分界**并以此指导 VLA 策略训练的框架——先用成功与失败轨迹做预测式预训练，再对**配好的成功—失败样本对**做对比学习，让学到的预测器提供**可微奖励**来联合优化策略与视觉编码器；训练结束后预测器即被丢弃，**部署时不需要任何世界模型推理**。LIBERO-100 达到 **96.8%**、SimplerEnv 达到 **72.0%**。
 
@@ -162,9 +170,11 @@ tocopen: true
 
 ### D$^2$-VLA: Dual-Memory Dual-Frequency Vision-Language-Action Model For Long Dynamic Manipulation
 
-**链接：** https://arxiv.org/abs/2609.34792
-
-**作者 / 机构：** Zijian Ye, Chengqi Wei, Wei Huang, Anlin Zheng, Chunyu Zou, Liangyu Wu, Zikang Zhao, Zhenjie Peng, Yushuo Yang, Shuman Zhao, Zhongrui Wang, Xiaojuan Qi（The University of Hong Kong 香港大学；Southern University of Science and Technology 南方科技大学）
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2609.34792"
+  authors="Zijian Ye, Chengqi Wei, Wei Huang, Anlin Zheng, Chunyu Zou, Liangyu Wu, Zikang Zhao, Zhenjie Peng, Yushuo Yang, Shuman Zhao, Zhongrui Wang, Xiaojuan Qi（The University of Hong Kong 香港大学；Southern University of Science and Technology 南方科技大学）"
+  arxiv="2609.34792"
+>}}
 
 **一句话总结：** 香港大学与南方科技大学提出 **D²-VLA**，在预训练 VLA 的 **KV-cache 接口**上做文章：用块级因果 KV 缓存增量编码观测，依据不同的时序注意力模式为 VLM 与 action expert **各自构造独立的历史 KV 读视图**，在两次 VLM 更新之间由门控适配器把新视觉特征写入最新的历史 KV 块，并配一条短的**快记忆队列**支持动作重规划；在作者提出的十任务基准 **DOMINO-Long** 上取得 **60.0%** 完整任务成功率。
 
@@ -189,9 +199,11 @@ tocopen: true
 
 ### InfraVLA: Extending Vision-Language-Action Navigation with Infrastructure Cameras
 
-**链接：** https://arxiv.org/abs/2609.33647
-
-**作者 / 机构：** Lukas Vierling, Benjamin Ramtoula, Luke Robinson, Ronald Clark, Daniele De Martini（Oxford Robotics Institute, University of Oxford 牛津大学牛津机器人研究所；Dept. of Computer Science, University of Oxford 牛津大学计算机科学系）
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2609.33647"
+  authors="Lukas Vierling, Benjamin Ramtoula, Luke Robinson, Ronald Clark, Daniele De Martini（Oxford Robotics Institute, University of Oxford 牛津大学牛津机器人研究所；Dept. of Computer Science, University of Oxford 牛津大学计算机科学系）"
+  arxiv="2609.33647"
+>}}
 
 **一句话总结：** 牛津大学牛津机器人研究所提出 **InfraVLA**，一个把建筑**已经装好的 CCTV 摄像头**接入预训练导航 VLA 的端到端方法——用一个 CCTV 编码器把每个外部视角转成输入序列中的 token；由于这些视角**只在极少数决策点上有用**，单纯微调无法让策略真正利用它们，因此采用两阶段训练（先在上采样的反事实数据上、再在恢复数据上）。分布内两个仿真仓储任务**双双 100%**（无 CCTV 基线为 34.0% 与 73.6%），分布外 88.2% / 88.9%，真机四足不到 10 分钟示教微调后 83.3%。
 
@@ -216,9 +228,11 @@ tocopen: true
 
 ### Federated Subspace Guided Vision-Language-Action Policy Distillation for Non-IID Multi-Robot Manipulation
 
-**链接：** https://arxiv.org/abs/2609.32239
-
-**作者 / 机构：** Biprodip Pal, Kaushik Roy, Yanming Zhu, Brendan Tidd, Alan Wee-Chung Liew, Peyman Moghadam（School of ICT, Griffith University, Australia 格里菲斯大学；CSIRO Robotics, CSIRO, Australia 澳大利亚联邦科学与工业研究组织）
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2609.32239"
+  authors="Biprodip Pal, Kaushik Roy, Yanming Zhu, Brendan Tidd, Alan Wee-Chung Liew, Peyman Moghadam（School of ICT, Griffith University, Australia 格里菲斯大学；CSIRO Robotics, CSIRO, Australia 澳大利亚联邦科学与工业研究组织）"
+  arxiv="2609.32239"
+>}}
 
 **一句话总结：** 格里菲斯大学与 CSIRO Robotics 提出 **FedDRMan**，一个面向异构多机器人操作的**联邦子空间引导蒸馏框架**：每轮通信中服务器模型作为冻结教师提供本地行为克隆，用低秩多模态子空间与动作分布蒸馏保住全局有用的表征几何与策略行为；面对异构聚合，按**更新兼容性对客户端分组**并为每个簇维护一个持久模型，再由服务器对每个兼容聚合做**谱重平衡**，避免较弱但与任务相关的更新方向被衰减。在 LIBERO 的多种非 IID 设定下取得 **80.7%** 峰值平均成功率，比最强的联邦基线高 **11.6 个百分点**。
 

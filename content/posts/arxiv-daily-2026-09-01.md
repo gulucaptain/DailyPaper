@@ -17,11 +17,12 @@ tocopen: true
 
 ### AnyWorld: Factorized Egocentric World Models for Cross-Embodiment Generalization
 
-**链接：** https://arxiv.org/abs/2608.29242
-
-**项目主页：** https://xpeng-robotics.github.io/anyworld/
-
-**作者 / 机构：** Cheng Chen, Jerry Bai, Jiacheng Wei, Boyu Chen, Xiaoji Zheng, Fan Wu, Minghao Yang, Tianrun Chen, Ruibo Li, Xiaoyu Yue, Xiaoyang Guo, Yixiao Ge, Guosheng Lin, Fayao Liu（南洋理工大学 NTU；新加坡科技研究局 A*STAR 高级智能与计算研究所；小鹏机器人 XPENG Robotics；浙江大学；香港中文大学）
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2608.29242"
+  authors="Cheng Chen, Jerry Bai, Jiacheng Wei, Boyu Chen, Xiaoji Zheng, Fan Wu, Minghao Yang, Tianrun Chen, Ruibo Li, Xiaoyu Yue, Xiaoyang Guo, Yixiao Ge, Guosheng Lin, Fayao Liu（南洋理工大学 NTU；新加坡科技研究局 A*STAR 高级智能与计算研究所；小鹏机器人 XPENG Robotics；浙江大学；香港中文大学）"
+  arxiv="2608.29242"
+  links="[{\"url\":\"https://xpeng-robotics.github.io/anyworld/\",\"label\":\"项目主页\",\"kind\":\"project\"}]"
+>}}
 
 **一句话总结：** 小鹏机器人与南洋理工等提出 AnyWorld，把一次人机交互因子化（factorize）为动作、相机、本体三个可独立重组的控制因子，让单条人类第一视角视频在无需配对人-机示范的前提下被"重拍"成任意本体、任意视角、任意场景下的机器人原生 rollout。
 
@@ -46,11 +47,12 @@ tocopen: true
 
 ### Matrix-Game 3.5: Enhancing Real-Time Streaming Interactive World Models with Patch Memory
 
-**链接：** https://arxiv.org/abs/2608.29910
-
-**项目主页：** https://matrix-game-v3-5.github.io/
-
-**作者 / 机构：** Runjia Qian, Zile Wang, Jihai Zhang, Kai Zou, Wei Yu, Jiaxing Li, Zexiang Liu, Yaokun Li, Fei Kang, Kaichen Huang, Mengyin An, Haobo Zhang, Biao Jiang, Jiahua Wang, Haofeng Sun, Yang Liu, Yangguang Li（Riemann Dynamics）
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2608.29910"
+  authors="Runjia Qian, Zile Wang, Jihai Zhang, Kai Zou, Wei Yu, Jiaxing Li, Zexiang Liu, Yaokun Li, Fei Kang, Kaichen Huang, Mengyin An, Haobo Zhang, Biao Jiang, Jiahua Wang, Haofeng Sun, Yang Liu, Yangguang Li（Riemann Dynamics）"
+  arxiv="2608.29910"
+  links="[{\"url\":\"https://matrix-game-v3-5.github.io/\",\"label\":\"项目主页\",\"kind\":\"project\"}]"
+>}}
 
 **一句话总结：** 在 Matrix-Game 3.0 之上提出 Matrix-Game 3.5，用零参数的 patch memory + tiled-PRoPE 做显式 3D 检索与投影相机条件化，用静动解耦的世界表征保住长程几何与主体身份，再用两阶段渐进式实时蒸馏把双向扩散模型压成少步因果生成器，实现分钟级实时交互世界生成。
 
@@ -75,9 +77,11 @@ tocopen: true
 
 ### Motus2: A Self-Evolving General World Model for Dexterous Manipulation
 
-**链接：** https://arxiv.org/abs/2608.30237
-
-**作者 / 机构：** Hongzhe Bi, Zihao Zhou, Yihang Tang, Jingrui Pang, Shuhe Huang, Haitian Liu, Runqing Wang, Shuai Huang, Yichen Wang, Yiming Cheng, Ruowen Zhao, Zhenghua Li, Hengkai Tan, Xiaolong Liu, Jinhui Wan, Jiabao Liu, Min Zhao, Fan Bao, Jun Zhu（GensPI；清华大学；北京航空航天大学；北京理工大学）
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2608.30237"
+  authors="Hongzhe Bi, Zihao Zhou, Yihang Tang, Jingrui Pang, Shuhe Huang, Haitian Liu, Runqing Wang, Shuai Huang, Yichen Wang, Yiming Cheng, Ruowen Zhao, Zhenghua Li, Hengkai Tan, Xiaolong Liu, Jinhui Wan, Jiabao Liu, Min Zhao, Fan Bao, Jun Zhu（GensPI；清华大学；北京航空航天大学；北京理工大学）"
+  arxiv="2608.30237"
+>}}
 
 **一句话总结：** 提出 Motus2，用一个共享权重的模型同时暴露策略（world-action model）、仿真器（action-conditioned world model）与评估器（value model）三个控制接口，三者耦合成"提出—预测—评估"的闭环决策-学习回路，让世界模型真正服务于策略改进而不只是预测未来帧。
 
@@ -102,9 +106,11 @@ tocopen: true
 
 ### AdaVLA: Adaptive Step Flow Matching for Training-free Acceleration of Vision-Language-Action Models
 
-**链接：** https://arxiv.org/abs/2608.29208
-
-**作者 / 机构：** Sunghwan Han, Youngtae Han, Youngmin Yi（韩国西江大学 Sogang University 人工智能系；IROS 2026 已接收）
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2608.29208"
+  authors="Sunghwan Han, Youngtae Han, Youngmin Yi（韩国西江大学 Sogang University 人工智能系；IROS 2026 已接收）"
+  arxiv="2608.29208"
+>}}
 
 **一句话总结：** 提出 AdaVLA，一个在线、免训练的自适应加速框架：用流匹配轨迹曲率导出的置信度指标，在推理时动态减少 ODE 步数并自适应调整 MLP 剪枝比例，在 Jetson AGX Orin 上把 π₀.₅ 与 X-VLA 分别加速 1.87× 与 2.24×，成功率几乎不降。
 
@@ -129,9 +135,11 @@ tocopen: true
 
 ### Temporal Forcing: 4D Representation Alignment for Vision-Language-Action Models
 
-**链接：** https://arxiv.org/abs/2608.30643
-
-**作者 / 机构：** Xingyu Ding, Yuzhong Zhao, Chunhai Zhao, Yinghuan Shi, Chaoyang Zhao, Yifan Zhang（南京大学；中国科学院自动化研究所；中国科学院大学）
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2608.30643"
+  authors="Xingyu Ding, Yuzhong Zhao, Chunhai Zhao, Yinghuan Shi, Chaoyang Zhao, Yifan Zhang（南京大学；中国科学院自动化研究所；中国科学院大学）"
+  arxiv="2608.30643"
+>}}
 
 **一句话总结：** 提出 Temporal Forcing，把 VLA 的表征对齐目标从 3D 场景几何升级到 4D 时空表征：先用历史通路（history pathway）把观测历史压缩成时序感知的隐表征，再与预训练 4D 基础模型提取的几何特征对齐，LIBERO 上达到 98.8%。
 
@@ -155,11 +163,12 @@ tocopen: true
 
 ### LightNav-0: Eliciting VLM Spatial Intelligence for Generalist Embodied Navigation
 
-**链接：** https://arxiv.org/abs/2608.30935
-
-**项目主页：** https://www.lightorigins.com/en/blog/lightnav-0 ｜ **代码：** https://github.com/lightorigins/LightNav-0 ｜ **模型：** https://huggingface.co/LightOriginsHQ/LightNav-0
-
-**作者 / 机构：** Light Origins Team（Light Origins）
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2608.30935"
+  authors="Light Origins Team（Light Origins）"
+  arxiv="2608.30935"
+  links="[{\"url\":\"https://www.lightorigins.com/en/blog/lightnav-0\",\"label\":\"项目主页\",\"kind\":\"project\"},{\"url\":\"https://github.com/lightorigins/LightNav-0\",\"label\":\"GitHub\",\"kind\":\"github\"},{\"url\":\"https://huggingface.co/LightOriginsHQ/LightNav-0\",\"label\":\"模型\",\"kind\":\"huggingface\"}]"
+>}}
 
 **一句话总结：** 提出 LightNav-0，一个紧凑的通用具身导航模型：用统一的 token 接口"激发"（elicit）预训练 VLM 已有的空间先验——双通道 pointing 表达与任务、场景、本体无关的空间意图，残差向量量化动作 tokenizer 再把它映射到本体专属轨迹——在全部 10 个公开导航仿真设置上取得单目最优成功率。
 
@@ -184,9 +193,11 @@ tocopen: true
 
 ### Flow-JEPA: Flow Matching for Robust Latent Dynamics in JEPA World Models
 
-**链接：** https://arxiv.org/abs/2608.29029
-
-**作者 / 机构：** Yanchen Huo, Ziying Song, Yadan Luo（南洋理工大学 NTU；昆士兰大学 The University of Queensland）
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2608.29029"
+  authors="Yanchen Huo, Ziying Song, Yadan Luo（南洋理工大学 NTU；昆士兰大学 The University of Queensland）"
+  arxiv="2608.29029"
+>}}
 
 **一句话总结：** 提出 Flow-JEPA（F-JEPA），用条件流匹配替换 JEPA 世界模型中的确定性自回归预测器：以高斯分布作为流源，一次性联合生成整段未来隐状态序列，把逐点转移回归换成随机的轨迹级预测——干净观测下成功率 86%→92%，噪声条件下 67%→86%。
 
@@ -210,9 +221,11 @@ tocopen: true
 
 ### RoboPhys-3D: A Comprehensive Embodied World Model Evaluation via 3D Reconstruction
 
-**链接：** https://arxiv.org/abs/2608.28718
-
-**作者 / 机构：** Tianyi Wang, Jiazhou Chen, Yiming Xu, Xiangyu Li, Tianyi Zeng, Chih-Hsien Chou, Ning Lu, Liang Peng, Junfeng Jiao, Christian Claudel（德克萨斯大学奥斯汀分校 UT Austin 等；66 页、12 图、55 表）
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2608.28718"
+  authors="Tianyi Wang, Jiazhou Chen, Yiming Xu, Xiangyu Li, Tianyi Zeng, Chih-Hsien Chou, Ning Lu, Liang Peng, Junfeng Jiao, Christian Claudel（德克萨斯大学奥斯汀分校 UT Austin 等；66 页、12 图、55 表）"
+  arxiv="2608.28718"
+>}}
 
 **一句话总结：** 提出 RoboPhys-3D，一个以 3D 重建为统一协议的具身世界模型（EWM）基准：让生成视频与真值视频走同一条 3D 重建流水线，从而把"重建引入的误差"与"生成引入的误差"区分开，用 50 个指标 / 18 个子维度 / 4 个层级系统检验生成 rollout 是否真的保住了底层三维场景状态。
 

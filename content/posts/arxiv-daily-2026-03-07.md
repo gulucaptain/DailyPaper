@@ -17,7 +17,10 @@ tocopen: true
 
 ### Accelerating Text-to-Video Generation with Calibrated Sparse Attention
 
-**链接：** https://arxiv.org/abs/2603.05503
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2603.05503"
+  arxiv="2603.05503"
+>}}
 
 **一句话总结：** 提出CalibAtt方法，通过离线校准识别可跨各种输入跳过的稳定块级稀疏性和重复模式，实现文本到视频生成的训练自由加速，同时保持视频生成质量和文本-视频对齐。
 
@@ -41,7 +44,10 @@ tocopen: true
 
 ### Towards Multimodal Lifelong Understanding: A Dataset and Agentic Baseline
 
-**链接：** https://arxiv.org/abs/2603.05484
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2603.05484"
+  arxiv="2603.05484"
+>}}
 
 **一句话总结：** 提出MM-Lifelong数据集用于多模态终身理解，包含181.1小时的自然非脚本日常生活视频，并提出递归多模态代理（ReMA）来解决当前范式下的关键失败模式。
 
@@ -65,7 +71,10 @@ tocopen: true
 
 ### Interpretable Hepatology Diagnosis via Hybrid Evidence Retrieval and Multispecialty Consensus
 
-**链接：** https://arxiv.org/abs/2603.05129
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2603.05129"
+  arxiv="2603.05129"
+>}}
 
 **一句话总结：** 提出MedCoRAG框架，通过联合检索和修剪UMLS知识图路径和临床指南构建患者特定证据包，然后通过多智能体协作推理生成可追踪的共识诊断。
 
@@ -89,7 +98,10 @@ tocopen: true
 
 ### Digital Twin Driven Textile Classification and Foreign Object Recognition in Automated Sorting Systems
 
-**链接：** https://arxiv.org/abs/2603.05230
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2603.05230"
+  arxiv="2603.05230"
+>}}
 
 **一句话总结：** 提出了数字孪生驱动的机器人分类系统，集成抓取预测、多模态感知和语义推理，实现实际纺织品分类和异物检测。
 
@@ -113,7 +125,10 @@ tocopen: true
 
 ### Loop Closure via Maximal Cliques in 3D LiDAR-Based SLAM
 
-**链接：** https://arxiv.org/abs/2603.05397
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2603.05397"
+  arxiv="2603.05397"
+>}}
 
 **一句话总结：** 提出CliReg算法，通过特征对应兼容性图上的最大团搜索取代RANSAC验证，提高3D LiDAR SLAM在噪声和异常值存在的条件下的闭环检测鲁棒性。
 

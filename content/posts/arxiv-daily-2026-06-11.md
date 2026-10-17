@@ -17,7 +17,10 @@ tocopen: true
 
 ### World Pilot: Steering Vision-Language-Action Models with World-Action Priors
 
-**链接：** https://arxiv.org/abs/2606.12403
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2606.12403"
+  arxiv="2606.12403"
+>}}
 
 **一句话总结：** 通过世界动作模型（WAM）生成的"预见"先验，从感知与动作两条路径同时增强 VLA，实现更强的跨域泛化能力。
 
@@ -40,7 +43,10 @@ tocopen: true
 
 ### Ambient Diffusion Policy: Imitation Learning from Suboptimal Data in Robotics
 
-**链接：** https://arxiv.org/abs/2606.12365
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2606.12365"
+  arxiv="2606.12365"
+>}}
 
 **一句话总结：** 利用扩散时间步的频谱特性，仅在特定噪声级别允许次优数据参与训练，从而有效从大规模低质量数据中学习机器人策略。
 
@@ -63,7 +69,10 @@ tocopen: true
 
 ### Making Foresight Actionable: Repurposing Representation Alignment in World Action Models
 
-**链接：** https://arxiv.org/abs/2606.12217
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2606.12217"
+  arxiv="2606.12217"
+>}}
 
 **一句话总结：** 发现世界动作模型中视觉重建优化与动作控制需求之间的表示错位问题，提出 AGRA 对齐目标，使策略更准确地关注任务交互区域。
 
@@ -86,7 +95,10 @@ tocopen: true
 
 ### VLGA: Vision-Language-Geometry-Action Models for Autonomous Driving
 
-**链接：** https://arxiv.org/abs/2606.12396
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2606.12396"
+  arxiv="2606.12396"
+>}}
 
 **一句话总结：** 将几何（3D dense world）作为第四模态引入 VLA 自动驾驶模型，用 per-pixel pointmap 监督使策略在密集 3D 环境中获得可靠的空间理解。
 
@@ -109,7 +121,10 @@ tocopen: true
 
 ### AnchorEdit: Maintaining Temporal Consistency in Multi-turn Image Editing via Causal Memory
 
-**链接：** https://arxiv.org/abs/2606.11751
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2606.11751"
+  arxiv="2606.11751"
+>}}
 
 **一句话总结：** 首个基于自回归扩散的多轮图像编辑框架，通过因果记忆锚定初始身份，解决长轮次编辑中的身份漂移和误差积累问题。
 
@@ -133,7 +148,10 @@ tocopen: true
 
 ### VICX: Generalizable Robot Manipulation via Video Generation and In-Context Operator Network
 
-**链接：** https://arxiv.org/abs/2606.12028
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2606.12028"
+  arxiv="2606.12028"
+>}}
 
 **一句话总结：** 解耦高层视觉规划（视频生成）与低层执行（In-Context Operator Network），在无参数更新的情况下实现跨任务、跨具身的机器人操作泛化。
 
@@ -156,7 +174,10 @@ tocopen: true
 
 ### A Comprehensive Ecosystem for Open-Domain Customized Video Generation
 
-**链接：** https://arxiv.org/abs/2606.11783
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2606.11783"
+  arxiv="2606.11783"
+>}}
 
 **一句话总结：** 构建百万级定制化视频生成数据集 PexelsCustom-1M，并提出参数高效的 CustoMDiT，同时发布覆盖 1000+ 类别的新 benchmark OpenCustom。
 

@@ -25,11 +25,12 @@ tocopen: true
 
 ### FOCAL-VLA: Subtask-Guided Geometry Distillation and Implicit World Modeling for Vision-Language-Action Models
 
-**链接：** https://arxiv.org/abs/2609.21228
-
-**项目主页：** https://zhiyuan-gao.github.io/FOCAL-VLA/
-
-**作者 / 机构：** Zhiyuan Gao, Di Wen, Yanxiang Zhan, Mohammad Khoshnazar, Jeroen Schäfer, Kunyu Peng, Michael Beetz（University of Bremen；Karlsruhe Institute of Technology；Robotics Institute Germany）
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2609.21228"
+  authors="Zhiyuan Gao, Di Wen, Yanxiang Zhan, Mohammad Khoshnazar, Jeroen Schäfer, Kunyu Peng, Michael Beetz（University of Bremen；Karlsruhe Institute of Technology；Robotics Institute Germany）"
+  arxiv="2609.21228"
+  links="[{\"url\":\"https://zhiyuan-gao.github.io/FOCAL-VLA/\",\"label\":\"项目主页\",\"kind\":\"project\"}]"
+>}}
 
 **一句话总结：** 不来梅大学与 KIT 团队提出 **FOCAL-VLA**，把几何监督与未来状态预测从「整幅场景」收窄到「当前子任务涉及的实体」：两组可学习 query 分别蒸馏 VGGT 几何特征与 Track4World 未来运动特征，二者联合条件化动作专家，推理时不跑任何教师模型，在 LIBERO 上取得 97.9%、RoboCasa 上相对 π0.5 提升 8.2 个百分点。
 
@@ -53,11 +54,12 @@ tocopen: true
 
 ### ForeTac-VLA: A Forecasting-Based Tactile-Vision-Language-Action Model for Contact-Rich Robotic Manipulation
 
-**链接：** https://arxiv.org/abs/2609.20980
-
-**项目主页：** https://foretac-vla.github.io/
-
-**作者 / 机构：** Zhengyu Tao, Xin Li, Xin Wang（Texas A&M University, College Station）
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2609.20980"
+  authors="Zhengyu Tao, Xin Li, Xin Wang（Texas A&M University, College Station）"
+  arxiv="2609.20980"
+  links="[{\"url\":\"https://foretac-vla.github.io/\",\"label\":\"项目主页\",\"kind\":\"project\"}]"
+>}}
 
 **一句话总结：** Texas A&M 团队提出 **ForeTac-VLA**，不再把触觉当作「已发生的观测」喂给策略，而是让模型**显式预测未来若干步的触觉状态**，用预测结果反过来指导动作生成，在四类接触丰富的真机任务上平均成功率 95%，对比微调后的纯视觉 VLA 提升 36.25 个百分点。
 
@@ -81,11 +83,12 @@ tocopen: true
 
 ### CompAdapt: Adaptable Composite Motion Modeling for Physics-Consistent Text-to-Video Generation
 
-**链接：** https://arxiv.org/abs/2609.21455
-
-**项目主页：** https://makapic.github.io/CompAdapt/ ｜ **代码：** https://github.com/Makapic/CompAdapt
-
-**作者 / 机构：** Haoran Qin, Renlong Wu, Tianyu Huang, Yukang Ding, Hui Li, Wangmeng Zuo（哈尔滨工业大学；淘宝，阿里巴巴集团）
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2609.21455"
+  authors="Haoran Qin, Renlong Wu, Tianyu Huang, Yukang Ding, Hui Li, Wangmeng Zuo（哈尔滨工业大学；淘宝，阿里巴巴集团）"
+  arxiv="2609.21455"
+  links="[{\"url\":\"https://makapic.github.io/CompAdapt/\",\"label\":\"项目主页\",\"kind\":\"project\"},{\"url\":\"https://github.com/Makapic/CompAdapt\",\"label\":\"GitHub\",\"kind\":\"github\"}]"
+>}}
 
 **一句话总结：** 哈工大与淘宝团队提出 **CompAdapt**，把物理一致性 T2V 从「单一运动类型 + 人工指定参数」推进到**复合运动建模 + 一键适配**：显式建模重力、抛体、弹性碰撞等复合物理行为，并用单个参考轨迹把动力学模块适配到训练中未见的物理律，在扩展后的 OODPhys 上 34 个场景中 24 个对不同参考样本的标准差低于 0.02。
 
@@ -109,9 +112,11 @@ tocopen: true
 
 ### 4DGS-Fixer: Generative Sparse-View 4D Gaussian Splatting with Iterative Refinement Guided by Video Diffusion Priors
 
-**链接：** https://arxiv.org/abs/2609.21176
-
-**作者 / 机构：** Haitao Huang, Shenghao Zhao, Boyuan Tian, Shin-Fang Chng 等（Goertek Alpha Labs，上海 / 南京 / 美国圣克拉拉；Singapore Institute of Technology；The Hong Kong University of Science and Technology）
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2609.21176"
+  authors="Haitao Huang, Shenghao Zhao, Boyuan Tian, Shin-Fang Chng 等（Goertek Alpha Labs，上海 / 南京 / 美国圣克拉拉；Singapore Institute of Technology；The Hong Kong University of Science and Technology）"
+  arxiv="2609.21176"
+>}}
 
 **一句话总结：** 歌尔 Alpha Labs 联合新加坡理工大学（SIT）与香港科技大学提出 **4DGS-Fixer**，用**视频扩散先验**修复稀疏视角下缺失的场景信息，再把修复结果作为伪监督反过来正则化并迭代精修 4D 高斯表示，在常用基准上比此前最佳方法的 PSNR 提升近 **2 dB**（SIGGRAPH Asia Technical Communications / ACM TOG）。
 
@@ -135,11 +140,12 @@ tocopen: true
 
 ### ZYT-World: A Real-Time Controllable World Model for Closed-Loop Autonomous-Driving Simulation
 
-**链接：** https://arxiv.org/abs/2609.21712
-
-**项目主页：** https://zyt-aim.github.io/ZYT-World/
-
-**作者 / 机构：** ZYT AI Team（论文以团队署名；Advisers: Kaixuan Wang, Zichao Guo, Xiaozhi Chen；Project Lead: Wei Bi）
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2609.21712"
+  authors="ZYT AI Team（论文以团队署名；Advisers: Kaixuan Wang, Zichao Guo, Xiaozhi Chen；Project Lead: Wei Bi）"
+  arxiv="2609.21712"
+  links="[{\"url\":\"https://zyt-aim.github.io/ZYT-World/\",\"label\":\"项目主页\",\"kind\":\"project\"}]"
+>}}
 
 **一句话总结：** ZYT 团队发布 **ZYT-World**，一个面向闭环自动驾驶仿真的实时可控世界模型：单一架构原生生成 **4 路 FoV > 180° 的鱼眼 + 3 路针孔**共七视角，把 40 步双向教师经因果一致性蒸馏与 self-rollout DMD 压缩成**单步流式生成器**，保留教师 90% 以上的 PSNR/SSIM 而速度快 **107.7×**，双 GPU 上七视角整体 **4 FPS**。
 
@@ -164,13 +170,12 @@ tocopen: true
 
 ### Catch Me If You Can: Real-Time Feedback Denoising for Responsive VLAs
 
-**链接：** https://arxiv.org/abs/2609.21022
-
-**项目主页：** https://vla-feedback.github.io
-
-**代码：** https://github.com/jidaxian010/VLA-Feedback-release ｜ **模型：** https://huggingface.co/jidaxian010/vla-feedback-sim
-
-**作者 / 机构：** Yiheng Ji, Xingru Zhou, Luis Sentis, Mingyo Seo（The University of Texas at Austin；University of Central Florida）
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2609.21022"
+  authors="Yiheng Ji, Xingru Zhou, Luis Sentis, Mingyo Seo（The University of Texas at Austin；University of Central Florida）"
+  arxiv="2609.21022"
+  links="[{\"url\":\"https://vla-feedback.github.io\",\"label\":\"项目主页\",\"kind\":\"project\"},{\"url\":\"https://github.com/jidaxian010/VLA-Feedback-release\",\"label\":\"GitHub\",\"kind\":\"github\"},{\"url\":\"https://huggingface.co/jidaxian010/vla-feedback-sim\",\"label\":\"模型\",\"kind\":\"huggingface\"}]"
+>}}
 
 **一句话总结：** UT Austin 与中佛罗里达大学团队提出 **VLA-Feedback**（CoRL 2026）：不把动作块完全去噪完再执行，而是**把最后一步去噪保留下来作为轻量反馈接口**，每个动作在执行前用最新观测花 **2 ms** 补一次修正，形成 1:16:16 的「规划—反馈—执行」节奏，在目标会移动的动态任务上大幅超越 GR00T 等块式策略。
 
@@ -194,9 +199,11 @@ tocopen: true
 
 ### Calibrating Teacher--Student Discrepancy for On-Policy Distillation
 
-**链接：** https://arxiv.org/abs/2609.21619
-
-**作者 / 机构：** Qiangqiang He, Jin Li, MingCai Chen（南京大学计算机软件新技术全国重点实验室；东南大学软件工程学院；南京邮电大学）
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2609.21619"
+  authors="Qiangqiang He, Jin Li, MingCai Chen（南京大学计算机软件新技术全国重点实验室；东南大学软件工程学院；南京邮电大学）"
+  arxiv="2609.21619"
+>}}
 
 **一句话总结：** 南京大学、东南大学与南京邮电大学团队提出 **Cal-OPD**，指出 on-policy 蒸馏中的师生差异并不纯粹反映能力差距、还混有**教师自身的偏差**，据此用正负上下文干预估计教师的自偏差区间，只保留超出该区间的分量作为优化信号，在仅保留 **52–65%** 原始差异的情况下，跨模型规模一致超越标准 OPD 及多个变体。
 
@@ -220,11 +227,12 @@ tocopen: true
 
 ### Skel-WAM: A Hand-Skeleton-Conditioned World Action Model for Human-to-Robot Manipulation Transfer
 
-**链接：** https://arxiv.org/abs/2609.21514
-
-**项目主页：** https://HealorCai.github.io/Skel-WAM/ ｜ **代码：** https://github.com/HealorCai/Skel-WAM
-
-**作者 / 机构：** Zetao Cai, Yaping Li, Yiqun Wang, Xinyu Zhan, Yuyin Yang, Haoxiang Ma, Kailin Li, Tao Lu, Jiangmiao Pang, Linning Xu, Dahua Lin（香港中文大学；上海人工智能实验室；Joy Future Academy；CPII under InnoHK）
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2609.21514"
+  authors="Zetao Cai, Yaping Li, Yiqun Wang, Xinyu Zhan, Yuyin Yang, Haoxiang Ma, Kailin Li, Tao Lu, Jiangmiao Pang, Linning Xu, Dahua Lin（香港中文大学；上海人工智能实验室；Joy Future Academy；CPII under InnoHK）"
+  arxiv="2609.21514"
+  links="[{\"url\":\"https://HealorCai.github.io/Skel-WAM/\",\"label\":\"项目主页\",\"kind\":\"project\"},{\"url\":\"https://github.com/HealorCai/Skel-WAM\",\"label\":\"GitHub\",\"kind\":\"github\"}]"
+>}}
 
 **一句话总结：** 港中文与上海 AI 实验室团队提出 **Skel-WAM**，用**统一的手部骨架运动接口**打通人与机器人的运动差异：把人手视频与机器人演示都映射到 2.5-D 手部骨架关键点，并生成骨架叠加以弥合外观差距，在双臂真机四项长程任务上取得 SR **79.86%** / PSR **89.24%**，相对最强基线 EgoVLA 提升 22.22 / 20.14 个百分点。
 

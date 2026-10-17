@@ -17,7 +17,10 @@ tocopen: true
 
 ### Grounded World Model for Semantically Generalizable Planning
 
-**链接：** https://arxiv.org/abs/2604.11751
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2604.11751"
+  arxiv="2604.11751"
+>}}
 
 **一句话总结：** 提出 Grounded World Model（GWM），在视觉-语言对齐的隐空间中学习世界模型，将基于图像目标的 visuomotor MPC 转化为语言条件下的 VLA，大幅提升语义泛化能力。
 
@@ -40,7 +43,10 @@ tocopen: true
 
 ### Reducing Complexity in Vision-Language-Action Systems (StarVLA-α)
 
-**链接：** https://arxiv.org/abs/2604.11757
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2604.11757"
+  arxiv="2604.11757"
+>}}
 
 **一句话总结：** 提出 StarVLA-α，一个刻意最小化架构和流程复杂度的 VLA 强基线，系统研究 VLA 关键设计选择，在多个 benchmark 上具有竞争力，单模型超越 π₀.₅ 20%。
 
@@ -63,7 +69,10 @@ tocopen: true
 
 ### TAX-DPD: Disentangled Point Diffusion for Precise Object Placement
 
-**链接：** https://arxiv.org/abs/2604.11793
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2604.11793"
+  arxiv="2604.11793"
+>}}
 
 **一句话总结：** 提出 TAX-DPD，一个分层解耦点云扩散框架，通过 Dense GMM 建模全局摆放先验、解耦点云扩散模块处理局部几何，在机器人精密物体摆放任务上达到 SOTA。
 
@@ -86,7 +95,10 @@ tocopen: true
 
 ### OmniShow: Unifying Multimodal Conditions for Human-Object Interaction Video Generation
 
-**链接：** https://arxiv.org/abs/2604.11804
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2604.11804"
+  arxiv="2604.11804"
+>}}
 
 **一句话总结：** 提出 OmniShow 端到端框架，统一文本、参考图像、音频、姿态多模态条件，生成高质量人-物交互视频，并建立 HOIVG-Bench 基准。
 
@@ -109,7 +121,10 @@ tocopen: true
 
 ### Multi-ORFT: Stable Online Reinforcement Fine-Tuning for Multi-Agent Diffusion Planning in Cooperative Driving
 
-**链接：** https://arxiv.org/abs/2604.11734
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2604.11734"
+  arxiv="2604.11734"
+>}}
 
 **一句话总结：** 提出 Multi-ORFT，将扩散预训练与在线强化后训练结合，用于多智能体协同驾驶闭环规划，在 WOMD benchmark 上降低碰撞率和离路率同时提高行驶速度。
 
@@ -132,7 +147,10 @@ tocopen: true
 
 ### GenTac: Generative Modeling and Forecasting of Soccer Tactics
 
-**链接：** https://arxiv.org/abs/2604.11786
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2604.11786"
+  arxiv="2604.11786"
+>}}
 
 **一句话总结：** 提出 GenTac，基于扩散的多智能体轨迹生成框架，将足球战术建模为连续轨迹与离散战术事件的随机过程，支持对手行为、球队风格等丰富条件控制。
 
@@ -156,7 +174,10 @@ tocopen: true
 
 ### ClawGUI: A Unified Framework for Training, Evaluating, and Deploying GUI Agents
 
-**链接：** https://arxiv.org/abs/2604.11784
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2604.11784"
+  arxiv="2604.11784"
+>}}
 
 **一句话总结：** 提出 ClawGUI 开源框架，统一解决 GUI 智能体的 RL 训练基础设施、标准化评测、跨平台部署三大瓶颈，并训练出 2B 模型在 MobileWorld 上超越同尺寸基线 6%。
 

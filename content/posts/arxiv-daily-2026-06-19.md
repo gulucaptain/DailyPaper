@@ -17,7 +17,10 @@ tocopen: true
 
 ### MemoryWAM: Efficient World Action Modeling with Persistent Memory
 
-**链接：** https://arxiv.org/abs/2606.20562
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2606.20562"
+  arxiv="2606.20562"
+>}}
 
 **一句话总结：** 提出带持久记忆的高效世界-动作模型，通过混合记忆机制解决机器人长视野操控中的非马尔可夫问题，同时保持推理效率。
 
@@ -40,7 +43,10 @@ tocopen: true
 
 ### WRBench: Current World Models Lack a Persistent State Core
 
-**链接：** https://arxiv.org/abs/2606.20545
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2606.20545"
+  arxiv="2606.20545"
+>}}
 
 **一句话总结：** 发现当前所有主流世界模型存在一个根本性盲区——无法在摄像机移走后维持场景状态的持续演化，提出 WRBench 对该问题进行系统诊断。
 
@@ -63,7 +69,10 @@ tocopen: true
 
 ### FlowBender: Feedback-Aware Training for Self-Correcting Conditional Flows
 
-**链接：** https://arxiv.org/abs/2606.20404
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2606.20404"
+  arxiv="2606.20404"
+>}}
 
 **一句话总结：** 提出闭环训练框架 FlowBender，让扩散/流模型学习利用推理时对齐误差作为输入来自我纠正，同时兼顾条件保真度与生成质量。
 
@@ -86,7 +95,10 @@ tocopen: true
 
 ### PRISM: Preference Representation in Intermediate States of Video Diffusion Models
 
-**链接：** https://arxiv.org/abs/2606.20310
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2606.20310"
+  arxiv="2606.20310"
+>}}
 
 **一句话总结：** 视频扩散模型的中间噪声 latent 本身就蕴含可用于偏好判断的信号，PRISM 利用冻结主干直接从噪声 latent 解码偏好，实现早期 Best-of-N 筛选并大幅降低计算开销。
 
@@ -110,7 +122,10 @@ tocopen: true
 
 ### How Transparent is DiffusionGemma?
 
-**链接：** https://arxiv.org/abs/2606.20560
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2606.20560"
+  arxiv="2606.20560"
+>}}
 
 **一句话总结：** 系统研究扩散式语言模型 DiffusionGemma 的推理可解释性，发现通过可解释 token 瓶颈可将不透明串行深度从 28.6× 降至仅 1.1× 于自回归模型，同时揭示多种扩散特有的新型推理现象。
 
@@ -134,7 +149,10 @@ tocopen: true
 
 ### Spatially Speculative Decoding (SSD) Accelerates Autoregressive Image Generation
 
-**链接：** https://arxiv.org/abs/2606.20543
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2606.20543"
+  arxiv="2606.20543"
+>}}
 
 **一句话总结：** 将自回归图像生成的预测目标从 1D 序列下一 token 扩展到 2D 空间邻居（右邻 + 下邻），利用空间相关性实现最高 13.3× 推理加速，同时保持生成质量。
 
@@ -158,7 +176,10 @@ tocopen: true
 
 ### TriFlow: Generating Artist-Like 3D Mesh Topology via Nearest-Vertex Vector Fields
 
-**链接：** https://arxiv.org/abs/2606.20131
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2606.20131"
+  arxiv="2606.20131"
+>}}
 
 **一句话总结：** 将网格拓扑表示为最近顶点向量场（NVF），训练 latent flow-matching 模型合成该场，实现生成艺术级三角网格拓扑，Chamfer Distance 降低 90%，速度提升 8×。
 
@@ -182,7 +203,10 @@ tocopen: true
 
 ### S-Agent: Spatial Tool-Use Elicits Reasoning for Spatial Intelligence
 
-**链接：** https://arxiv.org/abs/2606.20515
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2606.20515"
+  arxiv="2606.20515"
+>}}
 
 **一句话总结：** S-Agent 将 VLM 重新定位为语义规划器，配合空间工具层次结构和时序记忆机制，实现跨帧 3D 空间推理，S-Agent-8B 性能可比 GPT-5.4。
 

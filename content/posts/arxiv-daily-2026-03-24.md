@@ -17,7 +17,10 @@ tocopen: true
 
 ### UniMotion: A Unified Framework for Motion-Text-Vision Understanding and Generation
 
-**链接：** https://arxiv.org/abs/2603.22282
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2603.22282"
+  arxiv="2603.22282"
+>}}
 
 **一句话总结：** 首个在单一架构中统一实现人体运动、自然语言与 RGB 图像"理解+生成"任意互转的框架，在 7 项跨模态任务上达到 SOTA。
 
@@ -42,7 +45,10 @@ tocopen: true
 
 ### WorldCache: Content-Aware Caching for Accelerated Video World Models
 
-**链接：** https://arxiv.org/abs/2603.22286
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2603.22286"
+  arxiv="2603.22286"
+>}}
 
 **一句话总结：** 提出感知约束的动态缓存框架 WorldCache，在不重新训练的情况下将 Cosmos 视频世界模型推理加速 2.3×，同时保留 99.4% 基线质量。
 
@@ -67,7 +73,10 @@ tocopen: true
 
 ### UNITE: End-to-End Training for Unified Tokenization and Latent Denoising
 
-**链接：** https://arxiv.org/abs/2603.22283
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2603.22283"
+  arxiv="2603.22283"
+>}}
 
 **一句话总结：** 提出 UNITE，用单一 Generative Encoder 同时承担图像 tokenizer 与 latent 生成器，通过单阶段联合训练消除 LDM 的 tokenizer 预训练阶段，在 ImageNet 256×256 上达到 FID 2.12/1.73（Base/Large）。
 
@@ -92,7 +101,10 @@ tocopen: true
 
 ### Empowering Latent World Models with Large Vision-Language Reasoning Model
 
-**链接：** https://arxiv.org/abs/2603.22281
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2603.22281"
+  arxiv="2603.22281"
+>}}
 
 **一句话总结：** 提出 VLM 引导的 JEPA 风格 latent 世界建模框架，通过稠密帧动态建模 + 长程语义引导的双时间路径，提升机器人手部操作的长程预测能力。
 
@@ -117,7 +129,10 @@ tocopen: true
 
 ### DualCoT-VLA: Visual-Linguistic Chain of Thought via Parallel Reasoning for Vision-Language-Action Models
 
-**链接：** https://arxiv.org/abs/2603.22280
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2603.22280"
+  arxiv="2603.22280"
+>}}
 
 **一句话总结：** 提出 DualCoT-VLA，将视觉 CoT（低层空间理解）与语言 CoT（高层任务规划）融合，并用并行推理机制将逐步自回归解码替换为单步前向推理，在 LIBERO 和 RoboCasa GR1 上达到 SOTA。
 
@@ -142,7 +157,10 @@ tocopen: true
 
 ### UniDex: A Robot Foundation Suite for Universal Dexterous Hand Control from Egocentric Human Videos
 
-**链接：** https://arxiv.org/abs/2603.22264
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2603.22264"
+  arxiv="2603.22264"
+>}}
 
 **一句话总结：** 提出 UniDex，一套包含 50K 轨迹多手型数据集、统一动作空间 FAAS、VLA 策略和便携式人类数据采集装置的灵巧手控制完整方案，平均任务完成率 81%，大幅超越现有 VLA baseline。
 
@@ -167,7 +185,10 @@ tocopen: true
 
 ### NMR: Neural Motion Retargeting for Humanoid Whole-body Control
 
-**链接：** https://arxiv.org/abs/2603.22201
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2603.22201"
+  arxiv="2603.22201"
+>}}
 
 **一句话总结：** 提出 NMR 神经运动重定向框架，将运动重定向重新定义为分布学习问题（而非优化问题），通过 VAE 聚类分层数据管道 + CNN-Transformer 架构消除 joint jumps 和自碰撞，支持人形机器人全身控制。
 
@@ -192,7 +213,10 @@ tocopen: true
 
 ### DUO-VSR: Dual-Stream Distillation for One-Step Video Super-Resolution
 
-**链接：** https://arxiv.org/abs/2603.22271
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2603.22271"
+  arxiv="2603.22271"
+>}}
 
 **一句话总结：** 提出三阶段 Dual-Stream Distillation 框架，结合分布匹配蒸馏与对抗监督，实现高质量单步视频超分辨率，被 CVPR 2026 收录。
 

@@ -26,13 +26,15 @@ tocopen: true
 
 ### Spark-0: Scaling Spatially Aligned Tactile Pretraining for Robot Dexterous Manipulation
 
-**链接：** https://arxiv.org/abs/2610.22342
-
-**项目主页：** https://xsparkai.com/Spark-0
-
-**作者 / 机构：** Tianxing Chen、Wenwei Lin、Chuqiao Lyu、Peicheng Xiang、Junyuan Tang 等；Xspark AI、清华大学、香港大学 MMLab、香港科技大学（广州）、北京大学。
-
-**首次提交与来源：** arXiv v1 为 **2026-10-15 17:56 UTC**；来自本期 cs.RO 新投稿。下述实验依据原文第 6 节及表 4。
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2610.22342"
+  authors="Tianxing Chen、Wenwei Lin、Chuqiao Lyu、Peicheng Xiang、Junyuan Tang 等；Xspark AI、清华大学、香港大学 MMLab、香港科技大学（广州）、北京大学。"
+  source="arXiv"
+  date="2026-10-15 17:56 UTC · v1"
+  arxiv="2610.22342"
+  links="[{\"url\":\"https://xsparkai.com/Spark-0\",\"label\":\"项目主页\",\"kind\":\"project\"}]"
+  note="来自本期 cs.RO 新投稿。下述实验依据原文第 6 节及表 4。"
+>}}
 
 **一句话总结：** 让触觉既成为机器人执行时的输入，也成为视觉预训练的监督，使没有触觉输入的部署仍能受益于接触经验。
 
@@ -56,13 +58,15 @@ tocopen: true
 
 ### MOSS: Mode-Oriented Source Shaping for Robot Flow Matching Policies
 
-**链接：** https://arxiv.org/abs/2610.22193
-
-**项目主页：** https://mmmmazr.github.io/moss
-
-**作者 / 机构：** Zirun Ma、Jindou Jia、Tuo An、Jiaqi Bai、Jiahua Dong、Jianfei Yang；南洋理工大学 MARS Lab，部分作者同时隶属清华大学。
-
-**首次提交与来源：** arXiv v1 为 **2026-10-15 16:44 UTC**；来自本期 arXiv 新投稿。方法与结果核对原文第 3–5 节、表 1–3。
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2610.22193"
+  authors="Zirun Ma、Jindou Jia、Tuo An、Jiaqi Bai、Jiahua Dong、Jianfei Yang；南洋理工大学 MARS Lab，部分作者同时隶属清华大学。"
+  source="arXiv"
+  date="2026-10-15 16:44 UTC · v1"
+  arxiv="2610.22193"
+  links="[{\"url\":\"https://mmmmazr.github.io/moss\",\"label\":\"项目主页\",\"kind\":\"project\"}]"
+  note="来自本期 arXiv 新投稿。方法与结果核对原文第 3–5 节、表 1–3。"
+>}}
 
 **一句话总结：** 把机器人采用哪一种行为模式，变成选择 Flow Matching 初始噪声分布的问题。
 
@@ -86,11 +90,15 @@ tocopen: true
 
 ### Velox: Spatial Memory Makes World Models Efficient
 
-**链接：** https://arxiv.org/abs/2610.22311
-
-**作者 / 机构：** Qiuhong Shen、Shizun Wang、Xinchao Wang；新加坡国立大学。
-
-**首次提交与来源：** arXiv v1 为 **2026-10-15 17:50 UTC**；同时见 [HF Daily Papers，2026-10-16 收录](https://huggingface.co/papers/2610.22311)，抓取时 16 赞。技术与数字核对原文第 3–4 节、图 3、表 1 和附录 D.5。
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2610.22311"
+  authors="Qiuhong Shen、Shizun Wang、Xinchao Wang；新加坡国立大学。"
+  source="arXiv"
+  date="2026-10-15 17:50 UTC · v1"
+  arxiv="2610.22311"
+  links="[{\"url\":\"https://huggingface.co/papers/2610.22311\",\"label\":\"Hugging Face\",\"kind\":\"huggingface\"}]"
+  note="同时见 [HF Daily Papers，2026-10-16 收录](https://huggingface.co/papers/2610.22311)，抓取时 16 赞。技术与数字核对原文第 3–4 节、图 3、表 1 和附录 D.5。"
+>}}
 
 **一句话总结：** 保留世界模型的历史记忆，但按当前视野中的几何对应关系，限制每个区域实际访问的历史 KV 块。
 
@@ -114,13 +122,15 @@ tocopen: true
 
 ### Orbia: Do Generated Videos Form a Consistent 3D World?
 
-**链接：** https://arxiv.org/abs/2610.20693
-
-**项目主页：** https://orbia-bench.github.io/
-
-**作者：** Dongyue Lu、Guian Fang、Hur Lim、Yonggang Wu 等。
-
-**首次提交与来源：** arXiv v1 为 **2026-10-14 17:59 UTC**；同时见 [HF Daily Papers，2026-10-16 收录](https://huggingface.co/papers/2610.20693)，抓取时 31 赞。评测设计与结果依据原文第 3–5 节及附录 C–D。
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2610.20693"
+  authors="Dongyue Lu、Guian Fang、Hur Lim、Yonggang Wu 等。"
+  source="arXiv"
+  date="2026-10-14 17:59 UTC · v1"
+  arxiv="2610.20693"
+  links="[{\"url\":\"https://orbia-bench.github.io/\",\"label\":\"项目主页\",\"kind\":\"project\"},{\"url\":\"https://huggingface.co/papers/2610.20693\",\"label\":\"Hugging Face\",\"kind\":\"huggingface\"}]"
+  note="同时见 [HF Daily Papers，2026-10-16 收录](https://huggingface.co/papers/2610.20693)，抓取时 31 赞。评测设计与结果依据原文第 3–5 节及附录 C–D。"
+>}}
 
 **一句话总结：** 用受控探索和重访，把“视频好看”与“生成内容是否构成持久、统一的 3D 世界”分开评估。
 
@@ -144,11 +154,15 @@ tocopen: true
 
 ### Intern Lumina U2: A Multi-Codebook Diffusion Large Language Model for Omni-Visual Understanding and Image Generation
 
-**链接：** https://arxiv.org/abs/2610.20818
-
-**作者 / 机构：** Qian Yu、Zongyang Qiu、Juncheng Yan 等；参与机构包括上海人工智能实验室、华为及多所高校。
-
-**首次提交与来源：** arXiv v1 为 **2026-10-14 19:05 UTC**；同时见 [HF Daily Papers，2026-10-16 收录](https://huggingface.co/papers/2610.20818)，抓取时 40 赞。方法与效率结果核对原文第 3、6、7 节、表 4 及结论。
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2610.20818"
+  authors="Qian Yu、Zongyang Qiu、Juncheng Yan 等；参与机构包括上海人工智能实验室、华为及多所高校。"
+  source="arXiv"
+  date="2026-10-14 19:05 UTC · v1"
+  arxiv="2610.20818"
+  links="[{\"url\":\"https://huggingface.co/papers/2610.20818\",\"label\":\"Hugging Face\",\"kind\":\"huggingface\"}]"
+  note="同时见 [HF Daily Papers，2026-10-16 收录](https://huggingface.co/papers/2610.20818)，抓取时 40 赞。方法与效率结果核对原文第 3、6、7 节、表 4 及结论。"
+>}}
 
 **一句话总结：** 用多码本离散视觉表示保留更高容量，在共享离散扩散骨干中统一视觉理解与图像生成。
 
@@ -172,11 +186,15 @@ tocopen: true
 
 ### Self-Conditioning Enables Deep Sequential Reasoning in Flow Matching
 
-**链接：** https://arxiv.org/abs/2610.19628
-
-**作者 / 机构：** Zeyang Zhang、Linxiang Gao、Meiqi Gu、Xingyan Chen、Minrui Luo、Kaifeng Lyu、Tianxing He；机构包括清华大学交叉信息研究院、上海期智研究院等。
-
-**首次提交与来源：** arXiv v1 为 **2026-10-14 05:56 UTC**；由 [HF Daily Papers，2026-10-15 收录](https://huggingface.co/papers/2610.19628)发现，抓取时 11 赞。理论与实验依据原文第 2–4 节、定理 1–2、图 3 和表 1。
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2610.19628"
+  authors="Zeyang Zhang、Linxiang Gao、Meiqi Gu、Xingyan Chen、Minrui Luo、Kaifeng Lyu、Tianxing He；机构包括清华大学交叉信息研究院、上海期智研究院等。"
+  source="arXiv"
+  date="2026-10-14 05:56 UTC · v1"
+  arxiv="2610.19628"
+  links="[{\"url\":\"https://huggingface.co/papers/2610.19628\",\"label\":\"Hugging Face\",\"kind\":\"huggingface\"}]"
+  note="由 [HF Daily Papers，2026-10-15 收录](https://huggingface.co/papers/2610.19628)发现，抓取时 11 赞。理论与实验依据原文第 2–4 节、定理 1–2、图 3 和表 1。"
+>}}
 
 **一句话总结：** 更多 Flow Matching 采样步不自动代表更深推理；把上一步的最终图像估计反馈给模型，才可能形成可持续更新的内部草稿。
 
@@ -200,13 +218,15 @@ tocopen: true
 
 ### CoWorld Reasoner: Agentic Multimodal Reasoning with the Evolving Video World Model-Driven Harness
 
-**链接：** https://arxiv.org/abs/2610.21910
-
-**项目主页：** https://modalitydance.github.io/CoWorld-Reasoner
-
-**作者 / 机构：** Dongjie Cheng、Ruifeng Yuan、Ran Wei、Ning Song、Yongqi Li、Wenjie Li；香港理工大学、Hangzhou Diagens Biotechnology Co., Ltd。
-
-**首次提交与来源：** arXiv v1 为 **2026-10-15 13:59 UTC**；同时见 [HF Daily Papers，2026-10-16 收录](https://huggingface.co/papers/2610.21910)，抓取时 2 赞。核对原始 PDF 第 3–4 节和第 8 页表 1。
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2610.21910"
+  authors="Dongjie Cheng、Ruifeng Yuan、Ran Wei、Ning Song、Yongqi Li、Wenjie Li；香港理工大学、Hangzhou Diagens Biotechnology Co., Ltd。"
+  source="arXiv"
+  date="2026-10-15 13:59 UTC · v1"
+  arxiv="2610.21910"
+  links="[{\"url\":\"https://modalitydance.github.io/CoWorld-Reasoner\",\"label\":\"项目主页\",\"kind\":\"project\"},{\"url\":\"https://huggingface.co/papers/2610.21910\",\"label\":\"Hugging Face\",\"kind\":\"huggingface\"}]"
+  note="同时见 [HF Daily Papers，2026-10-16 收录](https://huggingface.co/papers/2610.21910)，抓取时 2 赞。核对原始 PDF 第 3–4 节和第 8 页表 1。"
+>}}
 
 **一句话总结：** 将视频世界模型包装成可选择的视觉想象工具，并依据执行反馈共同改进工具、skills 与执行代码。
 
@@ -230,11 +250,15 @@ tocopen: true
 
 ### ANTE: Anticipate, Then Execute -- Learning Internal World Models for Coding Agents from Verified Beliefs
 
-**链接：** https://arxiv.org/abs/2610.15368
-
-**作者 / 机构：** Yi Ge、Kangrui Ruan、Jifan Chen、Manish Prajapat 等；马里兰大学 College Park、AWS AI Labs。原文注明 Yi Ge 的相关工作完成于 AWS 实习期间。
-
-**首次提交与来源：** arXiv v1 为 **2026-10-11 05:46 UTC**；由 [HF Daily Papers，2026-10-16 收录](https://huggingface.co/papers/2610.15368)发现，抓取时 1 赞。它是近期论文，**不是 10 月 16 日首次发表**。方法与数字核对原文第 3–4 节、表 1。
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2610.15368"
+  authors="Yi Ge、Kangrui Ruan、Jifan Chen、Manish Prajapat 等；马里兰大学 College Park、AWS AI Labs。原文注明 Yi Ge 的相关工作完成于 AWS 实习期间。"
+  source="arXiv"
+  date="2026-10-11 05:46 UTC · v1"
+  arxiv="2610.15368"
+  links="[{\"url\":\"https://huggingface.co/papers/2610.15368\",\"label\":\"Hugging Face\",\"kind\":\"huggingface\"}]"
+  note="由 [HF Daily Papers，2026-10-16 收录](https://huggingface.co/papers/2610.15368)发现，抓取时 1 赞。它是近期论文，**不是 10 月 16 日首次发表**。方法与数字核对原文第 3–4 节、表 1。"
+>}}
 
 **一句话总结：** 让 coding agent 在工具调用前写下可验证的结果预测，再用真实执行结果训练预测能力和逐步决策。
 

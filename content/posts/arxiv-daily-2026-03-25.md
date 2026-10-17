@@ -17,7 +17,10 @@ tocopen: true
 
 ### ABot-PhysWorld: Interactive World Foundation Model for Robotic Manipulation with Physics Alignment
 
-**链接：** https://arxiv.org/abs/2603.23376
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2603.23376"
+  arxiv="2603.23376"
+>}}
 
 **一句话总结：** 提出 ABot-PhysWorld，一个 14B 扩散 Transformer 世界模型，通过物理对齐训练生成物理可信、动作可控的机器人操作视频，解决当前视频世界模型中物体穿透、反重力等物理不合理问题。
 
@@ -41,7 +44,10 @@ tocopen: true
 
 ### VTAM: Video-Tactile-Action Models for Complex Physical Interaction Beyond VLAs
 
-**链接：** https://arxiv.org/abs/2603.23481
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2603.23481"
+  arxiv="2603.23481"
+>}}
 
 **一句话总结：** 将触觉感知作为视频-行动模型的互补模态，提出 VTAM，在接触密集型机器人操控任务中显著超越纯视觉 VLA 方法，且无需触觉-语言配对数据或独立触觉预训练。
 
@@ -65,7 +71,10 @@ tocopen: true
 
 ### I3DM: Implicit 3D-aware Memory Retrieval and Injection for Consistent Video Scene Generation
 
-**链接：** https://arxiv.org/abs/2603.23413
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2603.23413"
+  arxiv="2603.23413"
+>}}
 
 **一句话总结：** 提出 I3DM，一种隐式 3D 感知记忆机制，绕过显式 3D 重建，实现长时程一致的视频场景生成，尤其在复杂遮挡场景下的重访一致性大幅提升。
 
@@ -89,7 +98,10 @@ tocopen: true
 
 ### 3D Flow Guided Editable Portrait Animation
 
-**链接：** https://arxiv.org/abs/2603.23381
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2603.23381"
+  arxiv="2603.23381"
+>}}
 
 **一句话总结：** 通过参数化 3D 头部模型直接计算无需学习的 3D 运动流，将其作为几何先验注入扩散模型，实现高保真肖像动画生成同时支持面部表情和头部姿态的用户可编辑控制（CVPR 2026）。
 
@@ -113,7 +125,10 @@ tocopen: true
 
 ### InverFill: One-Step Inversion for Enhanced Few-Step Diffusion Inpainting
 
-**链接：** https://arxiv.org/abs/2603.23463
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2603.23463"
+  arxiv="2603.23463"
+>}}
 
 **一句话总结：** 提出 InverFill，一种针对图像修复的单步反演方法，通过向初始噪声注入语义信息，在极少采样步数（few-step）下实现高保真修复，无需重新训练修复模型（CVPR 2026）。
 
@@ -137,7 +152,10 @@ tocopen: true
 
 ### PhotoAgent: A Robotic Photographer with Spatial and Aesthetic Understanding
 
-**链接：** https://arxiv.org/abs/2603.22796
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2603.22796"
+  arxiv="2603.22796"
+>}}
 
 **一句话总结：** 提出 PhotoAgent，一个通过将主观美学目标转化为可解析几何约束、并以 3D Gaussian Splatting 构建内部世界模型进行视觉反思迭代优化的具身摄影机器人（ICRA 2026）。
 
@@ -161,7 +179,10 @@ tocopen: true
 
 ### Learning Multi-Agent Local Collision-Avoidance for Collaborative Carrying Tasks with Coupled Quadrupedal Robots
 
-**链接：** https://arxiv.org/abs/2603.23278
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2603.23278"
+  arxiv="2603.23278"
+>}}
 
 **一句话总结：** 提出基于强化学习的分层策略，使两台机械连接的四足机器人仅凭板载传感器即可在未知环境中完成协作搬运并实时避障，无需预计算轨迹或地图。
 
@@ -185,7 +206,10 @@ tocopen: true
 
 ### OccAny: Generalized Unconstrained Urban 3D Occupancy
 
-**链接：** https://arxiv.org/abs/2603.23502
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2603.23502"
+  arxiv="2603.23502"
+>}}
 
 **一句话总结：** 提出 OccAny，首个通用无约束城市 3D 占用预测模型，能在未标定、域外场景中预测度量占用并生成语义分割特征，支持单目、序列和环视多种输入（CVPR 2026）。
 

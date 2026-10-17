@@ -17,7 +17,10 @@ tocopen: true
 
 ### Physical Simulator In-the-Loop Video Generation
 
-**链接：** https://arxiv.org/abs/2603.06408
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2603.06408"
+  arxiv="2603.06408"
+>}}
 
 **一句话总结：** 将物理仿真器嵌入扩散视频生成流程（PSIVG），使生成视频在对象动力学上严格遵守真实物理定律，被 CVPR 2026 接收。
 
@@ -41,7 +44,10 @@ tocopen: true
 
 ### Dynamic Chunking Diffusion Transformer
 
-**链接：** https://arxiv.org/abs/2603.06351
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2603.06351"
+  arxiv="2603.06351"
+>}}
 
 **一句话总结：** DC-DiT 通过可学习的动态 token 压缩机制，让扩散 Transformer 自适应地将图像高信息密度区域保留更多 token、均匀背景区域压缩更少 token，同时跨去噪时步自适应压缩比，在 ImageNet 256×256 上全面超越参数量与 FLOP 匹配的标准 DiT 基线。
 
@@ -66,7 +72,10 @@ tocopen: true
 
 ### Diffusion Language Models Are Natively Length-Aware
 
-**链接：** https://arxiv.org/abs/2603.06123
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2603.06123"
+  arxiv="2603.06123"
+>}}
 
 **一句话总结：** 扩散语言模型（DLM）的潜在 prompt 表示天然包含对所需输出长度的预测信息，基于此提出零样本动态上下文窗口裁剪机制，显著降低推理 FLOP，同时在多个 benchmark 上无统计显著性能损失。
 
@@ -90,7 +99,10 @@ tocopen: true
 
 ### Constrained Semantic Guidance for Linguistic Negation in Text-to-Video Diffusion
 
-**链接：** https://arxiv.org/abs/2603.06533
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2603.06533"
+  arxiv="2603.06533"
+>}}
 
 **一句话总结：** 将文本到视频扩散模型中的语言否定（negation）建模为语义引导上的凸约束可行性问题，以无训练方式首次实现统一的否定语义处理，覆盖对象缺失、梯度非反转语义、多重否定和作用域歧义。
 
@@ -115,7 +127,10 @@ tocopen: true
 
 ### Do Foundation Models Know Geometry? Probing Frozen Features for Continuous Physical Measurement
 
-**链接：** https://arxiv.org/abs/2603.06459
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2603.06459"
+  arxiv="2603.06459"
+>}}
 
 **一句话总结：** 发现 VLM 视觉编码器冻结特征中编码了精确几何信息，但文本输出端存在 3.3× 的"pathway-training deficit"，轻量线性探针即可以 6.1° MAE 提取手部关节角度，揭示了 VLM 视觉表示与语言生成通道之间的几何感知瓶颈。
 
@@ -140,7 +155,10 @@ tocopen: true
 
 ### Fly360: Omnidirectional Obstacle Avoidance within Drone View
 
-**链接：** https://arxiv.org/abs/2603.06573
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2603.06573"
+  arxiv="2603.06573"
+>}}
 
 **一句话总结：** 提出 Fly360 两阶段感知-决策管线，利用全景 RGB 转深度图作为中间表示，配合固定随机偏航训练策略，实现无人机全向（任意方向）障碍物避障，在三类飞行任务上全面优于前向视角基线。
 
@@ -165,7 +183,10 @@ tocopen: true
 
 ### GreenRFM: Toward a Resource-Efficient Radiology Foundation Model
 
-**链接：** https://arxiv.org/abs/2603.06467
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2603.06467"
+  arxiv="2603.06467"
+>}}
 
 **一句话总结：** 提出 GreenRFM，通过 MUST 监督原则（More distilled, Ubiquitous, Semantic-enforcing, Task-aligning）而非堆砌训练数据规模，在单张 24GB GPU 内 24 小时内训练出 SOTA 放射学基础模型，挑战"Scale is All You Need"范式。
 
@@ -190,7 +211,10 @@ tocopen: true
 
 ### AV-Unified: A Unified Framework for Audio-visual Scene Understanding
 
-**链接：** https://arxiv.org/abs/2603.06530
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2603.06530"
+  arxiv="2603.06530"
+>}}
 
 **一句话总结：** AV-Unified 将音视频事件定位、解析、分割、问答等多种异构任务统一为 token 序列输出，通过多尺度时空感知网络和跨模态空间感知模块，单架构同时处理时序、空间和时空音视频理解任务，被 IEEE TMM 接收。
 

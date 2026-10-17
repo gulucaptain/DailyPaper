@@ -1,0 +1,7 @@
+{{- if eq .kind "github" -}}
+{{ partial "svg.html" (dict "name" "github") }}
+{{- else if eq .kind "huggingface" -}}
+{{ with resources.Get "icons/huggingface.svg" }}<img class="paper-meta-hf" src="{{ .RelPermalink }}" alt="" width="16" height="16" aria-hidden="true">{{ end }}
+{{- else -}}
+<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2a20 20 0 0 1 0 20 20 20 0 0 1 0-20"/></svg>
+{{- end -}}

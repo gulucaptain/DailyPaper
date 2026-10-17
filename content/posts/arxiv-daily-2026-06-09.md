@@ -17,7 +17,10 @@ tocopen: true
 
 ### Latent Spatial Memory for Video World Models
 
-**链接：** https://arxiv.org/abs/2606.09828
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2606.09828"
+  arxiv="2606.09828"
+>}}
 
 **一句话总结：** 提出 Mirage 框架，将视频世界模型的空间记忆直接存储在扩散模型的 latent 空间中，彻底消除 pixel-space 重建的信息损失，实现 SOTA 性能与 10x 生成加速。
 
@@ -40,7 +43,10 @@ tocopen: true
 
 ### Temporal Modeling via Memory and Imagination in Vision-Language-Action Models
 
-**链接：** https://arxiv.org/abs/2606.09827
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2606.09827"
+  arxiv="2606.09827"
+>}}
 
 **一句话总结：** MemoryVLA++ 为 VLA 机器人控制模型引入完整的时序建模框架，结合工作记忆、情节记忆库和扩散世界模型"想象"未来状态，在多个仿真及真实机器人基准上实现显著性能提升。
 
@@ -63,7 +69,10 @@ tocopen: true
 
 ### AHA-WAM: Asynchronous Horizon-Adaptive World-Action Modeling with Observation-Guided Context Routing
 
-**链接：** https://arxiv.org/abs/2606.09811
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2606.09811"
+  arxiv="2606.09811"
+>}}
 
 **一句话总结：** AHA-WAM 提出异步双 DiT 架构，将世界预测（低频）与动作执行（高频）解耦，在 RoboTwin 上达到 92.80% 平均成功率，同时实现 24 Hz 实时闭环控制。
 
@@ -86,7 +95,10 @@ tocopen: true
 
 ### Translating Actions into Motion and Contact Images for Embodied World Models
 
-**链接：** https://arxiv.org/abs/2606.09813
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2606.09813"
+  arxiv="2606.09813"
+>}}
 
 **一句话总结：** iMac 以原始视觉图像（动作图像）替代传统低维关节角度向量作为具身世界模型的动作表示，实现跨形态、跨场景的统一控制范式。
 
@@ -109,7 +121,10 @@ tocopen: true
 
 ### A Controlled Study of Memory in Action World Models
 
-**链接：** https://arxiv.org/abs/2606.09803
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2606.09803"
+  arxiv="2606.09803"
+>}}
 
 **一句话总结：** Echo-Memory 在统一 backbone 下系统对比了 4 类记忆机制（原始上下文、压缩记忆、空间摘要、状态空间递归），揭示"重放保真度不等于场景记忆能力"，为世界模型记忆研究提供了清晰的基准协议。
 
@@ -132,7 +147,10 @@ tocopen: true
 
 ### Prisma-World: Camera-Controllable Multi-Agent Video World Model
 
-**链接：** https://arxiv.org/abs/2606.09507
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2606.09507"
+  arxiv="2606.09507"
+>}}
 
 **一句话总结：** Prisma-World 将多智能体视频生成建模为联合几何感知去噪过程，通过 multi-agent RoPE 和相对相机几何注意力保证跨视角一致性，配套 UE5 数据集支持大规模训练。
 
@@ -155,7 +173,10 @@ tocopen: true
 
 ### Evaluating the Representation Space of Diffusion Models via Self-Supervised Principles
 
-**链接：** https://arxiv.org/abs/2606.09718
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2606.09718"
+  arxiv="2606.09718"
+>}}
 
 **一句话总结：** 借鉴自监督学习原理，提出 ICR（Invariant Contamination Ratio）指标分析扩散模型的表示空间，发现中间噪声水平下不变性最佳，并将 ICR 用于早期检测训练中的记忆化趋势。（ICML 2026）
 

@@ -17,7 +17,10 @@ tocopen: true
 
 ### DVG-WM: Disentangled Video Generation Enables Efficient Embodied World Model for Robotic Manipulation
 
-**链接：** https://arxiv.org/abs/2606.32028
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2606.32028"
+  arxiv="2606.32028"
+>}}
 
 **一句话总结：** 将世界模型的动力学建模与视觉合成显式解耦，在机器人操作任务上实现高保真视频预测的同时推理速度提升最高 3.97×。
 
@@ -40,7 +43,10 @@ tocopen: true
 
 ### LUNA: Learning Universal 3D Human Animation Beyond Skinning
 
-**链接：** https://arxiv.org/abs/2606.31981
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2606.31981"
+  arxiv="2606.31981"
+>}}
 
 **一句话总结：** 首个无需 LBS/参数化身体模型拟合的端到端 3D 人体动画系统，支持图像、关键点、草图等多模态 2D 驱动信号，实现零样本跨身份泛化。
 
@@ -63,7 +69,10 @@ tocopen: true
 
 ### AdaJEPA: An Adaptive Latent World Model
 
-**链接：** https://arxiv.org/abs/2606.32026
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2606.32026"
+  arxiv="2606.32026"
+>}}
 
 **一句话总结：** 在模型预测控制闭环中实现潜变量世界模型的测试时自适应，仅用单步梯度更新即可持续修正分布偏移，大幅提升规划成功率。
 
@@ -86,7 +95,10 @@ tocopen: true
 
 ### Human-as-Humanoid: Enabling Zero-Shot Humanoid Learning from Ego-Exo Human Videos
 
-**链接：** https://arxiv.org/abs/2606.32009
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2606.32009"
+  arxiv="2606.32009"
+>}}
 
 **一句话总结：** 将人类示范视频（自我中心+第三视角同步）转换为高自由度人形机器人可执行的动作监督，实现 4.8–7.2× 于遥操作的数据吞吐量，且无需目标任务的机器人示范即可真实部署。
 
@@ -109,7 +121,10 @@ tocopen: true
 
 ### SARL: Adapting Generalist Robot Policies with Semantic Reinforcement Learning
 
-**链接：** https://arxiv.org/abs/2606.31958
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2606.31958"
+  arxiv="2606.31958"
+>}}
 
 **一句话总结：** 通过在语言提示空间而非动作空间进行在线强化学习，将通用机器人策略适应到零样本能力之外的复杂长时程任务，超越现有所有部署后改进方法。
 
@@ -132,7 +147,10 @@ tocopen: true
 
 ### GEAR: Guided End-to-End AutoRegression for Image Synthesis
 
-**链接：** https://arxiv.org/abs/2606.32039
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2606.32039"
+  arxiv="2606.32039"
+>}}
 
 **一句话总结：** 通过表示对齐引导的端到端联合训练，打通 VQ Tokenizer 与自回归生成器之间的梯度壁垒，ImageNet gFID 收敛速度最高提升 10×。
 
@@ -155,7 +173,10 @@ tocopen: true
 
 ### SpheRoPE: Zero-Shot Optimization-Free 360 Panorama Generation with Spherical RoPE
 
-**链接：** https://arxiv.org/abs/2606.32033
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2606.32033"
+  arxiv="2606.32033"
+>}}
 
 **一句话总结：** 无需微调或测试时优化，通过将球面几何先验直接注入预训练扩散 Transformer 的位置编码，实现零样本全景图/视频生成。
 
@@ -178,7 +199,10 @@ tocopen: true
 
 ### CoLT: Teaching Multi-Modal Models to Think with Chain of Latent Thoughts
 
-**链接：** https://arxiv.org/abs/2606.31986
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2606.31986"
+  arxiv="2606.31986"
+>}}
 
 **一句话总结：** 用潜变量推理链替代冗长的文本推理链，仅需 3 步潜在思维即可完成多模态视觉推理，推理速度较文本 CoT 提升 10.1×。
 

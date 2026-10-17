@@ -17,9 +17,11 @@ tocopen: true
 
 ### HWAM: Humanoid World Action Model With Joint State--Action Generation
 
-**链接：** https://arxiv.org/abs/2610.12026
-
-**作者 / 机构：** Yan Yang, Jikun Rong, Minzhao Zhu, Zheyi Zhao, Qirui Hu, Zihan Lan, Weixin Mao, Yinhao Li, Zhen Fu, Hua Chen（LimX Dynamics）
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2610.12026"
+  authors="Yan Yang, Jikun Rong, Minzhao Zhu, Zheyi Zhao, Qirui Hu, Zihan Lan, Weixin Mao, Yinhao Li, Zhen Fu, Hua Chen（LimX Dynamics）"
+  arxiv="2610.12026"
+>}}
 
 **一句话总结：** 逐星动力（LimX Dynamics）提出 HWAM，把机器人**执行后的本体状态**也纳入生成目标，用「状态—动作联合生成」显式建模参考动作与真实执行之间的落差，从而补齐人形机器人分层控制里的动作—执行鸿沟。
 
@@ -48,9 +50,11 @@ tocopen: true
 
 ### Acting from Belief, Looking When Needed: A Bayesian Spatial World Model for Navigation under Intermittent Perception
 
-**链接：** https://arxiv.org/abs/2610.11591
-
-**作者 / 机构：** Feihong Yang, Xiang Long, Jincheng Yu, Jianfei Zhang, Guangjun Ge, Chao Wang, Yu Wang（Qiyuan Lab，北京；Jincheng Yu 与 Yu Wang 同时隶属清华大学电子工程系）
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2610.11591"
+  authors="Feihong Yang, Xiang Long, Jincheng Yu, Jianfei Zhang, Guangjun Ge, Chao Wang, Yu Wang（Qiyuan Lab，北京；Jincheng Yu 与 Yu Wang 同时隶属清华大学电子工程系）"
+  arxiv="2610.11591"
+>}}
 
 **一句话总结：** 启元实验室与清华大学团队提出 ALONE，一个贝叶斯空间世界模型，让机器人主要依靠**内部空间信念**行动，只在执行确实需要新观测时才「抬头看一眼」，从而把共享传感器腾给其他任务。
 
@@ -79,9 +83,11 @@ tocopen: true
 
 ### Conditional Residual Prediction: Improving Autoregressive Video Diffusion without a Bidirectional Teacher
 
-**链接：** https://arxiv.org/abs/2610.11479
-
-**作者 / 机构：** Bowen Zheng, Zhiguang Liu, Jiarong Ou, Rui Chen, Tianyang Hu（香港中文大学（深圳）；腾讯 Hunyuan）
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2610.11479"
+  authors="Bowen Zheng, Zhiguang Liu, Jiarong Ou, Rui Chen, Tianyang Hu（香港中文大学（深圳）；腾讯 Hunyuan）"
+  arxiv="2610.11479"
+>}}
 
 **一句话总结：** 香港中文大学（深圳）与腾讯 Hunyuan 团队提出 Conditional Residual Prediction（CRP），让因果视频扩散模型先「不看历史」预测、只允许历史在预测之上叠加一个**残差**，从而在没有双向教师模型的前提下几乎抹平与同规模双向模型的质量差距，并据此训练出 2B 参数的因果视频模型 Optica。
 
@@ -105,9 +111,11 @@ tocopen: true
 
 ### Recompose and Refine Latent Reasoning Flows for Vision-Language-Action Models
 
-**链接：** https://arxiv.org/abs/2610.12090
-
-**作者 / 机构：** Hongyu Shi, Sen Zhao, Zuyu Zhang, Lifeng Shen, Ding Zou, Xinyu He, Xu Zhang, Qinghua Zhang（重庆邮电大学计算机科学与技术学院 / 前沿交叉学科研究院 / 人工智能学院；中兴通讯（ZTE Corporation）；香港中华煤气（Towngas））
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2610.12090"
+  authors="Hongyu Shi, Sen Zhao, Zuyu Zhang, Lifeng Shen, Ding Zou, Xinyu He, Xu Zhang, Qinghua Zhang（重庆邮电大学计算机科学与技术学院 / 前沿交叉学科研究院 / 人工智能学院；中兴通讯（ZTE Corporation）；香港中华煤气（Towngas））"
+  arxiv="2610.12090"
+>}}
 
 **一句话总结：** 重庆邮电大学联合中兴通讯与香港中华煤气提出 FLOWMEM，把 VLA 模型里**已经成功的潜在推理计算**沉淀为可复用的「推理经验」，在执行时动态检索并重组，而不是每次策略查询都从零重算。
 
@@ -131,9 +139,11 @@ tocopen: true
 
 ### PMTRM: Pseudo-Memory Temporal Re-encoding Module for Embodied Policy Learning
 
-**链接：** https://arxiv.org/abs/2610.11168
-
-**作者 / 机构：** Changchuan Yang, Haoxuan Xu, Wenbo Chen, Shuai Ren, Jianlong Zheng, Huarui Zhang, Tianfu Li, Guanzhong Tian（浙江大学；香港科技大学；香港科技大学（广州）；vivo Robotics Lab；华南师范大学）
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2610.11168"
+  authors="Changchuan Yang, Haoxuan Xu, Wenbo Chen, Shuai Ren, Jianlong Zheng, Huarui Zhang, Tianfu Li, Guanzhong Tian（浙江大学；香港科技大学；香港科技大学（广州）；vivo Robotics Lab；华南师范大学）"
+  arxiv="2610.11168"
+>}}
 
 **一句话总结：** 浙江大学、香港科技大学（广州）与 vivo Robotics Lab 等提出 PMTRM，一个仅 **7.61M 参数**的轻量插件，把「已执行的状态与动作」这一有界历史编码成潜在序列回喂给策略，专门消解重复动作带来的**阶段歧义**。
 
@@ -157,11 +167,12 @@ tocopen: true
 
 ### Generative Neural Retargeting for Human-to-Robot Dexterous Manipulation
 
-**链接：** https://arxiv.org/abs/2610.12440
-
-**项目主页：** https://yy-gx.github.io/GNR/
-
-**作者 / 机构：** Dechen Gao, Yue Yang, Ben Abbatematteo, Nathan Godwin, Pengcheng Wang, Roger Boldu, Steven Man, Zhiyang Dou, Chuan Qin, Sho Nakagome, Eric Whitmire（Meta Reality Labs Research；UC Davis；UNC Chapel Hill；UC Berkeley；MIT；CMU）
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2610.12440"
+  authors="Dechen Gao, Yue Yang, Ben Abbatematteo, Nathan Godwin, Pengcheng Wang, Roger Boldu, Steven Man, Zhiyang Dou, Chuan Qin, Sho Nakagome, Eric Whitmire（Meta Reality Labs Research；UC Davis；UNC Chapel Hill；UC Berkeley；MIT；CMU）"
+  arxiv="2610.12440"
+  links="[{\"url\":\"https://yy-gx.github.io/GNR/\",\"label\":\"项目主页\",\"kind\":\"project\"}]"
+>}}
 
 **一句话总结：** Meta Reality Labs 联合 UC Davis、UNC、UC Berkeley、MIT、CMU 提出 GNR，用 **flow matching** 直接采样出动力学可行的轨迹来做人机重定向，把「逐条轨迹各自求解一次优化」变成「从一个共享低维流形上采样」。
 
@@ -185,11 +196,12 @@ tocopen: true
 
 ### TACROSS: An Efficient and Low-Cost Scalable Human Touch System Across Heterogeneous Tactile Sensors for Dexterous Robot Learning
 
-**链接：** https://arxiv.org/abs/2610.11945
-
-**项目主页：** https://tacross-touch-project.github.io/
-
-**作者 / 机构：** Bo Chen, Huanzhang Hu, Junyang Ma, Bo Yue, Fangdi Yu, Haijier Chen, Xianxin Lai, Shuyu Pan, Zhen Yang, Xiaoquan Sun, Wenze Cui, Zhongliang Jiang（香港大学；INFIFORCE；武汉大学）
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2610.11945"
+  authors="Bo Chen, Huanzhang Hu, Junyang Ma, Bo Yue, Fangdi Yu, Haijier Chen, Xianxin Lai, Shuyu Pan, Zhen Yang, Xiaoquan Sun, Wenze Cui, Zhongliang Jiang（香港大学；INFIFORCE；武汉大学）"
+  arxiv="2610.11945"
+  links="[{\"url\":\"https://tacross-touch-project.github.io/\",\"label\":\"项目主页\",\"kind\":\"project\"}]"
+>}}
 
 **一句话总结：** 香港大学、INFIFORCE 与武汉大学团队提出 TACROSS，一套「人类触觉手套 → 机器人触觉传感器」的跨异构迁移系统：硬件端是成本仅 **10.86 美元**、285 个感应点的压阻手套，算法端在**接触事件层面**而非原始通道层面做对齐。
 
@@ -217,11 +229,12 @@ tocopen: true
 
 ### Omni-Diffusion-Distill: Few-Step Distillation of Unified Multimodal Diffusion Large Language Models
 
-**链接：** https://arxiv.org/abs/2610.10990
-
-**项目主页：** https://hongh0.github.io/omni-diffusion-distill
-
-**作者 / 机构：** Hong Huang, Chenhongyi Yang, Junzhe Sun, Animesh Sinha, Wuyang Chen, Yifan Jiang（Simon Fraser University；Meta）
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2610.10990"
+  authors="Hong Huang, Chenhongyi Yang, Junzhe Sun, Animesh Sinha, Wuyang Chen, Yifan Jiang（Simon Fraser University；Meta）"
+  arxiv="2610.10990"
+  links="[{\"url\":\"https://hongh0.github.io/omni-diffusion-distill\",\"label\":\"项目主页\",\"kind\":\"project\"}]"
+>}}
 
 **一句话总结：** 西蒙菲莎大学与 Meta 提出 Omni-Diffusion-Distill，一套统一的两阶段蒸馏框架，把「图像生成」与「多模态理解」两类能力**同时**压缩进同一个学生模型，把图像生成从 128 步降到 8 步、理解从 512 步降到 64 步。
 

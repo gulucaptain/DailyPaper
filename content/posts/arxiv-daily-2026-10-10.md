@@ -21,11 +21,12 @@ tocopen: true
 
 ### PLaW-VLA: Predictive Latent World Modeling for Vision-Language-Action Policies
 
-**链接：** https://arxiv.org/abs/2610.12285
-
-**项目主页：** https://rainyrobo.github.io/PLaW-VLA
-
-**作者 / 机构：** Yu Liu、Hetian Guo、Tianlv Huang、Ziyi Cai、Wudi Chen、Hantang Wang、Qiutong Liu、Yingzhi Peng、Wei Han、Peijun Tang、Jianan Wang、Zipei Fan、Zhiyuan Zha、Xuan Song（吉林大学、Astribot、哈尔滨工业大学（深圳）、香港理工大学、东京大学）
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2610.12285"
+  authors="Yu Liu、Hetian Guo、Tianlv Huang、Ziyi Cai、Wudi Chen、Hantang Wang、Qiutong Liu、Yingzhi Peng、Wei Han、Peijun Tang、Jianan Wang、Zipei Fan、Zhiyuan Zha、Xuan Song（吉林大学、Astribot、哈尔滨工业大学（深圳）、香港理工大学、东京大学）"
+  arxiv="2610.12285"
+  links="[{\"url\":\"https://rainyrobo.github.io/PLaW-VLA\",\"label\":\"项目主页\",\"kind\":\"project\"}]"
+>}}
 
 **一句话总结：** 吉林大学与 Astribot 等提出 PLaW-VLA，在一个预训练的「面向预测」表示空间里建模任务相关的未来状态，并把它作为条件接入动作生成，从而用轻量潜世界模型换来长程控制与分布外泛化的双重提升。
 
@@ -49,11 +50,12 @@ tocopen: true
 
 ### UNITAS: A 3D-Native World Action Model for Embodied Manipulation
 
-**链接：** https://arxiv.org/abs/2610.12099
-
-**项目主页：** https://github.com/DexForce/UNITAS
-
-**作者 / 机构：** Ruixiang Wang、Yongyi Su、Wenlve Zhou、Bo Yue、Hengyan Liu、Dekun Lu、Yuxin Tian、Yihan Fang、Zerui Wu、Xing Hu、Jietao Chen、Yong Guo、Ziyan He、Junbin Yuan 等（香港中文大学（深圳）、DexForce Technology、佛山大学、中山大学、华南理工大学）
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2610.12099"
+  authors="Ruixiang Wang、Yongyi Su、Wenlve Zhou、Bo Yue、Hengyan Liu、Dekun Lu、Yuxin Tian、Yihan Fang、Zerui Wu、Xing Hu、Jietao Chen、Yong Guo、Ziyan He、Junbin Yuan 等（香港中文大学（深圳）、DexForce Technology、佛山大学、中山大学、华南理工大学）"
+  arxiv="2610.12099"
+  links="[{\"url\":\"https://github.com/DexForce/UNITAS\",\"label\":\"GitHub\",\"kind\":\"github\"}]"
+>}}
 
 **一句话总结：** 香港中文大学（深圳）与 DexForce 等提出 UNITAS，首个把观测、动作与场景动力学统一在同一公制三维坐标系中的 3D 原生世界动作模型，用三维点轨迹同时表示人手、夹爪与场景位移。
 
@@ -78,11 +80,12 @@ tocopen: true
 
 ### WorldGuide: Goal-Directed Video World Model for Procedural Task Execution
 
-**链接：** https://arxiv.org/abs/2610.12459
-
-**项目主页：** https://mbzuai-oryx.github.io/WorldGuide ｜ **代码：** https://github.com/mbzuai-oryx/WorldGuide
-
-**作者 / 机构：** Ankan Deria、Komal Kumar、Hisham Cholakkal、Fahad Shahbaz Khan、Salman Khan（穆罕默德·本·扎耶德人工智能大学 MBZUAI）
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2610.12459"
+  authors="Ankan Deria、Komal Kumar、Hisham Cholakkal、Fahad Shahbaz Khan、Salman Khan（穆罕默德·本·扎耶德人工智能大学 MBZUAI）"
+  arxiv="2610.12459"
+  links="[{\"url\":\"https://mbzuai-oryx.github.io/WorldGuide\",\"label\":\"项目主页\",\"kind\":\"project\"},{\"url\":\"https://github.com/mbzuai-oryx/WorldGuide\",\"label\":\"GitHub\",\"kind\":\"github\"}]"
+>}}
 
 **一句话总结：** MBZUAI 提出 WorldGuide，把程序性视频生成形式化为「视觉世界空间中的闭环任务执行」，并配套发布含约 5.9 万段步级标注视频的 WorldGuide Bench。
 
@@ -106,11 +109,12 @@ tocopen: true
 
 ### Learning to Retrieve: Internalizing Memory Retrieval for Video World Models
 
-**链接：** https://arxiv.org/abs/2610.11444
-
-**项目主页：** https://jkhu29.github.io/l2r
-
-**作者 / 机构：** JiaKui Hu、Tailai Chen、Yuqi Pan、Xuerui Qiu、Jialun Liu、Xiao Cao、Zhenxin Zhu、Guang Chen、Hangjun Ye、Bing Wang、Yanye Lu（北京大学、小米汽车、中国科学院自动化所、昆士兰大学、新加坡国立大学）
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2610.11444"
+  authors="JiaKui Hu、Tailai Chen、Yuqi Pan、Xuerui Qiu、Jialun Liu、Xiao Cao、Zhenxin Zhu、Guang Chen、Hangjun Ye、Bing Wang、Yanye Lu（北京大学、小米汽车、中国科学院自动化所、昆士兰大学、新加坡国立大学）"
+  arxiv="2610.11444"
+  links="[{\"url\":\"https://jkhu29.github.io/l2r\",\"label\":\"项目主页\",\"kind\":\"project\"}]"
+>}}
 
 **一句话总结：** 北京大学与小米汽车等提出 Learning-to-Retrieve（L2R），把长程视频世界模型依赖的外部记忆系统换成模型内部状态上的检索门与检索触发器，让「何时检索、检索什么」成为生成过程内生的行为。
 
@@ -134,9 +138,11 @@ tocopen: true
 
 ### WARP-VLA: Wrist-Camera Adaptation for View-Robust Policy Execution in Vision-Language-Action Models
 
-**链接：** https://arxiv.org/abs/2610.11508
-
-**作者 / 机构：** Junmyeong Lee、Dongmin Shin、Min-Gyu Park、Wooseok Jeon、Inho Chang、Hae-Gon Jeon（延世大学、韩国电子技术研究院 KETI）
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2610.11508"
+  authors="Junmyeong Lee、Dongmin Shin、Min-Gyu Park、Wooseok Jeon、Inho Chang、Hae-Gon Jeon（延世大学、韩国电子技术研究院 KETI）"
+  arxiv="2610.11508"
+>}}
 
 **一句话总结：** 延世大学与 KETI 提出 WARP-VLA，用 MoE 让不同专家学习视角特定的特征变换、再由路由依据隐式视角信息组合，使 VLA 在腕部相机安装存在偏差时依然稳健。
 
@@ -160,9 +166,11 @@ tocopen: true
 
 ### PathTime-VLA: Path-Time Decoupling for Factorized Post-Training of Vision-Language-Action Policies
 
-**链接：** https://arxiv.org/abs/2610.11771
-
-**作者 / 机构：** Qing Huang、Yifei Yang、Ziqing Zou、Anzhe Chen、Zhenjie Zhu、Yufei Wei、Rong Xiong、Yue Wang（浙江大学）
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2610.11771"
+  authors="Qing Huang、Yifei Yang、Ziqing Zou、Anzhe Chen、Zhenjie Zhu、Yufei Wei、Rong Xiong、Yue Wang（浙江大学）"
+  arxiv="2610.11771"
+>}}
 
 **一句话总结：** 浙江大学提出 PathTime-VLA，把经典运动规划中的 path-time 参数化引入 VLA 的动作表示，让几何路径与执行节奏解耦，从而支持分阶段的后训练。
 
@@ -186,11 +194,12 @@ tocopen: true
 
 ### DreamTrue: Action-Faithful Robot World Model with Counterfactual Post-Training
 
-**链接：** https://arxiv.org/abs/2610.12468
-
-**项目主页：** https://brave-eai.github.io/DreamTrue ｜ **代码：** https://github.com/brave-eai/DreamTrue
-
-**作者 / 机构：** Junyan Li、Ruizhi Li、Yu Liu、Xiangshuo Liu、Mingchao Sun、Hongyu Pan、Mu Xu、Lue Fan、Zhaoxiang Zhang（中国科学院自动化研究所 NLPR、阿里巴巴集团高德）
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2610.12468"
+  authors="Junyan Li、Ruizhi Li、Yu Liu、Xiangshuo Liu、Mingchao Sun、Hongyu Pan、Mu Xu、Lue Fan、Zhaoxiang Zhang（中国科学院自动化研究所 NLPR、阿里巴巴集团高德）"
+  arxiv="2610.12468"
+  links="[{\"url\":\"https://brave-eai.github.io/DreamTrue\",\"label\":\"项目主页\",\"kind\":\"project\"},{\"url\":\"https://github.com/brave-eai/DreamTrue\",\"label\":\"GitHub\",\"kind\":\"github\"}]"
+>}}
 
 **一句话总结：** 中科院自动化所 NLPR 与高德提出 DreamTrue，一个多视角、跨本体的机器人世界模型，通过动作轨迹的图像空间渲染加几何标定提升动作跟随，并用反事实后训练与缺陷奖励模型修掉「只见过成功」的预测偏差。
 
@@ -215,11 +224,12 @@ tocopen: true
 
 ### Parametric Trajectory Distillation for Few-Step Video Generation
 
-**链接：** https://arxiv.org/abs/2610.11498
-
-**项目主页：** https://alan-lanfeng.github.io/PTD/
-
-**作者 / 机构：** Lan Feng、Peter Karkus、Maximilian Igl、Julius Berner、Yuxiao Chen、Shuhan Tan、Alexandre Alahi、Boris Ivanovic、Marco Pavone（洛桑联邦理工学院 EPFL、NVIDIA、斯坦福大学）
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2610.11498"
+  authors="Lan Feng、Peter Karkus、Maximilian Igl、Julius Berner、Yuxiao Chen、Shuhan Tan、Alexandre Alahi、Boris Ivanovic、Marco Pavone（洛桑联邦理工学院 EPFL、NVIDIA、斯坦福大学）"
+  arxiv="2610.11498"
+  links="[{\"url\":\"https://alan-lanfeng.github.io/PTD/\",\"label\":\"项目主页\",\"kind\":\"project\"}]"
+>}}
 
 **一句话总结：** EPFL 与 NVIDIA 等提出参数化轨迹蒸馏 PTD，让学生用多项式参数化教师轨迹段、并沿自己预测的路径向教师 guidance 学习，在四步生成下同时保住运动、多样性与自然度。
 

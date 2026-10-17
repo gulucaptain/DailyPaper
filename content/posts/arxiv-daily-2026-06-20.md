@@ -17,7 +17,10 @@ tocopen: true
 
 ### MemoryWAM: Efficient World Action Modeling with Persistent Memory
 
-**链接：** https://arxiv.org/abs/2606.20562
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2606.20562"
+  arxiv="2606.20562"
+>}}
 
 **一句话总结：** 提出 MemoryWAM，一种具备持久记忆的高效世界动作模型，通过混合记忆设计解决机器人长时域非马尔可夫操作中的历史遗忘问题。
 
@@ -40,7 +43,10 @@ tocopen: true
 
 ### WRBench: Current World Models Lack a Persistent State Core
 
-**链接：** https://arxiv.org/abs/2606.20545
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2606.20545"
+  arxiv="2606.20545"
+>}}
 
 **一句话总结：** 提出 WRBench 基准，系统性揭露当前世界模型（9600 段视频、23 个模型）的共同缺陷：无法维持未被观测的世界状态持续演化。
 
@@ -63,7 +69,10 @@ tocopen: true
 
 ### Spatially Speculative Decoding Accelerates Autoregressive Image Generation
 
-**链接：** https://arxiv.org/abs/2606.20543
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2606.20543"
+  arxiv="2606.20543"
+>}}
 
 **一句话总结：** 提出 SSD（Spatially Speculative Decoding），利用图像的 2D 空间局部性同时预测横向和纵向相邻 token，将自回归图像生成推理加速最高 13.3 倍。
 
@@ -86,7 +95,10 @@ tocopen: true
 
 ### How Transparent is DiffusionGemma?
 
-**链接：** https://arxiv.org/abs/2606.20560
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2606.20560"
+  arxiv="2606.20560"
+>}}
 
 **一句话总结：** 通过可解释性研究系统分析扩散语言模型 DiffusionGemma 的透明度，发现通过可解释 token 瓶颈可将其"不透明串行深度"从表面上的 28.6x 压缩到仅 1.1x（与自回归 Gemma 4 相当）。
 
@@ -109,7 +121,10 @@ tocopen: true
 
 ### S-Agent: Spatial Tool-Use Elicits Reasoning for Spatial Intelligence
 
-**链接：** https://arxiv.org/abs/2606.20515
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2606.20515"
+  arxiv="2606.20515"
+>}}
 
 **一句话总结：** 提出 S-Agent，将 VLM 作为语义规划者、空间工具层作为几何执行器，通过时序记忆机制实现跨帧证据积累，在无需训练的情况下显著提升 VLM 的 3D 空间推理能力。
 
@@ -132,7 +147,10 @@ tocopen: true
 
 ### Generating Robot Hands from Human Demonstrations
 
-**链接：** https://arxiv.org/abs/2606.20549
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2606.20549"
+  arxiv="2606.20549"
+>}}
 
 **一句话总结：** 提出数据驱动框架，直接从 400 万帧人类手部运动数据中生成优化的树形结构机器人手，将机器人本体设计搜索从数小时压缩至数分钟。
 
@@ -155,7 +173,10 @@ tocopen: true
 
 ### The FID Lottery: Quantifying Hidden Randomness in Generative-Model Evaluation
 
-**链接：** https://arxiv.org/abs/2606.20536
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2606.20536"
+  arxiv="2606.20536"
+>}}
 
 **一句话总结：** 系统量化 FID 评估的隐性随机性，发现重新训练模型（换随机种子）比从固定模型重新采样对 FID 的影响大 3.2 倍，并提出更严格的评估协议。
 

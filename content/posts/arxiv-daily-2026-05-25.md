@@ -17,7 +17,10 @@ tocopen: true
 
 ### LaMo: Self-Supervised Latent Motion Priors for Physical Realism in Video Generation
 
-**链接：** https://arxiv.org/abs/2605.23878
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2605.23878"
+  arxiv="2605.23878"
+>}}
 
 **一句话总结：** 从未标注的训练视频中自监督提取运动先验，以即插即用方式显著提升视频扩散模型的物理真实性，无需任何外部监督。
 
@@ -44,7 +47,10 @@ tocopen: true
 
 ### PiD: Fast and High-Resolution Latent Decoding with Pixel Diffusion
 
-**链接：** https://arxiv.org/abs/2605.23902
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2605.23902"
+  arxiv="2605.23902"
+>}}
 
 **一句话总结：** NVIDIA提出将潜变量解码重新定义为条件像素扩散，实现4×/8×超分辨率解码，在消费级GPU上512→2048px仅需1秒以内，速度比级联扩散快6倍。
 
@@ -72,7 +78,10 @@ tocopen: true
 
 ### Geo-Align: Video Generation Alignment via Metric Geometry Reward
 
-**链接：** https://arxiv.org/abs/2605.23903
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2605.23903"
+  arxiv="2605.23903"
+>}}
 
 **一句话总结：** 首个专为相机控制视频重渲染设计的强化学习框架，通过度量几何感知奖励消除对配对真实多视角数据的依赖，显著提升相机轨迹控制精度。
 
@@ -98,7 +107,10 @@ tocopen: true
 
 ### Learning a Particle Dynamics Model with Real-world Videos
 
-**链接：** https://arxiv.org/abs/2605.23845
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2605.23845"
+  arxiv="2605.23845"
+>}}
 
 **一句话总结：** 提出首个直接从未标注真实世界视频学习粒子动力学世界模型的框架，通过 Gaussian Splatting + 渲染监督消除对仿真数据的依赖。
 
@@ -126,7 +138,10 @@ tocopen: true
 
 ### GenRecon: Bridging Generative Priors for Multi-View 3D Scene Reconstruction
 
-**链接：** https://arxiv.org/abs/2605.23888
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2605.23888"
+  arxiv="2605.23888"
+>}}
 
 **一句话总结：** 将最先进的生成式3D模型（Trellis.2）的物体级先验提升至场景级多视角3D重建，重建质量比现有方法提升16%。
 
@@ -154,7 +169,10 @@ tocopen: true
 
 ### SMoDP: Semantically Structured Mixture-of-Experts for Compositional Robotic Manipulation
 
-**链接：** https://arxiv.org/abs/2605.23477
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2605.23477"
+  arxiv="2605.23477"
+>}}
 
 **一句话总结：** 提出基于语义任务结构的混合专家扩散策略，用 VLM 驱动的技能预测器将操作动作路由至专业化专家，显著提升多任务机器人操作的参数效率和泛化能力。
 
@@ -180,7 +198,10 @@ tocopen: true
 
 ### Any2Any: Efficient Cross-Embodiment Transfer for Humanoid Whole-Body Tracking
 
-**链接：** https://arxiv.org/abs/2605.23733
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2605.23733"
+  arxiv="2605.23733"
+>}}
 
 **一句调总结：** 提出高效跨具身迁移范式，仅用1%的计算量和数据量即可将整体身体跟踪模型从一种人形机器人迁移至另一种，实现媲美全量训练的性能。
 
@@ -206,7 +227,10 @@ tocopen: true
 
 ### SkillOpt: Executive Strategy for Self-Evolving Agent Skills
 
-**链接：** https://arxiv.org/abs/2605.23904
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2605.23904"
+  arxiv="2605.23904"
+>}}
 
 **一句话总结：** 首个系统化的文本空间智能体技能优化器，将技能文档视为外部可训练状态，以类梯度下降的方式在反馈中稳定迭代优化，跨6个基准、7种模型、3种执行框架全面领先。
 

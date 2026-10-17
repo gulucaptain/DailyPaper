@@ -17,7 +17,10 @@ tocopen: true
 
 ### An Open Foundation Model Towards Universal Humanoid Loco-Manipulation
 
-**链接：** https://arxiv.org/abs/2603.12263
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2603.12263"
+  arxiv="2603.12263"
+>}}
 
 **一句话总结：** 提出 $\Psi_0$ 开源基础模型，使用分阶段训练策略解决人形机器人运动操纵任务，通过解耦学习过程最大化异构数据源的利用效果。
 
@@ -38,7 +41,10 @@ tocopen: true
 
 ### HumDex: Humanoid Dexterous Manipulation Made Easy
 
-**链接：** https://arxiv.org/abs/2603.12260
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2603.12260"
+  arxiv="2603.12260"
+>}}
 
 **一句话总结：** 提出便携式全身遥操作系统HumDex，通过IMU运动追踪和学习式重定向方法，实现高效的高质量人形机器人灵巧操作演示数据收集。
 
@@ -59,7 +65,10 @@ tocopen: true
 
 ### Efficient and Scalable Video Understanding via Autoregressive Gazing
 
-**链接：** https://arxiv.org/abs/2603.12254
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2603.12254"
+  arxiv="2603.12254"
+>}}
 
 **一句话总结：** 提出AutoGaze轻量级模块，通过自回归注视机制选择最小但信息丰富的视频补丁，显著减少视觉令牌数量，加速视频理解模型。
 
@@ -80,7 +89,10 @@ tocopen: true
 
 ### Scaling Endogenous Chain-of-Thought Reasoning in Diffusion Models
 
-**链接：** https://arxiv.org/abs/2603.12252
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2603.12252"
+  arxiv="2603.12252"
+>}}
 
 **一句话总结：** 提出内源性思维链（EndoCoT）框架，将MLLM的思维链推理能力融入扩散模型，实现渐进式复杂任务分解。
 
@@ -101,7 +113,10 @@ tocopen: true
 
 ### Towards Active Perception and Manipulation in Vision-Language-Action Models for Robotics
 
-**链接：** https://arxiv.org/abs/2603.12193
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2603.12193"
+  arxiv="2603.12193"
+>}}
 
 **一句话总结：** 提出SaPaVe端到端框架，联合学习语义驱动主动感知与鲁棒执行能力，实现复杂场景下的主动操作。
 
@@ -122,7 +137,10 @@ tocopen: true
 
 ### A GPU-Parallelized Analytical Contact Physics Engine for Scalable Contact-Rich Robotics Simulation and Control
 
-**链接：** https://arxiv.org/abs/2603.12185
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2603.12185"
+  arxiv="2603.12185"
+>}}
 
 **一句话总结：** 提出ComFree-Sim GPU并行化解析接触物理引擎，通过无互补性接触建模实现线性时间复杂度扩展，支持密集接触场景的高效仿真与控制。
 
@@ -143,7 +161,10 @@ tocopen: true
 
 ### Deterministic Video Depth Estimation with Generative Priors
 
-**链接：** https://arxiv.org/abs/2603.12250
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2603.12250"
+  arxiv="2603.12250"
+>}}
 
 **一句话总结：** 提出DVD框架，首次将预训练的视频扩散模型确定性适配为单次深度回归器，破解视频深度估计中的生成性与判别性权衡问题。
 
@@ -164,7 +185,10 @@ tocopen: true
 
 ### Separable neural architectures as a primitive for unified predictive and generative intelligence
 
-**链接：** https://arxiv.org/abs/2603.12244
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2603.12244"
+  arxiv="2603.12244"
+>}}
 
 **一句话总结：** 提出可分离神经网络架构作为统一预测性与生成性智能的基本模块，通过结构化归纳偏置将高维映射因子化为低维组件。
 

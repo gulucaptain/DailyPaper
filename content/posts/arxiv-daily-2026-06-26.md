@@ -17,7 +17,10 @@ tocopen: true
 
 ### World Action Models Enable Continual Imitation Learning with Recurrent Generative Replays
 
-**链接：** https://arxiv.org/abs/2606.27374
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2606.27374"
+  arxiv="2606.27374"
+>}}
 
 **一句话总结：** 利用世界动作模型（WAM）的视频生成能力合成伪回放轨迹，实现无需存储历史演示数据的持续机器人模仿学习。
 
@@ -40,7 +43,10 @@ tocopen: true
 
 ### Not All Actions Are Equal: Rethinking Conditioning for Dexterous World Model
 
-**链接：** https://arxiv.org/abs/2606.27325
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2606.27325"
+  arxiv="2606.27325"
+>}}
 
 **一句话总结：** 针对高自由度灵巧手操控场景，提出结构化动作条件化框架 DexAC-WM，解决传统世界模型在 high-DoF 控制下动作建模失真问题。
 
@@ -66,7 +72,10 @@ tocopen: true
 
 ### In-Context Model Predictive Generation: Open-Vocabulary Motion Synthesis from Language Models to Physics
 
-**链接：** https://arxiv.org/abs/2606.26981
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2606.26981"
+  arxiv="2606.26981"
+>}}
 
 **一句话总结：** 将 Model Predictive Control 范式引入文本驱动动作生成，通过 LLM 规划与物理仿真反馈的闭环机制，实现语义忠实且物理合理的开放词汇动作合成。
 
@@ -92,7 +101,10 @@ tocopen: true
 
 ### DanceOPD: On-Policy Generative Field Distillation
 
-**链接：** https://arxiv.org/abs/2606.27377
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2606.27377"
+  arxiv="2606.27377"
+>}}
 
 **一句话总结：** 提出基于 on-policy 生成场蒸馏的框架 DanceOPD，统一文生图、局部编辑、全局编辑多种能力，解决多能力间的冲突与退化问题。
 
@@ -119,7 +131,10 @@ tocopen: true
 
 ### Don't Settle at the Mode! Mitigating Diversity Collapse in Pretrained Flow Models via Feature Self-Guidance
 
-**链接：** https://arxiv.org/abs/2606.27371
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2606.27371"
+  arxiv="2606.27371"
+>}}
 
 **一句话总结：** 无需额外奖励模型，通过特征自引导（Feature Self-Guidance）机制缓解预训练 flow 模型在同一条件下多次采样时的多样性坍塌问题。
 
@@ -145,7 +160,10 @@ tocopen: true
 
 ### ABC: Scalable Behavior Cloning with Open Data, Training, and Evaluation
 
-**链接：** https://arxiv.org/abs/2606.27375
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2606.27375"
+  arxiv="2606.27375"
+>}}
 
 **一句话总结：** 发布迄今最大开源机器人遥操作数据集 ABC-130K（3500 小时，130K episodes，195 任务），并提供完整开源训练与评估栈，系统比较 DiT 和 VLA 模型的设计选择。
 
@@ -172,7 +190,10 @@ tocopen: true
 
 ### RayPE: Ray-Space Positional Encoding for 3D-Aware Video Generation
 
-**链接：** https://arxiv.org/abs/2606.27345
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2606.27345"
+  arxiv="2606.27345"
+>}}
 
 **一句话总结：** 提出 RayPE，将 6D Plücker 坐标作为位置编码注入视频 DiT 的注意力机制，仅增加 <0.1% 参数即可显著提升视频生成的相机可控性与跨帧 3D 一致性。
 

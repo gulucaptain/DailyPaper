@@ -17,9 +17,11 @@ tocopen: true
 
 ### HorizonNav: Geometry-Guided Video Diffusion for Anticipatory 3D Robot Navigation
 
-**链接：** https://arxiv.org/abs/2610.13849
-
-**作者 / 机构：** Hajira Amjad、Valerii Serpiva、Viacheslav Liubimov、Didar Seyidov、Dzmitry Tsetserukou（Skolkovo Institute of Science and Technology 智能空间机器人实验室，莫斯科）
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2610.13849"
+  authors="Hajira Amjad、Valerii Serpiva、Viacheslav Liubimov、Didar Seyidov、Dzmitry Tsetserukou（Skolkovo Institute of Science and Technology 智能空间机器人实验室，莫斯科）"
+  arxiv="2610.13849"
+>}}
 
 **一句话总结：** Skoltech 团队提出 HorizonNav，用视频扩散模型把单张 RGB 图像与文本提示「想象」成几何对齐的周边三维空间，为机器人提供前瞻式导航能力。
 
@@ -42,11 +44,12 @@ tocopen: true
 
 ### Grounded-Dreamer: Robot Learning from World Model Synthetic Data with Physical Grounding
 
-**链接：** https://arxiv.org/abs/2610.13164
-
-**项目主页：** https://fffstrong.github.io/Grounded-Dreamer/
-
-**作者 / 机构：** Feng Jiang、Shu Chen、Yuanfei Wang、Yuan Li、Zhenhao Shen、Jiaqi Liang、Yang Chen、Lei Wei、Chen Xie、Ruihai Wu（北京大学 Peking University；Lightwheel）
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2610.13164"
+  authors="Feng Jiang、Shu Chen、Yuanfei Wang、Yuan Li、Zhenhao Shen、Jiaqi Liang、Yang Chen、Lei Wei、Chen Xie、Ruihai Wu（北京大学 Peking University；Lightwheel）"
+  arxiv="2610.13164"
+  links="[{\"url\":\"https://fffstrong.github.io/Grounded-Dreamer/\",\"label\":\"项目主页\",\"kind\":\"project\"}]"
+>}}
 
 **一句话总结：** 北大与 Lightwheel 提出 Grounded-Dreamer，把生成式视频世界模型的视觉真实性与仿真器物理引擎结合，在**完全不需要人类遥操作示范**的前提下合成物理接地（physically grounded）的机器人操作数据。
 
@@ -69,9 +72,11 @@ tocopen: true
 
 ### Dual-Stream Memory for Vision-Language-Action Policies
 
-**链接：** https://arxiv.org/abs/2610.13262
-
-**作者 / 机构：** Yang Wang、Ping Liu、Ruiyu Wang、Xuhua Chen、Lingfeng Zhang、Tao Zhang（Magic-Lab Team, Magiclab Robotics Inc.；University of California, Los Angeles）
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2610.13262"
+  authors="Yang Wang、Ping Liu、Ruiyu Wang、Xuhua Chen、Lingfeng Zhang、Tao Zhang（Magic-Lab Team, Magiclab Robotics Inc.；University of California, Los Angeles）"
+  arxiv="2610.13262"
+>}}
 
 **一句话总结：** Magic-Lab 与 UCLA 团队为 VLA 策略设计双流记忆，用一条压缩时序流跟踪执行状态、一条检索流召回已不可见的视觉证据。
 
@@ -94,9 +99,11 @@ tocopen: true
 
 ### Unified Generative Video Compression with Autoregressive and Bidirectional Video Diffusion
 
-**链接：** https://arxiv.org/abs/2610.13023
-
-**作者 / 机构：** Tianyu Zhang、Shuai Huo、Dengchao Jin、Hewei Liu、Meng Lei、Tianwen Wu、Jiawen Gu、Chao Zhou、Li Li、Dong Liu（中国科学技术大学 University of Science and Technology of China；快手科技 Kuaishou Technology）
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2610.13023"
+  authors="Tianyu Zhang、Shuai Huo、Dengchao Jin、Hewei Liu、Meng Lei、Tianwen Wu、Jiawen Gu、Chao Zhou、Li Li、Dong Liu（中国科学技术大学 University of Science and Technology of China；快手科技 Kuaishou Technology）"
+  arxiv="2610.13023"
+>}}
 
 **一句话总结：** 中科大与快手提出 UniGVC，用**同一份码流**同时支持面向画质的双向扩散解码与面向低延迟的自回归扩散解码，在 1080p 上做到 0.0005 bpp 仍能稳定生成。
 
@@ -119,11 +126,12 @@ tocopen: true
 
 ### Splat2Act: From Captured Scenes to Personalized VLA Manipulation
 
-**链接：** https://arxiv.org/abs/2610.13945
-
-**项目主页：** https://splat2act.github.io
-
-**作者 / 机构：** Xiaomeng Ye、Krishna Jaganathan、Gyubeum Lim、Gunjan Chhablani、Muhammad Zubair Irshad、Zsolt Kira（Georgia Institute of Technology 机器人与智能机器研究所；Waymo LLC；Toyota Research Institute）
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2610.13945"
+  authors="Xiaomeng Ye、Krishna Jaganathan、Gyubeum Lim、Gunjan Chhablani、Muhammad Zubair Irshad、Zsolt Kira（Georgia Institute of Technology 机器人与智能机器研究所；Waymo LLC；Toyota Research Institute）"
+  arxiv="2610.13945"
+  links="[{\"url\":\"https://splat2act.github.io\",\"label\":\"项目主页\",\"kind\":\"project\"}]"
+>}}
 
 **一句话总结：** Georgia Tech 团队提出 Splat2Act，仅凭一次手持手机扫描与用户物品的照片，就能把通用 VLA 策略个性化到某栋建筑的真实场景中。
 
@@ -146,11 +154,12 @@ tocopen: true
 
 ### Reflect-VLA: Internalizing Reflective Guidance via Dual-Path On-Policy Self-Distillation for Autonomous Driving
 
-**链接：** https://arxiv.org/abs/2610.13453
-
-**代码：** https://github.com/luo-yc17/Reflect-VLA
-
-**作者 / 机构：** Yuechen Luo、He Chong、Fang Li、Shaoqing Xu、Hexin Zhang、Ruiqi Zhang、Ziying Song、Lei Yang、Zhi-Xin Yang、Fuxi Wen（清华大学；澳门大学；中国科学技术大学；北京交通大学；南洋理工大学）
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2610.13453"
+  authors="Yuechen Luo、He Chong、Fang Li、Shaoqing Xu、Hexin Zhang、Ruiqi Zhang、Ziying Song、Lei Yang、Zhi-Xin Yang、Fuxi Wen（清华大学；澳门大学；中国科学技术大学；北京交通大学；南洋理工大学）"
+  arxiv="2610.13453"
+  links="[{\"url\":\"https://github.com/luo-yc17/Reflect-VLA\",\"label\":\"GitHub\",\"kind\":\"github\"}]"
+>}}
 
 **一句话总结：** 多校联合团队提出 Reflect-VLA，把「反思式指导」当作训练期特权信息内化进自动驾驶 VLA 模型，推理时单次前向即可出轨迹，训练开销比强化学习降低 90% 以上。
 
@@ -173,11 +182,12 @@ tocopen: true
 
 ### ForcingBooster: Adaptive Patch-wise Denoising for Fast Autoregressive Video Diffusion
 
-**链接：** https://arxiv.org/abs/2610.12625
-
-**项目主页：** https://igl-hkust.github.io/ForcingBooster
-
-**作者 / 机构：** Zekai Gu、Peng Wang、Jiahao Lu、Yongsen Mao、Cheng Lin、Yuan Liu（香港科技大学 HKUST；VAST；澳门科技大学）
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2610.12625"
+  authors="Zekai Gu、Peng Wang、Jiahao Lu、Yongsen Mao、Cheng Lin、Yuan Liu（香港科技大学 HKUST；VAST；澳门科技大学）"
+  arxiv="2610.12625"
+  links="[{\"url\":\"https://igl-hkust.github.io/ForcingBooster\",\"label\":\"项目主页\",\"kind\":\"project\"}]"
+>}}
 
 **一句话总结：** HKUST 与 VAST 团队提出 ForcingBooster，按空间位置动态分配去噪步数——简单图像块提前停止、困难图像块多给几步，把自回归视频扩散的总去噪步数砍掉约一半而画质几乎不掉。
 
@@ -200,11 +210,12 @@ tocopen: true
 
 ### REMM: Revisable Embodied Memory for Manipulation
 
-**链接：** https://arxiv.org/abs/2610.12710
-
-**项目主页：** https://revanthsenthil.github.io/remm/
-
-**作者 / 机构：** Revanth Krishna Senthilkumaran、Ruwan Wickramarachchi、Alessandro Oltramari、Jonathan Francis（卡内基梅隆大学 Carnegie Mellon University；Bosch Center for AI，工作完成于博世人工智能中心实习期间）
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2610.12710"
+  authors="Revanth Krishna Senthilkumaran、Ruwan Wickramarachchi、Alessandro Oltramari、Jonathan Francis（卡内基梅隆大学 Carnegie Mellon University；Bosch Center for AI，工作完成于博世人工智能中心实习期间）"
+  arxiv="2610.12710"
+  links="[{\"url\":\"https://revanthsenthil.github.io/remm/\",\"label\":\"项目主页\",\"kind\":\"project\"}]"
+>}}
 
 **一句话总结：** CMU 与博世提出 REMM，为冻结的 G0.5 VLA 执行器加一层「可修正的记忆」，让机器人在证据变化时主动撤回过时结论并安排定向补救。
 

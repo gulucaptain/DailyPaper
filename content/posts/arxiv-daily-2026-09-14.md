@@ -21,11 +21,12 @@ tocopen: true
 
 ### Temporal State Transport in Video Generation: Diagnosing and Correcting Spectral Imbalance
 
-**链接：** https://arxiv.org/abs/2609.08505
-
-**项目主页：** https://temporal-state-transport.github.io ｜ **代码：** https://github.com/lytang63/temporal-state-transport
-
-**作者 / 机构：** Luyao Tang, Bingjun Luo, Yi Dong, Jialin Guo, Haoning Xi, Cheng Chen, Yizhou Yu, Chaoqi Chen（香港大学 The University of Hong Kong；清华大学 Tsinghua University；哈尔滨工程大学 Harbin Engineering University；纽卡斯尔大学 University of Newcastle）
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2609.08505"
+  authors="Luyao Tang, Bingjun Luo, Yi Dong, Jialin Guo, Haoning Xi, Cheng Chen, Yizhou Yu, Chaoqi Chen（香港大学 The University of Hong Kong；清华大学 Tsinghua University；哈尔滨工程大学 Harbin Engineering University；纽卡斯尔大学 University of Newcastle）"
+  arxiv="2609.08505"
+  links="[{\"url\":\"https://temporal-state-transport.github.io\",\"label\":\"项目主页\",\"kind\":\"project\"},{\"url\":\"https://github.com/lytang63/temporal-state-transport\",\"label\":\"GitHub\",\"kind\":\"github\"}]"
+>}}
 
 **一句话总结：** 港大与清华等团队提出 **Temporal State Transport** 视角与 **Spectral Tension** 诊断量，把视频生成的时序退化归结为「**碎片化传输**」与「**过混合热点**」两种相反失衡，并给出**免训练**的 **Spectral Transport Homeostasis** 调节器，在 Wan2.2 上把 VBench 七维均值从 **88.26 提到 88.64**，运动平滑度 **97.36→97.87**。获 **ICML 2026 F2S Workshop 最佳论文**。
 
@@ -49,11 +50,12 @@ tocopen: true
 
 ### WorldAgen: Unified State-Action Prediction with Test-Time World Model Training
 
-**链接：** https://arxiv.org/abs/2609.08162
-
-**项目主页：** https://worldagen.github.io/
-
-**作者 / 机构：** Chi Wan, Kangrui Wang, Yuan Si, Pingyue Zhang, Manling Li（美国西北大学 Northwestern University）
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2609.08162"
+  authors="Chi Wan, Kangrui Wang, Yuan Si, Pingyue Zhang, Manling Li（美国西北大学 Northwestern University）"
+  arxiv="2609.08162"
+  links="[{\"url\":\"https://worldagen.github.io/\",\"label\":\"项目主页\",\"kind\":\"project\"}]"
+>}}
 
 **一句话总结：** 西北大学团队提出 **WorldAgen**，在一个共享 Transformer 骨干上同时挂「**世界模型头**」与「**策略头**」，并首次把 **Test-Time Training（TTT）** 引入 VLA——部署时用探索采样收集真实状态转移、以 **LoRA** 在线微调世界模型，在 CALVIN 上把平均成功率从 **75.5 提到 79.0**，超过此前最强的 Seer（78.7）。已被 **AAAI 2026** 接收。
 
@@ -77,11 +79,12 @@ tocopen: true
 
 ### SpatialBlock: Enhancing Spatial Intelligence in LVLMs via Synthetic Block-Stacking Problem
 
-**链接：** https://arxiv.org/abs/2609.07064
-
-**代码：** https://github.com/rsoohyun/SpatialBlock
-
-**作者 / 机构：** Soohyun Ryu, Sohee Kim, Eunho Yang（韩国科学技术院 KAIST；AITRICS）
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2609.07064"
+  authors="Soohyun Ryu, Sohee Kim, Eunho Yang（韩国科学技术院 KAIST；AITRICS）"
+  arxiv="2609.07064"
+  links="[{\"url\":\"https://github.com/rsoohyun/SpatialBlock\",\"label\":\"GitHub\",\"kind\":\"github\"}]"
+>}}
 
 **一句话总结：** KAIST 团队受**人类认知发展**启发，提出用「**结构化积木堆叠任务**」训练基础空间能力，构建含 **15,000** 道合成题的 **SpatialBlock-15k** 数据集，使 Qwen2.5-VL-3B 在同分布 SB-Bench 上从 **29.9 飙到 94.8**，并能迁移到 MindCube 等真实世界空间推理基准。
 
@@ -105,11 +108,12 @@ tocopen: true
 
 ### SimpleMemVLA: A Simple but Effective Native-Video Memory for Vision-Language-Action Models
 
-**链接：** https://arxiv.org/abs/2609.05533
-
-**代码：** https://github.com/wadeKeith/SimpleMemVLA
-
-**作者 / 机构：** Cheng Yin, Wang Xu, Junpeng Yang, Sikyuen Tam, Hanyu Liu, Yuan Yao, Xiangrui Zeng, Junbo Cui, Yequan Wang, Zhouping Yin, Yankai Lin（华中科技大学机械科学与工程学院先进电子制造研究中心；中关村学院；清华大学计算机科学与技术系 / 人工智能学院；Modelbest；北京大学；中国人民大学高瓴人工智能学院；北京人工智能研究院）
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2609.05533"
+  authors="Cheng Yin, Wang Xu, Junpeng Yang, Sikyuen Tam, Hanyu Liu, Yuan Yao, Xiangrui Zeng, Junbo Cui, Yequan Wang, Zhouping Yin, Yankai Lin（华中科技大学机械科学与工程学院先进电子制造研究中心；中关村学院；清华大学计算机科学与技术系 / 人工智能学院；Modelbest；北京大学；中国人民大学高瓴人工智能学院；北京人工智能研究院）"
+  arxiv="2609.05533"
+  links="[{\"url\":\"https://github.com/wadeKeith/SimpleMemVLA\",\"label\":\"GitHub\",\"kind\":\"github\"}]"
+>}}
 
 **一句话总结：** 多校联合团队提出 **SimpleMemVLA**——一个**没有专用记忆模块**的 VLA：它把采样到的历史**原封不动**地以「带时间戳的视频」格式喂给骨干（正是骨干预训练时见过的格式），在 **RMBench** 上以单模型取得 **94.0%**（超出最强单任务专家 11.0 个点），并在 LIBERO 通用控制上不掉点。
 
@@ -133,9 +137,11 @@ tocopen: true
 
 ### Learning Counterfactual World Models for Embodied Reasoning under Partial Observability
 
-**链接：** https://arxiv.org/abs/2609.05834
-
-**作者 / 机构：** Todd Y. Zhou, Daniel Zhang（哈佛大学 Harvard University；PTA: From Pretrained Representations to Acting Agents Workshop）
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2609.05834"
+  authors="Todd Y. Zhou, Daniel Zhang（哈佛大学 Harvard University；PTA: From Pretrained Representations to Acting Agents Workshop）"
+  arxiv="2609.05834"
+>}}
 
 **一句话总结：** 哈佛团队指出世界模型的一个隐蔽失效模式——**反事实坍缩（counterfactual collapse）**：模型能生成视觉上合理的未来，却**区分不了行为后果不同的干预**。为此提出 **CLWM**（反事实潜世界模型），用对比式反事实目标强制区分不同干预诱导的未来，在 Occluded Push 上把规划成功率从 **65.1% 提到 74.6%**。
 
@@ -159,11 +165,12 @@ tocopen: true
 
 ### ActionSplice: In-Flight Action Editing for Interactive World Models
 
-**链接：** https://arxiv.org/abs/2609.08230
-
-**项目主页：** https://pardistaghavi.github.io/actionsplice-website/ ｜ **代码：** https://github.com/PardisTaghavi/ActionSplice
-
-**作者 / 机构：** Pardis Taghavi, Tingyu Guo, Jonas Lossner, Gaurav Pandey, Reza Langari（德州农工大学 Texas A&M University）
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2609.08230"
+  authors="Pardis Taghavi, Tingyu Guo, Jonas Lossner, Gaurav Pandey, Reza Langari（德州农工大学 Texas A&M University）"
+  arxiv="2609.08230"
+  links="[{\"url\":\"https://pardistaghavi.github.io/actionsplice-website/\",\"label\":\"项目主页\",\"kind\":\"project\"},{\"url\":\"https://github.com/PardisTaghavi/ActionSplice\",\"label\":\"GitHub\",\"kind\":\"github\"}]"
+>}}
 
 **一句话总结：** Texas A&M 团队提出 **ActionSplice**，把「**采样途中收到新动作**」这个问题表述为 **反事实状态传输（CST）**：用一个轻量校正器把被中断的骨干原生表示，**在同一个 solver 步上**搬运到新动作所诱导的匹配状态，世界模型与采样器全程冻结、无需重放已完成的评估；相对直接换条件，**LPIPS 降低 61.5% / 75.9%**，并获得 **2.73× / 1.69×** 的像素就绪加速。
 
@@ -187,9 +194,11 @@ tocopen: true
 
 ### LTLDiff: Finite Linear Temporal Logic-Guided Data Generation and Diffusion Policies for Multi-agent Robotic Manipulation
 
-**链接：** https://arxiv.org/abs/2609.11043
-
-**作者 / 机构：** Chuhan Meng（多伦多大学 University of Toronto）, Haiyan Yin（新加坡科技研究局前沿人工智能研究中心 A*STAR CFAR, Agency for Science, Technology and Research）
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2609.11043"
+  authors="Chuhan Meng（多伦多大学 University of Toronto）, Haiyan Yin（新加坡科技研究局前沿人工智能研究中心 A*STAR CFAR, Agency for Science, Technology and Research）"
+  arxiv="2609.11043"
+>}}
 
 **一句话总结：** 多伦多大学与 A*STAR 提出 **LTLDiff**，用**有限线性时序逻辑（LTLf）**规格同时约束**示教数据生成**与**扩散策略训练**：先从自然语言指令中用大模型学出任务的 LTLf 公式，再以**抽象语法树**编码成定维向量作为条件，在三智能体任务上把平均成功率相对基线**提升 25% / 32% / 16%**（对应 50 / 100 / 150 条示教）。
 
@@ -213,11 +222,12 @@ tocopen: true
 
 ### Beyond Noise Steering: Dual-Latent Space Reinforcement Learning for Generative Robot Policy
 
-**链接：** https://arxiv.org/abs/2609.11270
-
-**代码：** https://github.com/xianchaoxiu/DLSRL
-
-**作者 / 机构：** Pengfei Zhang, Teng Sun, Xianchao Xiu（上海大学机电工程与自动化学院 School of Mechatronic Engineering and Automation, Shanghai University；国家自然科学基金 12371306 资助）
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2609.11270"
+  authors="Pengfei Zhang, Teng Sun, Xianchao Xiu（上海大学机电工程与自动化学院 School of Mechatronic Engineering and Automation, Shanghai University；国家自然科学基金 12371306 资助）"
+  arxiv="2609.11270"
+  links="[{\"url\":\"https://github.com/xianchaoxiu/DLSRL\",\"label\":\"GitHub\",\"kind\":\"github\"}]"
+>}}
 
 **一句话总结：** 上海大学团队提出 **DLSRL**（双潜空间强化学习），在**冻结的生成器内部**补充表示级控制：actor 同时预测**初始噪声潜变量**与**动作表示潜变量**，后者被映射为 adapter 特征并经**残差连接**注入中间动作 token 的隐状态；在 RoboMimic 的 Can 任务上达到约 **99%** 成功率（DSRL 约 90%），且收敛显著更快。
 

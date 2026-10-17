@@ -17,7 +17,10 @@ tocopen: true
 
 ### Phantom: Physics-Infused Video Generation via Joint Modeling of Visual and Latent Physical Dynamics
 
-**链接：** https://arxiv.org/abs/2604.08503
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2604.08503"
+  arxiv="2604.08503"
+>}}
 
 **一句话总结：** 提出 Phantom，将潜在物理动力学建模直接融入视频生成过程，使生成视频在视觉真实性的同时满足物理一致性。
 
@@ -41,7 +44,10 @@ tocopen: true
 
 ### NUMINA: Aligning Textual Numerals and Visual Instances in Text-to-Video Diffusion Models
 
-**链接：** https://arxiv.org/abs/2604.08546
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2604.08546"
+  arxiv="2604.08546"
+>}}
 
 **一句话总结：** 提出无需训练的框架 NUMINA，通过识别注意力头并引导 cross-attention，显著提升文本到视频扩散模型生成正确数量物体的准确率。
 
@@ -65,7 +71,10 @@ tocopen: true
 
 ### FrameCrafter: Novel View Synthesis as Video Completion
 
-**链接：** https://arxiv.org/abs/2604.08500
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2604.08500"
+  arxiv="2604.08500"
+>}}
 
 **一句话总结：** 将稀疏视角合成（NVS）重新表述为低帧率视频补全任务，通过对视频扩散模型的架构改造，使其具备排列不变性，在稀疏多视角场景下实现竞争性能。
 
@@ -88,7 +97,10 @@ tocopen: true
 
 ### Skelebones: Reconstruct and Rig Animatable Categories with Level of Dynamics
 
-**链接：** https://arxiv.org/abs/2604.08547
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2604.08547"
+  arxiv="2604.08547"
+>}}
 
 **一句话总结：** 提出 Skelebones 系统，将自由形态骨骼（free-form bones）与拓扑正确的骨架（skeleton）结合，实现对动态 4D 形状的可控重建与绑定，支持非刚体运动的高保真动画重目标。
 
@@ -111,7 +123,10 @@ tocopen: true
 
 ### SelfEvo: Self-Improving 4D Perception via Self-Distillation
 
-**链接：** https://arxiv.org/abs/2604.08532
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2604.08532"
+  arxiv="2604.08532"
+>}}
 
 **一句话总结：** 提出 SelfEvo 框架，通过时空上下文非对称的自蒸馏机制，在无标注视频数据上持续提升预训练多视图重建模型的 4D 感知能力。
 
@@ -134,7 +149,10 @@ tocopen: true
 
 ### HDPO/Metis: Cultivating Meta-Cognitive Tool Use in Agentic Multimodal Models
 
-**链接：** https://arxiv.org/abs/2604.08545
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2604.08545"
+  arxiv="2604.08545"
+>}}
 
 **一句话总结：** 提出 HDPO 框架，通过解耦精度优化与效率优化通道，赋予多模态 Agent 模型元认知能力，大幅减少不必要的工具调用，同时提升任务推理准确率。
 
@@ -157,7 +175,10 @@ tocopen: true
 
 ### Seeing but Not Thinking: Routing Distraction in Multimodal Mixture-of-Experts
 
-**链接：** https://arxiv.org/abs/2604.08541
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2604.08541"
+  arxiv="2604.08541"
+>}}
 
 **一句话总结：** 揭示多模态 MoE 模型中的"路由干扰"现象：视觉输入导致路由机制无法充分激活任务推理专家，本质上造成模型"看得见但想不到"。
 

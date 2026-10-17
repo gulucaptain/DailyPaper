@@ -17,7 +17,10 @@ tocopen: true
 
 ### WEAVER, Better, Faster, Longer: An Effective World Model for Robotic Manipulation
 
-**链接：** https://arxiv.org/abs/2606.13672
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2606.13672"
+  arxiv="2606.13672"
+>}}
 
 **一句话总结：** WEAVER 是一个同时满足高保真度、长时序一致性与高效推理三大目标的机器人操作世界模型，在真实机器人上实现 38% 的策略性能提升。
 
@@ -40,7 +43,10 @@ tocopen: true
 
 ### World Action Modeling with Representation Visual-Action Tokenizers
 
-**链接：** https://arxiv.org/abs/2606.13674
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2606.13674"
+  arxiv="2606.13674"
+>}}
 
 **一句话总结：** RepWAM 提出语义视觉-动作 latent 空间替代重建导向的 tokenizer，使世界动作模型更好地学习指令跟随动态，显著提升真实机器人操作性能。
 
@@ -63,7 +69,10 @@ tocopen: true
 
 ### World Tracing: Generative Pixel-Aligned Geometry Beyond the Visible
 
-**链接：** https://arxiv.org/abs/2606.13652
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2606.13652"
+  arxiv="2606.13652"
+>}}
 
 **一句话总结：** World Labs 提出 World Tracing，一种生成式像素对齐几何表示，可在预测可见表面的同时补全被遮挡几何，并由此支持文本驱动 3D 场景编辑等下游任务。
 
@@ -86,7 +95,10 @@ tocopen: true
 
 ### MaskWAM: Unifying Mask Prompting and Prediction for World-Action Models
 
-**链接：** https://arxiv.org/abs/2606.13515
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2606.13515"
+  arxiv="2606.13515"
+>}}
 
 **一句话总结：** MaskWAM 通过统一 Mixture of Transformers 将 mask 同时用作输入和预测目标，解决 WAM 中文本引用歧义和视觉背景干扰两大瓶颈。
 
@@ -109,7 +121,10 @@ tocopen: true
 
 ### Flex4DHuman: Flexible Multi-view Video Diffusion for 4D Human Reconstruction
 
-**链接：** https://arxiv.org/abs/2606.13655
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2606.13655"
+  arxiv="2606.13655"
+>}}
 
 **一句话总结：** Flex4DHuman 利用多视角视频扩散模型将单目视频转化为同步稠密多视角视频，无需显式几何先验，实现动态 4D 高斯泼溅重建。
 
@@ -133,7 +148,10 @@ tocopen: true
 
 ### Mana: Dexterous Manipulation of Articulated Tools
 
-**链接：** https://arxiv.org/abs/2606.13677
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2606.13677"
+  arxiv="2606.13677"
+>}}
 
 **一句话总结：** Mana（Manipulation Animator）将灵巧机器人操作重新解释为动画问题，通过粗到精的仿真到真实迁移框架实现关节工具的零样本操作。
 
@@ -157,7 +175,10 @@ tocopen: true
 
 ### BudCache: Budget-Constrained Step-Level Diffusion Caching
 
-**链接：** https://arxiv.org/abs/2606.13496
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2606.13496"
+  arxiv="2606.13496"
+>}}
 
 **一句话总结：** BudCache 将扩散推理加速从「给定策略估算成本」翻转为「给定预算搜索最优缓存策略」，在固定计算预算下取得更好生成质量。已被 ICML 2026 收录。
 
@@ -181,7 +202,10 @@ tocopen: true
 
 ### OmniDirector: General Multi-Shot Camera Cloning without Cross-Paired Data
 
-**链接：** https://arxiv.org/abs/2606.13432
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2606.13432"
+  arxiv="2606.13432"
+>}}
 
 **一句话总结：** OmniDirector 提出相机网格（camera grid）运动表示，在无需跨配对数据的情况下实现多镜头视频生成中的参考视频相机运动克隆，达到导演级别的视频控制。
 

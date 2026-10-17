@@ -17,7 +17,10 @@ tocopen: true
 
 ### VideoMLA: Low-Rank Latent KV Cache for Minute-Scale Autoregressive Video Diffusion
 
-**链接：** https://arxiv.org/abs/2605.30351
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2605.30351"
+  arxiv="2605.30351"
+>}}
 
 **一句话总结：** 将 Multi-Head Latent Attention（MLA）引入视频扩散模型，用低秩潜变量替换每个注意力头的 KV 缓存，显著降低流式视频生成的内存占用，同时维持甚至超越基线质量。
 
@@ -41,7 +44,10 @@ tocopen: true
 
 ### Self-Evolving Anchors for Streaming Video Generation
 
-**链接：** https://arxiv.org/abs/2605.30349
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2605.30349"
+  arxiv="2605.30349"
+>}}
 
 **一句话总结：** 将流式视频生成中的静态首帧锚点替换为每步动态演化的隐状态（AdaState），彻底消除首帧主导导致的场景静态化问题，实现更丰富的运动和自然场景演进。
 
@@ -65,7 +71,10 @@ tocopen: true
 
 ### How Far is Video Generation from World Model? A Causality Perspective
 
-**链接：** https://arxiv.org/abs/2605.30346
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2605.30346"
+  arxiv="2605.30346"
+>}}
 
 **一句话总结：** 提出 YoCausal 基准，从因果认知角度系统评测 13 个主流视频扩散模型，发现感知时间箭头≠理解因果关系，当前最优模型与人类因果认知存在显著差距。
 
@@ -91,7 +100,10 @@ tocopen: true
 
 ### Generative 4D Neural Object Kinematics
 
-**链接：** https://arxiv.org/abs/2605.30347
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2605.30347"
+  arxiv="2605.30347"
+>}}
 
 **一句话总结：** 提出 NeuROK，一种数据驱动的神经运动学参数化方法，通过学习物体所有可能状态的低维潜空间来生成 4D 物理动力学，摆脱了对预定义物理模型的依赖。（CVPR 2026）
 
@@ -115,7 +127,10 @@ tocopen: true
 
 ### Colored Noise Diffusion Sampling
 
-**链接：** https://arxiv.org/abs/2605.30332
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2605.30332"
+  arxiv="2605.30332"
+>}}
 
 **一句话总结：** 提出 CNS，一种训练无关的随机扩散采样器，通过频率解耦的彩色噪声注入策略利用扩散模型固有的谱偏置，在 FLUX/SiT/JiT 上显著降低 FID 无需任何训练。
 
@@ -139,7 +154,10 @@ tocopen: true
 
 ### DynaFLIP: Rethinking Robotics Perception via Tri-Modal-Dynamics Guided Representation
 
-**链接：** https://arxiv.org/abs/2605.30350
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2605.30350"
+  arxiv="2605.30350"
+>}}
 
 **一句话总结：** 提出 DynaFLIP，通过图像-语言-3D 光流三元组预训练将动力学感知注入视觉编码器上游，使机器人在分布外场景操作任务上提升最高 +22.5%。
 
@@ -163,7 +181,10 @@ tocopen: true
 
 ### Gaze2Act: Gaze-Conditioned Vision-Language-Action Policies for Interactive Robot Manipulation
 
-**链接：** https://arxiv.org/abs/2605.30282
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2605.30282"
+  arxiv="2605.30282"
+>}}
 
 **一句话总结：** 提出 Gaze2Act，将人类注视作为动态意图信号融入 VLA 框架，通过跨视角语义匹配将第一人称注视映射至机器人视角，实现精细交互操作任务 SOTA。
 
@@ -187,7 +208,10 @@ tocopen: true
 
 ### DGSG-Mind: Dynamic 3D Gaussian Scene Graphs for Long-Term Scene Understanding and Grounding
 
-**链接：** https://arxiv.org/abs/2605.29879
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2605.29879"
+  arxiv="2605.29879"
+>}}
 
 **一句话总结：** 提出 DGSG-Mind，将概率体素网格与显式 3D 高斯结合构建动态场景图，附加具身推理 Agent，实现长期场景理解、3D 视觉定位和动态更新一体化。
 

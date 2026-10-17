@@ -17,7 +17,10 @@ tocopen: true
 
 ### PackForcing: Short Video Training Suffices for Long Video Sampling and Long Context Inference
 
-**链接：** https://arxiv.org/abs/2603.25730
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2603.25730"
+  arxiv="2603.25730"
+>}}
 
 **一句话总结：** 提出 PackForcing 框架，通过三分区 KV-cache 压缩策略，仅用5秒短视频训练即可在单张 H200 上生成2分钟高质量长视频，实现 24 倍时间外推。
 
@@ -41,7 +44,10 @@ tocopen: true
 
 ### HyDRA: Out of Sight but Not Out of Mind — Hybrid Memory for Dynamic Video World Models
 
-**链接：** https://arxiv.org/abs/2603.25716
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2603.25716"
+  arxiv="2603.25716"
+>}}
 
 **一句话总结：** 提出 Hybrid Memory 新范式与 HyDRA 记忆架构，解决视频世界模型中动态主体离开视野后再次出现时的身份一致性与运动连续性问题，并构建首个专属大规模基准 HM-World。
 
@@ -65,7 +71,10 @@ tocopen: true
 
 ### Persistent Robot World Models: Stabilizing Multi-Step Rollouts via Reinforcement Learning
 
-**链接：** https://arxiv.org/abs/2603.25685
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2603.25685"
+  arxiv="2603.25685"
+>}}
 
 **一句话总结：** 提出基于 RL 后训练方案，让机器人世界模型在自身自回归展开（rollout）上进行训练，显著缓解多步推演中误差累积问题，在 DROID 数据集上建立新 SOTA。
 
@@ -89,7 +98,10 @@ tocopen: true
 
 ### LIGHT: Unleashing Guidance Without Classifiers for Human-Object Interaction Animation
 
-**链接：** https://arxiv.org/abs/2603.25734
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2603.25734"
+  arxiv="2603.25734"
+>}}
 
 **一句话总结：** 提出 LIGHT，通过扩散模型的去噪节奏（denoising pace）自然产生数据驱动的接触引导，无需手工设计接触先验即可生成高质量人-物交互动画。
 
@@ -113,7 +125,10 @@ tocopen: true
 
 ### Wan-Weaver: Interleaved Multi-modal Generation via Decoupled Training
 
-**链接：** https://arxiv.org/abs/2603.25706
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2603.25706"
+  arxiv="2603.25706"
+>}}
 
 **一句话总结：** 提出 Wan-Weaver，将交错多模态生成（文图交错输出）解耦为文本规划与视觉一致性建模两阶段，无需真实交错数据即可实现高质量文图交错生成（CVPR 2026）。
 
@@ -137,7 +152,10 @@ tocopen: true
 
 ### Vega: Learning to Drive with Natural Language Instructions
 
-**链接：** https://arxiv.org/abs/2603.25741
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2603.25741"
+  arxiv="2603.25741"
+>}}
 
 **一句话总结：** 提出 Vega，一个统一的视觉-语言-世界-动作模型，将自回归范式（处理视觉与语言输入）与扩散范式（生成世界预测与轨迹）融合，实现基于自然语言指令的个性化驾驶。
 
@@ -161,7 +179,10 @@ tocopen: true
 
 ### SoftMimicGen: A Data Generation System for Scalable Robot Learning in Deformable Object Manipulation
 
-**链接：** https://arxiv.org/abs/2603.25725
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2603.25725"
+  arxiv="2603.25725"
+>}}
 
 **一句话总结：** 提出 SoftMimicGen，首个面向可变形物体操作任务的自动化数据生成管线，覆盖 4 类机器人形态和多种可变形物体类型，显著降低真实数据需求。
 
@@ -185,7 +206,10 @@ tocopen: true
 
 ### Drive My Way: Preference Alignment of Vision-Language-Action Model for Personalized Driving
 
-**链接：** https://arxiv.org/abs/2603.25740
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2603.25740"
+  arxiv="2603.25740"
+>}}
 
 **一句话总结：** 提出 Drive My Way (DMW)，从个性化驾驶数据集学习用户嵌入（user embedding），使 VLA 驾驶模型能适应个体长期驾驶习惯并响应实时自然语言指令（CVPR 2026）。
 

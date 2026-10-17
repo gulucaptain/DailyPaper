@@ -21,11 +21,12 @@ tocopen: true
 
 ### CF-JEPA: Improving Robustness of JEPA World Models via Controllability Factorization
 
-**链接：** https://arxiv.org/abs/2610.00727
-
-**项目主页：** https://morganbyrd03.github.io/cf-jepa/
-
-**作者 / 机构：** Morgan Byrd, Robert Wright, Sehoon Ha（Georgia Tech Research Institute 佐治亚理工研究所；Georgia Institute of Technology 佐治亚理工学院）
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2610.00727"
+  authors="Morgan Byrd, Robert Wright, Sehoon Ha（Georgia Tech Research Institute 佐治亚理工研究所；Georgia Institute of Technology 佐治亚理工学院）"
+  arxiv="2610.00727"
+  links="[{\"url\":\"https://morganbyrd03.github.io/cf-jepa/\",\"label\":\"项目主页\",\"kind\":\"project\"}]"
+>}}
 
 **一句话总结：** 佐治亚理工团队提出 **CF-JEPA（Controllability Factorized JEPA）**，把 JEPA 式潜世界模型的潜空间显式拆成**可控子空间**与**不可控子空间**两块：训练时让全部干扰（distractor）信息都落进不可控区，只把与控制相关的那部分潜变量交给下游任务。名义条件下与基线持平，而在密集视觉干扰下，**CF-JEPA 是唯一不发生潜变量坍缩的模型**。
 
@@ -48,11 +49,12 @@ tocopen: true
 
 ### FutureWorlds: Learning Robotic World Models from Alternative Futures
 
-**链接：** https://arxiv.org/abs/2610.01019
-
-**代码：** https://github.com/Alexander-wu/FutureWorlds
-
-**作者 / 机构：** Hao Wu, Shengju Qian, Weiyan Wang, Fan Xu, Fan Zhang, Yuanpeng He, Qingsong Wen, Yuxuan Liang（HKUST (GZ) 香港科技大学（广州）；CUHK 香港中文大学；Tencent 腾讯；USTC 中国科学技术大学；PKU 北京大学；Squirrel Ai Learning 松鼠 Ai）
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2610.01019"
+  authors="Hao Wu, Shengju Qian, Weiyan Wang, Fan Xu, Fan Zhang, Yuanpeng He, Qingsong Wen, Yuxuan Liang（HKUST (GZ) 香港科技大学（广州）；CUHK 香港中文大学；Tencent 腾讯；USTC 中国科学技术大学；PKU 北京大学；Squirrel Ai Learning 松鼠 Ai）"
+  arxiv="2610.01019"
+  links="[{\"url\":\"https://github.com/Alexander-wu/FutureWorlds\",\"label\":\"GitHub\",\"kind\":\"github\"}]"
+>}}
 
 **一句话总结：** 港科大（广州）、港中文、腾讯、中科大与北大等团队提出 **FutureWorlds**，一个把「候选构建—历史维护—相对质量学习」打通的机器人世界模型框架：在强化学习阶段用**多样化 beam search** 造出兼顾置信度与多样性的候选未来，为每个候选维护**有界的专属记忆**以保证生成与打分看到的历史严格一致，再用 **MemSPO（Memory-Conditioned Search-Guided Policy Optimization）** 把视频轨迹奖励转成组相对优势来优化世界模型。在 RT-1、BridgeV2、RoboCasa 上，32 帧预测的 LPIPS 相对各自最强基线分别降低 **14.78% / 20.84% / 9.12%**。
 
@@ -76,11 +78,12 @@ tocopen: true
 
 ### Latent-Foresight: End-to-End Learning Predictable Representations for Latent World Models
 
-**链接：** https://arxiv.org/abs/2610.01942
-
-**代码：** https://github.com/Sta8is/Latent-Foresight
-
-**作者 / 机构：** Efstathios Karypidis, Spyros Gidaris, Nikos Komodakis（Archimedes, Athena Research Center 希腊 Athena 研究中心 Archimedes 分部；valeo.ai；National Technical University of Athens 雅典国家技术大学；University of Crete 克里特大学；IACM-Forth）
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2610.01942"
+  authors="Efstathios Karypidis, Spyros Gidaris, Nikos Komodakis（Archimedes, Athena Research Center 希腊 Athena 研究中心 Archimedes 分部；valeo.ai；National Technical University of Athens 雅典国家技术大学；University of Crete 克里特大学；IACM-Forth）"
+  arxiv="2610.01942"
+  links="[{\"url\":\"https://github.com/Sta8is/Latent-Foresight\",\"label\":\"GitHub\",\"kind\":\"github\"}]"
+>}}
 
 **一句话总结：** 希腊 Athena 研究中心与 valeo.ai 的团队提出 **Latent-Foresight**，一个端到端的潜世界模型框架：不再先用固定降维（如 PCA）或独立训练的自编码器把视觉基础模型（VFM）特征压成潜变量、再在其上单独训一个预测器，而是**联合训练一个潜 tokenizer 与一个基于流匹配的生成式动力学模型**，显式地把表征塑造成「对时间可预测」的形态。在高分辨率 VFM 预测（448×896）上全面超越两阶段基线，且省掉了独立训练阶段。
 
@@ -104,11 +107,12 @@ tocopen: true
 
 ### Memorizon: Training World Models Beyond Their Context Window
 
-**链接：** https://arxiv.org/abs/2610.00544
-
-**项目主页：** https://tingtingliao.github.io/memorizon ｜ **代码：** https://github.com/TingtingLiao/memorizon ｜ **模型：** https://huggingface.co/Luffuly/memorizon
-
-**作者 / 机构：** Tingting Liao, Xuezhi Liang, Hao Li, Guangyi Liu（Institute of Foundation Models (IFM), MBZUAI 穆罕默德·本·扎耶德人工智能大学基础模型研究所）
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2610.00544"
+  authors="Tingting Liao, Xuezhi Liang, Hao Li, Guangyi Liu（Institute of Foundation Models (IFM), MBZUAI 穆罕默德·本·扎耶德人工智能大学基础模型研究所）"
+  arxiv="2610.00544"
+  links="[{\"url\":\"https://tingtingliao.github.io/memorizon\",\"label\":\"项目主页\",\"kind\":\"project\"},{\"url\":\"https://github.com/TingtingLiao/memorizon\",\"label\":\"GitHub\",\"kind\":\"github\"},{\"url\":\"https://huggingface.co/Luffuly/memorizon\",\"label\":\"模型\",\"kind\":\"huggingface\"}]"
+>}}
 
 **一句话总结：** MBZUAI 基础模型研究所提出 **Memorizon**，一种把「长程监督」与「长程注意力」解耦的流式世界模型训练方法：训练样本可以覆盖任意长的跨度，但**只对最后 k 个 chunk 计分**；这些被计分的 chunk 各自按**相机共视性**检索自己的 top-K 潜变量，它们请求的并集构成一个共享记忆库，库大小被 kK 限定，因此**无论跨度多长，序列长度始终有界**。跨度从 100 s 拉到 400 s，单步训练时间只增加 12%。
 
@@ -133,11 +137,12 @@ tocopen: true
 
 ### SkeleWAM: Skeleton World-Action Modeling for Efficient Robotic Manipulation
 
-**链接：** https://arxiv.org/abs/2610.02120
-
-**项目主页：** https://skelewam-project.github.io/
-
-**作者 / 机构：** Juyi Sheng, Hua Wang, Mengyuan Liu（Peking University 北京大学）
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2610.02120"
+  authors="Juyi Sheng, Hua Wang, Mengyuan Liu（Peking University 北京大学）"
+  arxiv="2610.02120"
+  links="[{\"url\":\"https://skelewam-project.github.io/\",\"label\":\"项目主页\",\"kind\":\"project\"}]"
+>}}
 
 **一句话总结：** 北京大学团队提出 **SkeleWAM**，一个紧凑的世界动作模型（WAM）：把操作场景表示成一个由**机器人关节、物体中心与交互点**构成的**稀疏三维骨架**，该骨架由当前 RGB-D 观测与本体感知在线构建，同时充当动作生成与未来骨架预测的统一几何状态；未来骨架预测为动作学习提供额外几何监督，**完全不需要视觉重建**。推理时另用 **Medoid Action Consensus（MAC）** 对多个随机动作样本做共识。在 LIBERO-Plus 上以 **57.1M 参数**取得 **85.9%** 整体成功率。
 
@@ -161,11 +166,12 @@ tocopen: true
 
 ### ATI-VLA: Action-Centric Predictive Vision-Language-Action Models via Actionable Alignment Then Adaptive Injection
 
-**链接：** https://arxiv.org/abs/2610.01741
-
-**项目主页：** https://jiutian-vl.github.io/ATI-VLA-page/
-
-**作者 / 机构：** Yijie Zhu, Rui Shao, Jie He, Wei Li, Bo Zhao, Yelin Wang 等（Harbin Institute of Technology, Shenzhen 哈尔滨工业大学（深圳）；Institute for Artificial Intelligence, Great Bay University 大湾区大学人工智能研究院；Shenzhen Loop Area Institute 深圳河套学院）
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2610.01741"
+  authors="Yijie Zhu, Rui Shao, Jie He, Wei Li, Bo Zhao, Yelin Wang 等（Harbin Institute of Technology, Shenzhen 哈尔滨工业大学（深圳）；Institute for Artificial Intelligence, Great Bay University 大湾区大学人工智能研究院；Shenzhen Loop Area Institute 深圳河套学院）"
+  arxiv="2610.01741"
+  links="[{\"url\":\"https://jiutian-vl.github.io/ATI-VLA-page/\",\"label\":\"项目主页\",\"kind\":\"project\"}]"
+>}}
 
 **一句话总结：** 哈工大深圳、大湾区大学与深圳河套学院团队提出 **ATI-VLA**（已录用于 **NeurIPS 2026**），一个「以动作为中心」的预测式 VLA 框架，分两步走：先通过**共享 codebook** 把预测性观测表征与动作表征映射到同一个离散潜空间完成**可操作表征对齐**，再通过一个**轻量级自适应旁路**把预测性观测潜变量作为显式先验注入动作解码，在单一动作目标下实现自适应预测引导。
 
@@ -189,11 +195,12 @@ tocopen: true
 
 ### MIKASA-Robo-VLA: Benchmarking Memory in VLA Models for Long-Horizon Manipulation
 
-**链接：** https://arxiv.org/abs/2610.00604
-
-**项目主页：** https://mikasarobo.github.io/ ｜ **代码：** https://github.com/CognitiveAISystems/MIKASA-Robo ｜ **数据：** https://huggingface.co/datasets/mikasa-robo/mikasa-robo-vla-lerobot
-
-**作者 / 机构：** Egor Cherepanov, Nikita Kachaev, Aleksandr I. Panov, Alexey K. Kovalev（AXXX, Moscow；MIRIAI, Moscow；HSE University 俄罗斯高等经济学院）
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2610.00604"
+  authors="Egor Cherepanov, Nikita Kachaev, Aleksandr I. Panov, Alexey K. Kovalev（AXXX, Moscow；MIRIAI, Moscow；HSE University 俄罗斯高等经济学院）"
+  arxiv="2610.00604"
+  links="[{\"url\":\"https://mikasarobo.github.io/\",\"label\":\"项目主页\",\"kind\":\"project\"},{\"url\":\"https://github.com/CognitiveAISystems/MIKASA-Robo\",\"label\":\"GitHub\",\"kind\":\"github\"},{\"url\":\"https://huggingface.co/datasets/mikasa-robo/mikasa-robo-vla-lerobot\",\"label\":\"数据\",\"kind\":\"huggingface\"}]"
+>}}
 
 **一句话总结：** 来自 AXXX、MIRIAI 与俄罗斯高等经济学院的团队提出 **MIKASA-Robo-VLA**，一个专门评测 VLA 模型「记忆」的基准：包含 **90 个语言条件操作任务**，其中除 10 个反应式对照外全部**隐藏了某个动作所依赖的线索**；在重建后的 MIKASA-Robo 套件中（原套件 32 个任务且仅在代表性 VLA 子集里使用语言），这里每个任务都提供指令。同时释出覆盖 **10 类记忆**、共 **22,500 条**专家轨迹，并给出 π0.5 参考基线。
 
@@ -218,11 +225,12 @@ tocopen: true
 
 ### CtrlWAM: Controllable World Action Models with Aligned Intent and Foresight
 
-**链接：** https://arxiv.org/abs/2610.00859
-
-**项目主页：** https://ctrl-wam.github.io/
-
-**作者 / 机构：** Chensheng Peng, Wenhao Ding, Ran Tian, Zewei Zhou, Jef Packer, Maximilian Igl, Peter Karkus, Yan Wang, Masayoshi Tomizuka 等（NVIDIA）
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2610.00859"
+  authors="Chensheng Peng, Wenhao Ding, Ran Tian, Zewei Zhou, Jef Packer, Maximilian Igl, Peter Karkus, Yan Wang, Masayoshi Tomizuka 等（NVIDIA）"
+  arxiv="2610.00859"
+  links="[{\"url\":\"https://ctrl-wam.github.io/\",\"label\":\"项目主页\",\"kind\":\"project\"}]"
+>}}
 
 **一句话总结：** NVIDIA 团队提出 **CtrlWAM**，针对世界动作模型训练中的一处根本性错配：标准做法同时对录制动作与视频加噪，但**被扰动的动作隐含的是反事实的未来画面，而加噪后的视频仍然绑定在真实录制上**。CtrlWAM 改为**在仿真器中真正执行被扰动的动作**，再把这些动作对应的视觉后果配对进联合训练；同时提出 **warped video–action 噪声调度**以兼顾视频与动作不同的去噪需求，并把动作接口从「仅自车控制」扩展到**可变数量的智能体流**。
 

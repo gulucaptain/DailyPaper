@@ -17,7 +17,10 @@ tocopen: true
 
 ### Human-in-the-World-Model for Scalable Robot Post-Training
 
-**链接：** https://arxiv.org/abs/2604.21741
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2604.21741"
+  arxiv="2604.21741"
+>}}
 
 **一句话总结：** 将世界模型作为可复用的"纠错底座"，人类在模型内部做轨迹干预，替代真实机器人后训练中的物理执行环节。
 
@@ -40,7 +43,10 @@ tocopen: true
 
 ### Seeing Fast and Slow: Learning the Flow of Time in Videos
 
-**链接：** https://arxiv.org/abs/2604.21931
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2604.21931"
+  arxiv="2604.21931"
+>}}
 
 **一句话总结：** 将"时间流速"作为可学习视觉概念，构建速度检测→慢动作数据集策划→速度条件视频生成→时序超分辨率的完整体系。
 
@@ -64,7 +70,10 @@ tocopen: true
 
 ### Vista4D: Video Reshooting with 4D Point Clouds
 
-**链接：** https://arxiv.org/abs/2604.21915
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2604.21915"
+  arxiv="2604.21915"
+>}}
 
 **一句话总结：** 用 4D 点云表示作为锚点，实现从不同相机轨迹"重新拍摄"任意输入视频（含动态场景），CVPR 2026 收录。
 
@@ -88,7 +97,10 @@ tocopen: true
 
 ### Omni: Context Unrolling in Omni Models
 
-**链接：** https://arxiv.org/abs/2604.21921
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2604.21921"
+  arxiv="2604.21921"
+>}}
 
 **一句话总结：** 统一多模态模型 Omni 原生训练文本、图像、视频、3D 几何和隐式表示，发现"上下文展开"（Context Unrolling）跨模态推理现象。
 
@@ -111,7 +123,10 @@ tocopen: true
 
 ### LoHo-Manip: Long-Horizon Manipulation via Trace-Conditioned VLA Planning
 
-**链接：** https://arxiv.org/abs/2604.21924
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2604.21924"
+  arxiv="2604.21924"
+>}}
 
 **一句话总结：** 用 VLM 任务管理器 + 视觉轨迹 prompt 将短程 VLA 扩展到长程操控，实现隐式闭环纠错。
 
@@ -134,7 +149,10 @@ tocopen: true
 
 ### VistaBot: View-Robust Robot Manipulation via Spatiotemporal-Aware View Synthesis
 
-**链接：** https://arxiv.org/abs/2604.21914
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2604.21914"
+  arxiv="2604.21914"
+>}}
 
 **一句话总结：** 将前馈几何模型与视频扩散模型结合，无需相机标定即可实现视角鲁棒的闭环机器人操控，ICRA 2026 收录。
 
@@ -158,7 +176,10 @@ tocopen: true
 
 ### HalluScope / HalluVL-DPO: When Prompts Override Vision
 
-**链接：** https://arxiv.org/abs/2604.21911
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2604.21911"
+  arxiv="2604.21911"
+>}}
 
 **一句话总结：** 系统研究大型视觉语言模型幻觉来源，发现文本指令先验是主因，并提出 DPO 微调框架 HalluVL-DPO 加以抑制。
 
@@ -181,7 +202,10 @@ tocopen: true
 
 ### Seeing Without Eyes: 4D Human-Scene Understanding from Wearable IMUs
 
-**链接：** https://arxiv.org/abs/2604.21926
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2604.21926"
+  arxiv="2604.21926"
+>}}
 
 **一句话总结：** 仅凭耳机、手表、手机等可穿戴 IMU 传感器，用 LLM 重建完整的 4D 人体运动与场景布局。
 

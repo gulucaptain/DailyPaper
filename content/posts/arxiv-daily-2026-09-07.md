@@ -17,9 +17,11 @@ tocopen: true
 
 ### Toward Unified Robot Learning: Bridging Representation, Vision-Language-Action, and World Models
 
-**链接：** https://arxiv.org/abs/2609.03927
-
-**作者 / 机构：** Shaunak A. Mehta, Ananya Hazarika, Haochen Zhang, Fan Yang, Ryo Moriyama, Wenkai Li, Yash Patel, Kanata Suzuki（Fujitsu Research of America、Carnegie Mellon University、Fujitsu Limited）
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2609.03927"
+  authors="Shaunak A. Mehta, Ananya Hazarika, Haochen Zhang, Fan Yang, Ryo Moriyama, Wenkai Li, Yash Patel, Kanata Suzuki（Fujitsu Research of America、Carnegie Mellon University、Fujitsu Limited）"
+  arxiv="2609.03927"
+>}}
 
 **一句话总结：** Fujitsu Research of America 与 CMU 的团队给出一份统一视角的机器人学习综述，把表征学习、VLA 与世界模型三条各自为战的路线组织到"理解—行动—推理"三条互补轴上，并论证当前瓶颈主要不在单个模块，而在感知、动作与推理之间缺乏整合。
 
@@ -43,9 +45,11 @@ tocopen: true
 
 ### Stabilizing Camera-Controlled Novel View Synthesis at Inference Time
 
-**链接：** https://arxiv.org/abs/2609.03639
-
-**作者 / 机构：** Prajwal Singh, Arjun Badola, Seema Kumari, Shanmuganathan Raman（IIT Gandhinagar, CVIG Lab / ISLab）；Hajime Nagahara（Osaka University, D3 Center）
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2609.03639"
+  authors="Prajwal Singh, Arjun Badola, Seema Kumari, Shanmuganathan Raman（IIT Gandhinagar, CVIG Lab / ISLab）；Hajime Nagahara（Osaka University, D3 Center）"
+  arxiv="2609.03639"
+>}}
 
 **一句话总结：** IIT Gandhinagar 与大阪大学的团队提出 CamTrol++，指出单图相机可控新视角合成的失稳主因其实很简单——只需把相机运动分解成小的自回归步，并首次量化给出"每步运动接近 18–20° 时性能明显下降"这一可设计阈值。
 
@@ -69,11 +73,12 @@ tocopen: true
 
 ### DSAQuant: Denoising-Stage-Aligned Quantization-Aware Training for Video Generation
 
-**链接：** https://arxiv.org/abs/2609.04031
-
-**项目主页：** https://robbyant-research.github.io/DSAQuant/ ｜ **代码：** https://github.com/robbyant-research/DSAQuant ｜ **模型：** https://huggingface.co/Robbyant-Research/DSAQuant
-
-**作者 / 机构：** Shuaiting Li, Zelin Gao, Haibin Shen, Yujun Shen, Haotong Qin, Yinghao Xu（Robbyant（蚂蚁集团）、浙江大学 ZJU、香港科技大学 HKUST、香港理工大学 PolyU）
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2609.04031"
+  authors="Shuaiting Li, Zelin Gao, Haibin Shen, Yujun Shen, Haotong Qin, Yinghao Xu（Robbyant（蚂蚁集团）、浙江大学 ZJU、香港科技大学 HKUST、香港理工大学 PolyU）"
+  arxiv="2609.04031"
+  links="[{\"url\":\"https://robbyant-research.github.io/DSAQuant/\",\"label\":\"项目主页\",\"kind\":\"project\"},{\"url\":\"https://github.com/robbyant-research/DSAQuant\",\"label\":\"GitHub\",\"kind\":\"github\"},{\"url\":\"https://huggingface.co/Robbyant-Research/DSAQuant\",\"label\":\"模型\",\"kind\":\"huggingface\"}]"
+>}}
 
 **一句话总结：** 蚂蚁 Robbyant 联合浙大、港科大、港理工提出 DSAQuant，指出视频扩散模型量化后"细节糊掉"根源于量化流程**与时间步无关**的设计，进而让量化训练与推理都与去噪阶段对齐——在 W3A3 极限压缩下把 VBench 平均分最高提升 6.60。
 
@@ -97,9 +102,11 @@ tocopen: true
 
 ### Sensing Which Modality Matters: Evidence-Gated Regularization for Robust VLA Policies
 
-**链接：** https://arxiv.org/abs/2609.03142
-
-**作者 / 机构：** Yue Yang, Diego Romeres, Chiori Hori, Gedas Bertasius, Daniel Szafir, Siddarth Jain（University of North Carolina at Chapel Hill、Mitsubishi Electric Research Laboratories (MERL)）
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2609.03142"
+  authors="Yue Yang, Diego Romeres, Chiori Hori, Gedas Bertasius, Daniel Szafir, Siddarth Jain（University of North Carolina at Chapel Hill、Mitsubishi Electric Research Laboratories (MERL)）"
+  arxiv="2609.03142"
+>}}
 
 **一句话总结：** UNC Chapel Hill 与 MERL 的团队把多模态 VLA 的失效命名为**模态纠缠（modality entanglement）**，提出证据门控正则 EGR——按每帧每传感器的任务相关性，在低证据传感器上施加不变性、在高证据传感器上施加单传感器充分性，零推理开销地把双臂装置在干扰物下的成功率从 30% 拉到 85%。
 
@@ -123,9 +130,11 @@ tocopen: true
 
 ### MulDP: Multimodal Diffusion Policy for Autonomous Quadruped Parkour Navigation across Complex Terrains
 
-**链接：** https://arxiv.org/abs/2609.03984
-
-**作者 / 机构：** Kangmai Hu, Yueqi Zhang, Peng Zhai, Xiaoyi Wei, Jiabin Hu, Zhixiang Liu, Quancheng Qian, Lihua Zhang（复旦大学智能机器人与先进制造学院）｜ IROS 2026 已接收
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2609.03984"
+  authors="Kangmai Hu, Yueqi Zhang, Peng Zhai, Xiaoyi Wei, Jiabin Hu, Zhixiang Liu, Quancheng Qian, Lihua Zhang（复旦大学智能机器人与先进制造学院）｜ IROS 2026 已接收"
+  arxiv="2609.03984"
+>}}
 
 **一句话总结：** 复旦大学团队提出 MulDP，用多模态扩散策略融合视觉感知、本体感受与目标信息，生成时序连贯且具备预期性的**导航速度指令**，并配套构建首个四足跑酷导航数据集 QPND，把四足跑酷从"依赖人工高层规划"推进到自主导航。
 
@@ -149,11 +158,12 @@ tocopen: true
 
 ### Building Pretraining Data for World Models: An Unreal Engine-Based Pipeline for Action-Conditioned Video Generation
 
-**链接：** https://arxiv.org/abs/2609.03557
-
-**项目主页（EchoWM）：** https://echo-team-joy-future-academy-jd.github.io/Echo-1.5-Page/wm/ ｜ **代码：** https://github.com/jd-opensource/JoyAI-Echo
-
-**作者 / 机构：** Haoyu Wang, Songchun Zhang, Haoran Li, Haoyang Huang, Zeyue Xue, Nan Duan（Joy Future Academy, JD、清华大学、香港科技大学）
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2609.03557"
+  authors="Haoyu Wang, Songchun Zhang, Haoran Li, Haoyang Huang, Zeyue Xue, Nan Duan（Joy Future Academy, JD、清华大学、香港科技大学）"
+  arxiv="2609.03557"
+  links="[{\"url\":\"https://echo-team-joy-future-academy-jd.github.io/Echo-1.5-Page/wm/\",\"label\":\"项目主页（EchoWM）\",\"kind\":\"project\"},{\"url\":\"https://github.com/jd-opensource/JoyAI-Echo\",\"label\":\"GitHub\",\"kind\":\"github\"}]"
+>}}
 
 **一句话总结：** Joy Future Academy（京东）联合清华、港科大公开了 EchoWM 背后的虚幻引擎合成数据生产线——**两阶段**（PIE 实时物理跑轨迹 + Movie Render Queue 离线高质量渲染）解耦物理与画质，已产出 2691 小时 1080p 与 6076 小时 720p 的动作条件多视角视频。
 
@@ -177,9 +187,11 @@ tocopen: true
 
 ### GraFT: A Training-Free Framework for Spatial Reasoning in Multimodal Large Language Models via 3D Scene Graphs
 
-**链接：** https://arxiv.org/abs/2609.03892
-
-**作者 / 机构：** Junqing Du, Fernando Ropero, Erkin Turkoz, Yanfeng Zhang, Lu Liu（Riemann Lab, Huawei Technologies）
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2609.03892"
+  authors="Junqing Du, Fernando Ropero, Erkin Turkoz, Yanfeng Zhang, Lu Liu（Riemann Lab, Huawei Technologies）"
+  arxiv="2609.03892"
+>}}
 
 **一句话总结：** 华为 Riemann Lab 提出 GraFT，一个完全免训练的框架：不微调、不加 3D 编码器，而是用紧凑可维护的 **3D 场景图（3DSG）**外挂补齐 MLLM 缺失的三维结构，在 VSI-Bench 上把冻结的 MLLM 最多提升 65%，超过所有专有与通用开源基线。
 
@@ -203,9 +215,11 @@ tocopen: true
 
 ### Latent Energy Action Planning with World Models
 
-**链接：** https://arxiv.org/abs/2609.03294
-
-**作者 / 机构：** Phu Pham, Aniket Bera（Department of Computer Science, Purdue University）
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2609.03294"
+  authors="Phu Pham, Aniket Bera（Department of Computer Science, Purdue University）"
+  arxiv="2609.03294"
+>}}
 
 **一句话总结：** 普渡大学团队提出 LEAP，把**完整动作时域**当作一个可微变量、通过**冻结的** LeWorldModel 直接优化，并用"终端潜目标匹配 + 解码器描述符一致性"的双重能量堵住单一潜目标的漏洞——在四个控制域上把成功率从 77.5% 提到 94.8%。
 

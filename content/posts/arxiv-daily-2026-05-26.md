@@ -17,7 +17,10 @@ tocopen: true
 
 ### Reinforcing Few-step Generators via Reward-Tilted Distribution Matching
 
-**链接：** https://arxiv.org/abs/2605.26108
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2605.26108"
+  arxiv="2605.26108"
+>}}
 
 **一句话总结：** 提出 RTDMD 框架，将分布匹配蒸馏与奖励引导强化学习统一，在 SD3/SD3.5/FLUX 上仅用 4 步推理实现新的 SOTA。
 
@@ -40,7 +43,10 @@ tocopen: true
 
 ### Helix4D: Complex 4D Mesh Generation
 
-**链接：** https://arxiv.org/abs/2605.26109
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2605.26109"
+  arxiv="2605.26109"
+>}}
 
 **一句话总结：** 基于 Trellis2 的 4D 动态网格生成框架，通过滑动窗口跨帧注意力和 4D 时间编码，将图像到 3D 模型扩展为视频条件的 4D 生成。
 
@@ -65,7 +71,10 @@ tocopen: true
 
 ### Multi-Scale Intent Diffusion for Text-Driven Physics-Based Humanoid Control
 
-**链接：** https://arxiv.org/abs/2605.26006
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2605.26006"
+  arxiv="2605.26006"
+>}}
 
 **一句话总结：** MIND 提出用"行为意图"作为文本命令与低级动作之间的语义桥接，构建端到端扩散框架实现文本驱动的物理仿人体控制。
 
@@ -91,7 +100,10 @@ tocopen: true
 
 ### Towards Highly Controllable Driving Scene Generation at Anywhere and Beyond
 
-**链接：** https://arxiv.org/abs/2605.26113
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2605.26113"
+  arxiv="2605.26113"
+>}}
 
 **一句话总结：** AnyScene 提出以语义占用为核心的统一框架，通过占用扩散 Transformer 和几何基础视图扩展，实现高度可控的自动驾驶场景生成。
 
@@ -116,7 +128,10 @@ tocopen: true
 
 ### Integrating Predictive Supervision and Sequence Modeling into Parkour Locomotion
 
-**链接：** https://arxiv.org/abs/2605.25782
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2605.25782"
+  arxiv="2605.25782"
+>}}
 
 **一句话总结：** ParkourFormer 将仿人体运动重新定义为未来条件决策问题，通过 Transformer 序列建模和未来本体感知状态预测，在复杂多地形上实现 93.85% 平均穿越成功率。
 
@@ -142,7 +157,10 @@ tocopen: true
 
 ### HumanFlow: Diffusion-Driven MAV Navigation Among Humans via Tightly-Coupled Motion Tracking, Forecasting, and Control
 
-**链接：** https://arxiv.org/abs/2605.25685
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2605.25685"
+  arxiv="2605.25685"
+>}}
 
 **一句话总结：** HumanFlow 提出基于潜扩散的人体运动追踪与预测统一模型，将其潜空间与流匹配控制策略紧密耦合，用于无人机社会导航，被 RSS 2026 接受。
 
@@ -168,7 +186,10 @@ tocopen: true
 
 ### Observation-Action Space Alignment via SE(3) Trajectory Prediction for Robotic Manipulation
 
-**链接：** https://arxiv.org/abs/2605.25829
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2605.25829"
+  arxiv="2605.25829"
+>}}
 
 **一句话总结：** OASIS 通过 SE(3) 末端执行器轨迹预测将中间表示与动作空间对齐，克服 VLA 和世界动作模型在观测空间表示与刚体动作空间几何不一致的核心问题。
 
@@ -194,7 +215,10 @@ tocopen: true
 
 ### Global Structure-from-Motion Meets Feedforward Reconstruction
 
-**链接：** https://arxiv.org/abs/2605.26103
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2605.26103"
+  arxiv="2605.26103"
+>}}
 
 **一句话总结：** 系统分析经典 SfM 与前馈重建各自的局限，提出结合二者优势的新 SfM 流水线 GlueMap，在多数据集上取得 SOTA，获 CVPR 2026 Highlight。
 

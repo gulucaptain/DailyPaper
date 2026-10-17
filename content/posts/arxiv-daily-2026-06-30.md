@@ -17,7 +17,10 @@ tocopen: true
 
 ### Orca: The World is in Your Mind
 
-**链接：** https://arxiv.org/abs/2606.30534
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2606.30534"
+  arxiv="2606.30534"
+>}}
 
 **一句话总结：** 提出通用世界基础模型 Orca，通过统一的 Next-State-Prediction 建模范式，在共享的世界潜空间中同时支持文本生成、图像预测和具身动作生成三类下游任务。
 
@@ -45,7 +48,10 @@ tocopen: true
 
 ### Self-Evolving World Models for LLM Agent Planning
 
-**链接：** https://arxiv.org/abs/2606.30639
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2606.30639"
+  arxiv="2606.30639"
+>}}
 
 **一句话总结：** 提出 WorldEvolver 框架，通过测试时记忆自修正机制（无需更新模型参数）让 LLM 智能体的世界模型在部署中持续进化，提升预测精度与规划成功率。
 
@@ -73,7 +79,10 @@ tocopen: true
 
 ### Goku: A Million-Scale Universal Dataset and Benchmark for Instruction-Based Video Editing
 
-**链接：** https://arxiv.org/abs/2606.30599
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2606.30599"
+  arxiv="2606.30599"
+>}}
 
 **一句话总结：** 发布百万级指令视频编辑数据集 Goku（200万对），将任务边界从外观编辑扩展至结构操控（含主体运动精确控制），并提出 Goku-Edit 模型与 Goku-Bench 评测基准。
 
@@ -99,7 +108,10 @@ tocopen: true
 
 ### Learning Humanoid Loco-Manipulation from Synthetic Interactions in Reconstructed Scenes
 
-**链接：** https://arxiv.org/abs/2606.30645
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2606.30645"
+  arxiv="2606.30645"
+>}}
 
 **一句话总结：** 提出 VLK 监督合成管线，利用 3D 高斯溅射重建室内场景并合成 48000 条视觉-语言-运动学轨迹对，训练人形机器人全身移动操作策略，并在 Unitree G1 上完成 sim-to-real 验证。
 
@@ -128,7 +140,10 @@ tocopen: true
 
 ### Zero-Shot Recovery of Full Articulated 3D Objects from Text or Image
 
-**链接：** https://arxiv.org/abs/2606.30608
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2606.30608"
+  arxiv="2606.30608"
+>}}
 
 **一句话总结：** 提出首个基于辩论驱动的 Agent 方法，从文本或图像输入中同时推断铰接体结构、运动参数及遮挡几何，利用视频生成先验将物体驱动至运动状态以还原内部结构。
 
@@ -155,7 +170,10 @@ tocopen: true
 
 ### The Fundamental Limits of Valid Transport Map Estimation
 
-**链接：** https://arxiv.org/abs/2606.30574
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2606.30574"
+  arxiv="2606.30574"
+>}}
 
 **一句话总结：** 在严格 minimax 框架下给出任意有效传输映射估计的样本复杂度下界，揭示扩散模型、flow matching 等现代生成方法的统计基本极限，并明确非最优传输映射何时具有统计优势。
 
@@ -181,7 +199,10 @@ tocopen: true
 
 ### EcoVideo: Entropy-Orchestrated Video Generation Paradigm in Cloud-Edge Dynamics
 
-**链接：** https://arxiv.org/abs/2606.30557
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2606.30557"
+  arxiv="2606.30557"
+>}}
 
 **一句话总结：** 提出 EcoVideo 框架，利用 self-attention entropy 无训练地估计帧级信息密度，实现云端大模型与边缘轻量模型的动态协同视频生成，在低带宽边缘场景实现 2.9× 端到端加速（ECCV 2026）。
 
@@ -207,7 +228,10 @@ tocopen: true
 
 ### GROW²: Grounding Which and Where for Robot Tool Use
 
-**链接：** https://arxiv.org/abs/2606.30632
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2606.30632"
+  arxiv="2606.30632"
+>}}
 
 **一句话总结：** 提出 GROW² 框架，将开放世界机器人工具使用分解为"选哪个工具"（语义层）和"用哪个部位"（几何层）的层级推理，利用 VLM 常识 + 视觉基础模型实现零样本工具使用泛化。
 

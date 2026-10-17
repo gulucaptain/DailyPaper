@@ -17,7 +17,10 @@ tocopen: true
 
 ### VEGA-3D: Generation Models Know Space: Unleashing Implicit 3D Priors for Scene Understanding
 
-**链接：** https://arxiv.org/abs/2603.19235
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2603.19235"
+  arxiv="2603.19235"
+>}}
 
 **一句话总结：** 将预训练视频扩散模型重新定位为"隐式空间编码器"，通过提取其中间层特征增强多模态大模型的几何感知与具身操控能力。
 
@@ -41,7 +44,10 @@ tocopen: true
 
 ### MoTok: Bridging Semantic and Kinematic Conditions with Diffusion-based Discrete Motion Tokenizer
 
-**链接：** https://arxiv.org/abs/2603.19227
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2603.19227"
+  arxiv="2603.19227"
+>}}
 
 **一句话总结：** 通过扩散解码器与离散 token 规划器的解耦设计，在动作生成领域同时实现语义可控性与运动学精确控制，大幅超越此前 SOTA。
 
@@ -65,7 +71,10 @@ tocopen: true
 
 ### CubiD: Discrete Visual Generation on High-Dimensional Representation Tokens
 
-**链接：** https://arxiv.org/abs/2603.19232
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2603.19232"
+  arxiv="2603.19232"
+>}}
 
 **一句话总结：** 首个高维离散视觉生成模型，在 768-1024 维度的预训练表示上实现掩码扩散生成，同时服务理解与生成任务，被 CVPR 2026 接收。
 
@@ -89,7 +98,10 @@ tocopen: true
 
 ### GSMem: 3D Gaussian Splatting as Persistent Spatial Memory for Zero-Shot Embodied Exploration and Reasoning
 
-**链接：** https://arxiv.org/abs/2603.19137
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2603.19137"
+  arxiv="2603.19137"
+>}}
 
 **一句话总结：** 用 3D Gaussian Splatting 作为智能体的持久空间记忆，赋予其"空间回溯"能力，零样本完成具身探索与问答任务。
 
@@ -113,7 +125,10 @@ tocopen: true
 
 ### SAMA: Factorized Semantic Anchoring and Motion Alignment for Instruction-Guided Video Editing
 
-**链接：** https://arxiv.org/abs/2603.19228
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2603.19228"
+  arxiv="2603.19228"
+>}}
 
 **一句话总结：** 将视频编辑分解为语义锚定与运动建模两个独立模块，无需外部先验，实现指令引导下精确语义修改与运动保真度的同时兼顾。
 
@@ -137,7 +152,10 @@ tocopen: true
 
 ### Spectrally-Guided Diffusion Noise Schedules
 
-**链接：** https://arxiv.org/abs/2603.19222
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2603.19222"
+  arxiv="2603.19222"
+>}}
 
 **一句话总结：** 基于图像频谱特性设计逐实例噪声调度，从理论上推导紧凑噪声边界，消除冗余步骤，提升像素扩散模型质量尤其是低步数推理性能。
 
@@ -161,7 +179,10 @@ tocopen: true
 
 ### Do VLMs Need Vision Transformers? Evaluating State Space Models as Vision Encoders
 
-**链接：** https://arxiv.org/abs/2603.19209
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2603.19209"
+  arxiv="2603.19209"
+>}}
 
 **一句话总结：** 系统评估 SSM 视觉骨干在 VLM 中的适用性，发现 SSM 在较小模型规模下与 ViT 家族竞争，并提出稳定化策略改善两类骨干的定位鲁棒性。
 
@@ -185,7 +206,10 @@ tocopen: true
 
 ### Revisiting Autoregressive Models for Generative Image Classification
 
-**链接：** https://arxiv.org/abs/2603.19122
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2603.19122"
+  arxiv="2603.19122"
+>}}
 
 **一句话总结：** 通过任意顺序 AR 模型实现阶次边际化预测，使自回归生成分类器首次超越扩散模型分类器，且效率提升 25 倍。
 

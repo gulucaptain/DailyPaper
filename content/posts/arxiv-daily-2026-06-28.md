@@ -17,7 +17,10 @@ tocopen: true
 
 ### Hallucination in World Models is Predictable and Preventable
 
-**链接：** https://arxiv.org/abs/2606.27326
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2606.27326"
+  arxiv="2606.27326"
+>}}
 
 **一句话总结：** 系统性分析了生成式世界模型中幻觉（hallucination）的成因，提出可预测、可预防的数据覆盖驱动框架，并构建了大规模 MMBench2 基准。
 
@@ -41,7 +44,10 @@ tocopen: true
 
 ### DanceOPD: On-Policy Generative Field Distillation
 
-**链接：** https://arxiv.org/abs/2606.27377
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2606.27377"
+  arxiv="2606.27377"
+>}}
 
 **一句话总结：** 提出 on-policy 生成场蒸馏框架，将 text-to-image、局部编辑、全局编辑等多种能力统一组合到单一 flow-matching 模型中，无需能力冲突的多任务妥协。
 
@@ -65,7 +71,10 @@ tocopen: true
 
 ### Don't Settle at the Mode! Mitigating Diversity Collapse in Pretrained Flow Models via Feature Self-Guidance
 
-**链接：** https://arxiv.org/abs/2606.27371
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2606.27371"
+  arxiv="2606.27371"
+>}}
 
 **一句话总结：** 提出 training-free 特征自引导机制，通过分散内部特征并流形正则化，在不引入外部奖励模型的情况下有效缓解 flow 模型批量生成时的多样性崩溃。
 
@@ -89,7 +98,10 @@ tocopen: true
 
 ### Not All Actions Are Equal: Rethinking Conditioning for Dexterous World Model (DexAC-WM)
 
-**链接：** https://arxiv.org/abs/2606.27325
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2606.27325"
+  arxiv="2606.27325"
+>}}
 
 **一句话总结：** 提出 DexAC-WM，将高自由度（high-DoF）灵巧操作动作视为结构化异质信号，通过动作 tokenization 与局部-全局调制提升视频预测中的动作保真度。
 
@@ -113,7 +125,10 @@ tocopen: true
 
 ### Self-Evolving Unified Multimodal Understanding and Generation via Self-Consistency Rewards
 
-**链接：** https://arxiv.org/abs/2606.27376
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2606.27376"
+  arxiv="2606.27376"
+>}}
 
 **一句话总结：** 提出自进化训练框架，仅用无标签图像和内部一致性信号，同时提升统一多模态模型的视觉理解和图像生成能力，无需人工标注或外部奖励模型。
 
@@ -137,7 +152,10 @@ tocopen: true
 
 ### LISA: Likelihood Score Alignment for Visual-condition Controllable Generation
 
-**链接：** https://arxiv.org/abs/2606.27192
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2606.27192"
+  arxiv="2606.27192"
+>}}
 
 **一句话总结：** 从 score-based 生成建模视角重新解析"主干+侧网络"控制生成框架，提出 LISA 正则化方法显式对齐似然分数，加速收敛并提升最终生成质量，推理零额外开销。
 
@@ -161,7 +179,10 @@ tocopen: true
 
 ### PhysRAG: Enhancing Physics-Awareness in Video Generation via Retrieval-Augmented Generation
 
-**链接：** https://arxiv.org/abs/2606.26916
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2606.26916"
+  arxiv="2606.26916"
+>}}
 
 **一句话总结：** 提出 PhysRAG 管线，通过检索增强生成（RAG）向视频扩散模型注入物理知识，提升生成视频在热力学、力学、光学等物理规律上的合规性。
 
@@ -185,7 +206,10 @@ tocopen: true
 
 ### TMP: Tree-structured Mixed-policy Pruning for Large-scale Image Generation and Editing
 
-**链接：** https://arxiv.org/abs/2606.27089
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2606.27089"
+  arxiv="2606.27089"
+>}}
 
 **一句话总结：** 提出 TMP 剪枝框架，将 HunyuanImage-3.0（80B MoE+DiT）压缩至 20B，在单张 24GB 4090 上可推理，同时保留较高生成质量。
 

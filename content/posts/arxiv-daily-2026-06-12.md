@@ -17,7 +17,10 @@ tocopen: true
 
 ### WEAVER, Better, Faster, Longer: An Effective World Model for Robotic Manipulation
 
-**链接：** https://arxiv.org/abs/2606.13672
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2606.13672"
+  arxiv="2606.13672"
+>}}
 
 **一句话总结：** 提出 WEAVER 世界模型架构，同时满足高保真度、长时序一致性与推理效率三大需求，在真实机器人操作任务上取得 SOTA 表现。
 
@@ -40,7 +43,10 @@ tocopen: true
 
 ### RepWAM: World Action Modeling with Representation Visual-Action Tokenizers
 
-**链接：** https://arxiv.org/abs/2606.13674
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2606.13674"
+  arxiv="2606.13674"
+>}}
 
 **一句话总结：** 提出以语义表示为中心的世界行动模型，通过表示-视觉-动作联合 tokenizer 克服重建导向 tokenizer 的局限，提升机器人操控的语义理解与控制质量。
 
@@ -63,7 +69,10 @@ tocopen: true
 
 ### MaskWAM: Unifying Mask Prompting and Prediction for World-Action Models
 
-**链接：** https://arxiv.org/abs/2606.13515
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2606.13515"
+  arxiv="2606.13515"
+>}}
 
 **一句话总结：** 通过将 mask 同时作为输入条件和预测目标引入世界行动模型，提供以物体为中心的语义监督，有效解决杂乱场景中的语言引用歧义问题。
 
@@ -86,7 +95,10 @@ tocopen: true
 
 ### World Tracing: Generative Pixel-Aligned Geometry Beyond the Visible
 
-**链接：** https://arxiv.org/abs/2606.13652
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2606.13652"
+  arxiv="2606.13652"
+>}}
 
 **一句话总结：** 提出世界追踪（World Tracing）生成式像素对齐几何表示，同时实现可见表面重建与遮挡几何补全，兼具深度估计精度与 3D 生成的完整性。
 
@@ -109,7 +121,10 @@ tocopen: true
 
 ### Flex4DHuman: Flexible Multi-view Video Diffusion for 4D Human Reconstruction
 
-**链接：** https://arxiv.org/abs/2606.13655
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2606.13655"
+  arxiv="2606.13655"
+>}}
 
 **一句话总结：** 基于 Wan 2.1 视频扩散模型，仅用相对相机姿态条件从单目/稀疏视角视频生成同步密集多视角视频，进而实现动态 4D 高斯体重建。
 
@@ -132,7 +147,10 @@ tocopen: true
 
 ### Modality Forcing for Scalable Spatial Generation
 
-**链接：** https://arxiv.org/abs/2606.13676
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2606.13676"
+  arxiv="2606.13676"
+>}}
 
 **一句话总结：** 提出 Modality Forcing 后训练方案，用单个 DiT 在稀疏深度数据上实现可扩展的图像-深度联合生成，深度预测性能可与 SOTA 单目深度估计器竞争。
 
@@ -155,7 +173,10 @@ tocopen: true
 
 ### Improving Robotic Generalist Policies via Flow Reversal Steering
 
-**链接：** https://arxiv.org/abs/2606.13675
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2606.13675"
+  arxiv="2606.13675"
+>}}
 
 **一句话总结：** 提出 Flow Reversal Steering（FRS），通过反向流推断潜在噪声并映射到通用策略的优质行动模态，将次优粗粒度语义引导转化为精准机器人动作。
 
@@ -178,7 +199,10 @@ tocopen: true
 
 ### Mana: Dexterous Manipulation of Articulated Tools
 
-**链接：** https://arxiv.org/abs/2606.13677
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2606.13677"
+  arxiv="2606.13677"
+>}}
 
 **一句话总结：** 将灵巧操作重新定义为动画问题，通过粗到细管线从程序化生成的抓取关键帧出发，经运动规划和强化学习生成操作轨迹，实现多种铰接工具的零样本 sim-to-real 迁移。
 

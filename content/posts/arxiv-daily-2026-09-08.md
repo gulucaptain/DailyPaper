@@ -17,9 +17,11 @@ tocopen: true
 
 ### TourPhysics: Bringing Physics to World Models for Exploration and Manipulation from a Single Image
 
-**链接：** https://arxiv.org/abs/2609.04911
-
-**作者 / 机构：** Xin Zhang, Yabo Chen, Zixuan Duan, Haibin Huang, Chi Zhang, Feng Xu, Xuelong Li（复旦大学、中国电信人工智能研究院 TeleAI、南京大学）
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2609.04911"
+  authors="Xin Zhang, Yabo Chen, Zixuan Duan, Haibin Huang, Chi Zhang, Feng Xu, Xuelong Li（复旦大学、中国电信人工智能研究院 TeleAI、南京大学）"
+  arxiv="2609.04911"
+>}}
 
 **一句话总结：** 复旦与 TeleAI 团队提出 TourPhysics，把**确定性物理仿真器前置**为世界状态的裁决者——每个动作先由仿真器算出物理与相机轨迹，再由视频模型渲染对应观测，从而从单张图像出发实现可持久探索与操作的在线世界模型。
 
@@ -43,10 +45,12 @@ tocopen: true
 
 ### WorldSculpt: Generating Compositional Worlds from Grounded Videos
 
-**链接：** https://arxiv.org/abs/2609.05416
-
-**项目主页：** https://alaya-lab.github.io/WorldSculpt/ ｜ **代码：** https://github.com/AlayaLab/WorldSculpt
-**作者 / 机构：** Muyao Niu, Jixuan He, Ruihan Yu, Lian Fu, Yonghao Yu, Zheng-Hui Huang, Yifan Zhan, Fengbo Lan, Yongtao Ge, Yinqiang Zheng, Kaipeng Zhang, Zhixiang Wang（Alaya Lab、东京大学）
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2609.05416"
+  authors="Muyao Niu, Jixuan He, Ruihan Yu, Lian Fu, Yonghao Yu, Zheng-Hui Huang, Yifan Zhan, Fengbo Lan, Yongtao Ge, Yinqiang Zheng, Kaipeng Zhang, Zhixiang Wang（Alaya Lab、东京大学）"
+  arxiv="2609.05416"
+  links="[{\"url\":\"https://alaya-lab.github.io/WorldSculpt/\",\"label\":\"项目主页\",\"kind\":\"project\"},{\"url\":\"https://github.com/AlayaLab/WorldSculpt\",\"label\":\"GitHub\",\"kind\":\"github\"}]"
+>}}
 
 **一句话总结：** Alaya Lab 与东京大学提出 WorldSculpt，把强大的**单物体 3D 生成先验**通过多视角条件化通路适配到组合式场景生成，从定位视频中产出由独立物体网格组成、共享世界坐标系的可编辑 3D 世界。
 
@@ -70,9 +74,11 @@ tocopen: true
 
 ### Spectral-Target Physical Latent Structuring for JEPA-Style World Models
 
-**链接：** https://arxiv.org/abs/2609.04264
-
-**作者 / 机构：** Penghao Zhu, Salvatore Penachio, Kaustav Mukherjee, Aneesh Jonelagadda（Kaliber Labs，美国旧金山）
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2609.04264"
+  authors="Penghao Zhu, Salvatore Penachio, Kaustav Mukherjee, Aneesh Jonelagadda（Kaliber Labs，美国旧金山）"
+  arxiv="2609.04264"
+>}}
 
 **一句话总结：** Kaliber Labs 指出 JEPA 式潜世界模型存在一种此前被忽视的失效模式——**「物理表征惰性」**（潜状态并未坍缩，却也没有编码关键物理属性），并提出一个轻量**傅里叶辅助头**在训练期施加频谱目标，以零推理开销换取潜空间的物理结构化。
 
@@ -96,10 +102,12 @@ tocopen: true
 
 ### TacPAC: Tactile Prediction and Real-Time Action Correction in World-Action Models for Contact-Rich Manipulation
 
-**链接：** https://arxiv.org/abs/2609.05266
-
-**代码：** https://github.com/LogosRoboticsGroup/TacPAC
-**作者 / 机构：** Zipei Ma, Xiaofei Wei, Junzhe Jiang, Shunlin Lu, Li Zhang（复旦大学数据科学学院、上海创智学院、NeoteAI）
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2609.05266"
+  authors="Zipei Ma, Xiaofei Wei, Junzhe Jiang, Shunlin Lu, Li Zhang（复旦大学数据科学学院、上海创智学院、NeoteAI）"
+  arxiv="2609.05266"
+  links="[{\"url\":\"https://github.com/LogosRoboticsGroup/TacPAC\",\"label\":\"GitHub\",\"kind\":\"github\"}]"
+>}}
 
 **一句话总结：** 复旦团队提出 TacPAC，指出触觉预测与触觉反馈之间存在**时序错配**（预测先于执行、反馈生于执行），从而把触觉预测从"多预测一个视图"改造为**执行期的实时动作校正**，在富接触操作上显著超过最强基线。
 
@@ -123,10 +131,12 @@ tocopen: true
 
 ### RoboSPA: Can VLA Models Go Beyond Simple Scenes and Short-Horizon Tasks?
 
-**链接：** https://arxiv.org/abs/2609.05324
-
-**代码：** https://github.com/fanzhenxuan/RoboSPA
-**作者 / 机构：** Zhenxuan Fan, Bo Zhang, Yutong Lin, Yuqian Yuan, Juekai Lin, Liang Liang, Zhuoyi Huang, Wenqiao Zhang, Juncheng Li, Siliang Tang, Jun Xiao, Yueting Zhuang（浙江大学；EMNLP 2026 主会收录）
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2609.05324"
+  authors="Zhenxuan Fan, Bo Zhang, Yutong Lin, Yuqian Yuan, Juekai Lin, Liang Liang, Zhuoyi Huang, Wenqiao Zhang, Juncheng Li, Siliang Tang, Jun Xiao, Yueting Zhuang（浙江大学；EMNLP 2026 主会收录）"
+  arxiv="2609.05324"
+  links="[{\"url\":\"https://github.com/fanzhenxuan/RoboSPA\",\"label\":\"GitHub\",\"kind\":\"github\"}]"
+>}}
 
 **一句话总结：** 浙大团队推出 RoboSPA，一个面向**细粒度空间推理**与**长程程序规划**两大维度的大规模机器人操作数据集与诊断基准，用 527K 条轨迹、280 个难度变体系统暴露当前 VLA 模型在复杂空间关系、精确底层执行与记忆密集型规划上的短板。
 
@@ -150,10 +160,12 @@ tocopen: true
 
 ### VLA-Precision: Asymmetric Co-Bootstrapping for Efficient Real-World Online RL of Vision-Language-Action Models
 
-**链接：** https://arxiv.org/abs/2609.04355
-
-**项目主页：** https://vla-precision.github.io
-**作者 / 机构：** Chenyu Su, Zhaolong Shen, Yuan Qian, Chen Qian, Rui Zhang, Feng Yan, Weixing Chen, Fei Zhang, Jiamin Wang, Shuang Cong, Weiwei Shang（中国科学技术大学、精密与智能化学全国重点实验室、北京航空航天大学、中关村学院、合肥 SpinX 技术）
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2609.04355"
+  authors="Chenyu Su, Zhaolong Shen, Yuan Qian, Chen Qian, Rui Zhang, Feng Yan, Weixing Chen, Fei Zhang, Jiamin Wang, Shuang Cong, Weiwei Shang（中国科学技术大学、精密与智能化学全国重点实验室、北京航空航天大学、中关村学院、合肥 SpinX 技术）"
+  arxiv="2609.04355"
+  links="[{\"url\":\"https://vla-precision.github.io\",\"label\":\"项目主页\",\"kind\":\"project\"}]"
+>}}
 
 **一句话总结：** 中科大团队提出 VLA-Precision，用**非对称协同自举（ACoB）**算法与 **ACoB-Stream** 架构解决大 VLA 真机在线强化学习的两大瓶颈——价值信号不可靠导致策略漂移、大模型开销限制吞吐与样本效率，在 9 项高精度化学任务上达到 98.3% 平均成功率。
 
@@ -177,9 +189,11 @@ tocopen: true
 
 ### Joint Alignment and Distillation for Video Generation via Sample-Guided Distribution Matching
 
-**链接：** https://arxiv.org/abs/2609.04283
-
-**作者 / 机构：** Jiuzhou Lin, Junlong Wu, Fei Zuo, Huan Ouyang, Dewen Fan, Boheng Zhang, Huaiqing Wang, Jia Sun, Fan Yang, Houde Liu, Kehai Chen, Min Zhang, Tingting Gao, Han Li（清华大学、快手科技、哈尔滨工业大学（深圳）、北京邮电大学）
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2609.04283"
+  authors="Jiuzhou Lin, Junlong Wu, Fei Zuo, Huan Ouyang, Dewen Fan, Boheng Zhang, Huaiqing Wang, Jia Sun, Fan Yang, Houde Liu, Kehai Chen, Min Zhang, Tingting Gao, Han Li（清华大学、快手科技、哈尔滨工业大学（深圳）、北京邮电大学）"
+  arxiv="2609.04283"
+>}}
 
 **一句话总结：** 清华与快手团队提出 **DM-Align**，把视频生成模型的偏好对齐与步数蒸馏统一进**单阶段分布匹配（DM）优化**，一举避开"先 RL 后蒸馏导致模型崩溃、先蒸馏后 RL 成本过高"的两难，在仅 4 NFE 下取得 VBench 最高平均分。
 
@@ -203,9 +217,11 @@ tocopen: true
 
 ### ReaDiT Guidance: Control for Image and Video Generation using Diffusion Transformer Features
 
-**链接：** https://arxiv.org/abs/2609.04649
-
-**作者 / 机构：** Jay Mahajan, Chang Liu, Rauf Makharov, Viraj Shah, Alexander Schwing, Svetlana Lazebnik（伊利诺伊大学厄巴纳-香槟分校 UIUC）
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2609.04649"
+  authors="Jay Mahajan, Chang Liu, Rauf Makharov, Viraj Shah, Alexander Schwing, Svetlana Lazebnik（伊利诺伊大学厄巴纳-香槟分校 UIUC）"
+  arxiv="2609.04649"
+>}}
 
 **一句话总结：** UIUC 团队提出 **ReaDiT（DiT Readout）Guidance**，只用**单个 DiT block 的内部特征**在推理时按深度、姿态、边缘等空间目标引导生成，参数量仅 53M 却能达到或超过 1487M 的 ControlNet，并天然扩展到视频的相机与运动控制。
 

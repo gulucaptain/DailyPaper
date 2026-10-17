@@ -17,10 +17,12 @@ tocopen: true
 
 ### SolarWM: Open Data and Scalable Training for Long-Horizon Video World Models
 
-**链接：** https://arxiv.org/abs/2609.02886
-
-**项目主页：** https://junchao-cs.github.io/SolarWM-Web/ ｜ **代码：** https://github.com/Junchao-cs/SolarWM/tree/main ｜ **数据：** https://huggingface.co/datasets/junchaoh-cs/SolarWM-Data
-**作者 / 机构：** Junchao Huang, Guian Fang, Shengju Qian, Xianghao Kong, Zhuoran Zhao, Wei Huang, … , Mike Zheng Shou, Li Jiang（CUHK-SZ、SLAI、NUS、CUHK、HKUST、HKUST-GZ、NVIDIA、UCLA、MSRA）
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2609.02886"
+  authors="Junchao Huang, Guian Fang, Shengju Qian, Xianghao Kong, Zhuoran Zhao, Wei Huang, … , Mike Zheng Shou, Li Jiang（CUHK-SZ、SLAI、NUS、CUHK、HKUST、HKUST-GZ、NVIDIA、UCLA、MSRA）"
+  arxiv="2609.02886"
+  links="[{\"url\":\"https://junchao-cs.github.io/SolarWM-Web/\",\"label\":\"项目主页\",\"kind\":\"project\"},{\"url\":\"https://github.com/Junchao-cs/SolarWM/tree/main\",\"label\":\"GitHub\",\"kind\":\"github\"},{\"url\":\"https://huggingface.co/datasets/junchaoh-cs/SolarWM-Data\",\"label\":\"数据\",\"kind\":\"huggingface\"}]"
+>}}
 
 **一句话总结：** 多校联合团队发布 SolarWM，用统一数据契约 + 主干原生适配框架把 10 个数据集的 143 万条片段与 Wan2.2 / LTX-2.5 / MiniMax-H3 三种异构视频主干解耦，训练出可实时交互、能推演数分钟到数小时的长程视频世界模型，并全栈开源。
 
@@ -45,10 +47,12 @@ tocopen: true
 
 ### Spatially Aware World Action Model via Geometric Latent Diffusion
 
-**链接：** https://arxiv.org/abs/2609.02531
-
-**项目主页：** https://jlopetegui98.github.io/projects/sa_wam.html
-**作者 / 机构：** Javier Alejandro Lopetegui Gonzalez, Paul Pacaud, Cordelia Schmid（Inria 与法国巴黎高等师范学院（ENS）计算机系，PSL Research University）
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2609.02531"
+  authors="Javier Alejandro Lopetegui Gonzalez, Paul Pacaud, Cordelia Schmid（Inria 与法国巴黎高等师范学院（ENS）计算机系，PSL Research University）"
+  arxiv="2609.02531"
+  links="[{\"url\":\"https://jlopetegui98.github.io/projects/sa_wam.html\",\"label\":\"项目主页\",\"kind\":\"project\"}]"
+>}}
 
 **一句话总结：** Inria / ENS Paris 团队提出 SA-WAM，用非线性深度编码把无界度量深度塞进冻结 VAE tokenizer 的有界输入域，在单一扩散主干内联合预测动作、RGB 与深度，让世界动作模型首次具备 3D 空间感知。
 
@@ -72,8 +76,11 @@ tocopen: true
 
 ### ZETA: A Controlled Study of Zero-Shot Cross-Embodiment VLA Transfer for Tabletop Manipulation
 
-**链接：** https://arxiv.org/abs/2609.02546
-**作者 / 机构：** Mi Yan, Wenhao Zhang, Zhiqi Zhang, Yu Peng, Tangxinyu Wang, Lingfei Zhai, … , Zhizheng Zhang, He Wang（Galbot、北京大学计算机学院 CFCS、北京大学、中国人民大学、厦门大学马来西亚分校、香港大学）
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2609.02546"
+  authors="Mi Yan, Wenhao Zhang, Zhiqi Zhang, Yu Peng, Tangxinyu Wang, Lingfei Zhai, … , Zhizheng Zhang, He Wang（Galbot、北京大学计算机学院 CFCS、北京大学、中国人民大学、厦门大学马来西亚分校、香港大学）"
+  arxiv="2609.02546"
+>}}
 
 **一句话总结：** 北大 / Galbot 等团队建立 ZETA 受控基准，首次清晰区分"严格零样本"与"预训练暴露过"两种跨本体迁移，在 14 个留出本体上量化了状态-动作表示、本体多样性、辅助共训练与目标本体暴露四类因素的贡献。
 
@@ -97,10 +104,12 @@ tocopen: true
 
 ### HINT: Human-Intent Inception for Long-Horizon Robot Manipulation
 
-**链接：** https://arxiv.org/abs/2609.02653
-
-**项目主页：** https://robot-hint.github.io/
-**作者 / 机构：** Mingyu Mei, Haojie Xu, Shihao Jin, Zibo Dai, Qihao Cheng, Zhengrui Lv, … , Huiliang Shen, Zaixing He（浙江大学、上海交通大学、Noematrix、EndlessAI）
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2609.02653"
+  authors="Mingyu Mei, Haojie Xu, Shihao Jin, Zibo Dai, Qihao Cheng, Zhengrui Lv, … , Huiliang Shen, Zaixing He（浙江大学、上海交通大学、Noematrix、EndlessAI）"
+  arxiv="2609.02653"
+  links="[{\"url\":\"https://robot-hint.github.io/\",\"label\":\"项目主页\",\"kind\":\"project\"}]"
+>}}
 
 **一句话总结：** 浙大 / 上交等团队提出 HINT，借鉴人类操作规律——语义意图只在操作模式切换时稀疏变化、连续控制主要依赖演化的"手-物"关系——只在模式转换点调用语义推理，其余时刻用多视角定位与视觉追踪维持意图承诺，从而抑制 VLA 走视觉捷径。
 
@@ -124,8 +133,11 @@ tocopen: true
 
 ### World-Model-Augmented Visual Locomotion for Humanoids on Foothold-Constrained Terrain
 
-**链接：** https://arxiv.org/abs/2609.02542
-**作者 / 机构：** Yuxi Liu, Lijun Han, Ziming Wang, Ao Zhang, Cong Yang, Wei Sui（地平线机器人 D-Robotics、北京邮电大学、哈尔滨工业大学、苏州大学；前两位作者同等贡献）
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2609.02542"
+  authors="Yuxi Liu, Lijun Han, Ziming Wang, Ao Zhang, Cong Yang, Wei Sui（地平线机器人 D-Robotics、北京邮电大学、哈尔滨工业大学、苏州大学；前两位作者同等贡献）"
+  arxiv="2609.02542"
+>}}
 
 **一句话总结：** 团队提出 WM-LOCO，联合训练循环世界模型与 PPO 策略，仅凭本体感知与单张机载深度图产出预测性循环特征来引导策略，无需显式足点标签，即在 Unitree G1 人形机器人上以 93.3% 平均成功率通过踏石、跨沟、窄台阶三类足点受限地形。
 
@@ -149,10 +161,12 @@ tocopen: true
 
 ### Modeling What Changes: Sparse, Residual World Models for Object-Centric Manipulation
 
-**链接：** https://arxiv.org/abs/2609.02046
-
-**代码：** https://github.com/ParamThakkar123/sparse_world_models
-**作者 / 机构：** Param Thakkar（Veermata Jijabai Technological Institute）, Parsika Paresh Shah（Arizona State University）, Manisha Sushant Gote（ZuiGO Private Limited）
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2609.02046"
+  authors="Param Thakkar（Veermata Jijabai Technological Institute）, Parsika Paresh Shah（Arizona State University）, Manisha Sushant Gote（ZuiGO Private Limited）"
+  arxiv="2609.02046"
+  links="[{\"url\":\"https://github.com/ParamThakkar123/sparse_world_models\",\"label\":\"GitHub\",\"kind\":\"github\"}]"
+>}}
 
 **一句话总结：** 提出"建模变化而非重建全局"的归纳偏置：用逐物体变化门 + 只扰动被标记物体的残差增量头替代整体式世界模型，在 MuJoCo 推物任务上以 8.6–11.1 倍更少的参数把下一状态位姿预测精度提升 2.5–4.6 倍，并显著抑制自回归 rollout 的误差累积。
 
@@ -176,10 +190,12 @@ tocopen: true
 
 ### Discriminative World Models for Web Agents
 
-**链接：** https://arxiv.org/abs/2609.02885
-
-**项目主页：** https://dhruvpendharkar.github.io/dwm/
-**作者 / 机构：** Kelvin Li, Dhruv Pendharkar, Anish Pahilajani, Chuyi Shang, Leon Oks, Leonid Karlinsky, Rogerio Feris, Trevor Darrell, Roei Herzig（UC Berkeley、MIT-IBM Watson AI Lab、加州理工州立大学圣路易斯奥比斯波分校、Xero）
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2609.02885"
+  authors="Kelvin Li, Dhruv Pendharkar, Anish Pahilajani, Chuyi Shang, Leon Oks, Leonid Karlinsky, Rogerio Feris, Trevor Darrell, Roei Herzig（UC Berkeley、MIT-IBM Watson AI Lab、加州理工州立大学圣路易斯奥比斯波分校、Xero）"
+  arxiv="2609.02885"
+  links="[{\"url\":\"https://dhruvpendharkar.github.io/dwm/\",\"label\":\"项目主页\",\"kind\":\"project\"}]"
+>}}
 
 **一句话总结：** Berkeley / MIT-IBM Watson 团队指出世界模型的"下一状态监督预测"训练目标与下游"跨候选动作排序"的使用方式错配，提出 predicted-state matching——让预测表示必须能把真实结果状态与替代动作导致的状态区分开，从而提升 Web 智能体的测试时动作选择。
 
@@ -203,8 +219,11 @@ tocopen: true
 
 ### Latent Cluster Analysis for Vision-Language-Action Models
 
-**链接：** https://arxiv.org/abs/2609.02634
-**作者 / 机构：** Theodor Wulff, Sergio Lanza, Tamara Bila, Angelo Cangelosi, Stefan Wermter, Igor Farkas（曼彻斯特大学、汉堡大学、布拉迪斯拉发夸美纽斯大学）
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2609.02634"
+  authors="Theodor Wulff, Sergio Lanza, Tamara Bila, Angelo Cangelosi, Stefan Wermter, Igor Farkas（曼彻斯特大学、汉堡大学、布拉迪斯拉发夸美纽斯大学）"
+  arxiv="2609.02634"
+>}}
 
 **一句话总结：** 提出 LAVLA 框架对 VLA 模型做隐空间聚类分析，针对 GR00T N1.5 的动作解码器做逐层研究，用交叉注意力嵌入加权强化判别性特征，揭示隐簇如何逐层解耦时空与运动学特征。
 

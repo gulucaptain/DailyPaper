@@ -17,7 +17,10 @@ tocopen: true
 
 ### World from Motion: Generative Dynamic Gaussian Reconstruction from Monocular Video
 
-**链接：** https://arxiv.org/abs/2607.01202
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2607.01202"
+  arxiv="2607.01202"
+>}}
 
 **一句话总结：** NVIDIA 提出 World from Motion，用视频生成模型从单目视频生成可自由渲染的高质量动态 3D Gaussian 场景，实现 4D 重建 SOTA。
 
@@ -41,7 +44,10 @@ tocopen: true
 
 ### Ink3D: Sculpting 3D Assets with Extremely Complex Textures via Video Generative Models
 
-**链接：** https://arxiv.org/abs/2607.01222
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2607.01222"
+  arxiv="2607.01222"
+>}}
 
 **一句话总结：** 提出 Ink3D，通过将视频生成模型作为纹理先验，解决 3D 生成中极复杂纹理难以复现的瓶颈，已被 ECCV 2026 接收。
 
@@ -65,7 +71,10 @@ tocopen: true
 
 ### FurnitureVLA: Learning Long-Horizon Bimanual Furniture Assembly with Vision-Language-Action Model
 
-**链接：** https://arxiv.org/abs/2607.01212
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2607.01212"
+  arxiv="2607.01212"
+>}}
 
 **一句话总结：** 首次系统研究真实比例双臂家具组装任务，提出进度增强型 VLA，在仿真中平均成功率从 48% 提升至 80%。
 
@@ -89,7 +98,10 @@ tocopen: true
 
 ### H-Tac: Human-Centric Transferable Tactile Pre-Training for Dexterous Robotic Manipulation
 
-**链接：** https://arxiv.org/abs/2607.01067
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2607.01067"
+  arxiv="2607.01067"
+>}}
 
 **一句话总结：** 构建 160 小时大规模触觉-动作数据集 H-Tac，提出 TTP 框架通过人类-机器人触觉迁移预训练，实现精细操作能力大幅提升。
 
@@ -113,7 +125,10 @@ tocopen: true
 
 ### Is One Layer Enough? Training A Single Transformer Layer Can Match Full-Parameter RL Training
 
-**链接：** https://arxiv.org/abs/2607.01232
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2607.01232"
+  arxiv="2607.01232"
+>}}
 
 **一句话总结：** 发现 LLM 强化学习后训练中，RL 增益高度集中在少数 transformer 层（通常为中间层），训练单层即可匹配甚至超越全参数 RL 训练效果。
 
@@ -137,7 +152,10 @@ tocopen: true
 
 ### Language-Critique Imitation Learning from Suboptimal Demonstrations
 
-**链接：** https://arxiv.org/abs/2607.01225
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2607.01225"
+  arxiv="2607.01225"
+>}}
 
 **一句话总结：** 以自然语言作为结构化监督信号替代标量分数，从次优示范中训练机器人策略，在行为克隆和扩散策略上均获得显著提升。
 
@@ -161,7 +179,10 @@ tocopen: true
 
 ### Failure-Aware Retry (FAR): Failure-Aware Retry for Test-Time Recovery and Continual Policy Improvement
 
-**链接：** https://arxiv.org/abs/2607.01111
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2607.01111"
+  arxiv="2607.01111"
+>}}
 
 **一句话总结：** 提出 FAR 框架，让机器人在测试时从失败中学习并调整行为，仿真和真实操作任务上平均成功率分别提升 17.6% 和 11.7%。
 
@@ -185,7 +206,10 @@ tocopen: true
 
 ### High-dimensional Embedding Prior for Noisy K-space Domain MRI Reconstruction
 
-**链接：** https://arxiv.org/abs/2607.01176
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2607.01176"
+  arxiv="2607.01176"
+>}}
 
 **一句话总结：** 提出高维 k 空间嵌入表示框架，通过增强数据表示空间使现有扩散模型求解器在高噪声 MRI 重建场景下显著提升性能。
 

@@ -17,7 +17,10 @@ tocopen: true
 
 ### PackForcing: Short Video Training Suffices for Long Video Sampling and Long Context Inference
 
-**链接：** https://arxiv.org/abs/2603.25730
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2603.25730"
+  arxiv="2603.25730"
+>}}
 
 **一句话总结：** 通过三分区 KV-Cache 压缩策略和动态 top-k 上下文选取，仅用 5 秒短视频训练即可零样本外推到 2 分钟高质量视频生成，在单卡 H200 上实现 16FPS、KV Cache 仅 4GB。
 
@@ -41,7 +44,10 @@ tocopen: true
 
 ### ShotStream: Streaming Multi-Shot Video Generation for Interactive Storytelling
 
-**链接：** https://arxiv.org/abs/2603.25746
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2603.25746"
+  arxiv="2603.25746"
+>}}
 
 **一句话总结：** 通过因果多镜头架构与双缓存记忆机制，将多镜头视频生成改造为流式可交互范式，实现子秒延迟、16FPS 单卡实时生成，支持用户动态指令驱动叙事。
 
@@ -65,7 +71,10 @@ tocopen: true
 
 ### HyDRA: Out of Sight but Not Out of Mind: Hybrid Memory for Dynamic Video World Models
 
-**链接：** https://arxiv.org/abs/2603.25716
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2603.25716"
+  arxiv="2603.25716"
+>}}
 
 **一句话总结：** 提出动态视频世界模型的混合记忆范式 HyDRA，专门处理运动主体出视野后重现的场景，构建了首个专用数据集 HM-World（59K 高保真片段）。
 
@@ -89,7 +98,10 @@ tocopen: true
 
 ### Vega: Learning to Drive with Natural Language Instructions
 
-**链接：** https://arxiv.org/abs/2603.25741
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2603.25741"
+  arxiv="2603.25741"
+>}}
 
 **一句话总结：** Vega 将自回归范式（视觉+语言理解）与扩散范式（世界建模+动作规划）统一在一个框架内，支持自然语言指令驱动的个性化自动驾驶，构建了含 10 万场景的 InstructScene 数据集。
 
@@ -113,7 +125,10 @@ tocopen: true
 
 ### RefAlign: Representation Alignment for Reference-to-Video Generation
 
-**链接：** https://arxiv.org/abs/2603.25743
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2603.25743"
+  arxiv="2603.25743"
+>}}
 
 **一句话总结：** RefAlign 通过显式对齐 DiT 参考分支特征与视觉基础模型语义空间，解决 Reference-to-Video 生成中的 copy-paste 伪影和多主体混淆问题，在 OpenS2V-Eval 上取得 SOTA TotalScore。
 
@@ -137,7 +152,10 @@ tocopen: true
 
 ### LIGHT: Unleashing Guidance Without Classifiers for Human-Object Interaction Animation
 
-**链接：** https://arxiv.org/abs/2603.25734
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2603.25734"
+  arxiv="2603.25734"
+>}}
 
 **一句话总结：** LIGHT 基于扩散强制（diffusion forcing）思想，让去噪节奏本身产生数据驱动的接触感知引导，无需手工设计接触先验，显著提升 HOI 动画的接触质量与泛化能力。
 
@@ -161,7 +179,10 @@ tocopen: true
 
 ### Wan-Weaver: Interleaved Multi-modal Generation via Decoupled Training
 
-**链接：** https://arxiv.org/abs/2603.25706
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2603.25706"
+  arxiv="2603.25706"
+>}}
 
 **一句话总结：** Wan-Weaver（CVPR 2026）通过规划器-可视化器解耦架构，无需真实交错数据即实现文-图交错生成，并构建了首个多维交错生成评估基准。
 
@@ -185,7 +206,10 @@ tocopen: true
 
 ### RC2: Cycle-Consistent Reinforcement Learning Improves Multimodal Reasoning
 
-**链接：** https://arxiv.org/abs/2603.25720
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2603.25720"
+  arxiv="2603.25720"
+>}}
 
 **一句话总结：** RC2 通过跨模态循环一致性约束构造无标签奖励信号，用强化学习驱动多模态模型对齐内部表示，推理精度提升最高 7.6 分。
 

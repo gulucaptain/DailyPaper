@@ -21,9 +21,11 @@ tocopen: true
 
 ### VDOT++: Unified Few-Step Video Generation via Unbalanced Optimal Transport Distillation
 
-**链接：** https://arxiv.org/abs/2610.03221
-
-**作者 / 机构：** Yutong Wang, Xingtong Ge, Enhuai Liu, Yunke Wang, Tianfan Xue, Yu Qiao, Yaohui Wang, Xinyuan Chen, Chang Xu（悉尼大学 The University of Sydney；上海人工智能实验室 Shanghai AI Laboratory；香港科技大学；香港中文大学）
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2610.03221"
+  authors="Yutong Wang, Xingtong Ge, Enhuai Liu, Yunke Wang, Tianfan Xue, Yu Qiao, Yaohui Wang, Xinyuan Chen, Chang Xu（悉尼大学 The University of Sydney；上海人工智能实验室 Shanghai AI Laboratory；香港科技大学；香港中文大学）"
+  arxiv="2610.03221"
+>}}
 
 **一句话总结：** 悉尼大学与上海人工智能实验室等团队提出 **VDOT++**，用**非平衡最优传输**改造分布匹配蒸馏，把同一套训练配方统一用于文生视频（T2V）、图生视频（I2V）与条件生成三类任务，得到的**四步生成器**在 UVCBench、VBench、VBench-I2V 与 VACE 上都能与多步教师及强少步基线竞争。
 
@@ -47,11 +49,12 @@ tocopen: true
 
 ### LoGo: Local-Global Rewards for Consistent Long-Horizon Video Generation
 
-**链接：** https://arxiv.org/abs/2610.03636
-
-**项目主页：** https://ziqi-ma.github.io/logo-website/
-
-**作者 / 机构：** Ziqi Ma, Shreya Sharma, Mohamed El Banani, Katja Schwarz, Chongjie Ye, Chao-Yuan Wu, Li Fei-Fei, Ben Mildenhall, Georgia Gkioxari, Justin Johnson, Gowthami Somepalli（加州理工学院 California Institute of Technology；World Labs，部分工作为在 World Labs 实习期间完成）
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2610.03636"
+  authors="Ziqi Ma, Shreya Sharma, Mohamed El Banani, Katja Schwarz, Chongjie Ye, Chao-Yuan Wu, Li Fei-Fei, Ben Mildenhall, Georgia Gkioxari, Justin Johnson, Gowthami Somepalli（加州理工学院 California Institute of Technology；World Labs，部分工作为在 World Labs 实习期间完成）"
+  arxiv="2610.03636"
+  links="[{\"url\":\"https://ziqi-ma.github.io/logo-website/\",\"label\":\"项目主页\",\"kind\":\"project\"}]"
+>}}
 
 **一句话总结：** 加州理工与 World Labs 团队提出 **LoGo**，为相机可控视频模型设计**全局 + 空间局部的混合奖励**：局部奖励提供细粒度信用分配，显著改善三维一致性；全局奖励保住相机跟随与画面质量。方法在 **Lingbot2、Lyra2、UniWorld** 三个基座模型与 **DiffusionNFT、Flow-GRPO、DRaFT** 三种后训练算法上一致有效，并发布了长程复杂相机轨迹基准 **TrajectoryBench**。
 
@@ -75,9 +78,11 @@ tocopen: true
 
 ### SymRegFlow: Symmetry-Regularized Flow Matching for Video World Models
 
-**链接：** https://arxiv.org/abs/2610.02726
-
-**作者 / 机构：** Xi Ye, Yuzhu Wang, Xiaoyang Liu, Jiayi Wang, Yangyang Xu, Ruyu Wang, Wenlin Chen, Duo Su, Jun Zhu（清华大学计算机科学与技术系、清华—博世联合机器学习中心；博世人工智能中心 BCAI；罗伯特·博世有限公司 Robert Bosch GmbH；博世（中国）投资有限公司；中国科学院大学）
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2610.02726"
+  authors="Xi Ye, Yuzhu Wang, Xiaoyang Liu, Jiayi Wang, Yangyang Xu, Ruyu Wang, Wenlin Chen, Duo Su, Jun Zhu（清华大学计算机科学与技术系、清华—博世联合机器学习中心；博世人工智能中心 BCAI；罗伯特·博世有限公司 Robert Bosch GmbH；博世（中国）投资有限公司；中国科学院大学）"
+  arxiv="2610.02726"
+>}}
 
 **一句话总结：** 清华与博世团队提出 **SymRegFlow**，一个**对称性正则化的流匹配框架**，让多视角视频世界模型在**没有新视角 RGB 真值监督**的情况下，跨连续相机位姿生成多视角一致的视频。在 nuScenes 上取得所评基线中最低的 FVD 与 FVMD，**FVD 相对最优基线降低 31% 以上**，源视角条件下的推理同时取得最优 FID 与实例保持。
 
@@ -101,11 +106,12 @@ tocopen: true
 
 ### PointWAM: 3D World Action Modeling for Dexterous Robotic Manipulation
 
-**链接：** https://arxiv.org/abs/2610.02840
-
-**项目主页：** https://chrockey.github.io/PointWAM
-
-**作者 / 机构：** Chunghyun Park, Beomjun Kim, Seungcheol Park, Heeseung Kwon, Yashu Shukla, Seunghoon Sim, Jinwoo Shin, Minsu Cho（POSTECH 浦项工科大学；KAIST 韩国科学技术院；汉阳大学 Hanyang University；RLWRLD）
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2610.02840"
+  authors="Chunghyun Park, Beomjun Kim, Seungcheol Park, Heeseung Kwon, Yashu Shukla, Seunghoon Sim, Jinwoo Shin, Minsu Cho（POSTECH 浦项工科大学；KAIST 韩国科学技术院；汉阳大学 Hanyang University；RLWRLD）"
+  arxiv="2610.02840"
+  links="[{\"url\":\"https://chrockey.github.io/PointWAM\",\"label\":\"项目主页\",\"kind\":\"project\"}]"
+>}}
 
 **一句话总结：** POSTECH、KAIST 等团队提出 **PointWAM**，一个三维世界动作模型：把世界拆成**场景（环境）**与**手（行动者）**，在**共享的时空坐标系**里联合预测两者的**三维点轨迹**，再把预测出的手部运动重定向为机器人动作。在 **115 万条人类演示 episode** 上预训练后，DexJoCo 平均成功率提升 **56.9 个百分点**，场景轨迹监督在只预测手的基础上再加 **10.9 个百分点**；两者合用，在十个 DexJoCo 任务上超过此前最优 **11.7 个百分点**，并在真机上超过强 VLA。
 
@@ -129,11 +135,12 @@ tocopen: true
 
 ### World Action Modeling with Progressive Visual Planning
 
-**链接：** https://arxiv.org/abs/2610.02508
-
-**项目主页：** https://sii-ferenas.github.io/ProWAM-page
-
-**作者 / 机构：** Fei Zhang, Zhaochong An, Duncan Frost, Yikai Wang, Pengfei Liu, Ya Zhang, Michal Drozdzal, Amir Bar（上海交通大学 Shanghai Jiao Tong University；上海人工智能研究院 SII；Meta；帝国理工学院 Imperial College London）
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2610.02508"
+  authors="Fei Zhang, Zhaochong An, Duncan Frost, Yikai Wang, Pengfei Liu, Ya Zhang, Michal Drozdzal, Amir Bar（上海交通大学 Shanghai Jiao Tong University；上海人工智能研究院 SII；Meta；帝国理工学院 Imperial College London）"
+  arxiv="2610.02508"
+  links="[{\"url\":\"https://sii-ferenas.github.io/ProWAM-page\",\"label\":\"项目主页\",\"kind\":\"project\"}]"
+>}}
 
 **一句话总结：** 上海交通大学、SII 与 Meta 团队提出 **ProWAM**，一个**渐进式世界动作模型**：不再生成稠密视频 rollout，而是联合预测动作与一串**有序的稀疏视觉子目标**，为动作生成提供贯穿全程的显式视觉指引。仿真上在 **LIBERO-Plus 取得 85.8%**、随机化 **RoboTwin 取得 75.7%**，相对最强基线最高 **+35.9%**；真机零样本达到 **70.0%**，比最强基线高 **15.0 个百分点**。
 
@@ -157,9 +164,11 @@ tocopen: true
 
 ### SimpleTouch: Can Vision-Language-Action Models Master Contact-Rich Manipulation Without Tactile Policy Pretraining?
 
-**链接：** https://arxiv.org/abs/2610.02784
-
-**作者 / 机构：** Chen Yang, Linzhe Shi, Changjie Wu, Hang Zhang, Ronghan Chen, Lingjun Zhang, Xu Hu, Mu Xu, Jiansheng Fan, Chen Wang（清华大学 Tsinghua University；阿里巴巴高德 Amap, Alibaba Group；香港理工大学 Hong Kong Polytechnic University）
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2610.02784"
+  authors="Chen Yang, Linzhe Shi, Changjie Wu, Hang Zhang, Ronghan Chen, Lingjun Zhang, Xu Hu, Mu Xu, Jiansheng Fan, Chen Wang（清华大学 Tsinghua University；阿里巴巴高德 Amap, Alibaba Group；香港理工大学 Hong Kong Polytechnic University）"
+  arxiv="2610.02784"
+>}}
 
 **一句话总结：** 清华、高德与香港理工大学团队提出 **SimpleTouch**，一个给 π₀.₅ 加**触觉专家**的极简 VLA 扩展，用来正面检验一个常见假设：把触觉接进预训练 VLA，**真的必须先做大规模触觉策略预训练吗？** 答案是**不需要**——单阶段训练、只用任务演示，每任务 **50 条演示**下在 **UniVTAC 六个任务上全部取得最高成功率**，均值 **77.5%**（FTP-π₀.₅ 为 45.2%、FTP-1 为 66.7%），四个真机任务均值 **71.3%**，超过 FTP-1 **8.8 个百分点**。
 
@@ -183,11 +192,12 @@ tocopen: true
 
 ### FastOPD: On-Policy Distillation for Lightweight VLA Deployment
 
-**链接：** https://arxiv.org/abs/2610.02832
-
-**项目主页：** https://fastopd.github.io/
-
-**作者 / 机构：** Yoojin Oh, Jeongsol Kim, Yeonwoo Seo, Jangho Park, Seonghyun Jin, Sunwoo Park, Youngmin Kim, Youngjun Jun, Kyumin Choi, Jong Chul Ye（KAIST 韩国科学技术院；成均馆大学 Sungkyunkwan University）
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2610.02832"
+  authors="Yoojin Oh, Jeongsol Kim, Yeonwoo Seo, Jangho Park, Seonghyun Jin, Sunwoo Park, Youngmin Kim, Youngjun Jun, Kyumin Choi, Jong Chul Ye（KAIST 韩国科学技术院；成均馆大学 Sungkyunkwan University）"
+  arxiv="2610.02832"
+  links="[{\"url\":\"https://fastopd.github.io/\",\"label\":\"项目主页\",\"kind\":\"project\"}]"
+>}}
 
 **一句话总结：** KAIST 与成均馆大学团队提出 **FastOPD**，一个**从基础模型到轻量级模型的 VLA 框架**，用高效的在策略蒸馏让大规模 VLA 真正可部署：把 **flow map** 适配为单状态教师监督，并与**自一致性目标**结合，学到一个紧凑的学生。在 LIBERO 上，**仅两步推理即可保留 π₀.₅ 性能的 84%**，推理延迟降低 **78.1%**，同时平均成功率优于现有少步蒸馏基线；以 LingBot-VLA 为教师时，RoboTwin 2.0 上单步成功率比基础学生提升 **15.9 个百分点**。
 
@@ -211,11 +221,12 @@ tocopen: true
 
 ### Equivariant Visual-Tactile Diffusion Policy for Contact-Rich Manipulation
 
-**链接：** https://arxiv.org/abs/2610.03333
-
-**项目主页：** https://vista-paper.github.io/
-
-**作者 / 机构：** Lik Hang Kenny Wong, Yiyao Ma, Xiu-Shen Wei, Zelong Tan, Zhuheng Song, Dongsheng Xie, Kai Chen, Qi Dou（香港中文大学计算机科学与工程学系 The Chinese University of Hong Kong；东南大学计算机科学与工程学院 Southeast University）
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2610.03333"
+  authors="Lik Hang Kenny Wong, Yiyao Ma, Xiu-Shen Wei, Zelong Tan, Zhuheng Song, Dongsheng Xie, Kai Chen, Qi Dou（香港中文大学计算机科学与工程学系 The Chinese University of Hong Kong；东南大学计算机科学与工程学院 Southeast University）"
+  arxiv="2610.03333"
+  links="[{\"url\":\"https://vista-paper.github.io/\",\"label\":\"项目主页\",\"kind\":\"project\"}]"
+>}}
 
 **一句话总结：** 香港中文大学与东南大学团队提出 **VISTA**，一个**工作空间层面的等变视触觉扩散策略**：把视觉与触觉观测投影为**球面 token**，通过**置换等变的球面融合**把触觉接触线索注入视觉球面方向，再用末端朝向旋转融合后的谐表示，最后以此条件驱动等变扩散策略预测空间一致的动作。**每任务仅 50 条演示**，仿真平均成功率 **80.9%**，比 ManiFeel、VITAL、UniVTAC 分别高出 **32.1 / 37.1 / 59.6 个百分点**，比最强基线 EquiDiff + Tac 高出 **15.9 个百分点**。已被 **CoRL 2026** 接收。
 

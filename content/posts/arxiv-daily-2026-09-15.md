@@ -21,11 +21,12 @@ tocopen: true
 
 ### Pelican-Sim 1.0: A General World Model Simulator for Embodied Intelligence
 
-**链接：** https://arxiv.org/abs/2609.12036
-
-**项目主页：** https://zoushilong1024.github.io/Pelican-Sim1.0/ ｜ **代码：** https://github.com/ZouShilong1024/Pelican-Sim1.0
-
-**作者 / 机构：** Shilong Zou, Shilin Zhang, Yingji Zhang, Yuhang Huang, Yi Zhang, Zeyuan Ding, Han Dong, Junwei Liao, Yong Dai, Jian Tang, Xiaozhu Ju（北京人形机器人创新中心 / 北京具身智能机器人创新中心 X-Humanoid，WFM System Group）
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2609.12036"
+  authors="Shilong Zou, Shilin Zhang, Yingji Zhang, Yuhang Huang, Yi Zhang, Zeyuan Ding, Han Dong, Junwei Liao, Yong Dai, Jian Tang, Xiaozhu Ju（北京人形机器人创新中心 / 北京具身智能机器人创新中心 X-Humanoid，WFM System Group）"
+  arxiv="2609.12036"
+  links="[{\"url\":\"https://zoushilong1024.github.io/Pelican-Sim1.0/\",\"label\":\"项目主页\",\"kind\":\"project\"},{\"url\":\"https://github.com/ZouShilong1024/Pelican-Sim1.0\",\"label\":\"GitHub\",\"kind\":\"github\"}]"
+>}}
 
 **一句话总结：** X-Humanoid 提出 **Pelican-Sim 1.0**，一个跨本体的通用世界模型仿真器：用 **28 维统一动作空间** + **URDF/相机渲染的动作视频**双路条件注入 Video DiT，配以**稀疏 MoE** 吸收异构动力学，在约 **100 万条**真实与仿真轨迹上训练，AgiBotWorld Beta / RoboMIND / RoboTwin 三项 held-out 测试上**五项视频质量指标全部最优**。
 
@@ -49,11 +50,12 @@ tocopen: true
 
 ### Dynin-Robotics: Omnimodal Unified Diffusion Vision-Language-Action Model
 
-**链接：** https://arxiv.org/abs/2609.13053
-
-**代码：** https://github.com/AIDASLab/Dynin-Robotics ｜ **模型：** https://huggingface.co/snu-aidas/Dynin-Robotics
-
-**作者 / 机构：** AIDAS Lab，Seoul National University（首尔大学）
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2609.13053"
+  authors="AIDAS Lab，Seoul National University（首尔大学）"
+  arxiv="2609.13053"
+  links="[{\"url\":\"https://github.com/AIDASLab/Dynin-Robotics\",\"label\":\"GitHub\",\"kind\":\"github\"},{\"url\":\"https://huggingface.co/snu-aidas/Dynin-Robotics\",\"label\":\"模型\",\"kind\":\"huggingface\"}]"
+>}}
 
 **一句话总结：** 首尔大学 AIDAS Lab 提出 **Dynin-Robotics**，在 **Dynin-Omni** 这一 omnimodal masked-diffusion 骨干上，把**策略、世界建模、任务理解、目标状态预测**统一为同一轨迹序列上的条件去噪查询，在约 **133 万条**轨迹（48 个 Open-X 数据集）上持续预训练，**LIBERO 98.1%**、**零样本 LIBERO-Plus 73.0%**、Franka Research 3 真机四条件平均 **78.4%**，块并行解码带来最高 **29.2×** 动作解码加速。
 
@@ -77,9 +79,11 @@ tocopen: true
 
 ### DWMP: Leveraging Dual World Models for Humanoid Obstacle Traversal
 
-**链接：** https://arxiv.org/abs/2609.12347
-
-**作者 / 机构：** Rongjun Jin, Jianming Ma, Yue Gao（arXiv 版本未标注机构）
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2609.12347"
+  authors="Rongjun Jin, Jianming Ma, Yue Gao（arXiv 版本未标注机构）"
+  arxiv="2609.12347"
+>}}
 
 **一句话总结：** 作者提出 **DWMP（Dual World Model Policy）**，为人形越障任务提供**两个互补的世界模型**：基于 **Koopman** 的动力学世界模型把本体感受提升到近似线性演化的潜空间，基于 **RSSM** 的视觉世界模型把第一人称深度压缩为紧凑随机状态；二者融合后交给学生策略，仿真中越障成功率相对强 teacher-student 基线**提升约 10%**，并在 **Unitree G1** 上完成随机布局真机部署。
 
@@ -103,11 +107,12 @@ tocopen: true
 
 ### STAR: Sparse Tactile Representation Learning in Vision-Tactile-Language-Action Models for Dexterous Manipulation
 
-**链接：** https://arxiv.org/abs/2609.12549
-
-**项目主页：** https://stardex-web.github.io/Star/
-
-**作者 / 机构：** 上海创智学院（Shanghai Innovation Institute）与智元机器人（AgiBot）联合团队
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2609.12549"
+  authors="上海创智学院（Shanghai Innovation Institute）与智元机器人（AgiBot）联合团队"
+  arxiv="2609.12549"
+  links="[{\"url\":\"https://stardex-web.github.io/Star/\",\"label\":\"项目主页\",\"kind\":\"project\"}]"
+>}}
 
 **一句话总结：** 团队搭建真机平台与遥操作系统，采集了 **200 小时**双臂灵巧操作数据集（**10,576 条轨迹 / 65 个任务**，其中 **69.5%** 需要多指灵巧操作），并提出 **STAR** 训练方案，通过视觉—触觉联合预训练、稀疏全局触觉 token 表示与稀疏未来触觉预测，系统应对触觉信号的**空间、时间与信息三重稀疏性**，四项真机任务上平均成功率 **0.61 / TCR 0.79**，显著超过 π₀.₅-Dex（0.44 / 0.61）与 π₀.₅（0.28 / 0.44）。
 
@@ -131,11 +136,12 @@ tocopen: true
 
 ### Breaking the Vision-Action Shortcut: Latent Interface Training for Generalizable Robotics Foundation Models
 
-**链接：** https://arxiv.org/abs/2609.12641
-
-**项目主页：** https://magiclab-nus.github.io/LIT ｜ **代码：** https://github.com/MAGICLAB-NUS/LIT
-
-**作者 / 机构：** Jianman Lin（华南理工大学未来技术学院）；Shailesh Shailesh、Jiafei Duan（新加坡国立大学 NUS）；Zhongyi Luo（南洋理工大学 NTU）等
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2609.12641"
+  authors="Jianman Lin（华南理工大学未来技术学院）；Shailesh Shailesh、Jiafei Duan（新加坡国立大学 NUS）；Zhongyi Luo（南洋理工大学 NTU）等"
+  arxiv="2609.12641"
+  links="[{\"url\":\"https://magiclab-nus.github.io/LIT\",\"label\":\"项目主页\",\"kind\":\"project\"},{\"url\":\"https://github.com/MAGICLAB-NUS/LIT\",\"label\":\"GitHub\",\"kind\":\"github\"}]"
+>}}
 
 **一句话总结：** NUS / 华南理工 / NTU 联合团队指出机器人基础模型在视觉分布偏移下退化的一大来源是**视觉—动作捷径（vision–action shortcut）**，并提出框架无关的 **LIT（Latent Interface Training）** 两阶段策略：先在**无图像**条件下建立空间目标条件的动作先验，再用**位姿监督的潜接口**约束视觉条件；在 π₀.₅、MolmoAct2、FAST-WAM、ImageWAM 四类架构上把 **LIBERO-Plus 提升 3.87–10.70 个百分点**，真机三项任务聚合提升 **13.30–16.70 个百分点**。
 
@@ -159,9 +165,11 @@ tocopen: true
 
 ### DATAFARM: Distribution-Aligned Task and Motion Planning for Fine-Tuning Vision-Language-Action Models
 
-**链接：** https://arxiv.org/abs/2609.12316
-
-**作者 / 机构：** Stanford University（斯坦福大学）与 Princeton University（普林斯顿大学）联合团队
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2609.12316"
+  authors="Stanford University（斯坦福大学）与 Princeton University（普林斯顿大学）联合团队"
+  arxiv="2609.12316"
+>}}
 
 **一句话总结：** 斯坦福与普林斯顿团队揭示了一个反直觉的阴性结果：**规划器生成的成功轨迹，对预训练 VLA 来说可能是很差的微调数据**——用原始 TAMP 演示微调 π₀.₅-DROID，平均成功率只从 **1.7% 提到 8.3%**；而提出 **DATAFARM** 把规划轨迹与预训练分布在**关节配置、运动风格、执行时序**三方面对齐后，成功率跃升至 **56.7%**，几乎追平人类演示的 **61.7%**。
 
@@ -185,11 +193,12 @@ tocopen: true
 
 ### UniPart: Towards Zero-shot Language-Grounded 3D Part Segmentation for Embodied Interaction
 
-**链接：** https://arxiv.org/abs/2609.12898
-
-**项目主页：** https://xinqiangyu.github.io/UniPart/
-
-**作者 / 机构：** 中国科学院自动化研究所 NLPR（模式识别国家重点实验室）、北京大学、清华大学、银河通用（Galbot）、上海交通大学、北京人工智能研究院联合团队
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2609.12898"
+  authors="中国科学院自动化研究所 NLPR（模式识别国家重点实验室）、北京大学、清华大学、银河通用（Galbot）、上海交通大学、北京人工智能研究院联合团队"
+  arxiv="2609.12898"
+  links="[{\"url\":\"https://xinqiangyu.github.io/UniPart/\",\"label\":\"项目主页\",\"kind\":\"project\"}]"
+>}}
 
 **一句话总结：** 团队研究**文本条件的 3D 部件分割**（用自由短语在点云上选出功能性部件），提出前馈式跨模态 3D Transformer **UniPart**（逐层加性注入 CLIP 文本嵌入），并构建大规模数据引擎 **LangPart-1M**（16 万+ Objaverse 资产、**800 万**文本—部件对）与人工核验子集 **LangPart-4K**；推理仅需 **0.4 s**，在开放词汇部件基准上取得强零样本结果并可迁移到真机语言条件部件抓取。
 
@@ -213,9 +222,11 @@ tocopen: true
 
 ### VideoTok4D: A 4D-Aware Video Tokenizer for Compact World Representation
 
-**链接：** https://arxiv.org/abs/2609.12874
-
-**作者 / 机构：** 中国科学技术大学（University of Science and Technology of China）团队
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2609.12874"
+  authors="中国科学技术大学（University of Science and Technology of China）团队"
+  arxiv="2609.12874"
+>}}
 
 **一句话总结：** 中科大团队提出 **VideoTok4D**，一个面向动态世界的 **4D 感知视频 tokenizer**：用**时空解耦**把视频拆成表示持久场景内容的**静态 token** 与表示时变物体演化的**动态 token**，配合 **Track-Aware Dynamic Attention** 沿估计轨迹聚合特征以保持跨视角运动一致性，并在此基础上训练 **Co4DGen** 实现高效条件 4D 生成——动态新视角合成达到 SOTA，存储比稠密 4D 表示**低达 4 个数量级**。
 

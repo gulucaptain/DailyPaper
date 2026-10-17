@@ -17,7 +17,10 @@ tocopen: true
 
 ### minWM: A Full-Stack Open-Source Framework for Real-Time Interactive Video World Models
 
-**链接：** https://arxiv.org/abs/2605.30263
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2605.30263"
+  arxiv="2605.30263"
+>}}
 
 **一句话总结：** 提出 minWM，一个端到端开源框架，将现有双向视频扩散基础模型转化为可实时交互的因果自回归世界模型，支持相机控制与低延迟推理。
 
@@ -41,7 +44,10 @@ tocopen: true
 
 ### VideoMLA: Low-Rank Latent KV Cache for Minute-Scale Autoregressive Video Diffusion
 
-**链接：** https://arxiv.org/abs/2605.30351
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2605.30351"
+  arxiv="2605.30351"
+>}}
 
 **一句话总结：** 将 NLP 领域的 Multi-Head Latent Attention（MLA）首次引入视频扩散模型，通过低秩共享 KV 表示将每 token KV 内存压缩 92.7%，同时在长时序视频生成上取得最优分数。
 
@@ -65,7 +71,10 @@ tocopen: true
 
 ### Colored Noise Diffusion Sampling (CNS)
 
-**链接：** https://arxiv.org/abs/2605.30332
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2605.30332"
+  arxiv="2605.30332"
+>}}
 
 **一句话总结：** 提出彩色噪声采样（CNS），一种无需训练的即插即用扩散推理采样器，通过频率解耦的动态噪声调度主动利用扩散模型的谱偏置，显著降低 FID。
 
@@ -89,7 +98,10 @@ tocopen: true
 
 ### Self-Evolving Anchors for Streaming Video Generation (AdaState)
 
-**链接：** https://arxiv.org/abs/2605.30349
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2605.30349"
+  arxiv="2605.30349"
+>}}
 
 **一句话总结：** 用自进化隐式状态替换自回归视频扩散中的静态第一帧锚点，将时间建模从绝对时间转为相对时间，显著改善生成视频的运动丰富性与场景动态。
 
@@ -113,7 +125,10 @@ tocopen: true
 
 ### Generative 4D Neural Object Kinematics (NeuROK)
 
-**链接：** https://arxiv.org/abs/2605.30347
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2605.30347"
+  arxiv="2605.30347"
+>}}
 
 **一句话总结：** 提出 NeuROK，通过数据驱动的神经运动学状态参数化，将物理仿真从预定义物理模型中解放出来，实现跨类别、大规模的 4D 动态物体生成，CVPR 2026。
 
@@ -137,7 +152,10 @@ tocopen: true
 
 ### How Far is Video Generation from World Model? A Causality Perspective (YoCausal)
 
-**链接：** https://arxiv.org/abs/2605.30346
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2605.30346"
+  arxiv="2605.30346"
+>}}
 
 **一句话总结：** 提出 YoCausal benchmark，从因果推理角度系统评测 13 个主流视频扩散模型，揭示"感知时间箭头"≠"理解因果关系"，当前最优模型与人类因果认知仍有显著差距。
 
@@ -161,7 +179,10 @@ tocopen: true
 
 ### Veda: Scalable Video Diffusion via Distilled Sparse Attention
 
-**链接：** https://arxiv.org/abs/2605.30325
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2605.30325"
+  arxiv="2605.30325"
+>}}
 
 **一句话总结：** 提出 Veda，将稀疏掩码对齐问题形式化为全注意力重构，结合统计感知分块评分和头感知 tiling，在大型视频扩散模型上实现 5.1x 端到端加速，ICML 2026。
 
@@ -186,7 +207,10 @@ tocopen: true
 
 ### DynaFLIP: Rethinking Robotics Perception via Tri-Modal-Dynamics Guided Representation
 
-**链接：** https://arxiv.org/abs/2605.30350
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2605.30350"
+  arxiv="2605.30350"
+>}}
 
 **一句话总结：** 提出 DynaFLIP，通过图像-语言-3D光流三模态预训练将动态理解融入视觉编码器，使机器人感知具备动作相关性，OOD 场景下操作成功率提升 +22.5%。
 
@@ -210,7 +234,10 @@ tocopen: true
 
 ### Archon: A Unified Multimodal Model for Holistic Digital Human Generation
 
-**链接：** https://arxiv.org/abs/2605.30311
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2605.30311"
+  arxiv="2605.30311"
+>}}
 
 **一句话总结：** 提出 Archon，首个统一七种模态（文本、音频、动作、视觉等）的整体式数字人生成模型，通过语义视频重参数化和"Thinking in Modality"链实现高保真多模态联合生成，CVPR 2026。
 
@@ -234,7 +261,10 @@ tocopen: true
 
 ### Gaze2Act: Gaze-Conditioned Vision-Language-Action Policies for Interactive Robot Manipulation
 
-**链接：** https://arxiv.org/abs/2605.30282
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2605.30282"
+  arxiv="2605.30282"
+>}}
 
 **一句话总结：** 提出 Gaze2Act，利用人类视线作为动态意图信号扩展 VLA 策略，通过跨视角语义匹配解决 ego-exo 视角鸿沟，在人形机器人 16 个真实任务上实现 SOTA。
 

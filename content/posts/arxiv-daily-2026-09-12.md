@@ -19,11 +19,12 @@ tocopen: true
 
 ### HuRo: Robotizing Human Videos for Scalable VLA Pretraining
 
-**链接：** https://arxiv.org/abs/2609.10706
-
-**项目主页：** https://3587jjh.github.io/HuRo/
-
-**作者 / 机构：** Jinho Jeong, Se June Joo, Jaehyun Kang, Dongyun Kim, Yena Kim, Hanjung Kim, Seon Joo Kim（RLWRLD；延世大学 Yonsei University）
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2609.10706"
+  authors="Jinho Jeong, Se June Joo, Jaehyun Kang, Dongyun Kim, Yena Kim, Hanjung Kim, Seon Joo Kim（RLWRLD；延世大学 Yonsei University）"
+  arxiv="2609.10706"
+  links="[{\"url\":\"https://3587jjh.github.io/HuRo/\",\"label\":\"项目主页\",\"kind\":\"project\"}]"
+>}}
 
 **一句话总结：** RLWRLD 与延世大学系统性地回答了「机器人化的人类视频能否作为 VLA 预训练的可扩展监督」这一悬而未决的问题，构建了含 **约 63 万条机器人化 episode、1.42 亿帧**的 HuRo 数据集，使真机平均完成度从 **51.5% 提升到 80.3%**。
 
@@ -47,11 +48,12 @@ tocopen: true
 
 ### IMLE-VLA: Fast Single-Step Action Generation for Vision-Language-Action Policies
 
-**链接：** https://arxiv.org/abs/2609.10915
-
-**项目主页：** https://kianhk6.github.io/IMLE-VLA/
-
-**作者 / 机构：** Kian Hosseinkhani, Qinhe Peng, George Shramko, Mehran Aghabozorgi, Jianing Qian, Tristan Engst, Alireza Moazeni, Dinesh Jayaraman, Ke Li（西蒙弗雷泽大学 Simon Fraser University；宾夕法尼亚大学 University of Pennsylvania；阿尔伯塔机器智能研究所 Amii / Canada CIFAR AI Chair）
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2609.10915"
+  authors="Kian Hosseinkhani, Qinhe Peng, George Shramko, Mehran Aghabozorgi, Jianing Qian, Tristan Engst, Alireza Moazeni, Dinesh Jayaraman, Ke Li（西蒙弗雷泽大学 Simon Fraser University；宾夕法尼亚大学 University of Pennsylvania；阿尔伯塔机器智能研究所 Amii / Canada CIFAR AI Chair）"
+  arxiv="2609.10915"
+  links="[{\"url\":\"https://kianhk6.github.io/IMLE-VLA/\",\"label\":\"项目主页\",\"kind\":\"project\"}]"
+>}}
 
 **一句话总结：** 作者用**条件隐式最大似然估计（cIMLE）**训练的单步条件生成器替换 π0.5 的 10 步 Flow Matching 动作头，在**不改动 VLM 骨干**的前提下把推理频率从 15 Hz 提到 **55 Hz（3.67×）**，并在 LIBERO 上取得 **98.0% 的最高平均成功率**。
 
@@ -75,11 +77,12 @@ tocopen: true
 
 ### Vidu S2: Real-Time Interactive, Editable, and Spatial Video Generation
 
-**链接：** https://arxiv.org/abs/2609.11638
-
-**在线体验：** https://vidu.com/vidu-stream
-
-**作者 / 机构：** Jintao Zhang, Kai Jiang, Jintao Chen, Xu Wang, Deyuan Liu, Jungang Li, …, Kaiwen Zheng, Zhijie Deng, Fan Bao, Jianfei Chen, Jun Zhu（清华大学；生数科技 Shengshu Technology）
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2609.11638"
+  authors="Jintao Zhang, Kai Jiang, Jintao Chen, Xu Wang, Deyuan Liu, Jungang Li, …, Kaiwen Zheng, Zhijie Deng, Fan Bao, Jianfei Chen, Jun Zhu（清华大学；生数科技 Shengshu Technology）"
+  arxiv="2609.11638"
+  links="[{\"url\":\"https://vidu.com/vidu-stream\",\"label\":\"在线体验\",\"kind\":\"project\"}]"
+>}}
 
 **一句话总结：** 清华与生数科技推出 **Vidu S2**，包含**实时交互数字人模型 Vidu S2-Avatar** 与**实时视频编辑模型 Vidu S2-Editing**，并探索了面向 VR 头显的**实时空间视频生成与编辑**，在 Sparkle-Bench 上取得 **3.74 的总分**、在 OpenVE + RefVIE 联合评测上取得 **4.26**，全面超过离线与流式基线。
 
@@ -103,11 +106,12 @@ tocopen: true
 
 ### Uncertainty DMD: Restoring Diversity in Few-Step Autoregressive Video Distillation
 
-**链接：** https://arxiv.org/abs/2609.11265
-
-**项目主页：** https://scdzx.github.io/Uncertainty-DMD
-
-**作者 / 机构：** Zixuan Duan, Xunzhi Xiang, Yabo Chen, Xin Zhang, Changhan Liu, Haibin Huang 等（南京大学；中国电信人工智能研究院 TeleAI）
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2609.11265"
+  authors="Zixuan Duan, Xunzhi Xiang, Yabo Chen, Xin Zhang, Changhan Liu, Haibin Huang 等（南京大学；中国电信人工智能研究院 TeleAI）"
+  arxiv="2609.11265"
+  links="[{\"url\":\"https://scdzx.github.io/Uncertainty-DMD\",\"label\":\"项目主页\",\"kind\":\"project\"}]"
+>}}
 
 **一句话总结：** 作者诊断出少步自回归视频蒸馏中的多样性坍塌是一种**结构化不确定性坍塌**——DMD 的模式寻优偏差把不同噪声样本映射到几乎相同的首个 chunk，确定性 AR 缓存再把这一坍塌状态传播到所有后续 chunk，**局部的随机性丢失被放大成全局的时序变化抑制**；据此提出 **Uncertainty DMD**，在 Causal Forcing 上把 TE-CLIP 从 19.8 恢复到 **22.1**、Dynamic Degree 从 31.1 提升到 **41.8**。
 
@@ -131,11 +135,12 @@ tocopen: true
 
 ### World in World: Explore the World with World Models
 
-**链接：** https://arxiv.org/abs/2609.11548
-
-**项目主页：** https://chenxi-song.github.io/worldinworld ｜ **代码：** https://github.com/Westlake-AGI-Lab/WorldinWorld
-
-**作者 / 机构：** Chenxi Song, Yanming Yang, Chi Zhang（西湖大学 AGI Lab，Westlake AGI Lab / Westlake University）
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2609.11548"
+  authors="Chenxi Song, Yanming Yang, Chi Zhang（西湖大学 AGI Lab，Westlake AGI Lab / Westlake University）"
+  arxiv="2609.11548"
+  links="[{\"url\":\"https://chenxi-song.github.io/worldinworld\",\"label\":\"项目主页\",\"kind\":\"project\"},{\"url\":\"https://github.com/Westlake-AGI-Lab/WorldinWorld\",\"label\":\"GitHub\",\"kind\":\"github\"}]"
+>}}
 
 **一句话总结：** 西湖大学 AGI Lab 提出 **World in World**，一个**训练无关的推理时接口**：把异构控制证据（源视频观测、目标视角投影、几何渲染）统一转换成**带相机与时刻标签的干净视觉状态**，再通过**冻结因果视频模型的原生自注意力**读取，在相机可控视频重渲染上取得 **VBench Overall 85.192 的最高分**，且旋转误差与图像保真度均为最优。
 
@@ -159,9 +164,11 @@ tocopen: true
 
 ### Recursive Code World Models: Building Complex Worlds through Recursive Scene Programs
 
-**链接：** https://arxiv.org/abs/2609.11499
-
-**作者 / 机构：** Zhiqi Li, Yuxuan Liao, Bo Zhu（佐治亚理工学院 Georgia Institute of Technology）
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2609.11499"
+  authors="Zhiqi Li, Yuxuan Liao, Bo Zhu（佐治亚理工学院 Georgia Institute of Technology）"
+  arxiv="2609.11499"
+>}}
 
 **一句话总结：** 作者指出「把世界表示成可执行程序」并不等于「知道如何构建一个复杂世界」，提出 **RCWM**：用**递归场景程序（Recursive Scene Program, RSP）**表示可执行世界，并配一个**会递归调用自身的构造求解器**，在 10 个参考场景上**全部取得最高 PSNR 与最低 LPIPS**。
 
@@ -185,11 +192,12 @@ tocopen: true
 
 ### Memory as Plans: World-Action Modeling with Memory-Grounded Planning
 
-**链接：** https://arxiv.org/abs/2609.11561
-
-**项目主页：** https://sizhezhao.github.io/projects/MaP-WAM/ ｜ **代码：** https://github.com/aipixel/MaP-WAM
-
-**作者 / 机构：** Sizhe Zhao, Haozhe Xie, Weiyu Zhao, Chenchu Zhang, Huan Wang, Chenyang Wang, Qinglin Liu, Shengping Zhang（哈尔滨工业大学；南洋理工大学；山东大学；哈工大（威海）青岛研究院）
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2609.11561"
+  authors="Sizhe Zhao, Haozhe Xie, Weiyu Zhao, Chenchu Zhang, Huan Wang, Chenyang Wang, Qinglin Liu, Shengping Zhang（哈尔滨工业大学；南洋理工大学；山东大学；哈工大（威海）青岛研究院）"
+  arxiv="2609.11561"
+  links="[{\"url\":\"https://sizhezhao.github.io/projects/MaP-WAM/\",\"label\":\"项目主页\",\"kind\":\"project\"},{\"url\":\"https://github.com/aipixel/MaP-WAM\",\"label\":\"GitHub\",\"kind\":\"github\"}]"
+>}}
 
 **一句话总结：** 哈工大、南洋理工与山东大学提出 **MaP-WAM（Memory-as-Plans）**，把依赖记忆的世界动作建模**分解成「以记忆为依据的规划」与「以规划为条件的执行」**两阶段，用长期多模态情景上下文作为**规划时证据**而非让执行器反复条件化于完整历史，在 RMBench 上取得 **83.3% 的整体成功率**。
 
@@ -213,11 +221,12 @@ tocopen: true
 
 ### FARM: Reading Failure Signals from the Internal Predictive States of a Frozen Robotic World Model
 
-**链接：** https://arxiv.org/abs/2609.11445
-
-**代码：** https://github.com/HaoranPei-casia/FARM
-
-**作者 / 机构：** Haoran Pei, Mingrui Luo, Senbao Wang, Haoran Lv, Jie Guo, Sheng Zhong, Ruixi Ci（中国科学院自动化研究所；哈尔滨工业大学）
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2609.11445"
+  authors="Haoran Pei, Mingrui Luo, Senbao Wang, Haoran Lv, Jie Guo, Sheng Zhong, Ruixi Ci（中国科学院自动化研究所；哈尔滨工业大学）"
+  arxiv="2609.11445"
+  links="[{\"url\":\"https://github.com/HaoranPei-casia/FARM\",\"label\":\"GitHub\",\"kind\":\"github\"}]"
+>}}
 
 **一句话总结：** 中科院自动化所与哈工大提出 **FARM**，追问「冻结的预训练机器人世界模型内部预测状态里，是否已经包含可直接解码的失败信息」，仅训练一个 **33,985 参数**的监督读出头就取得 **85.68 / 88.59 的 pooled AUROC / AUPRC**，并在 15 个匹配基线中取得最优的 Seen 性能。
 

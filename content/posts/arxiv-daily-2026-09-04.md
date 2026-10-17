@@ -17,10 +17,12 @@ tocopen: true
 
 ### Puffin-World: Scaling a Unified Multimodal Model with Native 3D World States
 
-**链接：** https://arxiv.org/abs/2609.04196
-
-**项目主页：** https://kangliao929.github.io/projects/puffin-world/ ｜ **数据：** https://kangliao929.github.io/projects/puffin-16m ｜ **代码：** https://github.com/KangLiao929/Puffin ｜ **模型：** https://huggingface.co/KangLiao/Puffin-World
-**作者 / 机构：** Kang Liao, Yihang Luo, Xiao-Ming Wu, Linyi Jin, Size Wu, Chunyu Lin, Yao Zhao, Fei Wang, Wei Li, Chen Change Loy（新加坡南洋理工大学 S-Lab、密歇根大学、北京交通大学、ACE Robotics）
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2609.04196"
+  authors="Kang Liao, Yihang Luo, Xiao-Ming Wu, Linyi Jin, Size Wu, Chunyu Lin, Yao Zhao, Fei Wang, Wei Li, Chen Change Loy（新加坡南洋理工大学 S-Lab、密歇根大学、北京交通大学、ACE Robotics）"
+  arxiv="2609.04196"
+  links="[{\"url\":\"https://kangliao929.github.io/projects/puffin-world/\",\"label\":\"项目主页\",\"kind\":\"project\"},{\"url\":\"https://kangliao929.github.io/projects/puffin-16m\",\"label\":\"项目主页\",\"kind\":\"project\"},{\"url\":\"https://github.com/KangLiao929/Puffin\",\"label\":\"GitHub\",\"kind\":\"github\"},{\"url\":\"https://huggingface.co/KangLiao/Puffin-World\",\"label\":\"模型\",\"kind\":\"huggingface\"}]"
+>}}
 
 **一句话总结：** NTU S-Lab 团队提出 Puffin-World，把物理（重力场与纬度）、几何（深度）与外观（图像）三类**原生 3D 世界状态**放进同一个多模态模型联合建模，配合统一 Omni-Camera 表示与 Puffin-16M 数据集，实现无需外部离线模块的物理感知、自由视角空间仿真与 3D 世界生成/重建。
 
@@ -45,9 +47,11 @@ tocopen: true
 
 ### Drive-HWM: Hierarchical World Models for Dynamic-Latent Guided Autonomous Driving
 
-**链接：** https://arxiv.org/abs/2609.03572
-
-**作者 / 机构：** Zhaoxin Fan, Tianbao Zhang, Wenjun Wu, Xiaofeng Wang, Yeying Jin, Jian Zhao, Zheng Zhu, Shuicheng Yan（北京航空航天大学人工智能学院、上海交通大学 & Dim12 AI、GigaAI、新加坡国立大学、中国电信 TeleAI）
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2609.03572"
+  authors="Zhaoxin Fan, Tianbao Zhang, Wenjun Wu, Xiaofeng Wang, Yeying Jin, Jian Zhao, Zheng Zhu, Shuicheng Yan（北京航空航天大学人工智能学院、上海交通大学 & Dim12 AI、GigaAI、新加坡国立大学、中国电信 TeleAI）"
+  arxiv="2609.03572"
+>}}
 
 **一句话总结：** 北航 / 上交 / GigaAI / NUS 联合团队提出 Drive-HWM，用**慢—快双层世界模型**把"多步未来表征预测"与"即时动作生成"解耦到互补的时间尺度，并引入通过光流预测学到的 Dynamic-Aware Latents 显式刻画驾驶场景中的运动动力学，在 NAVSIM v1/v2 上以单目前视相机取得领先表现。
 
@@ -71,9 +75,11 @@ tocopen: true
 
 ### WISE: World-model-guided Imagination Scheduling for Efficient Post-training of Vision-Language-Action Models
 
-**链接：** https://arxiv.org/abs/2609.03681
-
-**作者 / 机构：** Chenhao Zhang, Hanyu Zhao, Hang Cheng, Tengfei Pan, Long Zeng（清华大学、北京智源人工智能研究院 BAAI）
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2609.03681"
+  authors="Chenhao Zhang, Hanyu Zhao, Hang Cheng, Tengfei Pan, Long Zeng（清华大学、北京智源人工智能研究院 BAAI）"
+  arxiv="2609.03681"
+>}}
 
 **一句话总结：** 清华 / 智源团队提出 WISE，回答了"世界模型的想象该在何时、以何种方式被调用"这一被忽视的问题——只在交互相关状态触发想象、做有界多视角 rollout、用进度与完成信号评估候选未来，从而把 VLA 后训练从"全程想象"解放出来，GPU 计算开销降低约 80%。
 
@@ -97,10 +103,12 @@ tocopen: true
 
 ### WorldReward: Reward Modeling for Camera-Conditioned World Models
 
-**链接：** https://arxiv.org/abs/2609.03952
-
-**项目主页：** https://codegoat24.github.io/WorldReward ｜ **代码：** https://github.com/CodeGoat24/WorldReward ｜ **数据：** https://huggingface.co/datasets/CodeGoat24/WorldReward-Bench
-**作者 / 机构：** Yibin Wang, Zehan Wang, Junshu Tang, Zhimin Li, Yujie Zhou, Jiazi Bu, Pengyang Ling, Feng Han, … , Jiaqi Wang, Tianyu Pang（复旦大学、腾讯混元、上海创智学院、上海交通大学、上海人工智能实验室）
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2609.03952"
+  authors="Yibin Wang, Zehan Wang, Junshu Tang, Zhimin Li, Yujie Zhou, Jiazi Bu, Pengyang Ling, Feng Han, … , Jiaqi Wang, Tianyu Pang（复旦大学、腾讯混元、上海创智学院、上海交通大学、上海人工智能实验室）"
+  arxiv="2609.03952"
+  links="[{\"url\":\"https://codegoat24.github.io/WorldReward\",\"label\":\"项目主页\",\"kind\":\"project\"},{\"url\":\"https://github.com/CodeGoat24/WorldReward\",\"label\":\"GitHub\",\"kind\":\"github\"},{\"url\":\"https://huggingface.co/datasets/CodeGoat24/WorldReward-Bench\",\"label\":\"数据\",\"kind\":\"huggingface\"}]"
+>}}
 
 **一句话总结：** 复旦 / 腾讯混元团队提出 WorldReward，一个基于 VLM 的成对偏好奖励模型，把相机可控世界模型的"动作一致性"与"视觉质量"统一到同一评判空间，并配套 WorldReward-Bench 与大规模推理增强偏好数据，在人类偏好一致性上三个维度全面超过 GPT-5.5。
 
@@ -124,10 +132,12 @@ tocopen: true
 
 ### FlashRender: Few-Step Generative Rendering via Camera-Controlled Video MeanFlow
 
-**链接：** https://arxiv.org/abs/2609.03563
-
-**项目主页：** https://byeongjun-park.github.io/FlashRender/ ｜ **代码：** https://github.com/byeongjun-park/FlashRender
-**作者 / 机构：** Byeongjun Park, Byung-Hoon Kim, Hyungjin Chung（EverEx、延世大学、高丽大学）
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2609.03563"
+  authors="Byeongjun Park, Byung-Hoon Kim, Hyungjin Chung（EverEx、延世大学、高丽大学）"
+  arxiv="2609.03563"
+  links="[{\"url\":\"https://byeongjun-park.github.io/FlashRender/\",\"label\":\"项目主页\",\"kind\":\"project\"},{\"url\":\"https://github.com/byeongjun-park/FlashRender\",\"label\":\"GitHub\",\"kind\":\"github\"}]"
+>}}
 
 **一句话总结：** EverEx / 延世 / 高丽团队提出 FlashRender，先诊断出多步生成式渲染中"相机控制随采样步数漂移"这一离散化误差表现，再用 RETA 表征变换对齐把几何变换直接编进源视频流，配合 MeanFlow 微调与 on-policy flow map 蒸馏，实现**采样成本降低 25 倍**的少步相机可控生成式渲染。
 
@@ -151,10 +161,12 @@ tocopen: true
 
 ### OctWorld: Long-Range World-Consistent Video Generation with Octree-Based 3D Mapping
 
-**链接：** https://arxiv.org/abs/2609.03919
-
-**项目主页：** https://maxtirerror.github.io/octworldpage/
-**作者 / 机构：** Zelong Lv, Sicheng Xu, Jianfeng Xiang, Ruicheng Wang, Yue Dong, Yu Deng, Guangzhong Sun, Jiaolong Yang（中国科学技术大学、微软亚洲研究院、清华大学）
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2609.03919"
+  authors="Zelong Lv, Sicheng Xu, Jianfeng Xiang, Ruicheng Wang, Yue Dong, Yu Deng, Guangzhong Sun, Jiaolong Yang（中国科学技术大学、微软亚洲研究院、清华大学）"
+  arxiv="2609.03919"
+  links="[{\"url\":\"https://maxtirerror.github.io/octworldpage/\",\"label\":\"项目主页\",\"kind\":\"project\"}]"
+>}}
 
 **一句话总结：** 中科大 / 微软亚洲研究院团队（ECCV 2026）提出 OctWorld，用动态稀疏八叉树上的 TSDF 融合构建可扩展、空间自适应的持久 3D 记忆 OctMap，让单图出发的自回归世界生成在长程相机轨迹与大视角覆盖下仍能保持稳定一致。
 
@@ -178,10 +190,12 @@ tocopen: true
 
 ### Unfold The World: Factorize 4D Properties in Reinforcing Spatial Reasoning
 
-**链接：** https://arxiv.org/abs/2609.03729
-
-**代码：** https://github.com/ZimaBlue-WAM/FactoSR
-**作者 / 机构：** Yijun Yang, Shenghe Zheng, Wenbo Li, Jianhui Liu, Haoze Sun, Yanbing Zhang, Jiaxiu Jiang, Lin Song, Haoyang Huang, Nan Duan, Lei Zhu（Joy Future Academy、香港科技大学（广州）、香港科技大学、香港大学）
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2609.03729"
+  authors="Yijun Yang, Shenghe Zheng, Wenbo Li, Jianhui Liu, Haoze Sun, Yanbing Zhang, Jiaxiu Jiang, Lin Song, Haoyang Huang, Nan Duan, Lei Zhu（Joy Future Academy、香港科技大学（广州）、香港科技大学、香港大学）"
+  arxiv="2609.03729"
+  links="[{\"url\":\"https://github.com/ZimaBlue-WAM/FactoSR\",\"label\":\"GitHub\",\"kind\":\"github\"}]"
+>}}
 
 **一句话总结：** Joy Future Academy 与港科大（广州）/港大团队（ECCV 2026）提出 FactoSR，指出 VLM 的"扁平"空间瓶颈源于 2D 投影训练与 3D/时序推理之间的维度错配，进而把世界一致性推理分解为**平面对应（XY）、深度一致（Z）、时间可逆（T）**三个正交几何子目标，用可验证约束逐个击破。
 
@@ -205,10 +219,12 @@ tocopen: true
 
 ### MINERVA: How Small Can a Manipulation Policy Be and Still Solve LIBERO?
 
-**链接：** https://arxiv.org/abs/2609.03715
-
-**代码：** https://github.com/k1000dai/MINERVA
-**作者 / 机构：** Kohei Sendai, Tatsuya Matsushima, Yusuke Iwasawa（东京大学松尾-岩泽实验室 / Matsuo-Iwasawa Lab）
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2609.03715"
+  authors="Kohei Sendai, Tatsuya Matsushima, Yusuke Iwasawa（东京大学松尾-岩泽实验室 / Matsuo-Iwasawa Lab）"
+  arxiv="2609.03715"
+  links="[{\"url\":\"https://github.com/k1000dai/MINERVA\",\"label\":\"GitHub\",\"kind\":\"github\"}]"
+>}}
 
 **一句话总结：** 东京大学团队提出 MINERVA 系列**刻意做小**的视动策略，系统测量 LIBERO 基准的"任务特定容量下界"：一个 **54 万参数**的策略在四个 LIBERO 套件、2000 次 rollout 上达到 **95.1%** 平均成功率，仅比 LeRobot π₀.₅ 低 2.4 个点，而参数量少 **7700 倍**；论文同时对 LIBERO 的指令条件化有效性提出了尖锐质疑。
 

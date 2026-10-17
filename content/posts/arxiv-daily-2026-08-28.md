@@ -17,11 +17,12 @@ tocopen: true
 
 ### How Far Can 5,500 Hours of Driving Take You? A Scaling Law Analysis of Video Diffusion Models
 
-**链接：** https://arxiv.org/abs/2608.28404
-
-**项目主页：** https://valeoai.github.io/VATIX/ ｜ **代码 / 模型：** https://github.com/valeoai/VATIX
-
-**作者 / 机构：** Victor Besnier, Anh-Quan Cao, Elias Ramzi, Spyros Gidaris, Tuan-Hung Vu, Andrei Bursuc, Eloi Zablocki, Matthieu Cord（valeo.ai，法国巴黎；索邦大学 Sorbonne Université）
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2608.28404"
+  authors="Victor Besnier, Anh-Quan Cao, Elias Ramzi, Spyros Gidaris, Tuan-Hung Vu, Andrei Bursuc, Eloi Zablocki, Matthieu Cord（valeo.ai，法国巴黎；索邦大学 Sorbonne Université）"
+  arxiv="2608.28404"
+  links="[{\"url\":\"https://valeoai.github.io/VATIX/\",\"label\":\"项目主页\",\"kind\":\"project\"},{\"url\":\"https://github.com/valeoai/VATIX\",\"label\":\"GitHub\",\"kind\":\"github\"}]"
+>}}
 
 **一句话总结：** Valeo AI 系统研究驾驶视频扩散模型的 Scaling Law，在固定 5,500 小时驾驶数据上训练 1M–9B 参数模型族，并据此开源 9B 规模模型刷新 nuScenes 驾驶视频生成 SOTA。
 
@@ -46,11 +47,12 @@ tocopen: true
 
 ### Video Generative Models as Geometry Learner
 
-**链接：** https://arxiv.org/abs/2608.28549
-
-**项目主页：** https://happy-hsy.github.io/projects/GeoNeXt/
-
-**作者 / 机构：** Haosen Yang, Jifei Song, Zhensong Zhang, Xiatian Zhu, Jiankang Deng（英国萨里大学 University of Surrey；帝国理工学院 Imperial College London）
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2608.28549"
+  authors="Haosen Yang, Jifei Song, Zhensong Zhang, Xiatian Zhu, Jiankang Deng（英国萨里大学 University of Surrey；帝国理工学院 Imperial College London）"
+  arxiv="2608.28549"
+  links="[{\"url\":\"https://happy-hsy.github.io/projects/GeoNeXt/\",\"label\":\"项目主页\",\"kind\":\"project\"}]"
+>}}
 
 **一句话总结：** 提出 GeoNeXt，首次将预训练视频生成模型改造为统一的几何估计框架，把深度与法线估计表述为"下一帧预测"，以远少于竞对的数据逼近甚至超越用 100 倍数据训练的判别式 SOTA。
 
@@ -74,11 +76,12 @@ tocopen: true
 
 ### Manifold4D: Denoising on Point Cloud Rendered Manifolds for Video Re-shooting
 
-**链接：** https://arxiv.org/abs/2608.28174
-
-**项目主页：** https://yongxuqixiang.github.io/Manifold4D-Project-Page/
-
-**作者 / 机构：** Yongqi Mao, Zijia Dai, Zhishuo Liu, Wei Xu, Kaiwei Wang, Guotao Meng（浙江大学；Manifold Tech；上海科技大学；剑桥大学）
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2608.28174"
+  authors="Yongqi Mao, Zijia Dai, Zhishuo Liu, Wei Xu, Kaiwei Wang, Guotao Meng（浙江大学；Manifold Tech；上海科技大学；剑桥大学）"
+  arxiv="2608.28174"
+  links="[{\"url\":\"https://yongxuqixiang.github.io/Manifold4D-Project-Page/\",\"label\":\"项目主页\",\"kind\":\"project\"}]"
+>}}
 
 **一句话总结：** 提出 MANIFOLD4D，把与目标视角像素对齐的点云渲染直接注入 flow matching 的初始噪声，构造携带几何信息的"噪声流形"，从根本上消除视频重拍摄中的条件信任困境，相机控制精度全面领先。
 
@@ -102,9 +105,11 @@ tocopen: true
 
 ### LayerRecall: A State-Conditioned Memory Router for Long-Horizon Consistency in Video Generation
 
-**链接：** https://arxiv.org/abs/2608.28460
-
-**作者 / 机构：** Yixuan Ding, Jiahao Kong, Wei Huang, Ruijie Quan, Yi Yang（浙江大学；香港大学 The University of Hong Kong）
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2608.28460"
+  authors="Yixuan Ding, Jiahao Kong, Wei Huang, Ruijie Quan, Yi Yang（浙江大学；香港大学 The University of Hong Kong）"
+  arxiv="2608.28460"
+>}}
 
 **一句话总结：** 提出 LayerRecall，发现视频 DiT 不同层对"当前 / 近期 / 远期"上下文存在分层偏好，据此设计层选择式记忆路由器，只把检索到的历史 K/V 注入对记忆敏感的层，显著提升长视频一致性。
 
@@ -128,11 +133,12 @@ tocopen: true
 
 ### DensityKV: Density-Guided KV Cache Compression for Long Video Generation
 
-**链接：** https://arxiv.org/abs/2608.27922
-
-**代码：** https://github.com/ZhaoWQQ/DensityKV
-
-**作者 / 机构：** Wenqu Zhao, Xuemin Chi, Xin Zhang, Guoqing Ma, Baorun Li, Jianjie Fang, Peizhi Tang, Chen Gao, Wei Wu（Manifold AI；清华大学）
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2608.27922"
+  authors="Wenqu Zhao, Xuemin Chi, Xin Zhang, Guoqing Ma, Baorun Li, Jianjie Fang, Peizhi Tang, Chen Gao, Wei Wu（Manifold AI；清华大学）"
+  arxiv="2608.27922"
+  links="[{\"url\":\"https://github.com/ZhaoWQQ/DensityKV\",\"label\":\"GitHub\",\"kind\":\"github\"}]"
+>}}
 
 **一句话总结：** 提出 DensityKV，用 Soft-Riesz 密度度量 post-RoPE key 的局部冗余，为每个注意力头维护 token 级历史 KV 库并在准入后约束邻域密度增长，在固定 KV 容量上限下提升长视频一致性，且持久存储不随生成长度增长。
 
@@ -156,9 +162,11 @@ tocopen: true
 
 ### AcrossVAM1.0: Particle World Modeling for Text-Assisted Robot Video Prediction
 
-**链接：** https://arxiv.org/abs/2608.28491
-
-**作者 / 机构：** Yafei Zhang, Nan Wu（Across Physical AI，北京；中国科学院自动化研究所）
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2608.28491"
+  authors="Yafei Zhang, Nan Wu（Across Physical AI，北京；中国科学院自动化研究所）"
+  arxiv="2608.28491"
+>}}
 
 **一句话总结：** 提出 AcrossVAM1.0，用"粒子世界模型"把机器人视频预测解耦为以物体为中心的运动与稠密外观两条支线，仅 0.28M 参数的时空 Transformer 即把轨迹误差相对 persistence 基线降低 21.0%。
 
@@ -182,9 +190,11 @@ tocopen: true
 
 ### DeicticVLA: Unifying Instruction Modes Based on Language and Deictic Gestures in a Single VLA
 
-**链接：** https://arxiv.org/abs/2608.28108
-
-**作者 / 机构：** Kango Yanagida, Tatsuya Aoki, Yuichiro Yoshikawa, Takato Horii（大阪大学大学院工学研究科系统创新专业；东京大学国际神经智能研究中心）
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2608.28108"
+  authors="Kango Yanagida, Tatsuya Aoki, Yuichiro Yoshikawa, Takato Horii（大阪大学大学院工学研究科系统创新专业；东京大学国际神经智能研究中心）"
+  arxiv="2608.28108"
+>}}
 
 **一句话总结：** 提出 DeicticVLA，把语言指令、视觉-语言指令与纯视觉指令统一为"文本 prompt + 指示性手势掩码"，让单个预训练 VLA 同时支持三种指令模态，在未见类别上成功率从 16.7% 跃升至 100%。
 
@@ -208,11 +218,12 @@ tocopen: true
 
 ### Contact-Guided Exploration for Non-Prehensile Locomanipulation with Multi-Critic RL
 
-**链接：** https://arxiv.org/abs/2608.28140
-
-**项目主页：** https://tolomeis.github.io/contact-guided-exp
-
-**作者 / 机构：** Simone Tolomei, Mayank Mittal, Franco Angelini, Manolo Garabini, Paolo Salaris, Marco Hutter（意大利比萨大学 Centro di Ricerca E. Piaggio；苏黎世联邦理工学院 ETH Zürich；NVIDIA）
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2608.28140"
+  authors="Simone Tolomei, Mayank Mittal, Franco Angelini, Manolo Garabini, Paolo Salaris, Marco Hutter（意大利比萨大学 Centro di Ricerca E. Piaggio；苏黎世联邦理工学院 ETH Zürich；NVIDIA）"
+  arxiv="2608.28140"
+  links="[{\"url\":\"https://tolomeis.github.io/contact-guided-exp\",\"label\":\"项目主页\",\"kind\":\"project\"}]"
+>}}
 
 **一句话总结：** 提出接触引导探索策略，在多 Critic 强化学习框架中用独立的"接触探索 critic"驱动末端执行器找到有效接触点并逐步退火，实现可真实部署的非抓取式移动操作，已被 IEEE RA-L 接收。
 

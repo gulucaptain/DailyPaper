@@ -17,7 +17,10 @@ tocopen: true
 
 ### LumosX: Relate Any Identities with Their Attributes for Personalized Video Generation
 
-**链接：** https://arxiv.org/abs/2603.20192
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2603.20192"
+  arxiv="2603.20192"
+>}}
 
 **一句话总结：** 提出 LumosX 框架，通过关系自注意力机制实现多身份属性精确对齐的个性化视频生成，在精细粒度身份一致性上达到 SOTA，被 ICLR 2026 收录。
 
@@ -41,7 +44,10 @@ tocopen: true
 
 ### DynFlowDrive: Flow-Based Dynamic World Modeling for Autonomous Driving
 
-**链接：** https://arxiv.org/abs/2603.19675
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2603.19675"
+  arxiv="2603.19675"
+>}}
 
 **一句话总结：** 提出 DynFlowDrive，用基于 rectified flow 的潜在世界模型建模自动驾驶中不同动作下的场景状态转移，并引入稳定性感知的多模态轨迹选择策略，在 nuScenes 和 NavSim 上取得一致提升。
 
@@ -65,7 +71,10 @@ tocopen: true
 
 ### MME-CoF-Pro: Evaluating Reasoning Coherence in Video Generative Models with Text and Visual Hints
 
-**链接：** https://arxiv.org/abs/2603.20194
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2603.20194"
+  arxiv="2603.20194"
+>}}
 
 **一句话总结：** 提出 MME-CoF-Pro 基准，专门评估视频生成模型的"推理连贯性"（reasoning coherence），揭示了当前视频生成模型在跨帧因果一致性上的系统性缺陷。
 
@@ -89,7 +98,10 @@ tocopen: true
 
 ### NEC-Diff: Noise-Robust Event-RAW Complementary Diffusion for Seeing Motion in Extreme Darkness
 
-**链接：** https://arxiv.org/abs/2603.20005
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2603.20005"
+  arxiv="2603.20005"
+>}}
 
 **一句话总结：** 提出 NEC-Diff，将事件相机与 RAW 图像融合的扩散框架用于极暗场景成像，通过物理驱动的双模态去噪约束和动态 SNR 估计引导扩散，被 CVPR 2026 收录。
 
@@ -113,7 +125,10 @@ tocopen: true
 
 ### CRISP: The Robot's Inner Critic — Self-Refinement of Social Behaviors through VLM-based Replanning
 
-**链接：** https://arxiv.org/abs/2603.20164
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2603.20164"
+  arxiv="2603.20164"
+>}}
 
 **一句话总结：** 提出 CRISP 框架，让机器人通过 VLM 充当"类人社交批评者"自主批判和重规划自身的社交行为，实现无需人工介入的跨平台社交行为自优化，被 ICRA 2026 收录。
 
@@ -137,7 +152,10 @@ tocopen: true
 
 ### IndoorR2X: Indoor Robot-to-Everything Coordination with LLM-Driven Planning
 
-**链接：** https://arxiv.org/abs/2603.20182
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2603.20182"
+  arxiv="2603.20182"
+>}}
 
 **一句差总结：** 提出 IndoorR2X，首个将 LLM 驱动的多机器人任务规划与室内 IoT 传感器（Robot-to-Everything）感知结合的 benchmark 和仿真框架，通过 IoT 增强的世界建模显著提升多机器人协作效率。
 
@@ -161,7 +179,10 @@ tocopen: true
 
 ### MeanFlow Meets Control: Scaling Sampled-Data Control for Swarms
 
-**链接：** https://arxiv.org/abs/2603.20189
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2603.20189"
+  arxiv="2603.20189"
+>}}
 
 **一句话总结：** 将 MeanFlow 框架引入群体控制领域，提出基于有限窗口控制量学习的采样数据控制框架，用少量控制更新实现大规模群体精确引导。
 

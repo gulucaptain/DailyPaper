@@ -17,7 +17,10 @@ tocopen: true
 
 ### AsyncPatch Diffusion: spatially-flexible image generation
 
-**链接：** https://arxiv.org/abs/2606.07079
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2606.07079"
+  arxiv="2606.07079"
+>}}
 
 **一句话总结：** 提出异步 Patch 扩散框架，打破标准扩散模型中所有空间区域必须共享同一噪声水平的约束，实现空间异质去噪轨迹，并给出首个合法的 ELBO 证明。
 
@@ -41,7 +44,10 @@ tocopen: true
 
 ### AnchorWorld: Embodied Egocentric World Simulation with View-based Evolution Customization
 
-**链接：** https://arxiv.org/abs/2606.07326
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2606.07326"
+  arxiv="2606.07326"
+>}}
 
 **一句话总结：** 提出 AnchorWorld，通过引入外生视角辅助监督和锚点视图定制机制，实现具身智能体第一人称视角下的交互世界仿真，显著提升人-场景交互的空间一致性。
 
@@ -64,7 +70,10 @@ tocopen: true
 
 ### StreamForce: Streaming Video Generation with Streaming Force Control
 
-**链接：** https://arxiv.org/abs/2606.07508
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2606.07508"
+  arxiv="2606.07508"
+>}}
 
 **一句话总结：** StreamForce 是首个因果统一的流式视频生成框架，通过连续力输入实现物理基底的实时视频控制，单卡达到 16.6 FPS。
 
@@ -88,7 +97,10 @@ tocopen: true
 
 ### LARA: Latent Action Representation Alignment for Vision-Language-Action Models
 
-**链接：** https://arxiv.org/abs/2606.07100
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2606.07100"
+  arxiv="2606.07100"
+>}}
 
 **一句话总结：** LARA 提出联合优化隐动作模型（LAM）和视觉语言动作模型（VLA）的对齐框架，通过双向表示对齐减少幻觉轨迹，在机器人操作任务上平均提升约 10%。
 
@@ -111,7 +123,10 @@ tocopen: true
 
 ### RhinoVLA: Deployment-Oriented Vision-Language-Action Model
 
-**链接：** https://arxiv.org/abs/2606.07383
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2606.07383"
+  arxiv="2606.07383"
+>}}
 
 **一句话总结：** RhinoVLA 是面向边缘硬件实时部署的 VLA 模型，通过 Token 高效骨干、72D 统一动作槽、跨机器人 LoRA 等设计，大幅降低推理延迟。
 
@@ -135,7 +150,10 @@ tocopen: true
 
 ### CAPE: Contrastive Action-conditioned Parallel Encoding for Embodied Planning
 
-**链接：** https://arxiv.org/abs/2606.07304
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2606.07304"
+  arxiv="2606.07304"
+>}}
 
 **一句话总结：** CAPE 通过对比动作条件并行编码学习视觉动力学，避免浪费学习容量于动作无关的视觉内容，在机器人操作规划中大幅超越现有基线。
 
@@ -158,7 +176,10 @@ tocopen: true
 
 ### TrioPose: Native Triple-Stream Diffusion Transformers for Pose-Guided Text-to-Image Generation
 
-**链接：** https://arxiv.org/abs/2606.07053
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2606.07053"
+  arxiv="2606.07053"
+>}}
 
 **一句话总结：** TrioPose 基于 SD3.5M 架构，提出三流姿态感知 DiT（TSPA-DiT），将姿态作为独立模态处理，在多人复杂场景姿态引导生成中达到 SOTA，Human-Art AP 提升 30%。
 
@@ -182,7 +203,10 @@ tocopen: true
 
 ### DisPOSE: Projected Polystochastic Diffusion for Self-Supervised Multi-View 3D Human Pose Estimation
 
-**链接：** https://arxiv.org/abs/2606.07419
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2606.07419"
+  arxiv="2606.07419"
+>}}
 
 **一句话总结：** DisPOSE 将多视角人员分配问题建模为多随机张量空间上的扩散过程，通过可微 Sinkhorn 投影实现自监督 3D 多人姿态估计，仅用 10% 伪标签即保留 99% 性能。
 

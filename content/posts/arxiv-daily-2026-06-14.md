@@ -17,7 +17,10 @@ tocopen: true
 
 ### WEAVER: Better, Faster, Longer — An Effective World Model for Robotic Manipulation
 
-**链接：** https://arxiv.org/abs/2606.13672
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2606.13672"
+  arxiv="2606.13672"
+>}}
 
 **一句话总结：** WEAVER 是一个多视角世界模型，通过 flow-matching 损失联合预测未来隐状态与奖励，同时实现高保真度、长时一致性与高效推理，在机器人操控任务上达到 SOTA。
 
@@ -40,7 +43,10 @@ tocopen: true
 
 ### RepWAM: World Action Modeling with Representation Visual-Action Tokenizers
 
-**链接：** https://arxiv.org/abs/2606.13674
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2606.13674"
+  arxiv="2606.13674"
+>}}
 
 **一句话总结：** RepWAM 提出以语义视觉-动作潜空间为核心的世界行为模型，通过联合建模未来视觉状态与潜在动作，显著超越基于重建的视频 tokenizer 方案。
 
@@ -63,7 +69,10 @@ tocopen: true
 
 ### MaskWAM: Unifying Mask Prompting and Prediction for World-Action Models
 
-**链接：** https://arxiv.org/abs/2606.13515
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2606.13515"
+  arxiv="2606.13515"
+>}}
 
 **一句话总结：** MaskWAM 将掩码同时用作世界行为模型的输入条件和预测目标，通过 Mixture of Transformers 统一架构，大幅提升对未见物体的操控泛化能力。
 
@@ -86,7 +95,10 @@ tocopen: true
 
 ### Flow Reversal Steering: Improving Robotic Generalist Policies
 
-**链接：** https://arxiv.org/abs/2606.13675
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2606.13675"
+  arxiv="2606.13675"
+>}}
 
 **一句话总结：** FRS 通过将次优但合理的动作"反向流"至潜在噪声空间，再映射到 flow matching 策略的近邻行为模式，实现无需修改模型的高效策略改进。
 
@@ -109,7 +121,10 @@ tocopen: true
 
 ### Flex4DHuman: Flexible Multi-view Video Diffusion for 4D Human Reconstruction
 
-**链接：** https://arxiv.org/abs/2606.13655
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2606.13655"
+  arxiv="2606.13655"
+>}}
 
 **一句话总结：** Flex4DHuman 是一个多视角视频扩散模型，仅需相对相机位姿条件即可将单目或稀疏多视角视频转换为密集同步多视角视频，进而重建动态 4D 高斯。
 
@@ -133,7 +148,10 @@ tocopen: true
 
 ### World Tracing: Generative Pixel-Aligned Geometry Beyond the Visible
 
-**链接：** https://arxiv.org/abs/2606.13652
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2606.13652"
+  arxiv="2606.13652"
+>}}
 
 **一句话总结：** World Tracing（World Labs 出品）提出像素对齐几何表示，对每个输入像素预测有序 3D 点堆叠，首层为可见表面，后续层为前后贯穿被遮挡表面的交叉点，兼顾表面重建与遮挡几何生成。
 
@@ -157,7 +175,10 @@ tocopen: true
 
 ### BudCache: Budget-Constrained Step-Level Diffusion Caching
 
-**链接：** https://arxiv.org/abs/2606.13496
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2606.13496"
+  arxiv="2606.13496"
+>}}
 
 **一句话总结：** BudCache 反转传统扩散模型缓存的决策逻辑：提前固定推理计算预算，通过模拟退火+爬山算法搜索最优缓存策略，在 FLUX.1-dev 和 Wan2.1 上超越启发式基线。
 
@@ -181,7 +202,10 @@ tocopen: true
 
 ### OmniDirector: General Multi-Shot Camera Cloning without Cross-Paired Data
 
-**链接：** https://arxiv.org/abs/2606.13432
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2606.13432"
+  arxiv="2606.13432"
+>}}
 
 **一句话总结：** OmniDirector 用相机网格运动视频（grid motion video）统一编码相机参数，结合百万级训练数据，为多模态扩散 Transformer 提供导演级多镜头相机、动作、人物的协同控制。
 

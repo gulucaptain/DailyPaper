@@ -25,11 +25,12 @@ tocopen: true
 
 ### Streaming-WAM: Action-Conditioned World–Action Model for Asynchronous Robot Manipulation
 
-**链接：** https://arxiv.org/abs/2609.28927
-
-**代码：** https://github.com/SJTU-DENG-Lab/Streaming-WAM
-
-**作者 / 机构：** Xuyao Huang, Yixuan Wang, Zengyao Ye, Boyuan Zhao, Chenyang Yu, Haoran Wen, Zhijie Deng（上海交通大学；山东大学；华东理工大学；理想汽车 Li Auto）
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2609.28927"
+  authors="Xuyao Huang, Yixuan Wang, Zengyao Ye, Boyuan Zhao, Chenyang Yu, Haoran Wen, Zhijie Deng（上海交通大学；山东大学；华东理工大学；理想汽车 Li Auto）"
+  arxiv="2609.28927"
+  links="[{\"url\":\"https://github.com/SJTU-DENG-Lab/Streaming-WAM\",\"label\":\"GitHub\",\"kind\":\"github\"}]"
+>}}
 
 **一句话总结：** 上海交大 DENG Lab 联合山东大学、华东理工与理想汽车提出 **Streaming-WAM**，把「动作条件化世界建模」与异步机器人控制真正耦合起来——每次流式更新时把最新观测与**已下发但仍在执行的动作前缀**一起作为未来视觉预测的条件，让剩余动作的续写建立在机器人真正将要面对的场景之上，在 LIBERO 上取得 **98.35%** 平均成功率并把平均回合耗时压缩到 Fast-WAM 的 **1/2.93**，真机 Stamp Paper 任务耗时从 90 秒降至 **38 秒**。
 
@@ -54,11 +55,12 @@ tocopen: true
 
 ### Training Object Permanence in World Models
 
-**链接：** https://arxiv.org/abs/2609.28654
-
-**项目主页：** https://object-permanence.world
-
-**作者 / 机构：** Haotian Zhang, Fengyuan Yu, Dezhi Luo, Haoran Sun, Zehong Zhao, Qingying Gao, Yihan Li, Siyuan An, Huayi Qin, Yilan Zhang, Zhengze Jiang, Pinyuan Feng, Renrui Zhang, Ziyu Guo, Letian Wang, Mengyue Yang, Kangfu Mei, Maijunxian Wang, Ran Ji, Vikash Kumar, Freda Shi, Chandra Sripada, Vincent C. Müller, Philip Torr, Alan Yuille, Nikolaus Kriegeskorte, Felix Juefei-Xu, Lvmin Zhang, Jieneng Chen, Yilun Du, Hokin Deng（University of Southern California；Carnegie Mellon University；University of Michigan；Johns Hopkins University；University of California, San Diego）
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2609.28654"
+  authors="Haotian Zhang, Fengyuan Yu, Dezhi Luo, Haoran Sun, Zehong Zhao, Qingying Gao, Yihan Li, Siyuan An, Huayi Qin, Yilan Zhang, Zhengze Jiang, Pinyuan Feng, Renrui Zhang, Ziyu Guo, Letian Wang, Mengyue Yang, Kangfu Mei, Maijunxian Wang, Ran Ji, Vikash Kumar, Freda Shi, Chandra Sripada, Vincent C. Müller, Philip Torr, Alan Yuille, Nikolaus Kriegeskorte, Felix Juefei-Xu, Lvmin Zhang, Jieneng Chen, Yilun Du, Hokin Deng（University of Southern California；Carnegie Mellon University；University of Michigan；Johns Hopkins University；University of California, San Diego）"
+  arxiv="2609.28654"
+  links="[{\"url\":\"https://object-permanence.world\",\"label\":\"项目主页\",\"kind\":\"project\"}]"
+>}}
 
 **一句话总结：** USC、CMU、密歇根、JHU 与 UCSD 的跨认知科学—机器学习联合团队提出 **WROP**（World Reasoning with Object Permanence），用 **150 个认知科学启发的 Blender 任务生成器**、**150 万样本训练语料**与 **300 题标准考试**系统检验并训练视频生成模型的**客体永久性（object permanence）与客体坚固性（solidity）**；其 16B 世界模型 **PWM-WROP** 在 20 名评分者的盲评 Elo 研究中位列**续写类模型第一、总体第三**。
 
@@ -83,11 +85,12 @@ tocopen: true
 
 ### HelloWorld: Towards Practical Applications of Generative Driving World Models
 
-**链接：** https://arxiv.org/abs/2609.28931
-
-**项目主页：** https://helloworld-4d.github.io
-
-**作者 / 机构：** Fan Lu, Hanshi Wang, Zijing Wang, Quan Feng, Zhi Wang, Shijie Chen, Xianming Zeng, Yujian Zhang, Jiazhe Wang, Xin Zha, Kai Wang, Zhijie Zhao, Lin Zhu, Tianyi Yang, Yucheng Xu, Tao Ji, Haodong Zhang, Zhipeng Zhang, Peixi Peng, Guang Chen, Xingliang Liu, Lei Yang, Jianyun Xu（HelloWorld Team；论文未在 arXiv 页面标注机构）
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2609.28931"
+  authors="Fan Lu, Hanshi Wang, Zijing Wang, Quan Feng, Zhi Wang, Shijie Chen, Xianming Zeng, Yujian Zhang, Jiazhe Wang, Xin Zha, Kai Wang, Zhijie Zhao, Lin Zhu, Tianyi Yang, Yucheng Xu, Tao Ji, Haodong Zhang, Zhipeng Zhang, Peixi Peng, Guang Chen, Xingliang Liu, Lei Yang, Jianyun Xu（HelloWorld Team；论文未在 arXiv 页面标注机构）"
+  arxiv="2609.28931"
+  links="[{\"url\":\"https://helloworld-4d.github.io\",\"label\":\"项目主页\",\"kind\":\"project\"}]"
+>}}
 
 **一句话总结：** HelloWorld Team 提出 **HelloWorld**，一个 **2B 参数**的驾驶世界模型系统，把异构视频数据中的通用视觉与运动先验逐步特化为以自车位姿、HD 地图与 3D 框为条件的可控驾驶生成，支持**七相机同步 RGB 生成**与**条件 LiDAR 合成**，并向少步推理蒸馏以适配部署；相对 FAR-Drive，FID 降低 **35.0%**、FVD 降低约 **50%**。
 
@@ -112,11 +115,12 @@ tocopen: true
 
 ### AD-WM: Action-Discriminative World Models for Counterfactual Model Predictive Control
 
-**链接：** https://arxiv.org/abs/2609.30264
-
-**项目主页：** https://ad-wm.github.io/
-
-**作者 / 机构：** Jiabin Qiu, Zixuan Chen, Hongye Cao, Jieqi Shi, Jing Huo, Yang Gao（南京大学 Nanjing University）
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2609.30264"
+  authors="Jiabin Qiu, Zixuan Chen, Hongye Cao, Jieqi Shi, Jing Huo, Yang Gao（南京大学 Nanjing University）"
+  arxiv="2609.30264"
+  links="[{\"url\":\"https://ad-wm.github.io/\",\"label\":\"项目主页\",\"kind\":\"project\"}]"
+>}}
 
 **一句话总结：** 南京大学团队提出 **AD-WM**，指出潜世界模型的训练目标（预测事实转移）与 MPC 的实际需求（在同一状态下比较候选动作）之间存在根本错位，用**残差潜动力学**加**预测器级动作恢复正则**（逆动力学 + 条件互信息启发的归一化恢复目标）迫使规划转移保留动作信息；辅助头测试时丢弃、MPC 本身不改，OGBench-Cube 硬起点成功率从 **3.7% 提升至 52.0%**，冻结 V-JEPA 2 编码器后 Franka 零样本抓取放置从 42.2% 提到 **71.1%**。
 
@@ -141,11 +145,12 @@ tocopen: true
 
 ### AdaHVLA: Adaptive Harnesses for Long-Horizon Vision-Language-Action Execution
 
-**链接：** https://arxiv.org/abs/2609.29204
-
-**代码：** https://github.com/Haaareally/AdaHVLA-Adaptive_Harness_VLA
-
-**作者 / 机构：** Junyi Tang, Jie Peng, Zezhen Ding, Yuan Shen, Tianlong Chen（UNC Chapel Hill；中国科学技术大学；香港科技大学；香港中文大学）
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2609.29204"
+  authors="Junyi Tang, Jie Peng, Zezhen Ding, Yuan Shen, Tianlong Chen（UNC Chapel Hill；中国科学技术大学；香港科技大学；香港中文大学）"
+  arxiv="2609.29204"
+  links="[{\"url\":\"https://github.com/Haaareally/AdaHVLA-Adaptive_Harness_VLA\",\"label\":\"GitHub\",\"kind\":\"github\"}]"
+>}}
 
 **一句话总结：** UNC、中科大、港科大与港中文团队提出 **AdaHVLA**，用机器人经验反推**代码化协调策略（task harness）**的自我修订：把证据分析、harness 修订与行为评估解耦到不同工作上下文中，用**可测试的协调假设**指导修订并用后续 rollout 检验预期效果；在 NaVILA-LH 上把平均测试成功率从 **22.5% 提升至 57.5%**，在三个 VLA 骨干上的操作任务最高提升 **30.8 个百分点**。
 
@@ -170,11 +175,12 @@ tocopen: true
 
 ### Direction-Scale Decomposition in Action Representation: Rethinking What to Tokenize for Vision-Language-Action Models
 
-**链接：** https://arxiv.org/abs/2609.28865
-
-**项目主页：** https://vla-dsd.github.io/
-
-**作者 / 机构：** Yufei Duan, Hang Yin, Alberta Longhini, Chao Tang, Danica Kragic（KTH Royal Institute of Technology；University of Copenhagen；Stanford University）
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2609.28865"
+  authors="Yufei Duan, Hang Yin, Alberta Longhini, Chao Tang, Danica Kragic（KTH Royal Institute of Technology；University of Copenhagen；Stanford University）"
+  arxiv="2609.28865"
+  links="[{\"url\":\"https://vla-dsd.github.io/\",\"label\":\"项目主页\",\"kind\":\"project\"}]"
+>}}
 
 **一句话总结：** KTH、哥本哈根大学与 Stanford 团队提出 **DSD**（Direction-Scale Decomposition），指出离散 token VLA 中习以为常的**位姿增量表示**对执行速度与数据集归一化方式高度敏感、掩盖了跨演示共享的几何结构；它在 tokenize 之前把平移增量拆成**方向 + 尺度**、把相对旋转拆成**轴 + 角**，在 SimplerEnv 混训设定下比均匀分箱 BIN 高 **10.3 个百分点**，在五数据集混合中把「更多异质数据」从负担变为资产（40.7% → 43.3%，而 BIN 反而从 40.0% 跌到 33.0%）。
 
@@ -199,11 +205,12 @@ tocopen: true
 
 ### TactileStep: Sole Tactile Learning for Regulating Foot–Terrain Interaction in Humanoid Locomotion
 
-**链接：** https://arxiv.org/abs/2609.28959
-
-**项目主页：** https://tactilestep.github.io/
-
-**作者 / 机构：** Zizhuo Wang, Ming-Ju Lee, Shaoting Zhu, Haozhe Lou, Hang Zhao, Yiming Li（清华大学 Tsinghua University）
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2609.28959"
+  authors="Zizhuo Wang, Ming-Ju Lee, Shaoting Zhu, Haozhe Lou, Hang Zhao, Yiming Li（清华大学 Tsinghua University）"
+  arxiv="2609.28959"
+  links="[{\"url\":\"https://tactilestep.github.io/\",\"label\":\"项目主页\",\"kind\":\"project\"}]"
+>}}
 
 **一句话总结：** 清华大学团队提出 **TactileStep**，把**足底压力感知**引入人形机器人跑酷控制，使足—地交互成为一等优化目标：通过标定过的触觉仿真把压力特征在仿真与真机压力鞋垫之间对齐，并用触觉与运动线索识别不同的足部接触相位、施加相位感知奖励；在 Unitree G1 上把落地峰值力降低最多 **48.8%**、峰值 A 计权冲击噪声降低最多 **30.1 dB**、站立接触面积提升最多 **23.8%**。
 
@@ -228,11 +235,12 @@ tocopen: true
 
 ### AV-GRPO: Modality-Anchored Decoupling Diffusion Reinforcement Learning for Joint Audio-Video Generation
 
-**链接：** https://arxiv.org/abs/2609.29816
-
-**代码：** https://github.com/zhiyuxu03/AV-GRPO
-
-**作者 / 机构：** Zhiyu Xu, Weilong Yan, Yufei Shi, Shiyang Li, Yihao Liu, Kin-Man Lam, Yuewen Cao（上海人工智能实验室；香港理工大学；新加坡国立大学；南洋理工大学；浙江大学）
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2609.29816"
+  authors="Zhiyu Xu, Weilong Yan, Yufei Shi, Shiyang Li, Yihao Liu, Kin-Man Lam, Yuewen Cao（上海人工智能实验室；香港理工大学；新加坡国立大学；南洋理工大学；浙江大学）"
+  arxiv="2609.29816"
+  links="[{\"url\":\"https://github.com/zhiyuxu03/AV-GRPO\",\"label\":\"GitHub\",\"kind\":\"github\"}]"
+>}}
 
 **一句话总结：** 上海 AI Lab、香港理工大学、NUS、NTU 与浙江大学联合提出 **AV-GRPO**，一套**模态锚定**的在线扩散 RL 框架，并配套 **5DAV** 难度可控解耦训练集：用模态锚定 rollout 解耦学习信号并稳定难度、用轨迹锁定 + 冻结塔优化降低成本并重新分配信用、用适配各模态动力学的自适应目标与扰动强度；把耦合的多模态偏好学习转化为单模态子问题，在 JavisBench 与 VABench 上于 LoRA 与全参微调两种设定下均超过 LTX-2.3。
 

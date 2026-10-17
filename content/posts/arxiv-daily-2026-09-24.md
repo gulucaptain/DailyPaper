@@ -25,11 +25,12 @@ tocopen: true
 
 ### QuantWM: Temporally Consistent 2-Bit KV Cache Quantization for World Models and Video Generation
 
-**链接：** https://arxiv.org/abs/2609.26425
-
-**项目主页：** https://quantwm-project.github.io/QuantWM/
-
-**作者 / 机构：** Jiaqi Zhao, Xiaobin Hu, Bo Yin, Junpeng Jiang, Miao Zhang, Shuicheng Yan（Harbin Institute of Technology (Shenzhen)；National University of Singapore）
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2609.26425"
+  authors="Jiaqi Zhao, Xiaobin Hu, Bo Yin, Junpeng Jiang, Miao Zhang, Shuicheng Yan（Harbin Institute of Technology (Shenzhen)；National University of Singapore）"
+  arxiv="2609.26425"
+  links="[{\"url\":\"https://quantwm-project.github.io/QuantWM/\",\"label\":\"项目主页\",\"kind\":\"project\"}]"
+>}}
 
 **一句话总结：** 哈工大深圳与新加坡国立大学团队提出 **QuantWM**，发现 2-bit KV cache 量化在 VBench 上几乎无损却会造成严重时序闪烁，并把根因精确定位到 attention——**Key 的重建误差比 Value 更小，输出退化却大得多**，因为微小 Key 扰动会改变 `QKᵀ` logits 与 Query 选中的时空 token；据此设计的免训练严格因果量化框架在 LongCat-Video 上把 PSNR 从 20.683 提到 25.508、LPIPS 从 0.0784 降到 0.0332。
 
@@ -53,9 +54,11 @@ tocopen: true
 
 ### An Action Is Worth One Patch: Unified World-Action Modeling with PatchWAM
 
-**链接：** https://arxiv.org/abs/2609.25961
-
-**作者 / 机构：** Tianheng Wang, Zhou Xie, Heng Jia, Jianhua Xu, Tong Zhang, Kaicheng Yu（Westlake University；Lanzhou University；Zhejiang University；Awomo；University of Chinese Academy of Sciences）
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2609.25961"
+  authors="Tianheng Wang, Zhou Xie, Heng Jia, Jianhua Xu, Tong Zhang, Kaicheng Yu（Westlake University；Lanzhou University；Zhejiang University；Awomo；University of Chinese Academy of Sciences）"
+  arxiv="2609.25961"
+>}}
 
 **一句话总结：** 西湖大学、兰州大学、浙江大学、Awomo 与国科大联合提出 **PatchWAM**，追问「视觉预测与动作生成是否真的需要两条独立计算通路」：通过一个称为 **Action-as-Patch** 的固定映射把连续动作写成**另一种 patch**，同一个模型无需任何动作头或独立动作专家即可同时预测「机器人该怎么动」与「场景之后会长什么样」，RoboTwin 2.0 达 **96.12%**、LIBERO **98.4%**、LIBERO-Plus **91.8%**。
 
@@ -79,11 +82,12 @@ tocopen: true
 
 ### MachEmbodied-U0: Unified Understanding and Generation Model for Embodied Intelligence
 
-**链接：** https://arxiv.org/abs/2609.25627
-
-**项目主页：** https://machembodied.com/ME-U/ME-U0.html ｜ **代码：** https://github.com/MachEmbodied/ME-U0
-
-**作者 / 机构：** MachEmbodied Foundation Model Team, Li Auto Inc.（ME-0 Technical Report）
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2609.25627"
+  authors="MachEmbodied Foundation Model Team, Li Auto Inc.（ME-0 Technical Report）"
+  arxiv="2609.25627"
+  links="[{\"url\":\"https://machembodied.com/ME-U/ME-U0.html\",\"label\":\"项目主页\",\"kind\":\"project\"},{\"url\":\"https://github.com/MachEmbodied/ME-U0\",\"label\":\"GitHub\",\"kind\":\"github\"}]"
+>}}
 
 **一句话总结：** 理想汽车 ME-0 团队发布 **MachEmbodied-U0（ME-U0）** 技术报告，用 **Mixture-of-Transformers** 架构把理解专家与生成专家缝成一个统一具身基础模型：子任务预测与 affordance grounding 引导视觉动力学与动作的联合生成，视觉动力学同时覆盖未来 RGB、深度、表面法线与光流，在约 4,200 小时精选演示上预训练后，仅用下游基准原生监督即在 LIBERO 达 **99.0%**、LIBERO-Plus **82.5%**。
 
@@ -108,11 +112,12 @@ tocopen: true
 
 ### TriWorldBench: A Tri-View Consistency Perspective on Embodied World Models
 
-**链接：** https://arxiv.org/abs/2609.26314
-
-**代码：** https://github.com/TriWorldBench/TriWorldBench ｜ **数据：** https://huggingface.co/datasets/TriWorldBench/Dataset
-
-**作者 / 机构：** Xuanyi Liu, Haofeng Wang, Ruiqi Li, Danni Yu, Rui Wan, Ruixu Zhang, Siyu Tao, Xue Yang, Shaofeng Zhang, Zicheng Zhang, Jiaqi Zhang, Siwei Ma（Peking University；Tsinghua University；Beihang University；Shanghai Jiao Tong University；University of Science and Technology of China；Shanghai AI Laboratory）
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2609.26314"
+  authors="Xuanyi Liu, Haofeng Wang, Ruiqi Li, Danni Yu, Rui Wan, Ruixu Zhang, Siyu Tao, Xue Yang, Shaofeng Zhang, Zicheng Zhang, Jiaqi Zhang, Siwei Ma（Peking University；Tsinghua University；Beihang University；Shanghai Jiao Tong University；University of Science and Technology of China；Shanghai AI Laboratory）"
+  arxiv="2609.26314"
+  links="[{\"url\":\"https://github.com/TriWorldBench/TriWorldBench\",\"label\":\"GitHub\",\"kind\":\"github\"},{\"url\":\"https://huggingface.co/datasets/TriWorldBench/Dataset\",\"label\":\"数据\",\"kind\":\"huggingface\"}]"
+>}}
 
 **一句话总结：** 北大、清华、北航、上海交大、中国科大与上海人工智能实验室联合提出 **TriWorldBench**，指出头视角与双腕视角**各自看起来合理，并不代表它们在描述同一个动作与物体状态**：用 500 个 episode、50 个双臂操作任务的同步头/左腕/右腕视频，配合 19 个指标把「三视角事件一致性」变成可测量量，并以 TWB-Score 汇总。
 
@@ -137,9 +142,11 @@ tocopen: true
 
 ### ForeDrive: Foresight-Guided End-to-End Autonomous Driving with a Planning-Relevant Latent World Model
 
-**链接：** https://arxiv.org/abs/2609.26299
-
-**作者 / 机构：** Sinuo Wang, Zichong Gu, Yuhan Huang, Wenxin Wen, Xun Yang, Yiqing Zhang, Xingyu Zhang, Ningyu Che, Jie Ling, Qiankun Yu, Wei Liu, Jing Xu, Xinggang Wang（Huazhong University of Science and Technology；Shanghai Zaofu Intelligent Technology Co., Ltd.）
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2609.26299"
+  authors="Sinuo Wang, Zichong Gu, Yuhan Huang, Wenxin Wen, Xun Yang, Yiqing Zhang, Xingyu Zhang, Ningyu Che, Jie Ling, Qiankun Yu, Wei Liu, Jing Xu, Xinggang Wang（Huazhong University of Science and Technology；Shanghai Zaofu Intelligent Technology Co., Ltd.）"
+  arxiv="2609.26299"
+>}}
 
 **一句话总结：** 华中科技大学与上海早孚智能科技提出 **ForeDrive**，指出潜世界模型优化的是「未来可预测性」而**可预测并不等于对规划有用**：用 JEPA 式世界模型学习规划相关的多尺度未来潜表征，并以 stop-gradient 路由把它非对称地耦合进 DiT 规划器，纯模仿学习、推理只用当前前视相机，在 NAVSIM v1 上取得 **89.9 PDMS**、v2 上 **90.0 one-stage EPDMS**。
 
@@ -164,11 +171,12 @@ tocopen: true
 
 ### Skytopia: Monocular Drone Navigation with Action-Conditioned Latent World Models
 
-**链接：** https://arxiv.org/abs/2609.26007
-
-**项目主页：** https://eugshang.github.io/Skytopia/
-
-**作者 / 机构：** Yuhang Zhang, Rangya Zhang, Yujing Shang, Zhuoyuan Yu, Weiying Wang, Steven Yang, Qingsong Yan, Chao Yan, Mir Feroskhan（Nanyang Technological University, Singapore；Autel US；XGRIDS；Independent Researcher）
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2609.26007"
+  authors="Yuhang Zhang, Rangya Zhang, Yujing Shang, Zhuoyuan Yu, Weiying Wang, Steven Yang, Qingsong Yan, Chao Yan, Mir Feroskhan（Nanyang Technological University, Singapore；Autel US；XGRIDS；Independent Researcher）"
+  arxiv="2609.26007"
+  links="[{\"url\":\"https://eugshang.github.io/Skytopia/\",\"label\":\"项目主页\",\"kind\":\"project\"}]"
+>}}
 
 **一句话总结：** 南洋理工大学等团队提出 **Skytopia**，主张**策略需要从世界模型那里得到的不是预测，而是产生预测所必需的表征**：在飞行中执行的动作几乎解释了观测间的全部变化，预测因此退化为「在已知位移下重投影一个静态场景」；预测器在部署时被**整个丢弃**，一个策略同时服务点目标、图像目标与无目标三种设定，OOD 场景成功率 **57.8% / 66.0% / 49.0%**，并省掉 **59.4%** 的推理成本。
 
@@ -193,11 +201,12 @@ tocopen: true
 
 ### SafeLoop: Risk-Aware Rollback for Vision-Language-Action Manipulation
 
-**链接：** https://arxiv.org/abs/2609.26313
-
-**代码：** https://github.com/Loule0-0/SafeLoop/tree/release/safeloop
-
-**作者 / 机构：** Zeyu Lou, Tianran Zhang, Xinquan Yue, Ya Jing, Chenyang Si（Nanjing University；The Hong Kong University of Science and Technology (Guangzhou)；Beijing University of Technology）
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2609.26313"
+  authors="Zeyu Lou, Tianran Zhang, Xinquan Yue, Ya Jing, Chenyang Si（Nanjing University；The Hong Kong University of Science and Technology (Guangzhou)；Beijing University of Technology）"
+  arxiv="2609.26313"
+  links="[{\"url\":\"https://github.com/Loule0-0/SafeLoop/tree/release/safeloop\",\"label\":\"GitHub\",\"kind\":\"github\"}]"
+>}}
 
 **一句话总结：** 南京大学、港科大（广州）与北京工业大学团队（**IROS 2026**）提出 **SafeLoop**，一个**不改变 VLA 任何参数**的非侵入式外挂：从视觉与本体感受训练风险预测器，输出机体碰撞与物体失效的**发生概率与剩余时间**四个量，再由轻量控制器在「继续执行 / 存安全点 / 关节空间回滚」三者中决策，在 24 个 LIBERO 任务 × 16 种子与 3 个真机任务上把危险事件降低约 **70%** 而基本保住成功率。
 
@@ -223,9 +232,11 @@ tocopen: true
 
 ### MedVLA: A Hierarchical Vision-Language-Action Framework for Closed-Loop Precision Medical Robot Manipulation
 
-**链接：** https://arxiv.org/abs/2609.25756
-
-**作者 / 机构：** Junjie Xie, Angen Ye, Yujia Song, Chuxuan He, Dapeng Zhang（Institute of Automation, Chinese Academy of Sciences；School of Artificial Intelligence, University of Chinese Academy of Sciences；Zhejiang Gongshang University）
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2609.25756"
+  authors="Junjie Xie, Angen Ye, Yujia Song, Chuxuan He, Dapeng Zhang（Institute of Automation, Chinese Academy of Sciences；School of Artificial Intelligence, University of Chinese Academy of Sciences；Zhejiang Gongshang University）"
+  arxiv="2609.25756"
+>}}
 
 **一句话总结：** 中科院自动化所、国科大与浙江工商大学团队提出 **MedVLA**，指出 VLA 的连续动作生成范式并不适合精密医疗任务——后者要求安全、可解释、可审计，且闭环运行还依赖**非动作的系统函数调用**；据此设计的分层框架把高层多模态推理与低层**受函数约束**的执行解耦，在真实柔性电极植入平台上于 100 次闭环试验中取得 **95.0%** 成功率，而 OpenVLA 仅 **8%**、π0 仅 **15%**。
 

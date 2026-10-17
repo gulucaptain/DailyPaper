@@ -25,11 +25,12 @@ tocopen: true
 
 ### Zing-0.5: Toward Playable Worlds with Real-Time Joint Action and Text Control
 
-**链接：** https://arxiv.org/abs/2609.17909
-
-**项目主页：** https://zing.loopit.me/ ｜ **代码：** https://github.com/seedleap/zing-world-model ｜ **模型：** https://huggingface.co/seedleap/zing-0.5 ｜ **服务实现：** https://github.com/seedleap/Zing-SGLang
-
-**作者 / 机构：** Zing Team, SeedLeap.ai（技术报告，2026 年 9 月 15 日；作者按姓氏字母序排列）
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2609.17909"
+  authors="Zing Team, SeedLeap.ai（技术报告，2026 年 9 月 15 日；作者按姓氏字母序排列）"
+  arxiv="2609.17909"
+  links="[{\"url\":\"https://zing.loopit.me/\",\"label\":\"项目主页\",\"kind\":\"project\"},{\"url\":\"https://github.com/seedleap/zing-world-model\",\"label\":\"GitHub\",\"kind\":\"github\"},{\"url\":\"https://huggingface.co/seedleap/zing-0.5\",\"label\":\"模型\",\"kind\":\"huggingface\"},{\"url\":\"https://github.com/seedleap/Zing-SGLang\",\"label\":\"GitHub\",\"kind\":\"github\"}]"
+>}}
 
 **一句话总结：** SeedLeap.ai 的 Zing Team 提出 **Zing-0.5**，一个 5B 自回归世界模型，首次把**键盘动作与在线文本的联合控制**、**事件尺度的分布匹配蒸馏**与**低成本实时流式推理**三件事打通，在 832×480 分辨率下以 **24 FPS** 实时交互、估算服务器租金约 **$0.009 每流分钟**，并在 158 个 WBench Navigation 用例上取得 **81.0 总分 / 88.5 一致性分**。
 
@@ -53,9 +54,11 @@ tocopen: true
 
 ### KINO: A Keyframe Interface for VLM Planning and Whole-Body Control in Humanoid Loco-Manipulation
 
-**链接：** https://arxiv.org/abs/2609.18869
-
-**作者 / 机构：** Sitong Chen, Fatemeh Zargarbashi, Jin Cheng, Tianxu An, Stelian Coros（苏黎世联邦理工学院 ETH Zürich，瑞士）
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2609.18869"
+  authors="Sitong Chen, Fatemeh Zargarbashi, Jin Cheng, Tianxu An, Stelian Coros（苏黎世联邦理工学院 ETH Zürich，瑞士）"
+  arxiv="2609.18869"
+>}}
 
 **一句话总结：** ETH Zürich 提出 **KINO**，用**运动关键帧**作为 VLM 语义规划与全身 RL 控制之间的**窄接口**：VLM 从预定义关键帧库中依序挑选与任务相关的目标全身位姿（必要时含物体位姿），关键帧被重定向到当前场景后由关键帧条件的全身策略生成关节动作；配套的**显著性关键帧采样**把端到端任务成功率从 **44% 提升到 92%**。
 
@@ -79,11 +82,12 @@ tocopen: true
 
 ### ActionPiece: Rethinking Action Tokenization for Autoregressive Vision-Language-Action Models
 
-**链接：** https://arxiv.org/abs/2609.18487
-
-**项目主页：** https://deepcybo-physai.github.io/ActionPiece/ ｜ **代码：** https://github.com/DeepCybo-PhysAI/ActionPiece
-
-**作者 / 机构：** Shijie Lian, Bin Yu, Zhaolong Shen, Xiaopeng Lin, Yichao Du, Zhirui Zhang, Laurence T. Yang, Kai Chen 等（华中科技大学；中关村学院；DeepCybo；哈尔滨工业大学；北京航空航天大学；香港科技大学（广州）；郑州大学；中关村人工智能研究院）
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2609.18487"
+  authors="Shijie Lian, Bin Yu, Zhaolong Shen, Xiaopeng Lin, Yichao Du, Zhirui Zhang, Laurence T. Yang, Kai Chen 等（华中科技大学；中关村学院；DeepCybo；哈尔滨工业大学；北京航空航天大学；香港科技大学（广州）；郑州大学；中关村人工智能研究院）"
+  arxiv="2609.18487"
+  links="[{\"url\":\"https://deepcybo-physai.github.io/ActionPiece/\",\"label\":\"项目主页\",\"kind\":\"project\"},{\"url\":\"https://github.com/DeepCybo-PhysAI/ActionPiece\",\"label\":\"GitHub\",\"kind\":\"github\"}]"
+>}}
 
 **一句话总结：** 多校联合团队指出**动作 tokenizer 一直被错误地用逐点 MSE 评估**这一根本问题，提出**物理秩一致性（Physical Rank Consistency, PRC）**度量「重建后是否保留了动作间的物理距离排序」，并据此设计 **ActionPiece**——用**物理秩保持 + 量化正则**双重目标联合监督表征学习与量化，在同样的 Qwen3-VL-4B 策略训练配置下取得 **LIBERO 94.8% / 未见过的 LIBERO-Plus 68.8% / SimplerEnv 71.9% / VLA-Arena L0–L2 51.5%**。
 
@@ -107,9 +111,11 @@ tocopen: true
 
 ### ForceDelta-VLA: Distilling Force-Conditioned ActionCorrections for Contact-Rich Manipulation
 
-**链接：** https://arxiv.org/abs/2609.18242
-
-**作者 / 机构：** Ju Dong, Yu Fu, Jian Chen, Yimeng Liu, Haocheng Zhao, Lei Zhang, Kaixin Bai, Liding Zhang 等（汉堡大学多模态系统技术组 TAMS；中国科学技术大学；慕尼黑工业大学 TUM）
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2609.18242"
+  authors="Ju Dong, Yu Fu, Jian Chen, Yimeng Liu, Haocheng Zhao, Lei Zhang, Kaixin Bai, Liding Zhang 等（汉堡大学多模态系统技术组 TAMS；中国科学技术大学；慕尼黑工业大学 TUM）"
+  arxiv="2609.18242"
+>}}
 
 **一句话总结：** 汉堡大学、中科大与 TUM 联合提出 **ForceDelta-VLA**，一个**修正量蒸馏（correction-distillation）**框架：用冻结教师在「力条件模式」与「力学不可知模式」下的**成对预测**构造显式的力修正目标，辅以**时延修正目标**与**异步调度回放**，把「参考动作 + 修正量」解耦成一个可依据近期力历史与机器人状态、在参考动作更新间隔之间持续响应的轻量策略，在 9 个单臂 / 双臂接触丰富任务上取得 **82.2% 平均成功率（ForceVLA 基线 54.4%）**，成功试验的峰值接触力降低约 **26%**。
 
@@ -133,11 +139,12 @@ tocopen: true
 
 ### Reinforcement Learning for Real-Time Vision-Language-Action Policies
 
-**链接：** https://arxiv.org/abs/2609.18207
-
-**项目主页：** https://pd-perry.github.io/real-time-expo-ft/
-
-**作者 / 机构：** Perry Dong, Kuo-Han Hung, Dorsa Sadigh, Chelsea Finn（斯坦福大学 Stanford University）
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2609.18207"
+  authors="Perry Dong, Kuo-Han Hung, Dorsa Sadigh, Chelsea Finn（斯坦福大学 Stanford University）"
+  arxiv="2609.18207"
+  links="[{\"url\":\"https://pd-perry.github.io/real-time-expo-ft/\",\"label\":\"项目主页\",\"kind\":\"project\"}]"
+>}}
 
 **一句话总结：** Stanford 团队提出 **Real-Time EXPO-FT**，首次系统地把**大模型推理延迟**显式纳入 VLA 的 RL 微调与执行框架：慢而富有表达力的预训练 VLA 提议**动作块**，一个轻量**编辑策略**依据最新观测做高频修正；在 4 步推理延迟下仿真平均成功率 **96.2%**，分别比 DSRL、DSRL w/ RTC、EXPO-FT、EXPO-FT w/ RTC 高出 **34.5 / 20.1 / 21.3 / 14.5 个百分点**，甚至**超过零延迟的 RLPD 基线（81.4%）**，真机四项动态任务平均 **29/30**。
 
@@ -161,11 +168,12 @@ tocopen: true
 
 ### Dreaming the Sound of Contact: Leveraging Video and Audio Generation for Zero-Shot Force-Aware Manipulation and Data Generation
 
-**链接：** https://arxiv.org/abs/2609.19137
-
-**项目主页：** https://dreamingcontactsound.github.io/
-
-**作者 / 机构：** Guanhua Ji, Tianyu Li, Dayoon Suh, Yuqian Zhang, Boyan Zhang, Nadia Figueroa（宾夕法尼亚大学 GRASP 实验室，University of Pennsylvania, USA）
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2609.19137"
+  authors="Guanhua Ji, Tianyu Li, Dayoon Suh, Yuqian Zhang, Boyan Zhang, Nadia Figueroa（宾夕法尼亚大学 GRASP 实验室，University of Pennsylvania, USA）"
+  arxiv="2609.19137"
+  links="[{\"url\":\"https://dreamingcontactsound.github.io/\",\"label\":\"项目主页\",\"kind\":\"project\"}]"
+>}}
 
 **一句话总结：** 宾大 GRASP Lab 提出一条**「用生成视频 + 生成音频共同塑造力感知操作」**的流水线：以结构化自然语言任务提示同时生成视频与同步音频，从视频提取运动轨迹、用**接触声音的响度**塑造有界且时变的**期望力曲线**，再由闭环力调节器在 Franka Panda 上跟踪该曲线；在白板擦拭、胡萝卜削皮、巧克力盒堆叠、台灯按钮按压四个接触丰富任务上实现**零样本成功执行**（纯运动学基线频繁失败），并可反过来作为**力感知数据生成引擎**训练闭环策略。
 
@@ -189,11 +197,12 @@ tocopen: true
 
 ### MSR: Multiple Subject Reference for Video Generation
 
-**链接：** https://arxiv.org/abs/2609.18393
-
-**模型权重：** https://huggingface.co/LiconStudio/LTX-2.5-Multiple-Subject-Reference ｜ https://huggingface.co/LiconStudio/LTX-2.3-Multiple-Subject-Reference
-
-**作者 / 机构：** Guannan Li, Jiaji Chen, Jingyuan Liao, Yu Geng, Baolan Qiu（Licon Studio；Jingyuan Liao、Yu Geng、Baolan Qiu 同等贡献）
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2609.18393"
+  authors="Guannan Li, Jiaji Chen, Jingyuan Liao, Yu Geng, Baolan Qiu（Licon Studio；Jingyuan Liao、Yu Geng、Baolan Qiu 同等贡献）"
+  arxiv="2609.18393"
+  links="[{\"url\":\"https://huggingface.co/LiconStudio/LTX-2.5-Multiple-Subject-Reference\",\"label\":\"模型权重\",\"kind\":\"huggingface\"},{\"url\":\"https://huggingface.co/LiconStudio/LTX-2.3-Multiple-Subject-Reference\",\"label\":\"模型权重\",\"kind\":\"huggingface\"}]"
+>}}
 
 **一句话总结：** Licon Studio 提出 **MSR（Multiple Subject Reference）**，一种面向 LTX 系列视频生成模型的**槽位感知（slot-aware）条件化方案**：每个参考图像被独立编码为一个静态片段并由**独立的潜 token 组**表示，一个紧凑的**傅里叶特征 MLP**注入数值化槽位嵌入，同时用**槽位依赖的时间偏移**修改该组的旋转坐标；参考组被前接到带噪目标 token 前、在**仅对目标做 flow matching** 的训练中充当干净上下文。方案通过 **LoRA** 实现，权重与推理工作流已公开。
 
@@ -217,9 +226,11 @@ tocopen: true
 
 ### RiskWorld: Risk-Aware World Modeling with Flow-Guided Occupancy Evolution for Selective Trajectory Planning in Automated Driving
 
-**链接：** https://arxiv.org/abs/2609.18442
-
-**作者 / 机构：** Rongxiang Zeng, Linsen Cai, Jiafu Zhang, Yijie Zhong, Alvaro García Hernandez, Yongqi Dong, Yide Tao, Shuai Wang, Nan Zheng, Hai L. Vu（亚琛工业大学 RWTH Aachen University，德国；由德国联邦与州政府卓越战略及 RWTH Exploratory Research Space 资助）
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2609.18442"
+  authors="Rongxiang Zeng, Linsen Cai, Jiafu Zhang, Yijie Zhong, Alvaro García Hernandez, Yongqi Dong, Yide Tao, Shuai Wang, Nan Zheng, Hai L. Vu（亚琛工业大学 RWTH Aachen University，德国；由德国联邦与州政府卓越战略及 RWTH Exploratory Research Space 资助）"
+  arxiv="2609.18442"
+>}}
 
 **一句话总结：** RWTH Aachen 提出 **RiskWorld**，一个用于自动驾驶的**风险感知世界建模**框架：把空间风险场与时间化的参与者上下文同视觉 BEV 特征融合，用**流引导演化**传输占据与场景特征、以带符号残差修正传输无法解释的占据变化，并在**每个规划步只生成一次预测、跨候选复用**；通过与「当前状态持续」参考对比得到非负碰撞分修正，只有当额外预测风险触发干预、且替代轨迹在预测风险与轨迹误差上均满足分量级约束时，才替换规划锚点——候选几何本身不变。在 nuScenes 开环规划上取得 **3 秒长程最低碰撞率**、**次优平均 L2 误差**，并在单张 RTX 4090 上以 **90.81M 参数跑到 11.5 FPS**。
 

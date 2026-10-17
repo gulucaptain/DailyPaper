@@ -17,11 +17,12 @@ tocopen: true
 
 ### MeRoPE: Metric Rotary Position Embedding for Camera-Controlled Video Generation
 
-**链接：** https://arxiv.org/abs/2609.01252
-
-**项目主页：** https://qiaozhijian.github.io/merope/
-
-**作者 / 机构：** Zhijian Qiao, Xinjiang Wang, Jiajie Chen, Haoming Huang, Meng Li, Chih-Chung Chou, Jing Wang, Shaojie Shen（香港科技大学 HKUST；卓驭科技 Zhuoyu Technology）
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2609.01252"
+  authors="Zhijian Qiao, Xinjiang Wang, Jiajie Chen, Haoming Huang, Meng Li, Chih-Chung Chou, Jing Wang, Shaojie Shen（香港科技大学 HKUST；卓驭科技 Zhuoyu Technology）"
+  arxiv="2609.01252"
+  links="[{\"url\":\"https://qiaozhijian.github.io/merope/\",\"label\":\"项目主页\",\"kind\":\"project\"}]"
+>}}
 
 **一句话总结：** 港科大与卓驭科技提出 MeRoPE，一种保范数的相对相机位置编码，用正交旋转块编码标定视线间的相对朝向、把度量位移映射为多频旋转相位，从根本上解决现有几何感知编码在真实度量轨迹下注意力 logits 与特征范数随平移基线无界增长的尺度失效问题。
 
@@ -46,11 +47,12 @@ tocopen: true
 
 ### ZimaBlue: Evolving Generalizable World Action Models through Scalable Video Pre-training
 
-**链接：** https://arxiv.org/abs/2609.00188
-
-**项目主页：** https://zimablue-wam.github.io/ ｜ **代码：** https://github.com/ZimaBlue-WAM/ZimaBlue
-
-**作者 / 机构：** Xionghao Wu, Yijun Yang, Shiyang Zhou, Haoze Sun, Jianhui Liu, Songsong Yu, Jiyao Zhang, Wenbo Li, Bo Wang, Guoqing Ma, Lin Song, Renjie Liao, Shenghe Zheng, Wei Tang, Xiaojuan Qi, Yanwei Li, Yuan Zhang, Zhuotao Tian, Haoyang Huang, Nan Duan（Joy Future Academy）
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2609.00188"
+  authors="Xionghao Wu, Yijun Yang, Shiyang Zhou, Haoze Sun, Jianhui Liu, Songsong Yu, Jiyao Zhang, Wenbo Li, Bo Wang, Guoqing Ma, Lin Song, Renjie Liao, Shenghe Zheng, Wei Tang, Xiaojuan Qi, Yanwei Li, Yuan Zhang, Zhuotao Tian, Haoyang Huang, Nan Duan（Joy Future Academy）"
+  arxiv="2609.00188"
+  links="[{\"url\":\"https://zimablue-wam.github.io/\",\"label\":\"项目主页\",\"kind\":\"project\"},{\"url\":\"https://github.com/ZimaBlue-WAM/ZimaBlue\",\"label\":\"GitHub\",\"kind\":\"github\"}]"
+>}}
 
 **一句话总结：** ZimaBlue 提出三阶段课程把大规模第一视角视频"兑换"成可泛化的世界动作模型（WAM），并用异步 Slow-Fast 双系统架构让生成式世界模型在单张 RTX 4090 上跑出 30 Hz 实时动作预测，真机零样本成功率从仅用目标机器人数据的 36.1% 提升到 77.8%。
 
@@ -75,11 +77,12 @@ tocopen: true
 
 ### H3-World: Turning Language Understanding into World Control
 
-**链接：** https://arxiv.org/abs/2609.01560
-
-**项目主页：** https://danzer1xxxxchan.github.io/H3-World ｜ **代码：** https://github.com/Danzer1xxxxChan/H3-World ｜ **模型：** https://huggingface.co/DANNY621/H3-World
-
-**作者 / 机构：** Danze Chen, Zeqing Wang, Ziyue Lin, Xingyi Yang, Yeying Jin（腾讯 Tencent；新加坡国立大学 NUS；香港理工大学 PolyU）
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2609.01560"
+  authors="Danze Chen, Zeqing Wang, Ziyue Lin, Xingyi Yang, Yeying Jin（腾讯 Tencent；新加坡国立大学 NUS；香港理工大学 PolyU）"
+  arxiv="2609.01560"
+  links="[{\"url\":\"https://danzer1xxxxchan.github.io/H3-World\",\"label\":\"项目主页\",\"kind\":\"project\"},{\"url\":\"https://github.com/Danzer1xxxxChan/H3-World\",\"label\":\"GitHub\",\"kind\":\"github\"},{\"url\":\"https://huggingface.co/DANNY621/H3-World\",\"label\":\"模型\",\"kind\":\"huggingface\"}]"
+>}}
 
 **一句话总结：** H3-World 用一个极其轻量的适配方案把 330 亿参数的 MiniMax-H3 视频生成器变成可交互世界模型——不引入任何专门的动作模块，仅靠把动作表示为"角色指令 + 相机指令"的结构化组合、加上时序注意力路由约束指令作用域，用 8000 条游戏样本、1 万步 LoRA 和 0.199% 可训练参数就实现了精确的角色与相机控制。
 
@@ -104,9 +107,11 @@ tocopen: true
 
 ### IMPACT: Attention Is the Interaction Map for Scalable Interaction-Aware World Model Training
 
-**链接：** https://arxiv.org/abs/2609.00161
-
-**作者 / 机构：** Rongze Tang, Jianjie Fang, Zhaolu Wang, Ziyou Wang, Xvyuan Liu, Haisheng Su, Xin Zhang, Wei Wu, Chen Gao, Yong Li, Zhibo Chen（中国科学技术大学 USTC；中关村学院 Zhongguancun Academy；清华大学 Tsinghua University；Manifold AI）
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2609.00161"
+  authors="Rongze Tang, Jianjie Fang, Zhaolu Wang, Ziyou Wang, Xvyuan Liu, Haisheng Su, Xin Zhang, Wei Wu, Chen Gao, Yong Li, Zhibo Chen（中国科学技术大学 USTC；中关村学院 Zhongguancun Academy；清华大学 Tsinghua University；Manifold AI）"
+  arxiv="2609.00161"
+>}}
 
 **一句话总结：** IMPACT 指出世界模型生成物理可信交互困难的根源不在缺少外部条件，而在训练目标的**监督分配错配**——全局平均的 MSE 去噪损失让大量静态内容主导优化信号，而真正决定交互质量的稀疏动态物体区域反而被严重欠监督；它用交叉注意力作为内部时空先验构造交互图并重加权监督，无需任何外部表征或推理期改动。
 
@@ -131,11 +136,12 @@ tocopen: true
 
 ### Solaris: Towards Interfaces That Are Generated, Not Coded
 
-**链接：** https://arxiv.org/abs/2609.00776
-
-**项目主页：** https://runway.com/news/research/introducing-solaris
-
-**作者 / 机构：** Yuval Alaluf, Omri Avrahami, Guy Bukchin Leshem, Michal Geyer, Kfir Goldberg, Elad Richardson, Diego Alarcón, Alejandro Alvarez, Cole Garry, Anastasis Germanidis, Tenaya Goldsen, Corina Gurau, Robin Kahlow, Joel Kwartler, Kathleen Lewis, Alejandro Matamala Ortiz, Eugene McMahon, Thon Prom, Sarah Saltonstall-Wurm, Jamie Umpherson, Hudson Yeo（Runway）
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2609.00776"
+  authors="Yuval Alaluf, Omri Avrahami, Guy Bukchin Leshem, Michal Geyer, Kfir Goldberg, Elad Richardson, Diego Alarcón, Alejandro Alvarez, Cole Garry, Anastasis Germanidis, Tenaya Goldsen, Corina Gurau, Robin Kahlow, Joel Kwartler, Kathleen Lewis, Alejandro Matamala Ortiz, Eugene McMahon, Thon Prom, Sarah Saltonstall-Wurm, Jamie Umpherson, Hudson Yeo（Runway）"
+  arxiv="2609.00776"
+  links="[{\"url\":\"https://runway.com/news/research/introducing-solaris\",\"label\":\"项目主页\",\"kind\":\"project\"}]"
+>}}
 
 **一句话总结：** Runway 提出 Solaris，一个"界面世界模型"：它不通过代码这一中间表示来实现界面，而是把鼠标交互当作条件信号，逐帧自回归地合成交互后的视觉状态，并用少步蒸馏加自输出训练压到交互速率；一个语言模型负责解释用户意图，与视觉世界模型分工。
 
@@ -160,9 +166,11 @@ tocopen: true
 
 ### Streaming4D: Accelerate 4D World Models via Block-wise Video Generation and Incremental Reconstruction
 
-**链接：** https://arxiv.org/abs/2609.00610
-
-**作者 / 机构：** Xiaoyan Liu, Jiaxin Liu, Kangrui Li, Sifan Zhou（香港中文大学 CUHK；香港理工大学 PolyU；新南威尔士大学 UNSW；东南大学 Southeast University）
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2609.00610"
+  authors="Xiaoyan Liu, Jiaxin Liu, Kangrui Li, Sifan Zhou（香港中文大学 CUHK；香港理工大学 PolyU；新南威尔士大学 UNSW；东南大学 Southeast University）"
+  arxiv="2609.00610"
+>}}
 
 **一句话总结：** Streaming4D 针对 4D 生成中"先出视频、后做重建"的串行解耦导致的高交互延迟，提出一种紧耦合同步流水线：按时间块自回归生成视频，每完成一个块立刻触发该块的增量式 3D 重建，让合成与几何更新并行执行，使世界表征随视频流在线演化。
 
@@ -187,9 +195,11 @@ tocopen: true
 
 ### REFACTOR-VLA: Unsupervised Library Learning of Typed Motor Programs
 
-**链接：** https://arxiv.org/abs/2609.01215
-
-**作者 / 机构：** Riyaaz Shaik, Chandru Venkataraman（Apple）
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2609.01215"
+  authors="Riyaaz Shaik, Chandru Venkataraman（Apple）"
+  arxiv="2609.01215"
+>}}
 
 **一句话总结：** REFACTOR-VLA 提出一个"醒/睡"双相系统让 VLA 学会可复用的技能库：睡眠相在学到的隐世界模型 rollout 上用行为等价核（BEK）对运动程序片段聚类，清醒相输出受类型约束的 lambda 项供 rectified-flow 动作解码器消费；并给出两个反直觉发现——把世界模型从 188M 放大到 430M 反而更差，而给世界模型热身加一个 InfoNCE 损失却能大幅改善聚类。
 
@@ -214,11 +224,12 @@ tocopen: true
 
 ### Facet-0: A Robotic Foundation Model for Contact-Rich Precise Manipulation
 
-**链接：** https://arxiv.org/abs/2609.01596
-
-**项目主页：** https://pine-lab-ntu.github.io/facet-0/
-
-**作者 / 机构：** Haoyuan Deng, Haichao Liu, Wenkai Guo, Yuan Ling, Zaijia Yang, Yuanjiang Xue, Haosheng Sun, Liangzi Wang, Ziwei Wang（PINE Lab，南洋理工大学 NTU，新加坡）
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2609.01596"
+  authors="Haoyuan Deng, Haichao Liu, Wenkai Guo, Yuan Ling, Zaijia Yang, Yuanjiang Xue, Haosheng Sun, Liangzi Wang, Ziwei Wang（PINE Lab，南洋理工大学 NTU，新加坡）"
+  arxiv="2609.01596"
+  links="[{\"url\":\"https://pine-lab-ntu.github.io/facet-0/\",\"label\":\"项目主页\",\"kind\":\"project\"}]"
+>}}
 
 **一句话总结：** Facet-0 是一个"预测并评估接触后果"的机器人基础模型：它用 flow matching 在生成每个动作块的同时生成预期引发的腕部力/力矩（wrench）曲线，再用分布式的 Action-Wrench Critic 区分任务进度相近但接触结局不同的动作，在亚毫米级计算机装配任务上把成功率从最强基线的 15% 拉到 82%。
 

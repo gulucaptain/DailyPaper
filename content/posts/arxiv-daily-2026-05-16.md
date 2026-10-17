@@ -19,7 +19,10 @@ tocopen: true
 
 ### 1. Efficient Minute-Scale World Modeling with Hybrid Linear Diffusion Transformer
 
-**链接：** https://arxiv.org/abs/2605.15178
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2605.15178"
+  arxiv="2605.15178"
+>}}
 
 **一句话总结：** NVIDIA 开源 2.6B 参数世界模型 SANA-WM，首次在单卡 RTX 5090 上实现 60 秒 720p 高保真视频生成，效率较同类工业基线提升 36 倍。
 
@@ -46,7 +49,10 @@ tocopen: true
 
 ### 2. Scalable Few-Step Autoregressive Diffusion Distillation for Real-Time Interactive Video Generation
 
-**链接：** https://arxiv.org/abs/2605.15141
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2605.15141"
+  arxiv="2605.15141"
+>}}
 
 **一句话总结：** Causal Forcing++ 提出因果一致性蒸馏（Causal CD）实现帧级自回归视频生成的 1–2 步采样，超越 SOTA 4 步方案，并扩展至 action-conditioned 世界模型（Genie3 精神）。
 
@@ -69,7 +75,10 @@ tocopen: true
 
 ### 3. Real-time Autoregressive Video Extrapolation with Consistency-model GRPO
 
-**链接：** https://arxiv.org/abs/2605.15190
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2605.15190"
+  arxiv="2605.15190"
+>}}
 
 **一句话总结：** RAVEN 通过训练时测试框架消除自回归视频扩散模型的 history 分布偏移，并提出 CM-GRPO 将强化学习直接应用于一致性模型采样步骤。
 
@@ -94,7 +103,10 @@ tocopen: true
 
 ### 4. Towards Entity-Consistent Long-Range Multi-Shot Video Generation
 
-**链接：** https://arxiv.org/abs/2605.15199
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2605.15199"
+  arxiv="2605.15199"
+>}}
 
 **一句话总结：** 提出 EntityBench 基准和 EntityMem 记忆增强生成系统，系统性解决长序列多镜头视频中角色/物体/场景一致性问题。
 
@@ -119,7 +131,10 @@ tocopen: true
 
 ### 5. Enhancing Visual Generation with Conditional Video Decoding
 
-**链接：** https://arxiv.org/abs/2605.15196
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2605.15196"
+  arxiv="2605.15196"
+>}}
 
 **一句话总结：** RefDecoder 通过向视频 VAE 解码器注入高保真参考帧信号，系统性解决 latent diffusion video generation 中解码器无条件导致的细节丢失和不一致问题。
 
@@ -142,7 +157,10 @@ tocopen: true
 
 ### 6. Aligning Latent Geometry for Spherical Flow Matching in Image Generation
 
-**链接：** https://arxiv.org/abs/2605.15193
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2605.15193"
+  arxiv="2605.15193"
+>}}
 
 **一句话总结：** 通过分析 latent token 的径向-角向分解，提出将 flow matching 路径替换为球面线性插值（slerp），使得生成路径全程在球面上，改善 ImageNet-256 class-conditional FID。
 
@@ -168,7 +186,10 @@ tocopen: true
 
 ### 7. Minute-Scale Human Animation via Latent Flow Restoration
 
-**链接：** https://arxiv.org/abs/2605.15042
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2605.15042"
+  arxiv="2605.15042"
+>}}
 
 **一句话总结：** EverAnimate 通过持久 latent context memory 和 Restorative Flow Matching 解决长时人体动作视频生成中的质量漂移和身份漂移问题，90 秒场景 PSNR/SSIM 提升 15%/15%。
 
@@ -194,7 +215,10 @@ tocopen: true
 
 ### 8. Generalizable Camera-Controlled Video Generation from One Training Video
 
-**链接：** https://arxiv.org/abs/2605.15182
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2605.15182"
+  arxiv="2605.15182"
+>}}
 
 **一句话总结：** Warp-as-History 将相机驱动的图像翻转（warp）转化为伪历史帧，无需训练即可实现零样本相机轨迹跟随，结合单视频 LoRA 微调可泛化至未见视频。
 
@@ -217,7 +241,10 @@ tocopen: true
 
 ### 9. A Lightweight Depth-Enhanced Vision-Language-Action Model
 
-**链接：** https://arxiv.org/abs/2605.14950
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2605.14950"
+  arxiv="2605.14950"
+>}}
 
 **一句话总结：** 提出轻量深度增强 VLA 模型，无需额外深度传感器，通过从 RGB 隐式建模空间信息提升机器人操作的精确空间理解能力。
 
@@ -240,7 +267,10 @@ tocopen: true
 
 ### 10. An Agentic System for Scalable Articulated 3D Asset Generation
 
-**链接：** https://arxiv.org/abs/2605.15187
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2605.15187"
+  arxiv="2605.15187"
+>}}
 
 **一句话总结：** Articraft 利用 LLM 驱动的 Agent 系统自动编写程序生成关节化 3D 资产，构建了包含 10K+ 资产（245 类别）的 Articraft-10K 数据集，服务机器人仿真与 VR 应用。
 

@@ -17,7 +17,10 @@ tocopen: true
 
 ### TempAct: Advancing Temporal Plausibility in Autoregressive Video Generation via Planner-Executor RL
 
-**链接：** https://arxiv.org/abs/2606.28016
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2606.28016"
+  arxiv="2606.28016"
+>}}
 
 **一句话总结：** 提出 Planner-Executor 强化学习框架，解决自回归视频扩散模型中 chunk-wise 生成的时序指令跟随问题，显著提升长视频的时间一致性。
 
@@ -40,7 +43,10 @@ tocopen: true
 
 ### PhysisForcing: Physics Reinforced World Simulator for Robotic Manipulation
 
-**链接：** https://arxiv.org/abs/2606.28128
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2606.28128"
+  arxiv="2606.28128"
+>}}
 
 **一句话总结：** 提出 PhysisForcing 训练框架，通过像素级轨迹对齐和语义关系对齐两项损失，强化视频生成模型中物理一致性，使其作为机器人操作世界模拟器更可靠。
 
@@ -64,7 +70,10 @@ tocopen: true
 
 ### DEFAR: Exposure Bias Can Alleviate Itself via Directional and Frequency Rectification in Flow Matching
 
-**链接：** https://arxiv.org/abs/2606.28226
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2606.28226"
+  arxiv="2606.28226"
+>}}
 
 **一句话总结：** 发现 Flow Matching 中 exposure bias 本身携带可用于自矫正的动态信号，提出 DEFAR 框架通过方向性和频率自适应反馈实现 bias 的自我修复。
 
@@ -88,7 +97,10 @@ tocopen: true
 
 ### RS-Diffuser: Risk-Sensitive Diffusion Planning with Distributional Value Guidance
 
-**链接：** https://arxiv.org/abs/2606.27766
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2606.27766"
+  arxiv="2606.27766"
+>}}
 
 **一句话总结：** 提出 RS-Diffuser，将分布式值函数批评家引入扩散规划框架，实现推理时可灵活调控风险偏好的离线 RL 决策，同时提升平均收益和最坏情况鲁棒性。
 
@@ -112,7 +124,10 @@ tocopen: true
 
 ### EMOSH: Expressive Motion and Shape Disentanglement for Human Animation
 
-**链接：** https://arxiv.org/abs/2606.28026
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2606.28026"
+  arxiv="2606.28026"
+>}}
 
 **一句话总结：** 提出 EMOSH 框架，通过显式解耦人体形状与运动参数，从根本上消除驱动主体体型泄露问题，实现高保真的表情-动作-身份三维一致可控人体视频生成（ECCV 2026）。
 
@@ -136,7 +151,10 @@ tocopen: true
 
 ### LLawCo: Learning Laws of Cooperation for Modeling Embodied Multi-Agent Behavior
 
-**链接：** https://arxiv.org/abs/2606.28182
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2606.28182"
+  arxiv="2606.28182"
+>}}
 
 **一句话总结：** 提出 LLawCo 框架，让具身智能体从历史失败中提炼高层行为法则（如"必要时才交流"），通过 SFT 内化到推理链中，显著提升去中心化多智能体协作效率（ICML 2026）。
 
@@ -160,7 +178,10 @@ tocopen: true
 
 ### StructSplat: Generalizable 3D Gaussian Splatting from Uncalibrated Sparse Views
 
-**链接：** https://arxiv.org/abs/2606.28321
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2606.28321"
+  arxiv="2606.28321"
+>}}
 
 **一句话总结：** 提出 StructSplat，无需相机参数的前馈式可泛化 3D Gaussian 重建框架，在 DL3DV 上以 28.045 PSNR 大幅超越 AnySplat（+5.67 dB），跨数据集泛化性能同样显著领先。
 

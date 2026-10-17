@@ -17,7 +17,10 @@ tocopen: true
 
 ### WorldKV: Efficient World Memory with World Retrieval and Compression
 
-**链接：** https://arxiv.org/abs/2605.22718
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2605.22718"
+  arxiv="2605.22718"
+>}}
 
 **一句话总结：** 提出无需训练的世界模型持久记忆框架，通过选择性 KV-cache 检索与压缩，在维持世界一致性的同时实现约 2 倍推理吞吐提升。
 
@@ -40,7 +43,10 @@ tocopen: true
 
 ### Pre-VLA: Preemptive Runtime Verification for Reliable Vision-Language-Action and World-Model Rollouts
 
-**链接：** https://arxiv.org/abs/2605.22446
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2605.22446"
+  arxiv="2605.22446"
+>}}
 
 **一句话总结：** 提出 Pre-VLA 运行时验证架构，在 VLA 执行或世界模型想象之前对候选动作进行预判筛选，在 LIBERO benchmark 上将平均成功率从 30.79% 提升至 37.62%。
 
@@ -63,7 +69,10 @@ tocopen: true
 
 ### Sensor2Sensor: Cross-Embodiment Sensor Conversion for Autonomous Driving
 
-**链接：** https://arxiv.org/abs/2605.22809
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2605.22809"
+  arxiv="2605.22809"
+>}}
 
 **一句话总结：** 提出 Sensor2Sensor，利用扩散模型将野外单目行车记录仪视频转换为高保真多传感器 AV 日志（多视角相机+LiDAR 点云），大规模解锁外部数据用于自动驾驶开发（CVPR 2026）。
 
@@ -86,7 +95,10 @@ tocopen: true
 
 ### DecQ: Detail-Condensing Queries for Enhanced Reconstruction and Generation in Representation Autoencoders
 
-**链接：** https://arxiv.org/abs/2605.22777
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2605.22777"
+  arxiv="2605.22777"
+>}}
 
 **一句话总结：** 提出 DecQ，仅添加 8 个轻量 detail-condensing queries 即可将 RAE 的图像 PSNR 从 19.13dB 提升至 22.76dB，同时使生成收敛速度加快 3.3 倍，最终 FID 达 1.05。
 
@@ -109,7 +121,10 @@ tocopen: true
 
 ### GenRe: Diffusion-guided Generalizable Enhancer for Urban Scene Reconstruction
 
-**链接：** https://arxiv.org/abs/2605.22420
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2605.22420"
+  arxiv="2605.22420"
+>}}
 
 **一句话总结：** 提出 GenRe，基于扩散模型先验在几分钟内增强任意预训练 3D Gaussian 城市场景表示，解决大视角偏移下的渲染质量退化问题（ICRA 2026）。
 
@@ -132,7 +147,10 @@ tocopen: true
 
 ### GesVLA: Gesture-Aware Vision-Language-Action Model Embedded Representations
 
-**链接：** https://arxiv.org/abs/2605.22812
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2605.22812"
+  arxiv="2605.22812"
+>}}
 
 **一句话总结：** 提出 GesVLA，将手势作为并行指令模态融入 VLA 模型，通过双 VLM 架构实现手势特征与动作策略的紧密耦合，显著提升多物体场景下的目标定位精度。
 
@@ -155,7 +173,10 @@ tocopen: true
 
 ### AwareVLN: Reasoning with Self-awareness for Vision-Language Navigation
 
-**链接：** https://arxiv.org/abs/2605.22816
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2605.22816"
+  arxiv="2605.22816"
+>}}
 
 **一句话总结：** 提出 AwareVLN 导航框架，赋予导航模型自感知推理能力以理解 agent 状态和任务进度，在多个数据集上显著超越 SOTA（CVPR 2026）。
 
@@ -178,7 +199,10 @@ tocopen: true
 
 ### MoSA: Motion-constrained Stress Adaptation for Mitigating Real-to-Sim Gap in Continuum Dynamics
 
-**链接：** https://arxiv.org/abs/2605.22597
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2605.22597"
+  arxiv="2605.22597"
+>}}
 
 **一句话总结：** 提出 MoSA 框架，通过学习残差各向异性应力算子在物理模型基础上进一步缩小连续体动力学的 real-to-sim 差距，在机器人操作任务中验证了更好的 sim-to-real 迁移（ICML 2026）。
 

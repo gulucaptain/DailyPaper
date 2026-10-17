@@ -17,7 +17,10 @@ tocopen: true
 
 ### CalibAtt: Accelerating Text-to-Video Generation with Calibrated Sparse Attention
 
-**链接：** https://arxiv.org/abs/2603.05503
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2603.05503"
+  arxiv="2603.05503"
+>}}
 
 **一句话总结：** 提出一种无需训练的稀疏注意力加速方法，在不损失视频质量的前提下，将 Wan 2.1 14B 等主流视频生成模型的推理速度提升至多 1.58 倍。
 
@@ -41,7 +44,10 @@ tocopen: true
 
 ### FaceCam: Portrait Video Camera Control via Scale-Aware Conditioning
 
-**链接：** https://arxiv.org/abs/2603.05506
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2603.05506"
+  arxiv="2603.05506"
+>}}
 
 **一句话总结：** 提出 FaceCam 系统，通过尺度感知的相机变换表征，实现对单目人像视频的可控相机轨迹生成，被 CVPR 2026 接收。
 
@@ -65,7 +71,10 @@ tocopen: true
 
 ### cuRoboV2: Dynamics-Aware Motion Generation with Depth-Fused Distance Fields for High-DoF Robots
 
-**链接：** https://arxiv.org/abs/2603.05493
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2603.05493"
+  arxiv="2603.05493"
+>}}
 
 **一句话总结：** 提出 cuRoboV2，一个统一的机器人运动生成框架，集成 B 样条轨迹优化、GPU 原生感知和全身动力学，在高自由度人形机器人上实现 99%+ 无碰撞成功率。
 
@@ -89,7 +98,10 @@ tocopen: true
 
 ### RoboPocket: Improve Robot Policies Instantly with Your Phone
 
-**链接：** https://arxiv.org/abs/2603.05504
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2603.05504"
+  arxiv="2603.05504"
+>}}
 
 **一句话总结：** 提出 RoboPocket，通过智能手机 AR 可视化机器人策略预测轨迹，实现无需物理机器人的策略迭代，数据效率提升 2 倍。
 
@@ -113,7 +125,10 @@ tocopen: true
 
 ### Physics-Aware Humanoid Whole-Body VLA via Multi-Brain Latent Flow Matching and Robust Tracking
 
-**链接：** https://arxiv.org/abs/2603.05410
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2603.05410"
+  arxiv="2603.05410"
+>}}
 
 **一句话总结：** 提出多脑潜在流匹配（Multi-Brain Latent Flow Matching）VLA 框架，实现语义引导下的人形机器人全身协调控制。
 
@@ -137,7 +152,10 @@ tocopen: true
 
 ### LWAIL: Latent Wasserstein Adversarial Imitation Learning
 
-**链接：** https://arxiv.org/abs/2603.05440
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2603.05440"
+  arxiv="2603.05440"
+>}}
 
 **一句话总结：** 提出 LWAIL，基于 Wasserstein 距离在动力学感知潜在空间中进行状态分布匹配，仅需极少量无动作专家演示即可实现专家级性能，被 ICLR 2026 接收。
 
@@ -161,7 +179,10 @@ tocopen: true
 
 ### POET-X: Memory-Efficient LLM Training by Scaling Orthogonal Transformation
 
-**链接：** https://arxiv.org/abs/2603.05500
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2603.05500"
+  arxiv="2603.05500"
+>}}
 
 **一句话总结：** 提出 POET-X，通过正交等价变换的高效实现大幅降低大模型训练显存占用，在单张 H100 GPU 上实现十亿参数 LLM 预训练。
 
@@ -185,7 +206,10 @@ tocopen: true
 
 ### MM-Lifelong: Towards Multimodal Lifelong Understanding
 
-**链接：** https://arxiv.org/abs/2603.05484
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2603.05484"
+  arxiv="2603.05484"
+>}}
 
 **一句话总结：** 提出 MM-Lifelong 数据集（181.1 小时，日/周/月多尺度）和递归多模态智能体 ReMA，揭示当前模型在超长视频理解中的两大致命失效模式。
 

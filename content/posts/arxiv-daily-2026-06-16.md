@@ -17,7 +17,10 @@ tocopen: true
 
 ### Qwen-RobotWorld Technical Report: Unifying Embodied World Modeling through Language-Conditioned Video Generation
 
-**链接：** https://arxiv.org/abs/2606.17030
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2606.17030"
+  arxiv="2606.17030"
+>}}
 
 **一句话总结：** 阿里 Qwen 团队发布首个以自然语言为统一动作接口的具身世界模型，覆盖机器人操控、自动驾驶、室内导航等多个具身场景，并开放 8.6M 视频文本语料库。
 
@@ -41,7 +44,10 @@ tocopen: true
 
 ### DreamX-World 1.0: A General-Purpose Interactive World Model
 
-**链接：** https://arxiv.org/abs/2606.16993
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2606.16993"
+  arxiv="2606.16993"
+>}}
 
 **一句话总结：** DreamX-World 1.0 是一个通用交互世界模型，支持相机导航、区域重访与事件控制，在真实感、游戏风格和艺术化多域上实现长时程可控视频生成，实测达 16 FPS（8×RTX 5090）。
 
@@ -65,7 +71,10 @@ tocopen: true
 
 ### Geometric Action Model (GAM) for Robot Policy Learning
 
-**链接：** https://arxiv.org/abs/2606.17046
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2606.17046"
+  arxiv="2606.17046"
+>}}
 
 **一句话总结：** GAM 将预训练几何基础模型复用为感知、时序预测和动作解码的统一骨干，通过最小架构改动赋予其语言条件化的时序世界建模能力，在仿真和真实机器人 benchmark 上全面超越同规模基线。
 
@@ -89,7 +98,10 @@ tocopen: true
 
 ### Exact Posterior Score Estimation for Solving Linear Inverse Problems
 
-**链接：** https://arxiv.org/abs/2606.17048
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2606.17048"
+  arxiv="2606.17048"
+>}}
 
 **一句话总结：** 在线性高斯逆问题中，推导出精确后验分数的闭合形式，并将其转化为标准去噪训练目标（EPS），相比近似梯度方法减少约一个数量级的去噪评估次数，同时在 FFHQ 和 ImageNet 上超越所有基线。
 
@@ -113,7 +125,10 @@ tocopen: true
 
 ### HUG: Human Universal Grasping
 
-**链接：** https://arxiv.org/abs/2606.17054
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2606.17054"
+  arxiv="2606.17054"
+>}}
 
 **一句话总结：** 以智能眼镜采集的 100 万帧人类抓握视频训练 Flow Matching 模型，为 RGB-D 图像中任意物体生成多样化人手抓握姿态，零样本迁移到多种机器人手，操控成功率比 SOTA 基线高 +23% 和 +34%。
 
@@ -137,7 +152,10 @@ tocopen: true
 
 ### HABC: Hierarchical Advantage-Weighted Behavior Cloning for Online RL Fine-Tuning of VLAs
 
-**链接：** https://arxiv.org/abs/2606.17043
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2606.17043"
+  arxiv="2606.17043"
+>}}
 
 **一句话总结：** 针对 VLA 在线 RL 微调时稀疏二元奖励信号的信息量不足问题，HABC 引入分层优势加权：分别对可行性和效率训练独立评论头，并用状态自适应门控融合，将双臂接触式操控任务成功率从 SFT 基线的 36%/44%/12% 提升至 92%/88%/38%。
 
@@ -161,7 +179,10 @@ tocopen: true
 
 ### R2RDreamer: 3D-aware Data Augmentation for Spatially-generalized 2D Manipulation Policies
 
-**链接：** https://arxiv.org/abs/2606.17040
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2606.17040"
+  arxiv="2606.17040"
+>}}
 
 **一句话总结：** R2RDreamer 将轻量 3D 增强（物体点云 + 末端轨迹编辑）与稠密控制视频生成模型结合，从少量真实演示生成空间多样化的 RGB 增强数据，显著提升 2D 扩散策略和 VLA 的空间泛化能力。
 
@@ -185,7 +206,10 @@ tocopen: true
 
 ### Redirecting the Flow: Image Customization through Attention Distribution Shift (CustomShift)
 
-**链接：** https://arxiv.org/abs/2606.16866
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2606.16866"
+  arxiv="2606.16866"
+>}}
 
 **一句话总结：** 将主体驱动图像定制任务形式化为最大熵理论框架下的条件注意力分布偏移，提出基于 Stable Diffusion 3 的双分支架构 CustomShift，在 DreamBooth 和 Custom101 上全面超越 SOTA。
 

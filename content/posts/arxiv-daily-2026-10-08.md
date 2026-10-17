@@ -21,11 +21,12 @@ tocopen: true
 
 ### DepthWorld: 3D World Model for Robot Manipulation
 
-**链接：** https://arxiv.org/abs/2610.08780
-
-**项目主页：** https://www.jaibardhan.com/depthworld
-
-**作者 / 机构：** Jai Bardhan, Josef Sivic, Vladimir Petrik（Czech Technical University in Prague，Czech Institute of Informatics, Robotics and Cybernetics）
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2610.08780"
+  authors="Jai Bardhan, Josef Sivic, Vladimir Petrik（Czech Technical University in Prague，Czech Institute of Informatics, Robotics and Cybernetics）"
+  arxiv="2610.08780"
+  links="[{\"url\":\"https://www.jaibardhan.com/depthworld\",\"label\":\"项目主页\",\"kind\":\"project\"}]"
+>}}
 
 **一句话总结：** 捷克布拉格技术大学团队（CoRL 2026）提出 **DepthWorld**，先用「学习式立体深度 + 联合因子图」把 DROID 数据集 7 万余条 episode 重新标定成统一的机器人基座坐标系，再训练一个基于 Stable Video Diffusion 的世界模型，通过**空间潜变量拼接**联合预测多视角 RGB 与深度，在**同等训练预算下把 RGB 预测的 PSNR 提升 1.48 dB**，同时产出可直接用于几何推理的度量深度。
 
@@ -49,9 +50,11 @@ tocopen: true
 
 ### Parallel Predictive World Models for Accurate and Efficient Long-Horizon Planning
 
-**链接：** https://arxiv.org/abs/2610.08627
-
-**作者 / 机构：** Wanjin Feng, Baobin Zhang, Ao Yu, Shibo Feng, Xi Wang, Xingyu Gao（清华大学；中国科学院微电子研究所；香港科技大学（广州）；南洋理工大学）
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2610.08627"
+  authors="Wanjin Feng, Baobin Zhang, Ao Yu, Shibo Feng, Xi Wang, Xingyu Gao（清华大学；中国科学院微电子研究所；香港科技大学（广州）；南洋理工大学）"
+  arxiv="2610.08627"
+>}}
 
 **一句话总结：** 清华、中科院微电子所、港科大（广州）与南洋理工团队提出 **PPWM**，把长程世界模型规划从「逐状态自回归 rollout」改成**并行预测整条有限时域轨迹**——每个时域以其因果动作前缀为条件、未来表征在解码**之前**相互交互，从而在保留时间因果性的同时切断逐状态解码反馈路径；在四个视觉控制任务上取得最低的长程预测误差，并把 CEM 规划延迟从 1235.2 ms 压到 374.5 ms（**3.30 倍加速**）。
 
@@ -75,11 +78,12 @@ tocopen: true
 
 ### Artemis: Geometry-Grounded Multi-Agent Driving World Models with Shared 3D State and Progressive Memory Update
 
-**链接：** https://arxiv.org/abs/2610.07031
-
-**项目主页：** https://liujiuming123.github.io/Artemis/
-
-**作者 / 机构：** Sitian Shen（University of Oxford）, Jiuming Liu（University of Cambridge）, Mengmeng Liu（University of Twente）, Yian Wang（National University of Singapore）, Michael Ying Yang（University of Bath）, Francesco Nex, Hao Cheng, Daniele De Martini, Ayush Tewari, Per Ola Kristensson（牛津大学；剑桥大学；特温特大学；新加坡国立大学；巴斯大学）
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2610.07031"
+  authors="Sitian Shen（University of Oxford）, Jiuming Liu（University of Cambridge）, Mengmeng Liu（University of Twente）, Yian Wang（National University of Singapore）, Michael Ying Yang（University of Bath）, Francesco Nex, Hao Cheng, Daniele De Martini, Ayush Tewari, Per Ola Kristensson（牛津大学；剑桥大学；特温特大学；新加坡国立大学；巴斯大学）"
+  arxiv="2610.07031"
+  links="[{\"url\":\"https://liujiuming123.github.io/Artemis/\",\"label\":\"项目主页\",\"kind\":\"project\"}]"
+>}}
 
 **一句话总结：** 牛津、剑桥与新国大等团队提出 **Artemis**，一个几何接地的多智能体驾驶世界模型：用**共享的显式三维点云世界地图**替代此前主流的隐式 cross-attention 通信，并针对静态背景、非受控动态与智能体位姿设计三种渐进式更新机制；在 MA-CARLA 上把 PSNR 从 13.459／16.015 提升到 **17.743**，LPIPS 从 0.530／0.414 降到 **0.309**。
 
@@ -103,11 +107,12 @@ tocopen: true
 
 ### Preserving Unstable Modes Through Inverse Dynamics in JEPA World Models
 
-**链接：** https://arxiv.org/abs/2610.07540
-
-**代码：** https://github.com/LeoToso/JEPA_control
-
-**作者 / 机构：** Leonardo F. Toso（Columbia University）, Yann LeCun（New York University, AMI Labs）, James Anderson（Columbia University）, Oumayma Bounou（New York University）
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2610.07540"
+  authors="Leonardo F. Toso（Columbia University）, Yann LeCun（New York University, AMI Labs）, James Anderson（Columbia University）, Oumayma Bounou（New York University）"
+  arxiv="2610.07540"
+  links="[{\"url\":\"https://github.com/LeoToso/JEPA_control\",\"label\":\"GitHub\",\"kind\":\"github\"}]"
+>}}
 
 **一句话总结：** 哥伦比亚大学与纽约大学团队（LeCun 参与）从控制论出发证明了一件对 JEPA 世界模型相当要紧的事：**预测得好并不保证控制得住**——编码器必须保留系统的每一个不稳定模态，否则再低的预测误差也无法稳定系统；而常用的防坍缩正则（SIGReg）**允许训练损失达到最小的同时把所有不稳定模态丢光**。他们提出 **EP-IDM**（从首尾潜状态重建动作序列的逆动力学目标）修正这一点，把 latent-LQR 成功率从 **0 提升到 100%**。
 
@@ -131,11 +136,12 @@ tocopen: true
 
 ### CtrlCache: Accelerating Interactive Video World Models with Control-Aware Caching
 
-**链接：** https://arxiv.org/abs/2610.08777
-
-**项目主页：** https://wrecklong.github.io/CtrlCache/
-
-**作者 / 机构：** Shangye Song, Hong Jia, Yun Sing Koh, Xinyu Zhang（University of Auckland）, Dong Gong（UNSW Sydney）
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2610.08777"
+  authors="Shangye Song, Hong Jia, Yun Sing Koh, Xinyu Zhang（University of Auckland）, Dong Gong（UNSW Sydney）"
+  arxiv="2610.08777"
+  links="[{\"url\":\"https://wrecklong.github.io/CtrlCache/\",\"label\":\"项目主页\",\"kind\":\"project\"}]"
+>}}
 
 **一句话总结：** 奥克兰大学与新南威尔士大学团队提出 **CtrlCache**，一个**免训练**的交互式视频世界模型缓存加速方案：抓住交互场景独有的一个事实——**一个 chunk 的控制信号在它被去噪之前就已经到达**，因此可以**零前向代价**地由控制信号推导出缓存调度；在 Matrix-Game 2.0 与 LingBot-World v1/v2 上取得最高的 WBench Overall，同时给出 **1.21–1.41 倍**的 DiT 骨干加速。
 
@@ -159,9 +165,11 @@ tocopen: true
 
 ### Tracking Is Not Permanence: What Video World Models Keep of a Hidden Object
 
-**链接：** https://arxiv.org/abs/2610.07355
-
-**作者 / 机构：** Peng Xie, Amr Alanwar（Technical University of Munich，TUM School of Computation, Information and Technology）
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2610.07355"
+  authors="Peng Xie, Amr Alanwar（Technical University of Munich，TUM School of Computation, Information and Technology）"
+  arxiv="2610.07355"
+>}}
 
 **一句话总结：** 慕尼黑工业大学团队做了一件罕见的诊断工作：把物体从冻结的 V-JEPA 2 预测器视野中**藏起来**，然后问——模型还「记得」它吗？答案是**几乎不记得**：运动物体在 **0.3 秒**内就被预测器判为不存在（在 V-JEPA 自身的 tube mask 下也只撑到 0.5 秒），静止物体平均只在 13%–41% 的场景中被保留（对照组最多 7%，直接复制最后一帧的参照组为 97%–98%）。而在渲染场景上，缺陷被定位到**预测器一侧**：冻结编码器的表征里，物体存在与否的线性解码准确率高达 **1.00**。
 
@@ -186,9 +194,11 @@ tocopen: true
 
 ### AutodidactWAM: Cross-Modal Self-Distillation from Generated Video to Robot Actions
 
-**链接：** https://arxiv.org/abs/2610.08119
-
-**作者 / 机构：** Sergei Kurchev, Iaroslav Kolomiets, Miguel Altamirano Cabrera, Artem Lykov, Dzmitry Tsetserukou（Skolkovo Institute of Science and Technology (Skoltech)；MWS R&D Center）
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2610.08119"
+  authors="Sergei Kurchev, Iaroslav Kolomiets, Miguel Altamirano Cabrera, Artem Lykov, Dzmitry Tsetserukou（Skolkovo Institute of Science and Technology (Skoltech)；MWS R&D Center）"
+  arxiv="2610.08119"
+>}}
 
 **一句话总结：** 斯科尔科沃科技学院团队发现并正面处理了 **world-action model 的「视频—动作非对称」**：用轻量 LoRA 把 Cosmos 3 这类 WAM 适配到一台 Unitree G1 人形机器人（配 BrainCo 五指手）后，生成的视频看起来像模像样，但**协同生成的动作系统性错位**——原生动作在抓取前／抓取／取放三阶段的真机成功率只有约 **17% / 10% / 7%**。他们提出 **AutodidactWAM**，用一个手部姿态估计器从模型自己生成的视频里恢复动作、经门控筛选后做**跨模态自蒸馏**，把三阶段成功率拉到 **75% / 47% / 42%**，并能在蒸馏中未见过的物体上达到 **80%**。
 
@@ -213,9 +223,11 @@ tocopen: true
 
 ### ViDAL: A Visual Dynamics-Grounded Action Latent Space for Vision-Language-Action Models
 
-**链接：** https://arxiv.org/abs/2610.08150
-
-**作者 / 机构：** Yuan Xu, Yixiang Chen, Qisen Ma, Jiabing Yang, Peiyan Li, Kai Wang, Jianhua Yang, Jianlou Si, Jun Huang, Jing Liu, Nianfeng Liu, Yan Huang, Liang Wang（中国科学院自动化研究所 CASIA；中国科学院大学 UCAS）
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2610.08150"
+  authors="Yuan Xu, Yixiang Chen, Qisen Ma, Jiabing Yang, Peiyan Li, Kai Wang, Jianhua Yang, Jianlou Si, Jun Huang, Jing Liu, Nianfeng Liu, Yan Huang, Liang Wang（中国科学院自动化研究所 CASIA；中国科学院大学 UCAS）"
+  arxiv="2610.08150"
+>}}
 
 **一句话总结：** 中科院自动化所团队提出 **ViDAL**，据其所知是第一个把 VLA 的**动作潜空间锚定在未来视觉动态上**的工作：用一个 Action VAE，在重建动作块的同时把潜变量对齐到**未来场景的视觉动态**，得到的动作表征作为**插件**供回归式与流匹配式动作专家使用，**完全不需要改动 VLM 骨干**；在双臂 RoboTwin 2.0 上把多任务 π0.5 提升 **11.2%（Clean）/ 9.9%（Random）**，真机 Franka 单臂 **+20.0%**、ARX 双臂 **+23.4%**。
 

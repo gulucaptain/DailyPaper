@@ -17,7 +17,10 @@ tocopen: true
 
 ### WorldCam: Interactive Autoregressive 3D Gaming Worlds with Camera Pose as a Unifying Geometric Representation
 
-**链接：** https://arxiv.org/abs/2603.16871
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2603.16871"
+  arxiv="2603.16871"
+>}}
 
 **一句话总结：** 以相机位姿为统一几何表示，构建可交互的自回归3D游戏世界模型，同时解决动作精确控制与长时程3D一致性两大核心难题。
 
@@ -41,7 +44,10 @@ tocopen: true
 
 ### Kinema4D: Kinematic 4D World Modeling for Spatiotemporal Embodied Simulation
 
-**链接：** https://arxiv.org/abs/2603.16669
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2603.16669"
+  arxiv="2603.16669"
+>}}
 
 **一句话总结：** 提出Kinema4D框架，将机器人-世界交互分解为"精确的4D机器人控制"与"生成式4D环境反应建模"，首次实现零样本迁移能力的高保真具身仿真。
 
@@ -65,7 +71,10 @@ tocopen: true
 
 ### MolmoBot: Large-Scale Simulation Enables Zero-Shot Manipulation
 
-**链接：** https://arxiv.org/abs/2603.16861
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2603.16861"
+  arxiv="2603.16861"
+>}}
 
 **一句话总结：** 通过构建超大规模多样化仿真数据（180万条专家轨迹），首次证明在不依赖任何真实数据的情况下，纯仿真训练的机器人操作策略可实现有效的零样本真实世界迁移。
 
@@ -89,7 +98,10 @@ tocopen: true
 
 ### ManiTwin: Scaling Data-Generation-Ready Digital Object Dataset to 100K
 
-**链接：** https://arxiv.org/abs/2603.16866
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2603.16866"
+  arxiv="2603.16866"
+>}}
 
 **一句话总结：** 提出ManiTwin自动化流水线，将单张图像转化为仿真就绪的语义标注3D资产，构建含10万高质量标注3D资产的ManiTwin-100K数据集，为可扩展机器人操作仿真奠定基础。
 
@@ -113,7 +125,10 @@ tocopen: true
 
 ### DexGrasp-Zero: A Morphology-Aligned Policy for Zero-Shot Cross-Embodiment Dexterous Grasping
 
-**链接：** https://arxiv.org/abs/2603.16806
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2603.16806"
+  arxiv="2603.16806"
+>}}
 
 **一句话总结：** 提出DexGrasp-Zero，通过形态对齐图表示和物理属性注入机制，实现跨异构机械手的零样本灵巧抓取迁移，在YCB数据集上取得85%零样本成功率。
 
@@ -137,7 +152,10 @@ tocopen: true
 
 ### When the City Teaches the Car: Label-Free 3D Perception from Infrastructure
 
-**链接：** https://arxiv.org/abs/2603.16742
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2603.16742"
+  arxiv="2603.16742"
+>}}
 
 **一句话总结：** 提出"基础设施教导车辆"新范式：利用路侧单元（RSU）作为无标签3D感知教师，通过伪标签监督训练自动驾驶车辆的独立3D检测器，无需手工标注。
 
@@ -161,7 +179,10 @@ tocopen: true
 
 ### Efficient Reasoning on the Edge
 
-**链接：** https://arxiv.org/abs/2603.16867
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2603.16867"
+  arxiv="2603.16867"
+>}}
 
 **一句话总结：** 提出面向移动设备的高效LLM推理方案，结合LoRA微调+预算强制RL大幅压缩推理链长度，并引入并行测试时缩放和KV缓存共享策略，使复杂推理在端侧可用。
 

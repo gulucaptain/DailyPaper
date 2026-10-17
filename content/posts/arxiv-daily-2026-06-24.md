@@ -19,7 +19,10 @@ tocopen: true
 
 ### DiffusionBench: On Holistic Evaluation of Diffusion Transformers
 
-**链接：** https://arxiv.org/abs/2606.24888
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2606.24888"
+  arxiv="2606.24888"
+>}}
 
 **一句话总结：** 提出 NanoGen 统一训练框架和 DiffusionBench 评测基准，揭示 ImageNet 类别条件生成与 T2I 生成指标之间存在显著负相关，推动扩散模型走向更全面的评测范式。
 
@@ -42,7 +45,10 @@ tocopen: true
 
 ### G³VLA: Geometric Inductive Bias for Vision-Language-Action Models
 
-**链接：** https://arxiv.org/abs/2606.24472
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2606.24472"
+  arxiv="2606.24472"
+>}}
 
 **一句话总结：** 为 VLA 模型引入相机几何感知模块 G³VLA，通过标定射线嵌入、投影位置编码和跨视角融合将真实几何结构注入视觉 token 流，在多个机器人操控基准上取得一致提升。
 
@@ -70,7 +76,10 @@ tocopen: true
 
 ### InSight: Self-Guided Skill Acquisition via Steerable VLAs
 
-**链接：** https://arxiv.org/abs/2606.24884
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2606.24884"
+  arxiv="2606.24884"
+>}}
 
 **一句话总结：** 提出 InSight 框架，通过让 VLA 在 primitive 动作级别可操控，实现无人工示范的自主技能习得，并验证了自主获取的技能可组合完成新的长程任务。
 
@@ -95,7 +104,10 @@ tocopen: true
 
 ### FLUX3D: High-Fidelity 3D Gaussian Generation with Diffusion-Aligned Sparse Representation
 
-**链接：** https://arxiv.org/abs/2606.24874
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2606.24874"
+  arxiv="2606.24874"
+>}}
 
 **一句话总结：** 提出 FLUX3D，通过扩散对齐结构化稀疏隐变量（DA-SLAT）和稀疏多模态扩散 Transformer（SMDiT），解决 image-to-3DGS 生成中表征瓶颈和跨模态对齐瓶颈两大问题，大幅提升 3D 资产外观保真度。
 
@@ -121,7 +133,10 @@ tocopen: true
 
 ### FLAT: Feedforward Latent Triangle Splatting for Geometrically Accurate Scene Generation
 
-**链接：** https://arxiv.org/abs/2606.24876
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2606.24876"
+  arxiv="2606.24876"
+>}}
 
 **一句话总结：** 首次证明可以直接从视频扩散 latent 解码出三角面片（triangle splats），提出 FLAT 方法解决三角形回归的梯度流问题，生成可直接用于游戏引擎的精确几何表示。
 
@@ -146,7 +161,10 @@ tocopen: true
 
 ### IV-CoT: Implicit Visual Chain-of-Thought for Structure-Aware Text-to-Image Generation
 
-**链接：** https://arxiv.org/abs/2606.24849
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2606.24849"
+  arxiv="2606.24849"
+>}}
 
 **一句话总结：** 提出隐式视觉思维链（IV-CoT）框架，将文本到图像生成的视觉条件 query 解耦为结构 query 和语义 query，通过 latent 空间的隐式规划实现更好的结构感知生成，单次前向传播完成推理。
 
@@ -172,7 +190,10 @@ tocopen: true
 
 ### OrbitForge: Text-to-3D Scene Generation via Reconstruction-Anchored Video Synthesis
 
-**链接：** https://arxiv.org/abs/2606.24799
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2606.24799"
+  arxiv="2606.24799"
+>}}
 
 **一句话总结：** 提出 OrbitForge，用冻结的视频生成模型先验和 Gaussian Splatting 重建作为锚点，通过检测并补全缺失视角实现高覆盖率的文本到 3D 场景生成，无需任何任务特定微调。
 
@@ -199,7 +220,10 @@ tocopen: true
 
 ### Bridging the Manifold Gap: Riemannian Residual Line Search for One-Step Image Editing
 
-**链接：** https://arxiv.org/abs/2606.24844
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2606.24844"
+  arxiv="2606.24844"
+>}}
 
 **一句话总结：** 将 one-step 扩散编辑中的"编辑强度过大/过小"矛盾转化为能量场传输之上的候选选择问题，通过黎曼残差线搜索和 CLIP 对齐最终选图，在 PIE-Bench++ 上达到 SOTA。
 

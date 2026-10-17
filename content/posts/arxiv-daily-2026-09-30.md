@@ -21,11 +21,12 @@ tocopen: true
 
 ### Rollout-Marginal Distillation for Long-Horizon Autoregressive Video Generation
 
-**链接：** https://arxiv.org/abs/2609.37925
-
-**项目主页：** https://cjeen.github.io/RMD/
-
-**作者 / 机构：** Chenjian Gao, Zhihao Hu, Jianqi Ma, Jun Zhang, Weidong Zhang, Tianfan Xue（MMLab, The Chinese University of Hong Kong 香港中文大学 MMLab；Tencent AIPD 腾讯 AIPD）
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2609.37925"
+  authors="Chenjian Gao, Zhihao Hu, Jianqi Ma, Jun Zhang, Weidong Zhang, Tianfan Xue（MMLab, The Chinese University of Hong Kong 香港中文大学 MMLab；Tencent AIPD 腾讯 AIPD）"
+  arxiv="2609.37925"
+  links="[{\"url\":\"https://cjeen.github.io/RMD/\",\"label\":\"项目主页\",\"kind\":\"project\"}]"
+>}}
 
 **一句话总结：** 港中文 MMLab 与腾讯 AIPD 提出 **RMD（Rollout-Marginal Distillation）**，把分布匹配蒸馏的打分粒度从「整段 rollout 联合打分」改为**对每个 chunk 独立打分**——保留自回归生成的历史作为条件，却不让历史的伪影污染当前 chunk 的质量监督信号；随后再用 video-level DMD 补回时间一致性。在 **5 秒训练视野**上训练的模型，可在 **60 秒**生成上拿到 VBench-Long 总分 **81.26**，比 Self Forcing（70.94）与 Causal Forcing（69.88）高出 10 分以上。
 
@@ -49,11 +50,12 @@ tocopen: true
 
 ### Counterfactual Video Generation Enables Scalable Humanoid Loco-Manipulation
 
-**链接：** https://arxiv.org/abs/2609.38172
-
-**项目主页：** https://prism-real2sim2real.github.io/
-
-**作者 / 机构：** Zihan Wang, Zhen Wu, Pieter Abbeel, Rocky Duan, Jitendra Malik, Carmelo Sferrazza, C. Karen Liu, Guanya Shi, Angjoo Kanazawa（Amazon FAR；UC Berkeley 加州大学伯克利分校；Carnegie Mellon University 卡内基梅隆大学；Stanford University 斯坦福大学）· **CoRL 2026**
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2609.38172"
+  authors="Zihan Wang, Zhen Wu, Pieter Abbeel, Rocky Duan, Jitendra Malik, Carmelo Sferrazza, C. Karen Liu, Guanya Shi, Angjoo Kanazawa（Amazon FAR；UC Berkeley 加州大学伯克利分校；Carnegie Mellon University 卡内基梅隆大学；Stanford University 斯坦福大学）· **CoRL 2026**"
+  arxiv="2609.38172"
+  links="[{\"url\":\"https://prism-real2sim2real.github.io/\",\"label\":\"项目主页\",\"kind\":\"project\"}]"
+>}}
 
 **一句话总结：** 由 Amazon FAR、UC Berkeley、CMU 与 Stanford 联合提出的 **PRISM**，是一个 **real-to-sim-to-real** 框架：先用 video-to-video 生成把**少量真人–物体交互视频放大成数百条多样化的「反事实」交互视频**，再通过接触锚定的 real-to-sim 流水线把不完美的生成视频重建成物理上可执行的轨迹，最后蒸馏出单一策略直接部署到真机。在 29 自由度 Unitree G1 上零样本完成取–搬–放，分布内任务成功率 **96.25%**、分布外 **72.92%**。
 
@@ -77,11 +79,12 @@ tocopen: true
 
 ### LIFT: Layout-In-Future Video Generation under Large Viewpoint Change via On-Policy Self-Distillation
 
-**链接：** https://arxiv.org/abs/2609.38146
-
-**项目主页：** https://jsxzs.github.io/LIFT/
-
-**作者 / 机构：** Shengxiang Ji, Boyang Wang, Haiyang Xu, Bingnan Li, Yucheng Mao, Zeyuan Chen, Xiaojun Shan, Xiang Zhang, Gang Hua, Jianwen Xie, Zezhou Cheng, Zhuowen Tu（UC San Diego 加州大学圣迭戈分校；University of Virginia 弗吉尼亚大学；Meta；Amazon；Lambda）
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2609.38146"
+  authors="Shengxiang Ji, Boyang Wang, Haiyang Xu, Bingnan Li, Yucheng Mao, Zeyuan Chen, Xiaojun Shan, Xiang Zhang, Gang Hua, Jianwen Xie, Zezhou Cheng, Zhuowen Tu（UC San Diego 加州大学圣迭戈分校；University of Virginia 弗吉尼亚大学；Meta；Amazon；Lambda）"
+  arxiv="2609.38146"
+  links="[{\"url\":\"https://jsxzs.github.io/LIFT/\",\"label\":\"项目主页\",\"kind\":\"project\"}]"
+>}}
 
 **一句话总结：** UCSD 团队提出 **LIFT**，在相机轨迹控制之外补上一种此前没有的控制维度——**Layout-In-FuTure**：用户直接指定「未来某一帧（尤其是最后一帧）应该出现什么、出现在哪」。由于从稀疏的末帧布局学习远比从稠密的逐帧布局学习困难，作者引入 **on-policy 自蒸馏（OPSD）**，把稠密布局教师的控制能力迁移给末帧布局学生，仅用 **8K 训练样本**就在多项指标上超过需要 **128K 样本**的 SFT 基线。
 
@@ -106,11 +109,12 @@ tocopen: true
 
 ### LongLive-Plug: Once-for-All Distillation for Video Generation
 
-**链接：** https://arxiv.org/abs/2609.38154
-
-**代码：** https://github.com/NVlabs/LongLive
-
-**作者 / 机构：** Shuai Yang, Luozhou Wang, Wei Huang, ZhiFei Chen, Bohan Zhang, Xiao Fu, Qianli Ma, Chen-Hsuan Lin, Weian Mao, Bryan Chu, Song Han, Yukang Chen（NVIDIA；据其官方代码仓库 NVlabs/LongLive，本工作属 NVIDIA 的长视频生成研究线）
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2609.38154"
+  authors="Shuai Yang, Luozhou Wang, Wei Huang, ZhiFei Chen, Bohan Zhang, Xiao Fu, Qianli Ma, Chen-Hsuan Lin, Weian Mao, Bryan Chu, Song Han, Yukang Chen（NVIDIA；据其官方代码仓库 NVlabs/LongLive，本工作属 NVIDIA 的长视频生成研究线）"
+  arxiv="2609.38154"
+  links="[{\"url\":\"https://github.com/NVlabs/LongLive\",\"label\":\"GitHub\",\"kind\":\"github\"}]"
+>}}
 
 **一句话总结：** NVIDIA 团队提出 **LongLive-Plug**，一个 **once-for-all（一次蒸馏、处处复用）**的视频生成蒸馏框架：把「单步 CFG」「少步采样」「自回归长程纠错」三种能力蒸馏成基座模型上的 LoRA 适配器，之后**无需任何再训练**即可即插即用部署到兼容的下游模型上——即使下游模型新增了条件分支或扩展了输出通道也能复用。已在 **3 个骨干家族、8 类任务、54 个下游模型**上验证免训练部署。
 
@@ -134,11 +138,12 @@ tocopen: true
 
 ### One from Infinity: Actualizing Futures from Pretrained World Models into Robot Actions
 
-**链接：** https://arxiv.org/abs/2609.36413
-
-**项目主页：** https://zhao-sq.github.io/RoboActualizer/
-
-**作者 / 机构：** Bang Du, Yichen Xie, Shuqi Zhao, Yuxin Chen, Menglin Wu, Masayoshi Tomizuka（University of California, Berkeley 加州大学伯克利分校；Southern University of Science and Technology 南方科技大学；Xi'an Jiaotong University 西安交通大学）
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2609.36413"
+  authors="Bang Du, Yichen Xie, Shuqi Zhao, Yuxin Chen, Menglin Wu, Masayoshi Tomizuka（University of California, Berkeley 加州大学伯克利分校；Southern University of Science and Technology 南方科技大学；Xi'an Jiaotong University 西安交通大学）"
+  arxiv="2609.36413"
+  links="[{\"url\":\"https://zhao-sq.github.io/RoboActualizer/\",\"label\":\"项目主页\",\"kind\":\"project\"}]"
+>}}
 
 **一句话总结：** UC Berkeley 团队提出 **RoboActualizer**，挑战了「把世界模型变成机器人策略就必须用大规模机器人数据微调沉重骨干」这一现状：**世界模型预训练已经付过昂贵的代价了**，它的表征空间里已经铺开了多样的潜在未来，剩下的只是「选出能完成任务的那一个」并「读出实现它的动作」。作者把这个任务形式化为 **actualization**，用 **60M 参数**的极小程序在冻结的世界模型编码器之上实现，LIBERO 整体成功率 **98.0%**、推理延迟 **39.9 ms**。
 
@@ -163,11 +168,12 @@ tocopen: true
 
 ### What Makes World Action Models Generalize? An Empirical Study of Test-Time Future Modeling
 
-**链接：** https://arxiv.org/abs/2609.34981
-
-**项目主页：** https://zrporz.github.io/Simple-WAM-Web/
-
-**作者 / 机构：** Renping Zhou, Zanlin Ni, Zihao Fan, Guohao Fu, Zeyu Liu, Hao Shi, Jie Zhang, Chi Bene Chen, Yang Yue, Xueyang Fu, Gao Huang（Leap Lab, Tsinghua University 清华大学 Leap Lab；University of Science and Technology of China 中国科学技术大学；Beijing Institute of Technology 北京理工大学）
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2609.34981"
+  authors="Renping Zhou, Zanlin Ni, Zihao Fan, Guohao Fu, Zeyu Liu, Hao Shi, Jie Zhang, Chi Bene Chen, Yang Yue, Xueyang Fu, Gao Huang（Leap Lab, Tsinghua University 清华大学 Leap Lab；University of Science and Technology of China 中国科学技术大学；Beijing Institute of Technology 北京理工大学）"
+  arxiv="2609.34981"
+  links="[{\"url\":\"https://zrporz.github.io/Simple-WAM-Web/\",\"label\":\"项目主页\",\"kind\":\"project\"}]"
+>}}
 
 **一句话总结：** 清华 Leap Lab 团队对 **World Action Models（WAM）在推理时到底要不要生成未来**这一争议做了系统实证研究：潜变量 WAM（推理时丢弃未来生成以提速）虽然在分布内任务上与显式 WAM 持平，却**丢掉了 WAM 最初被寄予厚望的泛化收益**。作者发现收益几乎**全部来自第一个去噪步**——好处在于「准备未来」而非「生成未来」，据此提出 **Simple-WAM**：把未来建模简化为对全噪声视频 token 的一次前向，LIBERO-Plus 达 **79.5%**，同时保有接近潜变量 WAM 的效率。
 
@@ -192,11 +198,12 @@ tocopen: true
 
 ### Honeycomb: Constant-Size Scene Memory Representation for Video World Models
 
-**链接：** https://arxiv.org/abs/2609.37690
-
-**项目主页：** https://jackswl.github.io/honeycomb/ ｜ **代码：** https://github.com/kaichen-z/honeycomb
-
-**作者 / 机构：** Jack Wei Lun Shi, Kaichen Zhou, Haoyu Chen, Yufeng Weng, Keane Ong, Ruojin Cai, Hang Hua, Justin K. W. Yeoh, Mengyu Wang（Harvard University 哈佛大学；National University of Singapore 新加坡国立大学；MIT 麻省理工学院；MIT-IBM Watson AI Lab）
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2609.37690"
+  authors="Jack Wei Lun Shi, Kaichen Zhou, Haoyu Chen, Yufeng Weng, Keane Ong, Ruojin Cai, Hang Hua, Justin K. W. Yeoh, Mengyu Wang（Harvard University 哈佛大学；National University of Singapore 新加坡国立大学；MIT 麻省理工学院；MIT-IBM Watson AI Lab）"
+  arxiv="2609.37690"
+  links="[{\"url\":\"https://jackswl.github.io/honeycomb/\",\"label\":\"项目主页\",\"kind\":\"project\"},{\"url\":\"https://github.com/kaichen-z/honeycomb\",\"label\":\"GitHub\",\"kind\":\"github\"}]"
+>}}
 
 **一句话总结：** 哈佛、新加坡国立与 MIT 联合提出 **Honeycomb**，一个建立在 **HexMemory** 之上的视频世界模型：把场景特征存进**固定尺寸的六个空间与时空平面**（三空间 + 三时空），随着空间覆盖或时间范围扩张，对已有平面做**变形（warp）而非扩容**，再通过置信度加权池化与学习到的残差校正融合新特征。因此存储需求**在整个生成过程中保持常数**，同时在 WorldScore 上以 **65.52** 的平均分领先所有对比方法。
 
@@ -221,11 +228,12 @@ tocopen: true
 
 ### Disentangling Spurious Correlations in Vision-Language-Action Models via Predicting Domain-Invariant Latent Lookahead
 
-**链接：** https://arxiv.org/abs/2609.37165
-
-**项目主页：** https://dill-vla.github.io/
-
-**作者 / 机构：** Junghyun Kim, Ngseo Kim, ChungWoo Lee, Seoyeon Lee, Woo-Jeong Baek, Adam Zhou, Chip Huyen, Jun-Ki Lee, Gi-Cheon Kang, Byoung-Tak Zhang（OpenMind, San Francisco；Seoul National University 首尔大学；Hyundai Motors 现代汽车；Ajou University 亚洲大学；Tommoro Robotics）· **CoRL 2026**
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2609.37165"
+  authors="Junghyun Kim, Ngseo Kim, ChungWoo Lee, Seoyeon Lee, Woo-Jeong Baek, Adam Zhou, Chip Huyen, Jun-Ki Lee, Gi-Cheon Kang, Byoung-Tak Zhang（OpenMind, San Francisco；Seoul National University 首尔大学；Hyundai Motors 现代汽车；Ajou University 亚洲大学；Tommoro Robotics）· **CoRL 2026**"
+  arxiv="2609.37165"
+  links="[{\"url\":\"https://dill-vla.github.io/\",\"label\":\"项目主页\",\"kind\":\"project\"}]"
+>}}
 
 **一句话总结：** 首尔大学与 OpenMind 团队提出 **DILL（Domain-Invariant Latent Lookahead）**，用**从域变换轨迹数据中学到的域不变未来潜变量**来监督 VLA 策略，从而缓解捷径学习：任务—域编码器在对比目标与高斯解耦正则下把任务相关结构与域相关视觉变化分离，再以「预测未来潜变量」的方式为策略提供监督。LIBERO-Plus 零-shot 平均 **69.1%**（比最强外部基线高 11.4 个百分点），真机反事实指令跟随从 **29.7% 提升到 80.2%**、捷径执行率从 47.2% **降到零**。
 

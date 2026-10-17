@@ -17,7 +17,10 @@ tocopen: true
 
 ### Not All Features Are Created Equal: A Mechanistic Study of Vision-Language-Action Models
 
-**链接：** https://arxiv.org/abs/2603.19233
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2603.19233"
+  arxiv="2603.19233"
+>}}
 
 **一句话总结：** 通过激活注入、稀疏自编码器（SAE）和线性探针对六款 VLA 模型（80M–7B 参数）进行全面的机制性解释分析，揭示了视觉通路在动作生成中的主导地位以及语言与视觉特征的解耦分工。
 
@@ -44,7 +47,10 @@ tocopen: true
 
 ### Sparse Autoencoders Reveal Interpretable and Steerable Features in VLA Models
 
-**链接：** https://arxiv.org/abs/2603.19183
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2603.19183"
+  arxiv="2603.19183"
+>}}
 
 **一句话总结：** 将机制可解释性技术（稀疏自编码器）应用于 VLA 模型，首次提供了 VLA 可学习泛化特征的机制证据，并发现监督微调会加剧记忆化而大规模多样数据集可促进泛化。
 
@@ -69,7 +75,10 @@ tocopen: true
 
 ### Spectrally-Guided Diffusion Noise Schedules
 
-**链接：** https://arxiv.org/abs/2603.19222
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2603.19222"
+  arxiv="2603.19222"
+>}}
 
 **一句话总结：** 提出基于图像频谱特性设计"逐实例噪声时间表"的原则性方法，通过理论推导最小/最大噪声水平边界，消除冗余采样步骤，在低步数采样下显著提升像素扩散模型的生成质量。
 
@@ -96,7 +105,10 @@ tocopen: true
 
 ### Rethinking Vector Field Learning for Generative Segmentation
 
-**链接：** https://arxiv.org/abs/2603.19218
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2603.19218"
+  arxiv="2603.19218"
+>}}
 
 **一句话总结：** 从向量场学习视角重新审视基于扩散/流匹配的生成式分割，识别出梯度消失和轨迹穿越两大核心问题，并提出距离感知修正项策略，大幅缩小生成式分割与判别式方法的性能差距。
 
@@ -123,7 +135,10 @@ tocopen: true
 
 ### A Representation-Pivoted AutoEncoder Enhancing Both Image Generation and Editing
 
-**链接：** https://arxiv.org/abs/2603.19206
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2603.19206"
+  arxiv="2603.19206"
+>}}
 
 **一句话总结：** 提出表示枢纽自编码器（Representation-Pivoted AutoEncoder），通过"表示枢纽正则化"训练策略，让编码器在微调用于重建的同时保留预训练表示空间的语义结构，同时兼顾生成质量与编辑保真度。
 
@@ -150,7 +165,10 @@ tocopen: true
 
 ### DriveTok: 3D Driving Scene Tokenization for Unified Multi-View Reconstruction and Understanding
 
-**链接：** https://arxiv.org/abs/2603.19219
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2603.19219"
+  arxiv="2603.19219"
+>}}
 
 **一句话总结：** 提出 DriveTok，一种高效的 3D 驾驶场景 tokenizer，利用 3D 可变形交叉注意力将多视角特征压缩为场景 token，统一处理多视角重建与多种感知任务，在 nuScenes 上达到 SOTA。
 
@@ -177,7 +195,10 @@ tocopen: true
 
 ### Do VLMs Need Vision Transformers? Evaluating State Space Models as Vision Encoders
 
-**链接：** https://arxiv.org/abs/2603.19209
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2603.19209"
+  arxiv="2603.19209"
+>}}
 
 **一句话总结：** 系统评估状态空间模型（SSM）作为 VLM 视觉编码器的潜力，发现在 VQA 和定位/理解任务上 SSM 主干在匹配的 ImageNet 初始化下整体性能优于 ViT，并提出稳定化策略。
 

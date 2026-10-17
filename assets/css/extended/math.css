@@ -1,4 +1,4 @@
-/* Math paper metadata; inherit PaperMod colors in both themes. */
+/* Shared paper metadata; inherit PaperMod colors in both themes. */
 .post-content .paper-meta { margin: -4px 0 24px; }
 .paper-meta-byline { display: flex; flex-wrap: wrap; gap: 2px 16px; color: var(--secondary); font-size: 14px; line-height: 1.7; }
 .paper-meta-note { margin-top: 3px; color: var(--secondary); font-size: 13px; line-height: 1.6; }
@@ -12,3 +12,8 @@
 .paper-meta-directions { display: flex; flex-wrap: wrap; gap: 6px; }
 .paper-meta-directions span { padding: 3px 8px; border-radius: 3px; background: var(--code-bg); color: var(--secondary); font-size: 12px; line-height: 1.6; }
 @media (max-width: 480px) { .paper-meta-byline { flex-direction: column; } }
+
+.paper-meta-button svg { width: 16px; height: 16px; }
+.post-content .paper-meta .paper-meta-button .paper-meta-hf { display: block; width: 16px; height: 16px; margin: 0; border-radius: 0; flex-shrink: 0; }
+[data-theme="dark"] .paper-meta-hf { filter: invert(1); }
+.paper-meta-note p { margin: 0; }

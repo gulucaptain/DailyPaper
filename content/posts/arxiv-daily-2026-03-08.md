@@ -17,7 +17,10 @@ tocopen: true
 
 ### RealWonder: Real-Time Physical Action-Conditioned Video Generation
 
-**链接：** https://arxiv.org/abs/2603.05449
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2603.05449"
+  arxiv="2603.05449"
+>}}
 
 **一句话总结：** 首个支持物理动作条件的实时视频生成系统，以物理仿真为桥梁，仅需 4 步扩散即可在 480×832 分辨率下达到 13.2 FPS。
 
@@ -41,7 +44,10 @@ tocopen: true
 
 ### Planning in 8 Tokens: A Compact Discrete Tokenizer for Latent World Model
 
-**链接：** https://arxiv.org/abs/2603.05438
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2603.05438"
+  arxiv="2603.05438"
+>}}
 
 **一句话总结：** CompACT 将每帧观测压缩至仅 8 个离散 token，在保留规划所需关键信息的同时，将世界模型的规划速度提升数个量级，已被 CVPR 2026 收录。
 
@@ -65,7 +71,10 @@ tocopen: true
 
 ### Beyond Scattered Acceptance: Fast and Coherent Inference for DLMs via Longest Stable Prefixes
 
-**链接：** https://arxiv.org/abs/2603.05454
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2603.05454"
+  arxiv="2603.05454"
+>}}
 
 **一句话总结：** 提出 Longest Stable Prefix（LSP）调度器，无需训练，将扩散语言模型的推理速度提升最高 3.4 倍，同时匹配甚至略微提升生成质量，已被 ICLR 2026 接收。
 
@@ -89,7 +98,10 @@ tocopen: true
 
 ### Observing and Controlling Features in Vision-Language-Action Models
 
-**链接：** https://arxiv.org/abs/2603.05487
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2603.05487"
+  arxiv="2603.05487"
+>}}
 
 **一句话总结：** 首次系统研究 VLA 内部表示的可观测性与可控性，通过轻量线性干预即可在线引导机器人行为，无需微调。
 
@@ -113,7 +125,10 @@ tocopen: true
 
 ### RoboPocket: Improve Robot Policies Instantly with Your Phone
 
-**链接：** https://arxiv.org/abs/2603.05504
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2603.05504"
+  arxiv="2603.05504"
+>}}
 
 **一句话总结：** 用消费级智能手机实现免实体机器人的策略迭代系统，通过 AR 视觉预测可视化识别策略弱点，数据效率提升 2 倍。
 
@@ -137,7 +152,10 @@ tocopen: true
 
 ### Physics-Aware Humanoid Whole-Body VLA via Multi-Brain Latent Flow Matching and Robust Tracking
 
-**链接：** https://arxiv.org/abs/2603.05410
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2603.05410"
+  arxiv="2603.05410"
+>}}
 
 **一句话总结：** 提出语义-运动意图引导的物理感知多脑VLA框架，实现人形机器人在语义指令下稳健的全身协调控制。
 
@@ -161,7 +179,10 @@ tocopen: true
 
 ### OpenFrontier: General Navigation with Visual-Language Grounded Frontiers
 
-**链接：** https://arxiv.org/abs/2603.05377
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2603.05377"
+  arxiv="2603.05377"
+>}}
 
 **一句话总结：** 以视觉-语言 Frontier 作为稀疏子目标锚点，构建无训练、无 3D 建图的开放世界导航框架，零样本性能强且已完成实机部署。
 
@@ -185,7 +206,10 @@ tocopen: true
 
 ### RelaxFlow: Text-Driven Amodal 3D Generation
 
-**链接：** https://arxiv.org/abs/2603.05425
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2603.05425"
+  arxiv="2603.05425"
+>}}
 
 **一句话总结：** RelaxFlow 通过对生成向量场施加低通滤波实现"松弛控制"，在文本引导下完成遮挡区域的 3D 生成，同时严格保留输入观测的视觉保真度。
 

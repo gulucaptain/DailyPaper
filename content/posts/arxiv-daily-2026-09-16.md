@@ -23,11 +23,12 @@ tocopen: true
 
 ### PhysBrain 1.5: From Vision-Language Models to Physical Foundation Models
 
-**链接：** https://arxiv.org/abs/2609.14973
-
-**项目主页：** https://deepcybo-physai.github.io/PhysBrain-1.5 ｜ **模型：** https://huggingface.co/collections/DeepCybo/physbrain-15 ｜ **评测套件：** https://github.com/DeepCybo-PhysAI/PhysBrainEvalKit
-
-**作者 / 机构：** DeepCybo Team（Yichao Du、Yu Bin、Haipeng Cao 等 50 余位作者，PhysBrain 1.5 技术报告署名团队）
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2609.14973"
+  authors="DeepCybo Team（Yichao Du、Yu Bin、Haipeng Cao 等 50 余位作者，PhysBrain 1.5 技术报告署名团队）"
+  arxiv="2609.14973"
+  links="[{\"url\":\"https://deepcybo-physai.github.io/PhysBrain-1.5\",\"label\":\"项目主页\",\"kind\":\"project\"},{\"url\":\"https://huggingface.co/collections/DeepCybo/physbrain-15\",\"label\":\"模型\",\"kind\":\"huggingface\"},{\"url\":\"https://github.com/DeepCybo-PhysAI/PhysBrainEvalKit\",\"label\":\"GitHub\",\"kind\":\"github\"}]"
+>}}
 
 **一句话总结：** DeepCybo 团队提出 **PhysBrain 1.5**，从通用视觉—语言模型出发，把**语言回答、末端执行器运动、稠密视觉目标**统一编码为离散 token 并用自回归下一 token 预测联合优化，预训练的具身监督**完全来自人类交互视频**，在 **28 项具身理解基准**上以 **8B** 模型取得平均 **72.5** 分，刷新开源 SOTA 并与 GPT-6-Astra、Gemini 3.6 Flash 等闭源模型持平。
 
@@ -51,11 +52,12 @@ tocopen: true
 
 ### AlayaVista: Streaming World Modeling from Panoramic States to Perspective Video
 
-**链接：** https://arxiv.org/abs/2609.14462
-
-**项目主页：** https://alaya-lab.github.io/AlayaVista ｜ **代码：** https://github.com/AlayaLab/AlayaVista
-
-**作者 / 机构：** Jiaming Tan, Mingliang Zhai, Zhen Li, Yuwei Wu, Chuanhao Li, Kaipeng Zhang（Alaya Lab；北京理工大学；东京大学）
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2609.14462"
+  authors="Jiaming Tan, Mingliang Zhai, Zhen Li, Yuwei Wu, Chuanhao Li, Kaipeng Zhang（Alaya Lab；北京理工大学；东京大学）"
+  arxiv="2609.14462"
+  links="[{\"url\":\"https://alaya-lab.github.io/AlayaVista\",\"label\":\"项目主页\",\"kind\":\"project\"},{\"url\":\"https://github.com/AlayaLab/AlayaVista\",\"label\":\"GitHub\",\"kind\":\"github\"}]"
+>}}
 
 **一句话总结：** Alaya Lab 与北理工、东京大学提出 **AlayaVista**，一个相机可控的**流式视频世界模型**：把「全景世界演化」与「视角观测合成」显式解耦——先用预训练全景展开模型从单张视角图构建 360° 场景先验，再把场景作为相机条件下的**全景潜状态**演化，最后由**潜视口渲染器**映射出所请求视角的视频潜表示并做细节精修，配套构建了 **1318 小时、4K 以上分辨率**的真实全景视频数据集 **MUGEN**。
 
@@ -79,11 +81,12 @@ tocopen: true
 
 ### DIDO: Distilling Interaction-Centric Dynamics into One-Step Denoising for World Action Models
 
-**链接：** https://arxiv.org/abs/2609.15570
-
-**项目主页：** https://loveju1y.github.io/DIDO/ ｜ **代码：** https://github.com/LoveJu1y/DIDO-WAM
-
-**作者 / 机构：** Jing Lyu, Shuanghao Bai, Runze Xiao, Zhenyu Liao, Wenxing Tan, Zihan Tang, Ruochuan Shi, Cheng Peng, Yuheng Ji, Yihao Wang, Badong Chen, Pengwei Wang, Zhongyuan Wang, Xiaoguang Zhao（中国科学院自动化研究所；中国科学院大学人工智能学院；北京智源人工智能研究院 BAAI；西安交通大学人工智能与机器人研究所；清华大学；Amazon）
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2609.15570"
+  authors="Jing Lyu, Shuanghao Bai, Runze Xiao, Zhenyu Liao, Wenxing Tan, Zihan Tang, Ruochuan Shi, Cheng Peng, Yuheng Ji, Yihao Wang, Badong Chen, Pengwei Wang, Zhongyuan Wang, Xiaoguang Zhao（中国科学院自动化研究所；中国科学院大学人工智能学院；北京智源人工智能研究院 BAAI；西安交通大学人工智能与机器人研究所；清华大学；Amazon）"
+  arxiv="2609.15570"
+  links="[{\"url\":\"https://loveju1y.github.io/DIDO/\",\"label\":\"项目主页\",\"kind\":\"project\"},{\"url\":\"https://github.com/LoveJu1y/DIDO-WAM\",\"label\":\"GitHub\",\"kind\":\"github\"}]"
+>}}
 
 **一句话总结：** 针对世界动作模型（WAM）迭代去噪带来的闭环延迟，自动化所、智源与西安交大等团队提出 **DIDO**——先实证发现**去噪过程中视觉内容的收敛并不同步**（静态背景结构早期成形，夹爪与被操作物体在第一步后仍模糊，交互动力学要后续去噪才浮现），据此把多步视频模型已收敛的动力学**蒸馏进单步去噪**，并用**交互中心的表示引导**保证单步不丢交互，**LIBERO 99.0% / LIBERO-Plus 76.6% / RoboTwin 92.0%**，H100 batch 1 下单个动作 chunk **384 ms**。
 
@@ -107,11 +110,12 @@ tocopen: true
 
 ### GeomVLA: Unifying Scene, Motion, and Action in 3D
 
-**链接：** https://arxiv.org/abs/2609.13812
-
-**项目主页：** https://ziyin-xiong.github.io/geomvla.io/
-
-**作者 / 机构：** Ziyin Xiong, Nikos Gkanatsios, Moritz Reuss, Katerina Fragkiadaki（Carnegie Mellon University；NVIDIA）— **CoRL 2026 已接收**
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2609.13812"
+  authors="Ziyin Xiong, Nikos Gkanatsios, Moritz Reuss, Katerina Fragkiadaki（Carnegie Mellon University；NVIDIA）— **CoRL 2026 已接收**"
+  arxiv="2609.13812"
+  links="[{\"url\":\"https://ziyin-xiong.github.io/geomvla.io/\",\"label\":\"项目主页\",\"kind\":\"project\"}]"
+>}}
 
 **一句话总结：** CMU 与 NVIDIA 提出 **GeomVLA**，在**统一的机器人中心 3D 坐标系**内打通感知、潜场景运动预测与动作生成：把预训练 VLM 特征用深度与相机标定抬升为空间接地的 3D 场景 token，引入**3D 场景轨迹去噪器**学习场景点将如何运动，再取其**中间运动 token** 通过几何感知注意力条件化一个 **3D flow 动作去噪器**；无需机器人动作预训练即在 **CALVIN 4.624**、**LIBERO 98.4%**、**RoboTwin2.0 84.8%**、八项真机任务平均 **62.5%** 上取得领先。
 
@@ -135,11 +139,12 @@ tocopen: true
 
 ### WLA³: World Latent Action Modeling for Semantics, Dynamics, and Kinematics
 
-**链接：** https://arxiv.org/abs/2609.15870
-
-**项目主页：** https://wla-3.github.io/
-
-**作者 / 机构：** Peidong Liu, Zhiyuan Xiang, Mingyang Li, Wenhao Li, Jiale Zhang, Jiahao Sun, Jiawei Li（Joy Future Academy, JD Group）
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2609.15870"
+  authors="Peidong Liu, Zhiyuan Xiang, Mingyang Li, Wenhao Li, Jiale Zhang, Jiahao Sun, Jiawei Li（Joy Future Academy, JD Group）"
+  arxiv="2609.15870"
+  links="[{\"url\":\"https://wla-3.github.io/\",\"label\":\"项目主页\",\"kind\":\"project\"}]"
+>}}
 
 **一句话总结：** 京东 Joy Future Academy 提出 **WLA³**，围绕**世界潜动作模型（WLAM）**学到的表示构建统一的通用策略模型框架：WLAM 先把同步的多相机视角与可得的本体状态变化编码为紧凑的**局部潜动作**与更丰富的**过渡特征**，再在**语义、动力学、运动学**三个层面复用；**32 维潜动作**在 LARYBench 上达到 **67.89%** 平均分类准确率，六项真机任务平均成功率 **81.9%**，显著优于 π₀.₅ 的 **66.2%**。
 
@@ -163,11 +168,12 @@ tocopen: true
 
 ### X-WBC: A Cross-Embodiment Foundation Model for Humanoid Whole-Body Control
 
-**链接：** https://arxiv.org/abs/2609.15213
-
-**项目主页：** https://logosroboticsgroup.github.io/x-wbc/ ｜ **代码：** https://github.com/LogosRoboticsGroup/x-wbc
-
-**作者 / 机构：** Juntong Zhang, Chun Gu, Li Zhang（同济大学；复旦大学数据科学学院；上海创智学院）— **CoRL 2026 已接收**
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2609.15213"
+  authors="Juntong Zhang, Chun Gu, Li Zhang（同济大学；复旦大学数据科学学院；上海创智学院）— **CoRL 2026 已接收**"
+  arxiv="2609.15213"
+  links="[{\"url\":\"https://logosroboticsgroup.github.io/x-wbc/\",\"label\":\"项目主页\",\"kind\":\"project\"},{\"url\":\"https://github.com/LogosRoboticsGroup/x-wbc\",\"label\":\"GitHub\",\"kind\":\"github\"}]"
+>}}
 
 **一句话总结：** 同济、复旦与上海创智学院提出 **X-WBC**，一个跨本体的人形全身控制基座框架：把**可共享的人体运动语义**与**本体相关的物理执行**显式解耦——用**以人为中心的 command token** 对齐全身人体运动、机器人参考运动与稀疏 VR 观测，一个因果 Transformer 从混合多机器人 rollout 中学习可复用的时序结构，轻量本体专属模块再把共享表示映射到各自本体感受与动作空间；覆盖 **9 个仿真本体**与 **4 台真机**，G1 上跟踪成功率 **98.60%**。
 
@@ -191,9 +197,11 @@ tocopen: true
 
 ### Touch2Trace: Tactile-Driven Imitation Learning for Dexterous Cable Tracing
 
-**链接：** https://arxiv.org/abs/2609.15921
-
-**作者 / 机构：** Matteo Grimaldi, David Klee, Ziling Chen, Tong Jian, Wonju Lee, Wenjie Lu, Tao Yu, Saleh Nabi（Dexterous AI Group, Analog Devices, Inc.）— **CoRL 2026 已接收**
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2609.15921"
+  authors="Matteo Grimaldi, David Klee, Ziling Chen, Tong Jian, Wonju Lee, Wenjie Lu, Tao Yu, Saleh Nabi（Dexterous AI Group, Analog Devices, Inc.）— **CoRL 2026 已接收**"
+  arxiv="2609.15921"
+>}}
 
 **一句话总结：** Analog Devices 的 Dexterous AI Group 提出 **Touch2Trace**，针对「用拇指与食指反复捏—卷把线缆在手中传送」这一极具挑战的可变形物体操作任务，给出首个系统性的真机实证研究，刻画**编码器预训练、控制频率、时序上下文与空间分辨率**四项因素如何各自影响策略表现；最优组合把平均捋线距离从 **0.2 cm 提升到 20.1 cm**、成功率从 **0% 提升到 93%**，并能零样本迁移到未见过的线缆与走线条件。
 
@@ -217,9 +225,11 @@ tocopen: true
 
 ### CrossDistill: Balancing Quality and Diversity via Trajectory-Level Hybrid Few-Step Distillation
 
-**链接：** https://arxiv.org/abs/2609.14725
-
-**作者 / 机构：** Yuxi Liu, Haoyu Li, Yixiang Cai, Tengxu Sun, Zekun Zhang, Baole Ai, Ang Wang, Jiamang Wang, Lin Qu, Kun Yuan, Kai Zhang（北京大学 Melon Group；清华大学；阿里巴巴集团）
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2609.14725"
+  authors="Yuxi Liu, Haoyu Li, Yixiang Cai, Tengxu Sun, Zekun Zhang, Baole Ai, Ang Wang, Jiamang Wang, Lin Qu, Kun Yuan, Kai Zhang（北京大学 Melon Group；清华大学；阿里巴巴集团）"
+  arxiv="2609.14725"
+>}}
 
 **一句话总结：** 北大、清华与阿里提出 **CrossDistill**，一个轨迹层面的混合少步蒸馏框架：观察到**高噪步主要决定全局模式、低噪步主要精修局部细节**，据此在采样轨迹上取一个**交叉点（crossover）**，高噪区间用**保轨迹（trajectory-preserving）**目标、低噪区间用**分布匹配（distribution-matching）**目标，两段通过交叉点状态耦合；在 Wan2.1-T2V 上，四步学生中取得**最优语义分与总分**，1.3B 规模总分**超过全步教师**，并恢复教师约 **86%** 的种子级多样性（DMD 57%、AnyFlow 66%）。
 

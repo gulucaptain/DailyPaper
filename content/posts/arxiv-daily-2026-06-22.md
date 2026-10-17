@@ -17,7 +17,10 @@ tocopen: true
 
 ### Current World Models Lack a Persistent State Core
 
-**链接：** https://arxiv.org/abs/2606.20545
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2606.20545"
+  arxiv="2606.20545"
+>}}
 
 **一句话总结：** 提出 WRBench 基准，首次系统性诊断当前世界模型的核心缺陷——无法维持「离开视野后仍持续演化」的持久状态，揭示了通向 AGI 的关键技术空白。
 
@@ -41,7 +44,10 @@ tocopen: true
 
 ### Efficient World Action Modeling with Persistent Memory
 
-**链接：** https://arxiv.org/abs/2606.20562
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2606.20562"
+  arxiv="2606.20562"
+>}}
 
 **一句话总结：** 提出 MemoryWAM，一种具备高效持久记忆的世界动作模型，在长时域机器人操作任务中同时实现视觉预见和动作建模，且推理延迟和显存占用显著低于同类方法。
 
@@ -65,7 +71,10 @@ tocopen: true
 
 ### Spatially Speculative Decoding Accelerates Autoregressive Image Generation
 
-**链接：** https://arxiv.org/abs/2606.20543
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2606.20543"
+  arxiv="2606.20543"
+>}}
 
 **一句话总结：** 提出空间推测解码（SSD），利用图像的二维空间局部性同时预测相邻两个 token，将自回归图像生成速度提升最高 13.3 倍，同时保持生成质量。
 
@@ -89,7 +98,10 @@ tocopen: true
 
 ### How Transparent is DiffusionGemma?
 
-**链接：** https://arxiv.org/abs/2606.20560
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2606.20560"
+  arxiv="2606.20560"
+>}}
 
 **一句话总结：** 系统研究 DiffusionGemma（扩散语言模型）的推理透明性，发现其表观计算不透明度虽高，但通过可解释 token 表征桥接后实际透明度与自回归模型相当，为扩散 LLM 的可解释性研究开辟路径。
 
@@ -113,7 +125,10 @@ tocopen: true
 
 ### Fast and Zero-Shot 3D Visual Illusion Generation via Cross-Space Denoising
 
-**链接：** https://arxiv.org/abs/2606.20563
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2606.20563"
+  arxiv="2606.20563"
+>}}
 
 **一句话总结：** 提出无需训练的框架，在 3–5 分钟内生成从不同视角呈现完全不同语义的 3D 双义视觉幻觉网格，ECCV 2026 收录。
 
@@ -137,7 +152,10 @@ tocopen: true
 
 ### Thinking in Boxes: 3D Editing in Real Images Made Easy
 
-**链接：** https://arxiv.org/abs/2606.20556
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2606.20556"
+  arxiv="2606.20556"
+>}}
 
 **一句话总结：** 提出"以 3D 包围盒为输入规格"的图像编辑接口，用深度对齐的平面地板作为全局参考系，结合图像生成器实现对真实照片的精确 3D 变换（平移、旋转、缩放、视角变换），大幅超越现有方法。
 
@@ -161,7 +179,10 @@ tocopen: true
 
 ### The FID Lottery: Quantifying Hidden Randomness in Generative-Model Evaluation
 
-**链接：** https://arxiv.org/abs/2606.20536
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2606.20536"
+  arxiv="2606.20536"
+>}}
 
 **一句话总结：** 系统量化 FID 指标本身的随机性，发现重新训练模型产生的 FID 波动是重新采样的 3.2 倍，提出新的 FID 评估协议，揭示现有大量生成模型比较结论可能不可靠。
 
@@ -185,7 +206,10 @@ tocopen: true
 
 ### Generating Robot Hands from Human Demonstrations
 
-**链接：** https://arxiv.org/abs/2606.20549
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2606.20549"
+  arxiv="2606.20549"
+>}}
 
 **一句话总结：** 提出数据驱动框架，使用超过 400 万帧人类指尖运动数据，通过强化学习辅助搜索优化树状结构机器人手设计，实现从人类示范直接生成物理机器人手，将搜索时间从数小时压缩至数分钟。
 

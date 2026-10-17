@@ -17,7 +17,10 @@ tocopen: true
 
 ### WorldKV: Efficient World Memory with World Retrieval and Compression
 
-**链接：** https://arxiv.org/abs/2605.22718
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2605.22718"
+  arxiv="2605.22718"
+>}}
 
 **一句话总结：** 提出无需训练的 WorldKV 框架，通过 KV-cache 检索与压缩实现持久一致的世界模型记忆，解决自回归视频扩散模型中长时序一致性与实时性的核心矛盾。
 
@@ -41,7 +44,10 @@ tocopen: true
 
 ### Pre-VLA: Preemptive Runtime Verification for Reliable Vision-Language-Action and World-Model Rollouts
 
-**链接：** https://arxiv.org/abs/2605.22446
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2605.22446"
+  arxiv="2605.22446"
+>}}
 
 **一句话总结：** 提出 Pre-VLA 统一运行时验证架构，在物理执行或世界模型 rollout 前预先过滤低质量动作，显著提升 VLA 模型闭环成功率。
 
@@ -65,7 +71,10 @@ tocopen: true
 
 ### Sensor2Sensor: Cross-Embodiment Sensor Conversion for Autonomous Driving
 
-**链接：** https://arxiv.org/abs/2605.22809
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2605.22809"
+  arxiv="2605.22809"
+>}}
 
 **一句话总结：** 提出 Sensor2Sensor 生成建模范式，利用扩散架构将野外行车记录仪单目视频转化为高保真多模态传感器套件（多视角相机 + LiDAR），大幅扩展自动驾驶训练数据来源。（CVPR 2026）
 
@@ -89,7 +98,10 @@ tocopen: true
 
 ### GenRe: Diffusion-guided Generalizable Enhancer for Urban Scene Reconstruction
 
-**链接：** https://arxiv.org/abs/2605.22420
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2605.22420"
+  arxiv="2605.22420"
+>}}
 
 **一句话总结：** 提出 GenRe，一种扩散模型引导的可泛化城市场景重建增强器，以分钟级速度修复预训练 3D Gaussian 表示中的缺陷，实现对挑战性未见视角的鲁棒泛化。（ICRA 2026）
 
@@ -113,7 +125,10 @@ tocopen: true
 
 ### AwareVLN: Reasoning with Self-awareness for Vision-Language Navigation
 
-**链接：** https://arxiv.org/abs/2605.22816
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2605.22816"
+  arxiv="2605.22816"
+>}}
 
 **一句话总结：** 提出 AwareVLN 框架，为视觉语言导航模型引入自感知推理机制，让智能体以端到端数据驱动方式理解自身状态与任务进度，显著超越现有 SOTA。（CVPR 2026）
 
@@ -137,7 +152,10 @@ tocopen: true
 
 ### GesVLA: Gesture-Aware Vision-Language-Action Model for Robot Manipulation
 
-**链接：** https://arxiv.org/abs/2605.22812
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2605.22812"
+  arxiv="2605.22812"
+>}}
 
 **一句话总结：** 提出 GesVLA，将手势作为 VLA 模型的并行指令模态，通过潜空间手势特征编码和双 VLM 架构，有效解决复杂场景中多相似物体的空间歧义问题。
 
@@ -161,7 +179,10 @@ tocopen: true
 
 ### DecQ: Detail-Condensing Queries for Enhanced Reconstruction and Generation in Representation Autoencoders
 
-**链接：** https://arxiv.org/abs/2605.22777
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2605.22777"
+  arxiv="2605.22777"
+>}}
 
 **一句话总结：** 提出 DecQ 框架，通过轻量细节凝缩查询模块从中间 VFM 特征提取细粒度信息，以仅 3.9% 额外计算量同时显著提升表示自编码器的重建质量与生成速度。
 
@@ -185,7 +206,10 @@ tocopen: true
 
 ### MoSA: Motion-constrained Stress Adaptation for Mitigating Real-to-Sim Gap in Continuum Dynamics
 
-**链接：** https://arxiv.org/abs/2605.22597
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2605.22597"
+  arxiv="2605.22597"
+>}}
 
 **一句话总结：** 提出 MoSA 框架，通过学习残差应力算子捕捉物体材料的轻微各向异性与非均质性，在保留物理先验的同时有效缩小连续体动力学的 real-to-sim 差距。（ICML 2026）
 

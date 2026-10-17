@@ -19,9 +19,11 @@ tocopen: true
 
 ### Towards Neuro-Symbolic Procedural Reasoning for Long-Horizon Vision-Language-Action Manipulation
 
-**链接：** https://arxiv.org/abs/2609.05369
-
-**作者 / 机构：** Vivek Chavan, Yahuan Shi, Oliver Heimann, Kevin Haninger, Jörg Krüger（Fraunhofer IPK, Berlin；Technische Universität Berlin）
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2609.05369"
+  authors="Vivek Chavan, Yahuan Shi, Oliver Heimann, Kevin Haninger, Jörg Krüger（Fraunhofer IPK, Berlin；Technische Universität Berlin）"
+  arxiv="2609.05369"
+>}}
 
 **一句话总结：** Fraunhofer IPK 与柏林工业大学团队提出用**任务图（task graph）+ 多模态过程记忆**给 VLA 装上显式的程序结构，把长程操作从「端到端续写动作」改造成「观察—定位—记忆—选择—执行—验证」的循环，并用演示视频中的伪注视（pseudo-gaze）作为额外的时空监督。
 
@@ -45,11 +47,12 @@ tocopen: true
 
 ### LIBERO-RECOVER: Beyond Task Success Towards Failure Recovery in Robotic Manipulation Models
 
-**链接：** https://arxiv.org/abs/2609.05178
-
-**项目主页：** https://liulin815.github.io/LIBERO-Recovery/ ｜ **代码：** https://github.com/liulin815/LIBERO-Recovery
-
-**作者 / 机构：** Lin Liu, Zhicheng Bao, Lu Zhang, Ziying Song, Wu Yang, Shuai Tao, Wulong Liu, Huchuan Lu（大连理工大学信息与通信工程学院；Beta Infinity；南洋理工大学；北京交通大学）
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2609.05178"
+  authors="Lin Liu, Zhicheng Bao, Lu Zhang, Ziying Song, Wu Yang, Shuai Tao, Wulong Liu, Huchuan Lu（大连理工大学信息与通信工程学院；Beta Infinity；南洋理工大学；北京交通大学）"
+  arxiv="2609.05178"
+  links="[{\"url\":\"https://liulin815.github.io/LIBERO-Recovery/\",\"label\":\"项目主页\",\"kind\":\"project\"},{\"url\":\"https://github.com/liulin815/LIBERO-Recovery\",\"label\":\"GitHub\",\"kind\":\"github\"}]"
+>}}
 
 **一句话总结：** 大连理工、Beta Infinity 与南洋理工团队构建了**首个面向「失败恢复」的大规模操作基准 LIBERO-Recover**，从 SOTA 具身模型的真实执行中收集失败案例，构造 1000+ 场景、四级恢复难度，把评测从「机器人能不能成功」推进到「失败后能不能恢复」。
 
@@ -73,9 +76,11 @@ tocopen: true
 
 ### FailureSpot: Label-Efficient Timestamp-Level Failure Detection for Vision-Language-Action Models
 
-**链接：** https://arxiv.org/abs/2609.04277
-
-**作者 / 机构：** Jie Ma, Zongxi Liu, Yi Zhu（韦恩州立大学 Wayne State University）
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2609.04277"
+  authors="Jie Ma, Zongxi Liu, Yi Zhu（韦恩州立大学 Wayne State University）"
+  arxiv="2609.04277"
+>}}
 
 **一句话总结：** 韦恩州立大学团队研究**细粒度时间戳级 VLA 失效检测**，先用无标注的 action chunks 构造动作导出的弱监督信号，再用主动学习只挑最不确定的轨迹做时间戳级标注，在控制标注成本的同时同时提升时间戳级与轨迹级检测性能。
 
@@ -99,11 +104,12 @@ tocopen: true
 
 ### Coupled Control and Wireless World Models for Resilient Remote Robotic Control
 
-**链接：** https://arxiv.org/abs/2609.04851
-
-**代码：** https://github.com/ICONgroupCWC/jetbot_world
-
-**作者 / 机构：** H. P. Madushanka, Sumudu Samarakoon, Mehdi Bennis（Centre for Wireless Communications, University of Oulu, Finland）
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2609.04851"
+  authors="H. P. Madushanka, Sumudu Samarakoon, Mehdi Bennis（Centre for Wireless Communications, University of Oulu, Finland）"
+  arxiv="2609.04851"
+  links="[{\"url\":\"https://github.com/ICONgroupCWC/jetbot_world\",\"label\":\"GitHub\",\"kind\":\"github\"}]"
+>}}
 
 **一句话总结：** 奥卢大学无线通信中心提出把**控制世界模型与无线世界模型耦合**成一个联合 JEPA 框架，同时预测机器人动力学与信道演化，用潜空间预测来驱动通信调度，从而在不可靠链路下维持可靠的远程机器人控制。
 
@@ -127,9 +133,11 @@ tocopen: true
 
 ### Linguistic Trajectory Encoding for Efficient Long-Horizon Spatial Memory in Embodied Agents
 
-**链接：** https://arxiv.org/abs/2609.04802
-
-**作者 / 机构：** Xie Tianyidan, Shenyi Wang, Qiang Tang, Mingjie Wang, Zhicheng Qiu, Xuanfu Li, Zhan Xu, Jian Yang, Lanjun Wang, Zili Yi（南京大学；不列颠哥伦比亚大学 UBC；浙江理工大学；华为技术有限公司；天津大学）
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2609.04802"
+  authors="Xie Tianyidan, Shenyi Wang, Qiang Tang, Mingjie Wang, Zhicheng Qiu, Xuanfu Li, Zhan Xu, Jian Yang, Lanjun Wang, Zili Yi（南京大学；不列颠哥伦比亚大学 UBC；浙江理工大学；华为技术有限公司；天津大学）"
+  arxiv="2609.04802"
+>}}
 
 **一句话总结：** 南京大学与华为等团队提出 **Linguistic Trajectory Encoding（LTE）**，用「自然语言描述 + 稀疏空间锚点 + 视觉锚点」的混合表示压缩动态物体的运动历史，让智能体在数小时到数天的观测跨度上，仍能**用自然语言查询每个物体的状态转移时间线**。
 
@@ -153,9 +161,11 @@ tocopen: true
 
 ### Temporal Tactile Encoding and Compliance for Intent-Aware Robot-to-Human Bimanual Handover
 
-**链接：** https://arxiv.org/abs/2609.05282
-
-**作者 / 机构：** Pasquale Marra, Stefano Berti, Gabriele M. Caddeo, Lorenzo Natale（Humanoid Sensing and Perception, Istituto Italiano di Tecnologia (IIT), Genoa；DIBRIS, Università di Genova）
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2609.05282"
+  authors="Pasquale Marra, Stefano Berti, Gabriele M. Caddeo, Lorenzo Natale（Humanoid Sensing and Perception, Istituto Italiano di Tecnologia (IIT), Genoa；DIBRIS, Università di Genova）"
+  arxiv="2609.05282"
+>}}
 
 **一句话总结：** 意大利理工学院（IIT）与热那亚大学团队把**时序编码的触觉反馈与柔顺控制**耦合进 VLA 策略，用于人机双手交接——触觉历史负责判断「人是否真的在持续取走」，柔顺控制负责在物体转移过程中降低交互力，二者互补且显著优于各自单独使用。
 
@@ -179,11 +189,12 @@ tocopen: true
 
 ### Importance-Aware Low-Rank Distillation of Diffusion Transformers
 
-**链接：** https://arxiv.org/abs/2609.04646
-
-**项目主页：** https://vislearn.github.io/SVDtrunc/ ｜ **代码：** https://github.com/vislearn/SVDtrunc
-
-**作者 / 机构：** Denis Zavadski, Sebastian Heid, Damjan Kalšan, Stefan Roth, Carsten Rother（Heidelberg University；Zuse School ELIZA；TU Darmstadt；hessian.AI）
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2609.04646"
+  authors="Denis Zavadski, Sebastian Heid, Damjan Kalšan, Stefan Roth, Carsten Rother（Heidelberg University；Zuse School ELIZA；TU Darmstadt；hessian.AI）"
+  arxiv="2609.04646"
+  links="[{\"url\":\"https://vislearn.github.io/SVDtrunc/\",\"label\":\"项目主页\",\"kind\":\"project\"},{\"url\":\"https://github.com/vislearn/SVDtrunc\",\"label\":\"GitHub\",\"kind\":\"github\"}]"
+>}}
 
 **一句话总结：** 海德堡大学与达姆施塔特工大团队提出 **SVDtrunc**，先在全局参数预算下按块重要性分配秩并用截断 SVD 压缩最不重要的块，再用模块化知识蒸馏 + rectified-flow 目标微调，把 **FLUX.dev 压到原参数量的 57% 仍保持竞争力、68% 时几乎不掉点**。
 
@@ -207,11 +218,12 @@ tocopen: true
 
 ### Encore: Infinite Audio-Video Generation with Adaptive Signal Routing
 
-**链接：** https://arxiv.org/abs/2609.04249
-
-**代码：** https://github.com/shaohua-pan/Encore
-
-**作者 / 机构：** Shaohua Pan, Junbao Chen, Shengyi He, Jingfeng Xue, Wen Tao, Haocheng Feng, Siming Fan, Dongwei Pan, Yi Yang 等（百度 Baidu；北京理工大学）
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2609.04249"
+  authors="Shaohua Pan, Junbao Chen, Shengyi He, Jingfeng Xue, Wen Tao, Haocheng Feng, Siming Fan, Dongwei Pan, Yi Yang 等（百度 Baidu；北京理工大学）"
+  arxiv="2609.04249"
+  links="[{\"url\":\"https://github.com/shaohua-pan/Encore\",\"label\":\"GitHub\",\"kind\":\"github\"}]"
+>}}
 
 **一句话总结：** 百度与北理工团队提出 **Encore**，把长音视频联合生成分解为「跨 chunk 上下文传播保局部连续 + 参考音视频信号配位移位置编码保全局一致」，并设计 **Adaptive Signal Routing (ASR)** 让模型自适应调节各路条件信号的权重，实现**无限长**同步音视频生成。
 

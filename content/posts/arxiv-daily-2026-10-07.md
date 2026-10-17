@@ -21,11 +21,12 @@ tocopen: true
 
 ### Kandinsky 6.0 Video: Foundation Models for Synchronized Video and Audio Generation
 
-**链接：** https://arxiv.org/abs/2610.05608
-
-**项目主页：** https://github.com/kandinskylab/kandinsky-6 ｜ **模型：** https://huggingface.co/collections/kandinskylab/kandinsky-60-diffusers
-
-**作者 / 机构：** Kandinsky Team（Julia Agafonova、Bulat Akhmatov、Mikhail Aksyutin、Grigorii Alekseenko 等，完整贡献者名单见论文末尾）（Kandinsky Lab）
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2610.05608"
+  authors="Kandinsky Team（Julia Agafonova、Bulat Akhmatov、Mikhail Aksyutin、Grigorii Alekseenko 等，完整贡献者名单见论文末尾）（Kandinsky Lab）"
+  arxiv="2610.05608"
+  links="[{\"url\":\"https://github.com/kandinskylab/kandinsky-6\",\"label\":\"GitHub\",\"kind\":\"github\"},{\"url\":\"https://huggingface.co/collections/kandinskylab/kandinsky-60-diffusers\",\"label\":\"模型\",\"kind\":\"huggingface\"}]"
+>}}
 
 **一句话总结：** Kandinsky Lab 发布 **Kandinsky 6.0 Video**，一个同步音视频生成的基础扩散模型家族（Lite 3B / Pro 29B），用**双流 CrossDiT** 把预训练视频流与新训音频流双向对齐，产出 5 秒、44 kHz 同步音频（含口型对齐）并可超分到 Full-HD，同时**全量开源代码与权重**。
 
@@ -49,11 +50,12 @@ tocopen: true
 
 ### HLA-WM: Hybrid Linear Attention for Long-Horizon Video World Models
 
-**链接：** https://arxiv.org/abs/2610.05739
-
-**项目主页：** https://caesarhhh.github.io/hla-wm/
-
-**作者 / 机构：** Zhuokun Chen, Feng Chen, Xi Lin, Xiyu Wu, Jiahao He, Jianfei Cai, Bohan Zhuang（Monash University；The University of Adelaide；浙江大学）
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2610.05739"
+  authors="Zhuokun Chen, Feng Chen, Xi Lin, Xiyu Wu, Jiahao He, Jianfei Cai, Bohan Zhuang（Monash University；The University of Adelaide；浙江大学）"
+  arxiv="2610.05739"
+  links="[{\"url\":\"https://caesarhhh.github.io/hla-wm/\",\"label\":\"项目主页\",\"kind\":\"project\"}]"
+>}}
 
 **一句话总结：** 莫纳什大学、阿德莱德大学与浙江大学团队提出 **HLA-WM**，一个**免训练**的混合线性注意力框架，通过缓存 chunk 级仿射摘要并用相机几何去「寻址」历史，为循环线性注意力补上可选址的长程记忆，在 60 秒上下文下**历史状态存储仅为全 KV 缓存的 1/12**，却把 PSNR 提升 0.74 dB、旋转误差降低 28.5%。
 
@@ -77,9 +79,11 @@ tocopen: true
 
 ### Keepsake: Selective Spatial Memory for Long-Horizon Video Generation
 
-**链接：** https://arxiv.org/abs/2610.06588
-
-**作者 / 机构：** Abdul Mohaimen Al Radi, Kunyang Li, Yuzhang Shang, Mubarak Shah, Yu Tian（中佛罗里达大学人工智能研究所 Institute of Artificial Intelligence, University of Central Florida）
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2610.06588"
+  authors="Abdul Mohaimen Al Radi, Kunyang Li, Yuzhang Shang, Mubarak Shah, Yu Tian（中佛罗里达大学人工智能研究所 Institute of Artificial Intelligence, University of Central Florida）"
+  arxiv="2610.06588"
+>}}
 
 **一句话总结：** 中佛罗里达大学团队提出 **Keepsake**，一个**在线、免训练**的定容空间记忆控制器，把每条观测的价值定义成**关系量**（它有多少强替代物）而非固有属性，从而在 15 条 180 秒轨迹上把 FVD 降低 **35.1%**，而记忆库只保留 **32 条**观测而非 **5397 条**。
 
@@ -103,11 +107,12 @@ tocopen: true
 
 ### Kepler4D: Controllable Future Video Generation via 4D Scene State Evolution
 
-**链接：** https://arxiv.org/abs/2610.04152
-
-**项目主页：** https://brack-wang.github.io/kepler4d/
-
-**作者 / 机构：** Feiran Wang（University of Illinois at Chicago）, Bin Duan（University of Michigan Ann Arbor）, Junyi Wu（University of Illinois at Chicago）, Gaowen Liu（Cisco）, Yan Yan（University of Illinois at Chicago，通讯作者）
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2610.04152"
+  authors="Feiran Wang（University of Illinois at Chicago）, Bin Duan（University of Michigan Ann Arbor）, Junyi Wu（University of Illinois at Chicago）, Gaowen Liu（Cisco）, Yan Yan（University of Illinois at Chicago，通讯作者）"
+  arxiv="2610.04152"
+  links="[{\"url\":\"https://brack-wang.github.io/kepler4d/\",\"label\":\"项目主页\",\"kind\":\"project\"}]"
+>}}
 
 **一句话总结：** 芝加哥伊利诺伊大学、密歇根大学与 Cisco 团队提出 **Kepler4D**，把未来视频生成表述为**显式 4D 场景状态演化**：从单目视频构建包含背景几何、物体运动史与语义上下文的共享三维表征，由 **Chain-of-Motion** 推理产出可检查、可编辑的未来物体轨迹，再渲染成几何控制信号交给预训练视频生成器。
 
@@ -131,11 +136,12 @@ tocopen: true
 
 ### RealtimeWAM: One-Step Asynchronous World Action Models
 
-**链接：** https://arxiv.org/abs/2610.06617
-
-**代码：** https://github.com/ModelTC/LightX2V/tree/main/examples/realtimewam
-
-**作者 / 机构：** Chengtao Lv, Jinyang Du, Shuyi Feng, Yang Yong, Shiqiao Gu, Shunzi Yang, Ruihao Gong, Shen Ren, Tianwei Zhang, Wenya Wang（南洋理工大学 Nanyang Technological University；北京航空航天大学；商汤科技 Sensetime；大陆汽车新加坡 Continental Automotive Singapore）
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2610.06617"
+  authors="Chengtao Lv, Jinyang Du, Shuyi Feng, Yang Yong, Shiqiao Gu, Shunzi Yang, Ruihao Gong, Shen Ren, Tianwei Zhang, Wenya Wang（南洋理工大学 Nanyang Technological University；北京航空航天大学；商汤科技 Sensetime；大陆汽车新加坡 Continental Automotive Singapore）"
+  arxiv="2610.06617"
+  links="[{\"url\":\"https://github.com/ModelTC/LightX2V/tree/main/examples/realtimewam\",\"label\":\"GitHub\",\"kind\":\"github\"}]"
+>}}
 
 **一句话总结：** 南洋理工、北航与商汤团队提出 **RealtimeWAM**，用 **Teacher-Anchored Consistency Distillation（TACD）** 把动作生成压到**一步**，用 **Cross-Expert Wavefront Pipelining（CEWP）** 消除视频/动作双专家的串行等待，在 LIBERO 上取得 **97.0%**、延迟低至 **12.2 ms**，H100 上端到端加速约 **14–25 倍**，性能损失不到 1%。
 
@@ -159,11 +165,12 @@ tocopen: true
 
 ### ForeAct3D: Policy-Grounded Future World Modeling for VLA Policies
 
-**链接：** https://arxiv.org/abs/2610.04607
-
-**代码：** https://github.com/anthonytao80-crypto/ForeAct3D
-
-**作者 / 机构：** Zhe Tao（University of Illinois Urbana-Champaign）, Feiran Wang（University of Illinois Chicago）, Gaowen Liu（Cisco）, Ramana Rao Kompella（Cisco）, Yan Yan（University of Illinois Chicago）
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2610.04607"
+  authors="Zhe Tao（University of Illinois Urbana-Champaign）, Feiran Wang（University of Illinois Chicago）, Gaowen Liu（Cisco）, Ramana Rao Kompella（Cisco）, Yan Yan（University of Illinois Chicago）"
+  arxiv="2610.04607"
+  links="[{\"url\":\"https://github.com/anthonytao80-crypto/ForeAct3D\",\"label\":\"GitHub\",\"kind\":\"github\"}]"
+>}}
 
 **一句话总结：** UIUC、UIC 与 Cisco 团队提出 **ForeAct3D**，让 VLA 策略内部的世界模型**由策略自己即将执行的动作块来锚定**，并用**背景静止性与实例级刚体性**这类物理一致性约束把当前与未来三维语义状态扣在一起，无需机器人预训练即在 LIBERO 上取得 **98.3%**、CALVIN 平均任务长度 **3.73**。
 
@@ -187,9 +194,11 @@ tocopen: true
 
 ### VLA-ZO: Fast Zeroth-Order Adaptation for Vision-Language-Action Models
 
-**链接：** https://arxiv.org/abs/2610.06271
-
-**作者 / 机构：** Jaemin Kim, Jiahn Kim, Taesik Gong（通讯作者）（UNIST 蔚山科学技术院 Ulsan National Institute of Science and Technology）
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2610.06271"
+  authors="Jaemin Kim, Jiahn Kim, Taesik Gong（通讯作者）（UNIST 蔚山科学技术院 Ulsan National Institute of Science and Technology）"
+  arxiv="2610.06271"
+>}}
 
 **一句话总结：** UNIST 团队提出 **VLA-ZO**，把零阶（zeroth-order）优化做成 VLA 部署期可用的适配方案：只在**动作侧**做适配、冻结视觉语言前缀并跨扰动查询与优化步复用其条件状态，在 LIBERO 相机视角偏移上把端到端适配时间缩短 **25.59×（q=16）/ 32.54×（q=64）**，成功率从 **48.27%** 提升到 **58.17% / 63.58%**。
 
@@ -213,9 +222,11 @@ tocopen: true
 
 ### AgenticTactileVLA: Contact-Guided Execution-Time Supervision for Generalizable Dexterous Manipulation without VLA Retraining
 
-**链接：** https://arxiv.org/abs/2610.04391
-
-**作者 / 机构：** Elizaveta Semenyakina, Ivan Snegirev, Mikhail Kiselev, Miguel Altamirano Cabrera, Artem Lykov, Hajira Amjad, Dzmitry Tsetserukou（斯科尔科沃科技学院智能空间机器人实验室 Intelligent Space Robotics Lab, Skolkovo Institute of Science and Technology；MWS 研发中心 R&D Center, MWS）
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2610.04391"
+  authors="Elizaveta Semenyakina, Ivan Snegirev, Mikhail Kiselev, Miguel Altamirano Cabrera, Artem Lykov, Hajira Amjad, Dzmitry Tsetserukou（斯科尔科沃科技学院智能空间机器人实验室 Intelligent Space Robotics Lab, Skolkovo Institute of Science and Technology；MWS 研发中心 R&D Center, MWS）"
+  arxiv="2610.04391"
+>}}
 
 **一句话总结：** 斯科尔科沃科技学院团队提出 **AgenticTactileVLA**，一个**执行期监督器**：固定 VLA 只负责给出接近位与手部目标，监督器依据**手指位置与电机力矩**这类本体接触证据，决定保持透明、修正手指屈曲、保留或释放修正后的构型、交还 VLA 重试、或切换到柔顺手部控制——**既不需要触觉传感器，也不需要重训 VLA**，在五个 VLA 训练中未见过的物体上把完成率从 **61.3%** 提到 **84.0%**。
 

@@ -17,7 +17,10 @@ tocopen: true
 
 ### Next Forcing: Causal World Modeling with Multi-Chunk Prediction
 
-**链接：** https://arxiv.org/abs/2606.11187
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2606.11187"
+  arxiv="2606.11187"
+>}}
 
 **一句话总结：** 提出多块预测（MCP）训练目标，同时预测多个未来视频块，在加速自回归世界模型训练收敛的同时实现 2x 推理加速，在 RoboTwin 基准达到新 SOTA。
 
@@ -40,7 +43,10 @@ tocopen: true
 
 ### WorldOlympiad: Can Your World Model Survive a Triathlon?
 
-**链接：** https://arxiv.org/abs/2606.11129
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2606.11129"
+  arxiv="2606.11129"
+>}}
 
 **一句话总结：** 提出覆盖物理保真度、几何一致性、交互保真度三维度的世界模型综合评测基准，揭示当前 SOTA 模型在物理推理和长时交互上的显著短板。
 
@@ -63,7 +69,10 @@ tocopen: true
 
 ### HarmoView: Harmonizing Multi-View Constraints for Identity-Consistent Video Generation
 
-**链接：** https://arxiv.org/abs/2606.10839
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2606.10839"
+  arxiv="2606.10839"
+>}}
 
 **一句话总结：** 提出三项架构改进（多级特征注入、代理 token、Jump-RoPE）配合渐进式视角课程训练，实现在大视角变化下保持身份一致性的视频生成 SOTA。
 
@@ -86,7 +95,10 @@ tocopen: true
 
 ### Mean Flow Distillation: Robust and Stable Distillation for Flow Matching Models
 
-**链接：** https://arxiv.org/abs/2606.11155
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2606.11155"
+  arxiv="2606.11155"
+>}}
 
 **一句话总结：** 提出专为流匹配模型设计的蒸馏框架 MFD，从理论上证明其等效于时域低通滤波器，在 4D 占用预测和文本到图像生成任务上实现高保真单步生成 SOTA。
 
@@ -109,7 +121,10 @@ tocopen: true
 
 ### IDEAL: In-DEpth ALignment Makes A Discrete Representation AutoEncoder
 
-**链接：** https://arxiv.org/abs/2606.11096
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2606.11096"
+  arxiv="2606.11096"
+>}}
 
 **一句话总结：** 通过联合对齐量化 token 与视觉基础模型的浅层和深层特征，IDEAL 在自回归图像生成上达到 gFID 1.89 的新 SOTA，超越现有最优方法。
 
@@ -132,7 +147,10 @@ tocopen: true
 
 ### Lip Forcing: Few-Step Autoregressive Diffusion for Real-time Lip Synchronization
 
-**链接：** https://arxiv.org/abs/2606.11180
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2606.11180"
+  arxiv="2606.11180"
+>}}
 
 **一句话总结：** 首个自回归扩散唇同步方法，将 14B 双向视频扩散教师蒸馏为因果学生模型，仅需 2 步去噪实现实时唇同步（31 FPS），推理速度提升 17.6–39.8 倍。
 
@@ -155,7 +173,10 @@ tocopen: true
 
 ### SCAIL-2: Unifying Controlled Character Animation with End-to-end In-Context Conditioning
 
-**链接：** https://arxiv.org/abs/2606.10804
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2606.10804"
+  arxiv="2606.10804"
+>}}
 
 **一句话总结：** 通过直接拼接驱动视频绕过中间表示，结合解耦条件和 MotionPair-60K 数据集，实现端到端可控角色动画的统一框架，在多种角色动画子任务上达到 SOTA。
 
@@ -178,7 +199,10 @@ tocopen: true
 
 ### VIM: Evaluating and Improving VLA Models under Scene-Induced Occlusion via Viewpoint Imagination
 
-**链接：** https://arxiv.org/abs/2606.10862
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2606.10862"
+  arxiv="2606.10862"
+>}}
 
 **一句话总结：** 提出遮挡场景下 VLA 模型评测基准 LIBERO-Occ，并通过视角想象（VIM）生成互补视角，在无需额外相机的情况下显著提升 VLA 在遮挡环境下的操作鲁棒性。
 
@@ -201,7 +225,10 @@ tocopen: true
 
 ### RoboNaldo: Accurate, Stable and Powerful Humanoid Soccer Shooting via Motion-Guided Curriculum Reinforcement Learning
 
-**链接：** https://arxiv.org/abs/2606.11092
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2606.11092"
+  arxiv="2606.11092"
+>}}
 
 **一句话总结：** 提出三阶段运动引导课程强化学习框架 RoboNaldo，用单个人体踢球参考作为脚手架，在 Unitree G1 上实现 13.10 m/s 球速、0.73m 精度的真实世界人形机器人射门。
 
@@ -224,7 +251,10 @@ tocopen: true
 
 ### MV-Actor: Aligning Multi-View Semantics and Spatial Awareness for Bimanual Manipulation
 
-**链接：** https://arxiv.org/abs/2606.10899
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2606.10899"
+  arxiv="2606.10899"
+>}}
 
 **一句话总结：** 提出融合跨视角语义交互和语义-空间 token 交互的多视角感知框架 MV-Actor，在 PerAct2 双臂操作基准上达到 87.8% 平均成功率 SOTA。
 

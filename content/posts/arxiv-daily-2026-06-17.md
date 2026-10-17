@@ -17,7 +17,10 @@ tocopen: true
 
 ### FR3D: Future Dynamic 3D Reconstruction: A 3D World Model with Disentangled Ego-Motion
 
-**链接：** https://arxiv.org/abs/2606.18250
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2606.18250"
+  arxiv="2606.18250"
+>}}
 
 **一句话总结：** 提出 FR3D，一种将自我运动与场景动态显式解耦的 3D 世界模型，可从单目观测预测未来 2 秒内的持久 3D 潜空间表示。
 
@@ -41,7 +44,10 @@ tocopen: true
 
 ### UniAR: Unified Multimodal Autoregressive Modeling with Shared Context-Visual Tokenizer is Key to Unification
 
-**链接：** https://arxiv.org/abs/2606.18249
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2606.18249"
+  arxiv="2606.18249"
+>}}
 
 **一句话总结：** 提出 UniAR，通过单一离散视觉 tokenizer 统一多模态理解与生成，ICML 2026 达到图像生成与编辑 SOTA，同时在多模态理解基准保持竞争力。
 
@@ -65,7 +71,10 @@ tocopen: true
 
 ### MOCHI: Motion Enhancement of Collaborative Human-object Interactions
 
-**链接：** https://arxiv.org/abs/2606.18243
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2606.18243"
+  arxiv="2606.18243"
+>}}
 
 **一句话总结：** 提出 MOCHI，一个两阶段扩散框架，用于增强含噪声的多人协同人机交互（MHOI）动捕数据，SIGGRAPH 2026 发表。
 
@@ -89,7 +98,10 @@ tocopen: true
 
 ### EgoCS-400K: An Egocentric Gameplay Dataset for World Models
 
-**链接：** https://arxiv.org/abs/2606.18180
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2606.18180"
+  arxiv="2606.18180"
+>}}
 
 **一句话总结：** 构建 EgoCS-400K，一个来自 CS/CS2 职业比赛回放的 40 万第一人称视频数据集，配有对齐的动作、状态与事件标注，专为世界模型训练设计。
 
@@ -113,7 +125,10 @@ tocopen: true
 
 ### VERITAS: Visual Verification Enables Inference-time Steering and Autonomous Policy Improvement
 
-**链接：** https://arxiv.org/abs/2606.18247
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2606.18247"
+  arxiv="2606.18247"
+>}}
 
 **一句话总结：** 提出 VERITAS，一个 generator-verifier 框架，通过推理时视觉验证为通用机器人策略提供在线引导与自主策略改进，无需额外人工干预。
 
@@ -137,7 +152,10 @@ tocopen: true
 
 ### LAGO Policy: Latency-Aware Asynchronous Diffusion Policies with Goal-Directed Collision-Free Planning for Smooth Manipulation
 
-**链接：** https://arxiv.org/abs/2606.17982
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2606.17982"
+  arxiv="2606.17982"
+>}}
 
 **一句话总结：** 提出 LAGO Policy，将轨迹优化与扩散策略统一在异步推理框架内，解决扩散策略跨 chunk 不连续和缺乏障碍规避机制的问题。
 
@@ -161,7 +179,10 @@ tocopen: true
 
 ### EBench: Elemental Diagnosis of Generalist Mobile Manipulation Policies
 
-**链接：** https://arxiv.org/abs/2606.18239
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2606.18239"
+  arxiv="2606.18239"
+>}}
 
 **一句话总结：** 提出 EBench，一个包含 26 个任务的仿真基准，从 5 个能力维度和 4 个泛化维度对通用移动操控策略（π₀、π₀.₅、XVLA、InternVLA-A1）进行细粒度诊断。
 

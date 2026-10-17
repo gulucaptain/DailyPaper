@@ -17,7 +17,10 @@ tocopen: true
 
 ### VideoMLA: Low-Rank Latent KV Cache for Minute-Scale Autoregressive Video Diffusion
 
-**链接：** https://arxiv.org/abs/2605.30351
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2605.30351"
+  arxiv="2605.30351"
+>}}
 
 **一句话总结：** 将 Multi-Head Latent Attention（MLA）引入视频扩散模型，以 92.7% 的 KV 内存压缩比实现分钟级别流式视频生成，并在 VBench 长时域任务上达到最优评分。
 
@@ -40,7 +43,10 @@ tocopen: true
 
 ### Self-Evolving Anchors for Streaming Video Generation
 
-**链接：** https://arxiv.org/abs/2605.30349
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2605.30349"
+  arxiv="2605.30349"
+>}}
 
 **一句话总结：** 用自适应隐变量状态替换流式视频生成中的静态第一帧锚点，通过引入隐式循环结构，解决长视频生成中场景冻结和运动压抑问题。
 
@@ -63,7 +69,10 @@ tocopen: true
 
 ### Veda: Scalable Video Diffusion via Distilled Sparse Attention
 
-**链接：** https://arxiv.org/abs/2605.30325
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2605.30325"
+  arxiv="2605.30325"
+>}}
 
 **一句话总结：** 通过将稀疏注意力 mask 对齐问题形式化为全注意力的显式重构问题，实现对大型视频扩散模型注意力的大幅加速，720P 10秒视频端到端速度提升 5.1×。
 
@@ -86,7 +95,10 @@ tocopen: true
 
 ### YoCausal: How Far is Video Generation from World Model? A Causality Perspective
 
-**链接：** https://arxiv.org/abs/2605.30346
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2605.30346"
+  arxiv="2605.30346"
+>}}
 
 **一句话总结：** 提出 YoCausal 基准，用真实视频时间翻转作为零成本反事实样本，系统评测 13 个顶级视频生成模型的因果推理能力，揭示感知时间箭头与理解因果关系之间的巨大鸿沟。
 
@@ -109,7 +121,10 @@ tocopen: true
 
 ### NeuROK: Generative 4D Neural Object Kinematics
 
-**链接：** https://arxiv.org/abs/2605.30347
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2605.30347"
+  arxiv="2605.30347"
+>}}
 
 **一句话总结：** 通过学习数据驱动的运动状态参数化空间（Neural Object Kinematics），使 4D 动态物体仿真摆脱对预定义物理模型的依赖，在 CVPR 2026 上发表。
 
@@ -132,7 +147,10 @@ tocopen: true
 
 ### Archon: A Unified Multimodal Model for Holistic Digital Human Generation
 
-**链接：** https://arxiv.org/abs/2605.30311
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2605.30311"
+  arxiv="2605.30311"
+>}}
 
 **一句话总结：** Archon 是一个完全预训练的以人为中心的统一多模态模型，将文本、音频、动作、视觉内容等七种模态统一在单一自回归框架中，实现数字人全模态联合生成，CVPR 2026 录用。
 
@@ -155,7 +173,10 @@ tocopen: true
 
 ### CNS: Colored Noise Diffusion Sampling
 
-**链接：** https://arxiv.org/abs/2605.30332
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2605.30332"
+  arxiv="2605.30332"
+>}}
 
 **一句话总结：** 提出一种无需训练的彩色噪声扩散采样器，通过时步与频率相关的动态能量注入策略，显著提升扩散模型图像生成质量（SiT-XL/2 FID 从 8.26 降至 6.27）。
 
@@ -178,7 +199,10 @@ tocopen: true
 
 ### REST3D: Reconstructing Physically Stable 3D Scenes from a Single Image
 
-**链接：** https://arxiv.org/abs/2605.30338
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2605.30338"
+  arxiv="2605.30338"
+>}}
 
 **一句话总结：** 通过将物理场景理解与物理约束优化相结合，从单张 RGB 图像重建出具有物理稳定性的 3D 场景，解决物体漂浮和穿透等物理不一致问题。
 
@@ -201,7 +225,10 @@ tocopen: true
 
 ### GR3D: Grounded 3D-Aware Spatial Vision-Language Modeling
 
-**链接：** https://arxiv.org/abs/2605.30307
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2605.30307"
+  arxiv="2605.30307"
+>}}
 
 **一句话总结：** 在单一框架内整合显式 2D 定位、隐式 2D 定位和单目 3D 定位三种能力，通过 grounding 作为归纳偏置全面提升视觉语言模型的空间理解性能，CVPR 2026 录用。
 
@@ -224,7 +251,10 @@ tocopen: true
 
 ### LoMo: Local Modality Substitution for Deeper Vision-Language Fusion
 
-**链接：** https://arxiv.org/abs/2605.30265
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2605.30265"
+  arxiv="2605.30265"
+>}}
 
 **一句话总结：** 通过将文本片段动态替换为渲染图像构建跨模态交织序列，解决 VLM 的"载体敏感性"问题，在 13 个多模态基准上显著提升跨模态融合质量。
 

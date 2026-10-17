@@ -17,7 +17,10 @@ tocopen: true
 
 ### WorldKV: Efficient World Memory with World Retrieval and Compression
 
-**链接：** https://arxiv.org/abs/2605.22718
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2605.22718"
+  arxiv="2605.22718"
+>}}
 
 **一句话总结：** 提出 WorldKV 框架，通过检索与压缩机制解决自回归视频扩散世界模型的长程场景一致性问题，在不微调的情况下实现近似 full-KV 的记忆保真度与约 2× 的吞吐量提升。
 
@@ -44,7 +47,10 @@ tocopen: true
 
 ### BehaviorVLA: From Abstraction to Instantiation — Learning Behavioral Representation for Vision-Language-Action Model
 
-**链接：** https://arxiv.org/abs/2605.22671
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2605.22671"
+  arxiv="2605.22671"
+>}}
 
 **一句话总结：** 提出 BehaviorVLA，通过学习时序连贯的行为表征解决 VLA 模型在分布迁移下的性能退化问题，在 RoboTwin 2.0、LIBERO、CALVIN 多个 benchmark 上达到 SOTA，获 **ICML 2026 Spotlight**。
 
@@ -70,7 +76,10 @@ tocopen: true
 
 ### Pre-VLA: Preemptive Runtime Verification for Reliable Vision-Language-Action and World-Model Rollouts
 
-**链接：** https://arxiv.org/abs/2605.22446
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2605.22446"
+  arxiv="2605.22446"
+>}}
 
 **一句话总结：** 提出 Pre-VLA，在物理执行或世界模型想象之前对候选动作块进行预判与过滤，显著提升 VLA 闭环成功率并减少世界模型误差积累。
 
@@ -96,7 +105,10 @@ tocopen: true
 
 ### DecQ: Detail-Condensing Queries for Enhanced Reconstruction and Generation in Representation Autoencoders
 
-**链接：** https://arxiv.org/abs/2605.22777
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2605.22777"
+  arxiv="2605.22777"
+>}}
 
 **一句话总结：** 提出 DecQ 框架，通过轻量级细节凝聚查询（detail-condensing queries）同时提升 Representation Autoencoder 的重建质量（PSNR +3.63 dB）和生成性能（FID 1.05），并实现 3.3× 的收敛加速。
 
@@ -122,7 +134,10 @@ tocopen: true
 
 ### Cambrian-P: Pose-Grounded Video Understanding
 
-**链接：** https://arxiv.org/abs/2605.22819
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2605.22819"
+  arxiv="2605.22819"
+>}}
 
 **一句话总结：** 将相机位姿作为轻量监督信号引入视频 MLLM，在空间推理 benchmark（VSI-Bench）上实现 4.5–6.5% 的提升，并副产出 ScanNet 上的 SOTA 流式位姿估计能力。
 
@@ -148,7 +163,10 @@ tocopen: true
 
 ### AtomicMotion: Learning Human Motion From Different Human Parts
 
-**链接：** https://arxiv.org/abs/2605.22631
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2605.22631"
+  arxiv="2605.22631"
+>}}
 
 **一句话总结：** 提出 AtomicMotion，通过身体分部解耦、全身掩码预条件和运动学注意力机制，从稀疏头手轨迹精准重建全身姿态，在 AMASS 上显著超越现有 baseline。
 
@@ -174,7 +192,10 @@ tocopen: true
 
 ### GesVLA: Gesture-Aware Vision-Language-Action Model Embedded Representations
 
-**链接：** https://arxiv.org/abs/2605.22812
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2605.22812"
+  arxiv="2605.22812"
+>}}
 
 **一句话总结：** 将手势作为并行指令模态引入 VLA 模型，通过双 VLM 架构紧耦合手势表征与动作策略，在复杂场景中显著提升目标定位精度和人机交互效率。
 
@@ -201,7 +222,10 @@ tocopen: true
 
 ### AwareVLN: Reasoning with Self-awareness for Vision-Language Navigation
 
-**链接：** https://arxiv.org/abs/2605.22816
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2605.22816"
+  arxiv="2605.22816"
+>}}
 
 **一句话总结：** 提出 AwareVLN，为导航模型赋予自我感知推理能力，以端到端方式理解 Agent 状态与任务进度，在 Habitat 多数据集上大幅超越 SOTA，获 **CVPR 2026** 收录。
 
@@ -227,7 +251,10 @@ tocopen: true
 
 ### Superhuman Safe and Agile Racing through Multi-Agent Reinforcement Learning
 
-**链接：** https://arxiv.org/abs/2605.22748
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2605.22748"
+  arxiv="2605.22748"
+>}}
 
 **一句话总结：** 通过联赛式自博弈多智能体强化学习，训练的四旋翼无人机在多人竞速中以超过 22 m/s 的速度超越世界冠军级人类飞行员，同时将碰撞率降低 50%。
 
@@ -253,7 +280,10 @@ tocopen: true
 
 ### STAL: Spectral Tail Auxiliary Learning for AI-Generated Image Detection
 
-**链接：** https://arxiv.org/abs/2605.22751
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2605.22751"
+  arxiv="2605.22751"
+>}}
 
 **一句话总结：** 发现 AI 生成图像在超高频段存在"频谱尾部上扬"的结构性规律，并基于此提出 STAL 框架，通过频域辅助监督在 9 个公开数据集上实现泛化检测，推理无额外开销。
 

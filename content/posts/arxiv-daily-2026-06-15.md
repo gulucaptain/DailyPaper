@@ -17,7 +17,10 @@ tocopen: true
 
 ### RepFusion: Leveraging Multimodal Priors for Denoising in Representation Space
 
-**链接：** https://arxiv.org/abs/2606.14700
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2606.14700"
+  arxiv="2606.14700"
+>}}
 
 **一句话总结：** 将多模态大语言模型（MLLM）本身作为扩散 transformer 的条件信号，利用 MLLM 在噪声表示空间的输出引导 T2I 去噪过程，实现 LLM prior 的有效复用。
 
@@ -41,7 +44,10 @@ tocopen: true
 
 ### CausalMotion: Structured Physical Reasoning as Keyframe and Trajectory Guidance for Training-Free Video Generation
 
-**链接：** https://arxiv.org/abs/2606.14317
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2606.14317"
+  arxiv="2606.14317"
+>}}
 
 **一句话总结：** 无需训练，通过 VLM 将文本提示分解为因果一致的关键帧序列和物体运动轨迹，再将其作为软约束注入预训练视频扩散模型，显著提升物理合理性和时序一致性。
 
@@ -65,7 +71,10 @@ tocopen: true
 
 ### ALVTS: One Layer's Trash is Another Layer's Treasure: Adaptive Layer-wise Visual Token Selection in LVLMs
 
-**链接：** https://arxiv.org/abs/2606.14277
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2606.14277"
+  arxiv="2606.14277"
+>}}
 
 **一句话总结：** CVPR 2026 highlight，提出自适应逐层视觉 token 选择框架，89% token 压缩率下保留 96.7% 原模型精度，突破传统静态剪枝的信息损失瓶颈。
 
@@ -89,7 +98,10 @@ tocopen: true
 
 ### Gaze Heads: How VLMs Look at What They Describe
 
-**链接：** https://arxiv.org/abs/2606.14703
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2606.14703"
+  arxiv="2606.14703"
+>}}
 
 **一句话总结：** 在 VLM 语言模型主干中发现一小组「注视头（gaze heads）」，其注意力跟踪模型当前正在描述的图像区域，干预这些头可精确控制 VLM 描述哪个视觉区域。
 
@@ -113,7 +125,10 @@ tocopen: true
 
 ### RATS: Patches Talk Through Registers: Emergent Parts in Register Attention Transformers
 
-**链接：** https://arxiv.org/abs/2606.14701
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2606.14701"
+  arxiv="2606.14701"
+>}}
 
 **一句话总结：** 通过将分类 token 分解为多个可学习寄存器 token，在无监督条件下涌现出物体部件级语义区域，在五个分割基准上平均超越所有基线 +12 mIoU。
 
@@ -137,7 +152,10 @@ tocopen: true
 
 ### Spatially Conditioned Diffusion Policy (SCDP): Learning Precise and Robust Manipulation with a Single RGB Camera
 
-**链接：** https://arxiv.org/abs/2606.14535
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2606.14535"
+  arxiv="2606.14535"
+>}}
 
 **一句话总结：** 提出基于扩散的视觉运动策略，以末端执行器轨迹作为视觉注意力锚点，仅用单个全局 RGB 相机实现精准鲁棒操控，性能追平多相机基线。
 
@@ -161,7 +179,10 @@ tocopen: true
 
 ### EgoGuide: Egocentric Guidance for Efficient Robot-Free Demonstration Collection and Learning
 
-**链接：** https://arxiv.org/abs/2606.14665
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2606.14665"
+  arxiv="2606.14665"
+>}}
 
 **一句话总结：** 通过同步腕部和头部视角采集数据，并引入在线视觉-几何质量引导，显著降低演示数据采集量；配合门控自中心残差策略，提升在视觉遮挡下的鲁棒性。
 
@@ -185,7 +206,10 @@ tocopen: true
 
 ### MUSE: Agentic 3D Scene Authoring via Memory-Grounded Incremental Requirement Satisfaction
 
-**链接：** https://arxiv.org/abs/2606.14168
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2606.14168"
+  arxiv="2606.14168"
+>}}
 
 **一句话总结：** 多智能体框架统一 3D 场景构建与编辑，通过结构化需求追踪和三种记忆机制，将 All-Goal 成功率从 37.9 提升至 80.7，同时保留率达 99.9%。
 

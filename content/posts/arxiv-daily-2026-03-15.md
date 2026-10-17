@@ -17,7 +17,10 @@ tocopen: true
 
 ### Ψ₀ (Psi-Zero): An Open Foundation Model Towards Universal Humanoid Loco-Manipulation
 
-**链接：** https://arxiv.org/abs/2603.12263
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2603.12263"
+  arxiv="2603.12263"
+>}}
 
 **一句话总结：** 提出 Ψ₀，一个开源类人机器人基础模型，通过解耦预训练（自我中心人类视频）与后训练（机器人真实轨迹）两阶段范式，仅用 800 小时人类视频和 30 小时机器人数据，在行走-操作任务上超越使用 10 倍以上数据的基线超 40%。
 
@@ -41,7 +44,10 @@ tocopen: true
 
 ### OmniStream: Mastering Perception, Reconstruction and Action in Continuous Streams
 
-**链接：** https://arxiv.org/abs/2603.12265
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2603.12265"
+  arxiv="2603.12265"
+>}}
 
 **一句话总结：** OmniStream 提出一个统一的流式视觉主干网络，通过因果时空注意力和 3D-RoPE 位置编码，在单个冻结主干上同时实现图像/视频语义感知、流式几何重建和机器人操作，向通用具身视觉感知迈出重要一步。
 
@@ -65,7 +71,10 @@ tocopen: true
 
 ### Video Streaming Thinking: VideoLLMs Can Watch and Think Simultaneously
 
-**链接：** https://arxiv.org/abs/2603.12262
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2603.12262"
+  arxiv="2603.12262"
+>}}
 
 **一句话总结：** 提出 Video Streaming Thinking（VST）范式，让视频大模型在流式观看视频的同时并行推理，通过将 LLM 推理延迟分摊到视频播放过程中，在保持实时响应性的同时显著提升推理质量。
 
@@ -89,7 +98,10 @@ tocopen: true
 
 ### EVATok: Adaptive Length Video Tokenization for Efficient Visual Autoregressive Generation
 
-**链接：** https://arxiv.org/abs/2603.12267
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2603.12267"
+  arxiv="2603.12267"
+>}}
 
 **一句话总结：** 提出 EVATok 框架，通过为每段视频自适应分配最优 token 数量（而非固定均匀分配），在视频重建和下游自回归生成任务上显著提升效率，相比 SOTA 节省至少 24.4% 的 token 用量，同时达到更好的质量。
 
@@ -113,7 +125,10 @@ tocopen: true
 
 ### Spatial-TTT: Streaming Visual-based Spatial Intelligence with Test-Time Training
 
-**链接：** https://arxiv.org/abs/2603.12255
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2603.12255"
+  arxiv="2603.12255"
+>}}
 
 **一句话总结：** 提出 Spatial-TTT，通过测试时训练（TTT）将"快权重"适配于流式视频中的空间信息，结合 3D 时空卷积的空间预测机制，在长时序视频的 3D 空间理解任务上取得 SOTA。
 
@@ -137,7 +152,10 @@ tocopen: true
 
 ### The Latent Color Subspace: Emergent Order in High-Dimensional Chaos
 
-**链接：** https://arxiv.org/abs/2603.12261
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2603.12261"
+  arxiv="2603.12261"
+>}}
 
 **一句话总结：** 通过对 FLUX.1 扩散模型 VAE 隐空间的系统分析，发现并验证了一个反映 HSL（色相、饱和度、亮度）结构的隐颜色子空间（LCS），并基于此提出无需训练的闭式颜色控制方法。
 
@@ -161,7 +179,10 @@ tocopen: true
 
 ### AutoGaze: Attend Before Attention: Efficient and Scalable Video Understanding via Autoregressive Gazing
 
-**链接：** https://arxiv.org/abs/2603.12254
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2603.12254"
+  arxiv="2603.12254"
+>}}
 
 **一句话总结：** 提出 AutoGaze 轻量模块，用下一 token 预测与强化学习训练自回归地选择最少有效视觉 patch，将视觉 token 减少 4×–100×、ViT/MLLM 加速高达 19×，使 MLLM 可扩展到 1K 帧 4K 分辨率视频，并在 VideoMME 上达到 67.0%。
 
@@ -185,7 +206,10 @@ tocopen: true
 
 ### ComFree-Sim: A GPU-Parallelized Analytical Contact Physics Engine for Scalable Contact-Rich Robotics Simulation
 
-**链接：** https://arxiv.org/abs/2603.12185
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2603.12185"
+  arxiv="2603.12185"
+>}}
 
 **一句话总结：** 提出 ComFree-Sim，一个无互补约束（complementarity-free）的 GPU 并行解析接触物理引擎，通过闭式接触冲量计算实现接触对之间的解耦，在密集接触场景下实现近线性运行时间扩展，吞吐量比 MJWarp 高 2–3 倍。
 

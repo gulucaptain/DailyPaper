@@ -25,9 +25,11 @@ tocopen: true
 
 ### SAVLA: Symmetry-Aware Vision-Language-Action Models for Robotic Manipulation
 
-**链接：** https://arxiv.org/abs/2609.16641
-
-**作者 / 机构：** Junle Li, Weixian Waylon Li, Fuxiang Wu, Fusheng Hao, Fengxiang He（爱丁堡大学信息学院；中国科学院深圳先进技术研究院）
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2609.16641"
+  authors="Junle Li, Weixian Waylon Li, Fuxiang Wu, Fusheng Hao, Fengxiang He（爱丁堡大学信息学院；中国科学院深圳先进技术研究院）"
+  arxiv="2609.16641"
+>}}
 
 **一句话总结：** 爱丁堡大学与中科院深圳先进院提出 **SAVLA**，在**完全冻结预训练视觉—语言骨干**的前提下，接上一个**等变流匹配（equivariant flow-matching）动作头**与一个**可学习规范化器（canonicalizer）**，把状态、动作与条件输入分解为不变通道与等变通道并**在所有层中保持这一类型化**，从而在 LIBERO 上相对 GR00T N1.5 基线把四个套件平均成功率提升 **5.1 个百分点**，并把 **LIBERO-Goal 旋转场景下的平均成功率从 41.5% 提升到 90.4%**。
 
@@ -51,11 +53,12 @@ tocopen: true
 
 ### Modality-Autoregressive World-Action Models
 
-**链接：** https://arxiv.org/abs/2609.17524
-
-**项目主页：** https://adamhung60.github.io/ModAR/
-
-**作者 / 机构：** Adam Hung, Bardienus P. Duisterhof, Deva Ramanan, Jeffrey Ichnowski（卡内基梅隆大学 CMU）
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2609.17524"
+  authors="Adam Hung, Bardienus P. Duisterhof, Deva Ramanan, Jeffrey Ichnowski（卡内基梅隆大学 CMU）"
+  arxiv="2609.17524"
+  links="[{\"url\":\"https://adamhung60.github.io/ModAR/\",\"label\":\"项目主页\",\"kind\":\"project\"}]"
+>}}
 
 **一句话总结：** CMU 团队提出 **ModAR**，**首个在预测动作之前自回归地去噪多种未来模态**的世界动作模型（WAM）：每个模态的预测都以先前已生成的模态为条件。他们**从零训练**以系统研究数据混合、预测模态与 WAM 形式化的影响，发现**预测点轨迹、DINO 特征与深度图能带来收益，而额外预测未来 RGB 并不 consistently 有益**；在同数据下微调视频模型初始化的 WAM **Flex-π**，ModAR 以**约 1/20 的训练 FLOPs 且无需预训练**取得略高的平均成功率（**75% vs 72%**），并在三个真实双臂任务上超越基线、且能随人类视频继续提升。
 
@@ -79,11 +82,12 @@ tocopen: true
 
 ### PhysStream: Streaming Physics-Grounded Video Generation with Structured Scene Memory and Fine-Grained Motion Control
 
-**链接：** https://arxiv.org/abs/2609.17521
-
-**项目主页：** https://czzzzh.github.io/PhysStream
-
-**作者 / 机构：** Chuhao Chen, Peter Wonka, Chaoyang Wang, Chen Wang, Qiao Feng, Sergey Tulyakov 等（宾夕法尼亚大学；Snap Inc.；KAUST）
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2609.17521"
+  authors="Chuhao Chen, Peter Wonka, Chaoyang Wang, Chen Wang, Qiao Feng, Sergey Tulyakov 等（宾夕法尼亚大学；Snap Inc.；KAUST）"
+  arxiv="2609.17521"
+  links="[{\"url\":\"https://czzzzh.github.io/PhysStream\",\"label\":\"项目主页\",\"kind\":\"project\"}]"
+>}}
 
 **一句话总结：** 宾大、Snap 与 KAUST 联合提出 **PhysStream**，一个**物理接地的自回归图生视频**模型：以**结构化场景记忆**（由已生成帧在线导出的位置图与物体跟踪图）承载历史，以**稀疏速度增量信号**作为细粒度运动控制接口（直接编码物理量），并采用「双向教师微调 → 因果自回归学生」的两阶段训练；在合成基准上把运动分布距离（FVMD）降低 **33%**、轨迹误差降低 **12%**，并在真实场景的人类评测中获得 **超过 85%** 的偏好率（**SIGGRAPH Asia 2026**）。
 
@@ -107,11 +111,12 @@ tocopen: true
 
 ### World Models for Embodied Intelligence: From Plausible to Controllable to Actionable
 
-**链接：** https://arxiv.org/abs/2609.16697
-
-**项目主页：** https://3dagentworld.github.io/EmbodiedWM/
-
-**作者 / 机构：** Nanjie Yao, Hao Wang, Chong Cheng, Zhikang Chen, Wenzhe Li, Jiafei Lyu 等 13 位作者（香港科技大学（广州）、牛津大学、普林斯顿大学、腾讯、中山大学、上海交通大学、北京大学、清华大学、阿里巴巴集团、新加坡管理大学、南洋理工大学）
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2609.16697"
+  authors="Nanjie Yao, Hao Wang, Chong Cheng, Zhikang Chen, Wenzhe Li, Jiafei Lyu 等 13 位作者（香港科技大学（广州）、牛津大学、普林斯顿大学、腾讯、中山大学、上海交通大学、北京大学、清华大学、阿里巴巴集团、新加坡管理大学、南洋理工大学）"
+  arxiv="2609.16697"
+  links="[{\"url\":\"https://3dagentworld.github.io/EmbodiedWM/\",\"label\":\"项目主页\",\"kind\":\"project\"}]"
+>}}
 
 **一句话总结：** 来自 11 家机构的 13 位作者提出了一个**以「能力等级」而非架构来组织具身世界模型的综述框架**：**Plausible（保真）→ Controllable（可控）→ Actionable（可执行）** 三级递进，并配一个 **3×4 矩阵**，将**几何、物理、动作接地**三种 grounding 与**数据、奖励、策略、模型自身**四类改进回路交叉；据此系统梳理了操作、导航、locomotion、自动驾驶与通用具身学习五大方向的技术演进、能力需求、数据集、基准与评测协议。
 
@@ -135,9 +140,11 @@ tocopen: true
 
 ### GeoLAM: Learning Geometry-Grounded Latent Actions from Unlabeled Human Videos
 
-**链接：** https://arxiv.org/abs/2609.17099
-
-**作者 / 机构：** Yifan Xie, Hekun Tian, Jinkun Liu, YuAn Wang, Qiao Sun, Wenbo Ding（清华大学；北京理工大学；复旦大学）
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2609.17099"
+  authors="Yifan Xie, Hekun Tian, Jinkun Liu, YuAn Wang, Qiao Sun, Wenbo Ding（清华大学；北京理工大学；复旦大学）"
+  arxiv="2609.17099"
+>}}
 
 **一句话总结：** 清华、北理工与复旦团队提出 **GeoLAM**，一套从**无动作标注的人类视频**中学习**几何接地潜动作（geometry-grounded latent actions）**的框架：以**冻结的几何特征层级**做未来帧重建，并用**仅训练时可用的 4D 几何教师**提供运动监督（3D 位移、像平面残余运动、表面朝向变化），配合可见性与置信度加权；**19,860 小时**人类视频预训练后，所学表示直接为动作标注的机器人演示上的世界动作模型提供**过渡目标**，在 LARYBench 上把回归 MSE 从 **0.50 压到 0.27**、分类准确率从 **45.62% 提升到 71.22%**。
 
@@ -161,11 +168,12 @@ tocopen: true
 
 ### UniDex-ViTac: Learning Unified Visuo-Tactile Dexterous Manipulation Policy from Human Video Data
 
-**链接：** https://arxiv.org/abs/2609.16504
-
-**项目主页：** https://unidex-vitac.github.io/
-
-**作者 / 机构：** Hyesung Lee, Si-Hwan Heo, Sungwook Yang（韩国科学技术研究院 KIST 人形机器人研究中心；KAIST Kim Jaechul 人工智能研究生院）
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2609.16504"
+  authors="Hyesung Lee, Si-Hwan Heo, Sungwook Yang（韩国科学技术研究院 KIST 人形机器人研究中心；KAIST Kim Jaechul 人工智能研究生院）"
+  arxiv="2609.16504"
+  links="[{\"url\":\"https://unidex-vitac.github.io/\",\"label\":\"项目主页\",\"kind\":\"project\"}]"
+>}}
 
 **一句话总结：** KIST 与 KAIST 团队提出 **UniDex-ViTac**，用**人类视频引导的仿真**把「人类演示」翻译成「带指尖接触观测的机器人演示」，进而训练一个**可部署的统一视触觉灵巧操作策略**：从 **10 个物体、50 条人类演示**出发生成 **10,000 条仿真轨迹**，训练单个基于 ACT 的通用策略；在仿真中取得 **68.3%** 宏观平均成功率（纯点云基线 55.5%），**在完全不使用真机演示、也不做策略微调**的情况下，真机 **110 次试验成功 73 次（66.4%）**，相对基线的 60 次（54.5%）**提升 11.8 个百分点**。
 
@@ -189,9 +197,11 @@ tocopen: true
 
 ### sensVLA: Spatially-Grounded Vision-Language-Action Model for Autonomous Wheel Loader
 
-**链接：** https://arxiv.org/abs/2609.17021
-
-**作者 / 机构：** Gopi Krishna Erabati, Bjarne Johannsen, Angus Stewart, Vardeep Singh Sandhu（sensmore GmbH，德国柏林）
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2609.17021"
+  authors="Gopi Krishna Erabati, Bjarne Johannsen, Angus Stewart, Vardeep Singh Sandhu（sensmore GmbH，德国柏林）"
+  arxiv="2609.17021"
+>}}
 
 **一句话总结：** sensmore 公司提出 **sensVLA**，一个面向**自动轮式装载机**的 VLA 架构：以 **Qwen3-2B VLM** 提供任务条件语义上下文，配一个**完全可训练、以流匹配速度回归训练的 Transformer 动作专家**；关键设计是把**前后激光雷达融合得到的 BEV 特征**通过一条**专用交叉注意力通路直接送入动作专家**，从而**把空间接地与语言推理显式解耦**。在真实装载机数据上，其纵向速度 RMSE 降低 **28%**、位移误差降低 **9%**，且**在相机流被污染或移除时性能退化减少 29%**（**ICRA 2026**「From Data to Decisions: VLA Pipelines for Real Robots」）。
 
@@ -215,11 +225,12 @@ tocopen: true
 
 ### OPD-Aha: From Linguistic Momentum to Visual Reflection in Multimodal On-Policy Distillation
 
-**链接：** https://arxiv.org/abs/2609.16459
-
-**代码：** https://github.com/Echochef/OPD-Aha
-
-**作者 / 机构：** Chenhao Qiu, Dawei Li, Yechao Zhang, Lei Gong, Zhen Tan（亚利桑那州立大学；弗吉尼亚大学；史蒂文斯理工学院）
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2609.16459"
+  authors="Chenhao Qiu, Dawei Li, Yechao Zhang, Lei Gong, Zhen Tan（亚利桑那州立大学；弗吉尼亚大学；史蒂文斯理工学院）"
+  arxiv="2609.16459"
+  links="[{\"url\":\"https://github.com/Echochef/OPD-Aha\",\"label\":\"GitHub\",\"kind\":\"github\"}]"
+>}}
 
 **一句话总结：** 亚利桑那州立大学、弗吉尼亚大学与史蒂文斯理工团队精准诊断了 **privileged on-policy distillation（特权同策略蒸馏）的坍塌机制**——当学生在回答开头误读图像，累积的错误推理会把教师一起带偏，师生在同一个幻觉上趋同，使得**跨模型监督恰恰在最需要纠正的位置失效**；他们发现**教师的视觉纠正偏好并未丢失**（对比同一教师给真实图像与「视觉空输入」的预测即可分离出来），据此提出 **OPD-Aha** 直接从这一被隔离的视觉偏好**重建蒸馏目标**，学生因此学会用 wait / actually 等反思 token **主动中断自己的错误推理**，在 4B 上平均准确率从 **76.4% 提升到 80.4%**（+4.0），9B 上从 **78.2% 提升到 81.4%**（+3.2）。
 

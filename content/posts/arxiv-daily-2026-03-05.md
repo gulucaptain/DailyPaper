@@ -17,7 +17,10 @@ tocopen: true
 
 ### Helios: Real Real-Time Long Video Generation Model
 
-**链接：** https://arxiv.org/abs/2603.04379
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2603.04379"
+  arxiv="2603.04379"
+>}}
 
 **一句话总结：** Helios 是首个在单张 H100 GPU 上以 19.5 FPS 实时生成分钟级视频的 14B 自回归扩散模型，同时保持与强基线相当的生成质量。
 
@@ -42,7 +45,10 @@ tocopen: true
 
 ### CubeComposer: Spatio-Temporal Autoregressive 4K 360° Video Generation from Perspective Video
 
-**链接：** https://arxiv.org/abs/2603.04291
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2603.04291"
+  arxiv="2603.04291"
+>}}
 
 **一句话总结：** CubeComposer 是首个原生支持 4K 分辨率 360° 全景视频生成的自回归扩散模型，通过立方体图分解和时空自回归策略有效突破了内存限制。
 
@@ -67,7 +73,10 @@ tocopen: true
 
 ### DiverseDiT: Towards Diverse Representation Learning in Diffusion Transformers
 
-**链接：** https://arxiv.org/abs/2603.04239
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2603.04239"
+  arxiv="2603.04239"
+>}}
 
 **一句话总结：** DiverseDiT 通过系统揭示 Diffusion Transformer 内部表示多样性是高效学习的关键因素，并提出长残差连接与多样性损失两大机制，在多种主干和规模上实现一致性性能提升。
 
@@ -92,7 +101,10 @@ tocopen: true
 
 ### EmbodiedSplat: Online Feed-Forward Semantic 3DGS for Open-Vocabulary 3D Scene Understanding
 
-**链接：** https://arxiv.org/abs/2603.04254
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2603.04254"
+  arxiv="2603.04254"
+>}}
 
 **一句话总结：** EmbodiedSplat 提出首个在线前馈式开放词汇 3D 高斯泼溅方法，可从流式图像中同时进行实时 3D 重建与语义理解，直接服务于具身智能任务。
 
@@ -117,7 +129,10 @@ tocopen: true
 
 ### ArtHOI: Articulated Human-Object Interaction Synthesis by 4D Reconstruction from Video Priors
 
-**链接：** https://arxiv.org/abs/2603.04338
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2603.04338"
+  arxiv="2603.04338"
+>}}
 
 **一句话总结：** ArtHOI 将铰接式人-物交互合成重新表述为从单目视频先验中进行 4D 重建的问题，无需任何 3D 监督即可生成物理上合理的铰接运动交互场景。
 
@@ -142,7 +157,10 @@ tocopen: true
 
 ### PromptAvatar: Dual Diffusion Models for Multi-modal Guided 3D Avatar Generation
 
-**链接：** https://arxiv.org/abs/2603.04307
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2603.04307"
+  arxiv="2603.04307"
+>}}
 
 **一句话总结：** PromptAvatar 利用包含超过 10 万对多模态数据的新数据集，通过双扩散模型（纹理+几何）在 10 秒内生成支持文本/图像多模态输入的高保真 3D 面部头像。
 
@@ -167,7 +185,10 @@ tocopen: true
 
 ### Gaussian Wardrobe: Compositional 3D Gaussian Avatars for Free-Form Virtual Try-On
 
-**链接：** https://arxiv.org/abs/2603.04290
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2603.04290"
+  arxiv="2603.04290"
+>}}
 
 **一句话总结：** Gaussian Wardrobe 提出基于分层组合 3D Gaussian 表示的数字人体框架，将身体与服装彻底解耦，实现高保真自由形式虚拟试衣与跨主体服装迁移。
 

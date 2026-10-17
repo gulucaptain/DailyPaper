@@ -21,10 +21,12 @@ tocopen: true
 
 ### SimVLA: Zero-Shot Sim-to-Real VLA Learning for Mobile Manipulation
 
-**链接：** https://arxiv.org/abs/2610.11248
-
-**项目主页：** https://kyounginbaik.github.io/simvla/
-**作者 / 机构：** Kyoungin Baik、Youngwoon Lee（延世大学 Yonsei University；首尔大学 Seoul National University）
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2610.11248"
+  authors="Kyoungin Baik、Youngwoon Lee（延世大学 Yonsei University；首尔大学 Seoul National University）"
+  arxiv="2610.11248"
+  links="[{\"url\":\"https://kyounginbaik.github.io/simvla/\",\"label\":\"项目主页\",\"kind\":\"project\"}]"
+>}}
 
 **一句话总结：** 延世大学与首尔大学提出 SimVLA，一个完全不依赖遥操作真机数据、仅在合成仿真数据上训练的端到端 VLA 框架，实现移动操作的零样本 sim-to-real 迁移。
 
@@ -51,10 +53,12 @@ tocopen: true
 
 ### VersaCamVLA: Camera-Configurable VLA Policies for Robotic Manipulation
 
-**链接：** https://arxiv.org/abs/2610.12451
-
-**项目主页：** https://boyaohan.github.io/VersaCamVLA.github.io/
-**作者 / 机构：** Boyao Han、Chen Shi、Jingjing Qian、Zhuotao Tian、Li Jiang（香港中文大学（深圳）The Chinese University of Hong Kong, Shenzhen；深圳 Loop Area Institute；哈尔滨工业大学（深圳）Harbin Institute of Technology, Shenzhen）
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2610.12451"
+  authors="Boyao Han、Chen Shi、Jingjing Qian、Zhuotao Tian、Li Jiang（香港中文大学（深圳）The Chinese University of Hong Kong, Shenzhen；深圳 Loop Area Institute；哈尔滨工业大学（深圳）Harbin Institute of Technology, Shenzhen）"
+  arxiv="2610.12451"
+  links="[{\"url\":\"https://boyaohan.github.io/VersaCamVLA.github.io/\",\"label\":\"项目主页\",\"kind\":\"project\"}]"
+>}}
 
 **一句话总结：** 香港中文大学（深圳）等团队提出 VersaCamVLA（NeurIPS 2026 接收），把「相机集合表示」与「动作学习」解耦，使同一 VLA 策略能吸收任意数量、任意位姿的相机输入。
 
@@ -81,10 +85,12 @@ tocopen: true
 
 ### Cross-Embodiment Robot Foundation World Models with Latent Actions
 
-**链接：** https://arxiv.org/abs/2610.10846
-
-**项目主页：** https://lacwm.github.io/
-**作者 / 机构：** Huang Huang、Sriram Yenamandra、Arjun Majumdar、Elie Aljalbout、Tushar Nagarajan、Tsung-Yen Yang、Akshara Rai、Michael Rabbat、李飞飞 Li Fei-Fei、吴佳俊 Jiajun Wu、Tingfan Wu、Franziska Meier（斯坦福大学计算机科学系 Department of Computer Science, Stanford University；部分工作于 Meta FAIR Robotics 完成）
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2610.10846"
+  authors="Huang Huang、Sriram Yenamandra、Arjun Majumdar、Elie Aljalbout、Tushar Nagarajan、Tsung-Yen Yang、Akshara Rai、Michael Rabbat、李飞飞 Li Fei-Fei、吴佳俊 Jiajun Wu、Tingfan Wu、Franziska Meier（斯坦福大学计算机科学系 Department of Computer Science, Stanford University；部分工作于 Meta FAIR Robotics 完成）"
+  arxiv="2610.10846"
+  links="[{\"url\":\"https://lacwm.github.io/\",\"label\":\"项目主页\",\"kind\":\"project\"}]"
+>}}
 
 **一句话总结：** 斯坦福与 Meta FAIR Robotics 提出 LAC-WM（Latent Action-Conditioned Robot World Model），在跨本体共享的统一潜动作空间里构建机器人世界模型，显著提升对未见本体的适应能力。
 
@@ -109,9 +115,11 @@ tocopen: true
 
 ### LiteNWM: Efficient Latent World Models for Onboard Visual Navigation in the Wild
 
-**链接：** https://arxiv.org/abs/2610.12368
-
-**作者 / 机构：** Linkai Liu、Yuntian Zhang、Zhenshan Bing、Chen Chen、Lingjuan Lyu、Shangguang Wang、Mengwei Xu、Dongqi Cai（南京大学 Nanjing University；帝国理工学院 Imperial College London；Sony AI；北京邮电大学 Beijing University of Posts and Telecommunications）
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2610.12368"
+  authors="Linkai Liu、Yuntian Zhang、Zhenshan Bing、Chen Chen、Lingjuan Lyu、Shangguang Wang、Mengwei Xu、Dongqi Cai（南京大学 Nanjing University；帝国理工学院 Imperial College London；Sony AI；北京邮电大学 Beijing University of Posts and Telecommunications）"
+  arxiv="2610.12368"
+>}}
 
 **一句话总结：** 南京大学、帝国理工、Sony AI 与北邮联合提出 LiteNWM，一个跨候选共享视觉编码、联合预测多候选未来潜表示的导航世界模型，在 RTX 5090 上实现 128 倍端到端加速并成功部署到真实机器人。
 
@@ -137,10 +145,12 @@ tocopen: true
 
 ### Control-Ready Uncertainty for Trajectory Diffusion
 
-**链接：** https://arxiv.org/abs/2610.12431
-
-**项目主页：** https://zackaxue.github.io/SCOPE-project-page/
-**作者 / 机构：** Zhiwei Xue、Jia Yue Kam、Jinhang Qiu、Yifeng Cheng、Ege Gursoy、Jiaming Wang、Vincent Bonnet、Harold Soh（新加坡国立大学 National University of Singapore；Smart Systems Institute, NUS；法国国家科学研究中心 LAAS-CNRS）
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2610.12431"
+  authors="Zhiwei Xue、Jia Yue Kam、Jinhang Qiu、Yifeng Cheng、Ege Gursoy、Jiaming Wang、Vincent Bonnet、Harold Soh（新加坡国立大学 National University of Singapore；Smart Systems Institute, NUS；法国国家科学研究中心 LAAS-CNRS）"
+  arxiv="2610.12431"
+  links="[{\"url\":\"https://zackaxue.github.io/SCOPE-project-page/\",\"label\":\"项目主页\",\"kind\":\"project\"}]"
+>}}
 
 **一句话总结：** 新加坡国立大学与 LAAS-CNRS 团队（CoRL 2026 Spotlight）提出 SCOPE（Score-Curvature for Online Precision Estimation），一个轻量模块，通过蒸馏分数曲率信息为扩散轨迹模型提供免蒙特卡洛采样的、可直接用于控制的不确定性估计。
 
@@ -166,10 +176,12 @@ tocopen: true
 
 ### Multi-Agent Egocentric World Model with Fine-Grained Embodied Interaction
 
-**链接：** https://arxiv.org/abs/2610.12299
-
-**项目主页：** https://cvlab-kaist.github.io/ME-World
-**作者 / 机构：** Dahyun Chung、Siyoon Jin、Hyunwook Choi、Honggyu An、Junyoung Seo、Hyunsung Kim、Seung Wook Kim、Seungryong Kim（韩国科学技术院 KAIST AI）
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2610.12299"
+  authors="Dahyun Chung、Siyoon Jin、Hyunwook Choi、Honggyu An、Junyoung Seo、Hyunsung Kim、Seung Wook Kim、Seungryong Kim（韩国科学技术院 KAIST AI）"
+  arxiv="2610.12299"
+  links="[{\"url\":\"https://cvlab-kaist.github.io/ME-World\",\"label\":\"项目主页\",\"kind\":\"project\"}]"
+>}}
 
 **一句话总结：** KAIST AI 团队提出 ME-World，把多智能体第一人称世界建模形式化为「共享世界中多个智能体的同步第一人称流生成」，通过共享 token 序列联合去噪实现跨视角一致性。
 
@@ -197,9 +209,11 @@ tocopen: true
 
 ### WorldAlign: Decoupled 4D Reward for World-Consistent Video Generation
 
-**链接：** https://arxiv.org/abs/2610.12382
-
-**作者 / 机构：** Jing He、Kaixin Ding、Xingye Tian、Guibao Shen、Wenhang Ge、Xin Tao、Pengfei Wan、Ying-Cong Chen（香港科技大学（广州）、香港科技大学、快手 KlingAI、香港大学；*注：该文 arXiv 未提供 HTML 全文，机构信息据第三方索引 arXiv Daily 的标注，arXiv 页面未直接标注*）
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2610.12382"
+  authors="Jing He、Kaixin Ding、Xingye Tian、Guibao Shen、Wenhang Ge、Xin Tao、Pengfei Wan、Ying-Cong Chen（香港科技大学（广州）、香港科技大学、快手 KlingAI、香港大学；*注：该文 arXiv 未提供 HTML 全文，机构信息据第三方索引 arXiv Daily 的标注，arXiv 页面未直接标注*）"
+  arxiv="2610.12382"
+>}}
 
 **一句话总结：** 香港科技大学（广州）与快手等团队提出 WorldAlign，一个把静态区域与动态主体语义解耦、并为二者分别匹配适用世界先验的 4D 奖励框架，用于提升视频生成的世界一致性。
 
@@ -226,9 +240,11 @@ tocopen: true
 
 ### Memory Forcing: Attendable Mid-Horizon History for Streaming Video Generation
 
-**链接：** https://arxiv.org/abs/2610.11756
-
-**作者 / 机构：** Jiaming Zhang、Xinyu Wang、Huafeng Shi、Gangshan Wu、Limin Wang（南京大学计算机软件新技术国家重点实验室 State Key Laboratory for Novel Software Technology, Nanjing University；清华大学 Tsinghua University；快手 Kling Team, Kuaishou Technology；上海人工智能实验室 Shanghai Artificial Intelligence Laboratory；*工作于作者在快手 Kling Team 实习期间完成*）
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2610.11756"
+  authors="Jiaming Zhang、Xinyu Wang、Huafeng Shi、Gangshan Wu、Limin Wang（南京大学计算机软件新技术国家重点实验室 State Key Laboratory for Novel Software Technology, Nanjing University；清华大学 Tsinghua University；快手 Kling Team, Kuaishou Technology；上海人工智能实验室 Shanghai Artificial Intelligence Laboratory；*工作于作者在快手 Kling Team 实习期间完成*）"
+  arxiv="2610.11756"
+>}}
 
 **一句话总结：** 南京大学、清华大学与快手 Kling Team 提出 Memory Forcing，用 Archive & Working Banks 与 Bank-aware RoPE 在不增大 KV 缓存的前提下保留中段历史，解决少步流式视频生成的「中期遗忘」问题。
 

@@ -25,9 +25,11 @@ tocopen: true
 
 ### DexTouch-WM: Learning Action-Conditioned Tactile World Models from Human Touch for Dexterous Robot Manipulation
 
-**链接：** https://arxiv.org/abs/2609.20649
-
-**作者 / 机构：** Yan Qin, Yue Chen, Wenwei Lin, Shujia Liu, Chuqiao Lyu, Kailun Su, Chenze Yu, Ping Luo, Wenbo Ding, Tianxing Chen, Renjing Xu（香港科技大学（广州）HKUST(GZ)、Xspark AI、北京大学、清华大学、香港大学 HKU）
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2609.20649"
+  authors="Yan Qin, Yue Chen, Wenwei Lin, Shujia Liu, Chuqiao Lyu, Kailun Su, Chenze Yu, Ping Luo, Wenbo Ding, Tianxing Chen, Renjing Xu（香港科技大学（广州）HKUST(GZ)、Xspark AI、北京大学、清华大学、香港大学 HKU）"
+  arxiv="2609.20649"
+>}}
 
 **一句话总结：** 多校联合团队提出 **DexTouch-WM**，一个从**规模化人类触摸**中学习的动作条件触觉世界模型，通过在人手与灵巧机器手上部署**共享传感布局**的柔性压阻阵列、并把人体动作重定向到机器人动作空间，使人类交互可以监督同一个动力学模型；在真机监督固定 5 小时、人类交互从 0 增至 100 小时的设置下，即使人与机器人的任务集**完全不相交**，留出机器人域的视觉、几何与接触预测仍显著提升。
 
@@ -51,11 +53,12 @@ tocopen: true
 
 ### Astronex-World 1.0: Real-Time Interactive World Model Foundation
 
-**链接：** https://arxiv.org/abs/2609.20034
-
-**项目主页：** https://world.astronex.com.cn ｜ **代码：** https://github.com/Astronex-Robotics/Astronex-World ｜ **模型权重：** https://huggingface.co/Astronex-Lab/Astronex-World
-
-**作者 / 机构：** Xin Zhou（Astronex Robotics）、Cong Miao（南京信息工程大学 Nanjing University of Information Science and Technology）
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2609.20034"
+  authors="Xin Zhou（Astronex Robotics）、Cong Miao（南京信息工程大学 Nanjing University of Information Science and Technology）"
+  arxiv="2609.20034"
+  links="[{\"url\":\"https://world.astronex.com.cn\",\"label\":\"项目主页\",\"kind\":\"project\"},{\"url\":\"https://github.com/Astronex-Robotics/Astronex-World\",\"label\":\"GitHub\",\"kind\":\"github\"},{\"url\":\"https://huggingface.co/Astronex-Lab/Astronex-World\",\"label\":\"模型权重\",\"kind\":\"huggingface\"}]"
+>}}
 
 **一句话总结：** Astronex Robotics 联合南京信息工程大学发布 **Astronex-World 1.0**，一个**开源可控视频世界模型基座**：给定文本提示或初始观测，在**帧对齐的相机轨迹、连续动作与本体标识**条件下预测未来视觉状态，并支持在 rollout 的指定位置插入文本事件；其 5B 因果模型以 **832×480 @ 24 FPS** 实时流式生成，在 **WBench Navi 73.5 / Full 70.0** 上超过了 13.6B 的 LongCat-Video 与 14B 的 Helios。
 
@@ -80,9 +83,11 @@ tocopen: true
 
 ### WorldContact: A Contact-Centric World Model for Scalable Robot Learning
 
-**链接：** https://arxiv.org/abs/2609.19600
-
-**作者 / 机构：** Caoliwen Wang, Mengdi Wang, Heng Zhang, Shixun Huang, Siyuan Chen, Chao Liu, Anpei Chen, Zhendong Wang, Peter Yichen Chen, Huamin Wang（不列颠哥伦比亚大学 University of British Columbia、西湖大学 Westlake University、Style3D Research）
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2609.19600"
+  authors="Caoliwen Wang, Mengdi Wang, Heng Zhang, Shixun Huang, Siyuan Chen, Chao Liu, Anpei Chen, Zhendong Wang, Peter Yichen Chen, Huamin Wang（不列颠哥伦比亚大学 University of British Columbia、西湖大学 Westlake University、Style3D Research）"
+  arxiv="2609.19600"
+>}}
 
 **一句话总结：** 来自 UBC、西湖大学与 Style3D Research 的团队提出 **WorldContact**，一个面向**可形变物体操作**的**接触中心世界模型**：仅用少量高质量轨迹构建，以**远大于源数值仿真器的时间步**预测物体动力学，在单张 H100 上取得 **10× 加速**；用其生成的数据扩充后微调 VLA，提袋任务的单次成功率从 **65% 提升到 95%**。
 
@@ -106,9 +111,11 @@ tocopen: true
 
 ### Recency Forcing: Bridging the Long-Horizon Gap in Autoregressive Video Generation
 
-**链接：** https://arxiv.org/abs/2609.19729
-
-**作者 / 机构：** Tri Cao, Hung Nguyen, Phong Nguyen, Khoi Nguyen（论文未在 arXiv 页面标注机构，且无 HTML 全文页）
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2609.19729"
+  authors="Tri Cao, Hung Nguyen, Phong Nguyen, Khoi Nguyen（论文未在 arXiv 页面标注机构，且无 HTML 全文页）"
+  arxiv="2609.19729"
+>}}
 
 **一句话总结：** 作者指出自回归视频生成的长程退化源于一个被忽视的训练—推理不一致——**KV 驱逐不匹配（KV eviction mismatch）**：训练时上下文帧全部驻留 KV cache，推理时显存限制却迫使远帧被驱逐；据此提出 **Recency Forcing**，在 pre-softmax 注意力 logit 上施加一条由敏感度度量导出的**非正、时间步相关的偏置（TRB）**，并通过 **BAR 重参数化**把它移出 softmax，使其退化为一次标准 FlashAttention 调用、**零额外推理开销**，在 VBench 与 VBench-Long 上取得长程生成的 SOTA 质量。
 
@@ -133,11 +140,12 @@ tocopen: true
 
 ### Video DeltaNet: A Video-Native Hybrid Attention for Livestream Video Generation
 
-**链接：** https://arxiv.org/abs/2609.20744
-
-**代码：** https://github.com/OpenVDN/vdn-minimax-h3 ｜ **模型：** https://huggingface.co/OpenVDN/vdn-minimax-h3
-
-**作者 / 机构：** Haocheng Xi, Yiming Xie, Hexu Zhao, Yiwen Zhang, Michael Liu, Thomas Creavin, Kurt Keutzer, Xiuyu Li, Zhaoyang Lv, Chenfeng Xu, Haiwen Feng（加州大学伯克利分校 UC Berkeley、Impossible, Inc.、德克萨斯大学奥斯汀分校 UT Austin）
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2609.20744"
+  authors="Haocheng Xi, Yiming Xie, Hexu Zhao, Yiwen Zhang, Michael Liu, Thomas Creavin, Kurt Keutzer, Xiuyu Li, Zhaoyang Lv, Chenfeng Xu, Haiwen Feng（加州大学伯克利分校 UC Berkeley、Impossible, Inc.、德克萨斯大学奥斯汀分校 UT Austin）"
+  arxiv="2609.20744"
+  links="[{\"url\":\"https://github.com/OpenVDN/vdn-minimax-h3\",\"label\":\"GitHub\",\"kind\":\"github\"},{\"url\":\"https://huggingface.co/OpenVDN/vdn-minimax-h3\",\"label\":\"模型\",\"kind\":\"huggingface\"}]"
+>}}
 
 **一句话总结：** 伯克利、Impossible, Inc. 与 UT Austin 联合提出 **Video DeltaNet（VDN）**，一种**视频原生的混合注意力**：用**局部 Softmax 注意力**保近场细节、用**双向线性记忆**承载长程上下文，其线性分支提出的 **Video Delta Attention（VDA）** 以**每帧更新一次记忆**的方式联合纳入该帧全部空间 token；在 MiniMax H3 上实例化后，配合八步蒸馏与优化后的 SGLang 服务栈，把 14.3 秒 768p 视频的 DiT 去噪压到 **6.70 秒（14.5× 加速）**。
 
@@ -162,9 +170,11 @@ tocopen: true
 
 ### DART: Distillation-Aware Reparameterization for Training-Free LoRA Reuse in Few-Step Video Diffusion Models
 
-**链接：** https://arxiv.org/abs/2609.20051
-
-**作者 / 机构：** Shihong Li, Juntao Xu, JinCao, Maowen Tang, Jun Huang, Jintao Li（电子科技大学、清华大学、哈尔滨工业大学、腾讯）
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2609.20051"
+  authors="Shihong Li, Juntao Xu, JinCao, Maowen Tang, Jun Huang, Jintao Li（电子科技大学、清华大学、哈尔滨工业大学、腾讯）"
+  arxiv="2609.20051"
+>}}
 
 **一句话总结：** 来自电子科技大学、清华、哈工大与腾讯的团队提出 **DART**，一种**免训练（training-free）**的方法，让为**长去噪轨迹**训练的 LoRA 能被复用到**少步蒸馏**后的视频扩散模型上：通过**低秩坐标传输**与**目标 schedule 响应校准**（仅需前向评估、无需源训练视频），在四步 Wan2.2 目标上把联合质量分从 **0.9029 提升到 0.9227**，并把宏观功能保持从 **−0.4644 变为 +0.1349**。
 
@@ -189,9 +199,11 @@ tocopen: true
 
 ### Recovering Aggressively Pruned Vision-Language-Action Models with Offline Hidden-State Distillation
 
-**链接：** https://arxiv.org/abs/2609.19579
-
-**作者 / 机构：** Chiyoung Kim, Sanghyuk Roy Choi, Minhyeok Lee（韩国中央大学 Chung-Ang University, Seoul, Republic of Korea；Preprint）
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2609.19579"
+  authors="Chiyoung Kim, Sanghyuk Roy Choi, Minhyeok Lee（韩国中央大学 Chung-Ang University, Seoul, Republic of Korea；Preprint）"
+  arxiv="2609.19579"
+>}}
 
 **一句话总结：** 韩国中央大学团队提出一种**全离线**的方案来救回被激进剪枝的 VLA：关键设计是**宽度剪枝只收窄 block 而保持残差流原始尺寸**，使教师与学生隐状态同形、可**直接匹配而无需投影器**；仅用一次教师前向构建的缓存训练，就在**约 8 GPU 小时**内把剪掉 63% 语言骨干的 OpenVLA-OFT 拉回到**距教师 3.5 分以内**（该模型剪枝后 LIBERO-Long 曾从 93.2% 崩至 0.8%）。
 
@@ -216,11 +228,12 @@ tocopen: true
 
 ### VABench: Measuring Embodied Spatial Intelligence through Visual Demonstrations, Active Perception, and Metric Control
 
-**链接：** https://arxiv.org/abs/2609.19554
-
-**代码：** https://github.com/zhangzhongbo2213/VABench
-
-**作者 / 机构：** Zhongbo Zhang, Jiayi Jin, Yifan Wang, Zaibin Zhang, Haiwen Diao, Lijun Wang, Huchuan Lu（大连理工大学、南洋理工大学 Nanyang Technological University；前五位作者为同等贡献）
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2609.19554"
+  authors="Zhongbo Zhang, Jiayi Jin, Yifan Wang, Zaibin Zhang, Haiwen Diao, Lijun Wang, Huchuan Lu（大连理工大学、南洋理工大学 Nanyang Technological University；前五位作者为同等贡献）"
+  arxiv="2609.19554"
+  links="[{\"url\":\"https://github.com/zhangzhongbo2213/VABench\",\"label\":\"GitHub\",\"kind\":\"github\"}]"
+>}}
 
 **一句话总结：** 大连理工大学与南洋理工大学联合提出 **VA-Bench**，一个评测**完整 observe–reason–act–revise 闭环**的具身空间智能基准：通用多模态大模型仅从 **RGB 演示**中学习程序性上下文，**主动选择相机视角**，发出**度量级笛卡尔命令**，并依据执行反馈进行修正；结果显示最佳模型**目标定位 100.0%、空间关系 78.9%**，但三次运行宏平均**任务成功率仅 53.93%**，而**主动相机控制**可将成功率从 **27.86% 提升到 57.50%**。
 

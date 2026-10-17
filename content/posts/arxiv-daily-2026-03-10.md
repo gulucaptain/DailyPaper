@@ -17,7 +17,10 @@ tocopen: true
 
 ### Interactive World Simulator for Robot Policy Training and Evaluation
 
-**链接：** https://arxiv.org/abs/2603.08546
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2603.08546"
+  arxiv="2603.08546"
+>}}
 
 **一句话总结：** 基于一致性模型构建的交互式世界模型，能在单张 RTX 4090 上以 15 FPS 稳定运行超过 10 分钟，并支持使用世界模型生成的数据训练出媲美真实数据水平的模仿策略。
 
@@ -41,7 +44,10 @@ tocopen: true
 
 ### AtomVLA: Scalable Post-Training for Robotic Manipulation via Predictive Latent World Models
 
-**链接：** https://arxiv.org/abs/2603.08519
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2603.08519"
+  arxiv="2603.08519"
+>}}
 
 **一句话总结：** 首个将预训练世界模型融入 VLA 后训练流程的框架，通过原子级子任务分解与潜空间评分机制，将 LIBERO benchmark 上的平均成功率提升至 97.0%。
 
@@ -65,7 +71,10 @@ tocopen: true
 
 ### MetaWorld-X: Hierarchical World Modeling via VLM-Orchestrated Experts for Humanoid Loco-Manipulation
 
-**链接：** https://arxiv.org/abs/2603.08572
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2603.08572"
+  arxiv="2603.08572"
+>}}
 
 **一句话总结：** 提出分治式层次世界模型框架，通过 VLM 驱动的智能路由机制动态组合专家策略，解决人形机器人同步运动与操作任务中的梯度干扰和动作冲突问题。
 
@@ -89,7 +98,10 @@ tocopen: true
 
 ### HiAR: Efficient Autoregressive Long Video Generation via Hierarchical Denoising
 
-**链接：** https://arxiv.org/abs/2603.08703
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2603.08703"
+  arxiv="2603.08703"
+>}}
 
 **一句话总结：** 颠覆传统自回归视频生成的去噪顺序，提出层次化去噪框架，在 VBench 20s 视频生成任务上取得最优综合评分和最低时间漂移。
 
@@ -113,7 +125,10 @@ tocopen: true
 
 ### Scale Space Diffusion
 
-**链接：** https://arxiv.org/abs/2603.08709
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2603.08709"
+  arxiv="2603.08709"
+>}}
 
 **一句话总结：** 将经典尺度空间理论与扩散过程正式统一，证明高噪声状态只需低分辨率处理，并提出相应的多尺度扩散模型以提升生成效率。
 
@@ -137,7 +152,10 @@ tocopen: true
 
 ### Agentic Critical Training (ACT)
 
-**链接：** https://arxiv.org/abs/2603.08706
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2603.08706"
+  arxiv="2603.08706"
+>}}
 
 **一句话总结：** 提出强化学习范式让智能体主动学习判断动作优劣，而非模仿反思文本，在三个 Agent benchmark 上平均提升超过 4.6 分。
 
@@ -161,7 +179,10 @@ tocopen: true
 
 ### Embedding Classical Balance Control Principles in Reinforcement Learning for Humanoid Recovery
 
-**链接：** https://arxiv.org/abs/2603.08619
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2603.08619"
+  arxiv="2603.08619"
+>}}
 
 **一句话总结：** 将经典捕获点、质心状态等平衡指标嵌入人形机器人 RL 训练，无需参考轨迹即可从任意姿势实现 93.4% 的跌倒恢复率。
 
@@ -185,7 +206,10 @@ tocopen: true
 
 ### Talking Together: Synthesizing Co-Located 3D Conversations from Audio
 
-**链接：** https://arxiv.org/abs/2603.08674
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2603.08674"
+  arxiv="2603.08674"
+>}}
 
 **一句话总结：** CVPR 2026 入选论文，首次从混合音频流生成完整的两人共处 3D 对话动画，包含精确唇形同步、相对空间关系建模与文本可控头姿。
 

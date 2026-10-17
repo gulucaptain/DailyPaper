@@ -17,7 +17,10 @@ tocopen: true
 
 ### Diffusion-Proof: Recipe for Formal Theorem Proving Beyond Auto-Regressive Generation
 
-**链接：** https://arxiv.org/abs/2606.19315
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2606.19315"
+  arxiv="2606.19315"
+>}}
 
 **一句话总结：** 首次将扩散语言模型（dLLM）应用于形式化定理证明，通过全证明生成与局部纠错双模型协同，在 MiniF2F-Test 上绝对提升 6.14%，并解决了 DeepSeek-Prover-V2-7B 未能解决的 IMO 题目。
 
@@ -40,7 +43,10 @@ tocopen: true
 
 ### OmniAgent: Native Active Perception as Reasoning for Omni-Modal Understanding
 
-**链接：** https://arxiv.org/abs/2606.19341
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2606.19341"
+  arxiv="2606.19341"
+>}}
 
 **一句话总结：** 首个原生全模态主动感知 Agent，将视频理解建模为 POMDP 迭代推理循环，7B 参数在 LVBench 上超越 72B 的 Qwen2.5-VL（50.5% vs 47.3%），已接收于 ICML 2026。
 
@@ -63,7 +69,10 @@ tocopen: true
 
 ### DO AS I DO: Dexterous Manipulation Data from Everyday Human Videos
 
-**链接：** https://arxiv.org/abs/2606.19333
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2606.19333"
+  arxiv="2606.19333"
+>}}
 
 **一句话总结：** 从普通单目 RGB 人类视频中重建并迁移灵巧操作轨迹到多指机器人手，解决机器人操作数据稀缺问题，在手-物交互估计和轨迹提取上超越现有 SOTA。
 
@@ -86,7 +95,10 @@ tocopen: true
 
 ### Act2Answer: Does VLA Even Know the Basics? Measuring Commonsense and World Knowledge Retention in Vision-Language-Action Models
 
-**链接：** https://arxiv.org/abs/2606.19297
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2606.19297"
+  arxiv="2606.19297"
+>}}
 
 **一句话总结：** 提出 Act2Answer 协议，通过动作接地方式评估 VLA 模型在 robotics 微调后保留的常识与世界知识，系统揭示 7 种 VLA 在各知识类别上的性能退化规律。
 
@@ -109,7 +121,10 @@ tocopen: true
 
 ### Zero-Shot Long-Horizon Dexterous Manipulation via Multi-View 3D-Grounded VLM Reasoning
 
-**链接：** https://arxiv.org/abs/2606.19340
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2606.19340"
+  arxiv="2606.19340"
+>}}
 
 **一句话总结：** 无需端到端策略训练，利用 VLM + 多视角 3D 接地实现零样本长程灵巧操作，在真实机器人实验中超越单视角 RGB-D 和微调 VLA 基线。
 
@@ -132,7 +147,10 @@ tocopen: true
 
 ### OneCanvas: 3D Scene Understanding via Panoramic Reprojection
 
-**链接：** https://arxiv.org/abs/2606.19253
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2606.19253"
+  arxiv="2606.19253"
+>}}
 
 **一句话总结：** 将多视角场景特征聚合到单一等矩形全景画布，无需复杂几何编码器即可赋予 VLM 3D 空间推理能力，在 SQA3D 和 VSI-Bench 上达到 SOTA，计算量减少一个数量级。
 
@@ -155,7 +173,10 @@ tocopen: true
 
 ### Explaining Attention with Program Synthesis
 
-**链接：** https://arxiv.org/abs/2606.19317
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2606.19317"
+  arxiv="2606.19317"
+>}}
 
 **一句话总结：** 用程序合成自动生成可执行 Python 程序近似 Transformer 注意力头行为，实现符号级可解释性，替换 25% 注意力头后困惑度仅增加 16%，下游任务性能基本不变。
 
@@ -178,7 +199,10 @@ tocopen: true
 
 ### Rubric-Conditioned Self-Distillation for Reasoning
 
-**链接：** https://arxiv.org/abs/2606.19327
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2606.19327"
+  arxiv="2606.19327"
+>}}
 
 **一句话总结：** 以结构化评分标准（Rubric）作为细粒度反馈驱动策略模型在自身采样轨迹上的自蒸馏，在科学推理基准上平均超越 GRPO 1.0 分、超越 OPSD 0.9 分。
 

@@ -17,7 +17,10 @@ tocopen: true
 
 ### NUMINA: Aligning Textual Numerals and Visual Instances in Text-to-Video Diffusion Models
 
-**链接：** https://arxiv.org/abs/2604.08546
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2604.08546"
+  arxiv="2604.08546"
+>}}
 
 **一句话总结：** 提出无需训练的"识别-引导"框架 NUMINA，系统性解决文本到视频扩散模型中数量描述与视觉实例不对齐的核心问题，CVPR 2026。
 
@@ -40,7 +43,10 @@ tocopen: true
 
 ### Skelebones: Reconstruct and Rig Animatable Categories with Level of Dynamics
 
-**链接：** https://arxiv.org/abs/2604.08547
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2604.08547"
+  arxiv="2604.08547"
+>}}
 
 **一句话总结：** 提出 Skelebones 系统，将 4D Gaussian 序列压缩为可控可表达的"骨架+骨骼"双层表示，实现兼顾非刚性表面细节与运动控制的 4D 动画重建。
 
@@ -63,7 +69,10 @@ tocopen: true
 
 ### SelfEvo: Self-Improving 4D Perception via Self-Distillation
 
-**链接：** https://arxiv.org/abs/2604.08532
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2604.08532"
+  arxiv="2604.08532"
+>}}
 
 **一句话总结：** 提出 SelfEvo 框架，无需任何标注数据，通过时空上下文不对称自蒸馏持续提升多视图重建模型在动态场景下的 4D 感知能力。
 
@@ -86,7 +95,10 @@ tocopen: true
 
 ### HDPO: Cultivating Meta-Cognitive Tool Use in Agentic Multimodal Models
 
-**链接：** https://arxiv.org/abs/2604.08545
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2604.08545"
+  arxiv="2604.08545"
+>}}
 
 **一句话总结：** 提出 HDPO 框架，将工具效率从竞争目标重构为条件目标，解耦精度与效率优化通道，显著减少多模态 Agent 的盲目工具调用，同时保持甚至提升任务准确率。
 
@@ -109,7 +121,10 @@ tocopen: true
 
 ### Seeing but Not Thinking: Routing Distraction in Multimodal Mixture-of-Experts
 
-**链接：** https://arxiv.org/abs/2604.08541
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2604.08541"
+  arxiv="2604.08541"
+>}}
 
 **一句话总结：** 发现并系统分析多模态 MoE 模型"看得见却想不到"的路由失调现象，提出路由引导干预方法，在复杂视觉推理任务上提升高达 3.17%。
 
@@ -132,7 +147,10 @@ tocopen: true
 
 ### Scal3R: Scalable Test-Time Training for Large-Scale 3D Reconstruction
 
-**链接：** https://arxiv.org/abs/2604.08542
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2604.08542"
+  arxiv="2604.08542"
+>}}
 
 **一句话总结：** 提出神经全局上下文表示结合测试时训练（TTT）机制，解决长视频序列大规模 3D 场景重建中全局一致性与长程记忆问题，在 KITTI/Oxford Spires 上达到 SOTA。
 
@@ -155,7 +173,10 @@ tocopen: true
 
 ### MolmoWeb: Open Visual Web Agent and Open Data for the Open Web
 
-**链接：** https://arxiv.org/abs/2604.08516
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2604.08516"
+  arxiv="2604.08516"
+>}}
 
 **一句话总结：** 发布 MolmoWeb 系列完全开放的多模态 Web Agent（4B/8B），配套 MolmoWebMix 大规模训练数据，在 WebVoyager 等基准上超越基于 GPT-4o 的闭源 Agent。
 
@@ -178,7 +199,10 @@ tocopen: true
 
 ### AVGen-Bench: A Task-Driven Benchmark for Multi-Granular Evaluation of Text-to-Audio-Video Generation
 
-**链接：** https://arxiv.org/abs/2604.08540
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2604.08540"
+  arxiv="2604.08540"
+>}}
 
 **一句话总结：** 提出首个面向文本到音视频联合生成的任务驱动细粒度评估基准 AVGen-Bench，揭示现有 T2AV 系统在语义可控性上的系统性缺陷。
 

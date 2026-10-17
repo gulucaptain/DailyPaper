@@ -17,7 +17,10 @@ tocopen: true
 
 ### Thinking with Imagination: Agentic Visual Spatial Reasoning with World Simulators
 
-**链接：** https://arxiv.org/abs/2606.06476
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2606.06476"
+  arxiv="2606.06476"
+>}}
 
 **一句话总结：** 提出 Astra 框架，让 VLM 在推理时通过与世界模拟器交互主动获取"想象视觉证据"，显著提升空间推理能力。
 
@@ -40,7 +43,10 @@ tocopen: true
 
 ### Physics in 2-Steps: Locking Motion Priors Before Visual Refinement Erases Them
 
-**链接：** https://arxiv.org/abs/2606.06361
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2606.06361"
+  arxiv="2606.06361"
+>}}
 
 **一句话总结：** 发现扩散模型早期步骤的 phase 蕴含更好的物理运动先验，提出 PhaseLock 框架在生成过程中保留这一先验，以无训练方式大幅提升视频物理一致性。
 
@@ -63,7 +69,10 @@ tocopen: true
 
 ### Complexity-Balanced Diffusion Splitting (CBS)
 
-**链接：** https://arxiv.org/abs/2606.06477
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2606.06477"
+  arxiv="2606.06477"
+>}}
 
 **一句话总结：** 基于函数逼近理论，将扩散生成时间线划分为等复杂度段并分配给专用子网络，在不增加推理开销的前提下大幅提升生成质量。
 
@@ -86,7 +95,10 @@ tocopen: true
 
 ### RhymeFlow: Training-Free Acceleration for Video Generation with Asynchronous Denoising Flow Scheduling
 
-**链接：** https://arxiv.org/abs/2606.06309
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2606.06309"
+  arxiv="2606.06309"
+>}}
 
 **一句话总结：** 提出 RhymeFlow 框架，识别关键帧与非关键帧，通过异步去噪调度跳过非关键帧的冗余步骤，实现训练无关的视频生成加速。
 
@@ -109,7 +121,10 @@ tocopen: true
 
 ### HANDOFF: Humanoid Agentic Task-Space Whole-Body Control via Distilled Complementary Teachers
 
-**链接：** https://arxiv.org/abs/2606.06493
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2606.06493"
+  arxiv="2606.06493"
+>}}
 
 **一句话总结：** 提出 HANDOFF，通过多教师 KL 蒸馏将全身运动追踪、行走、跌倒恢复三类专家策略融合为单一人形机器人控制器，并由 VLM 驱动自然语言任务规划。
 
@@ -132,7 +147,10 @@ tocopen: true
 
 ### TempoVLA: Learning Speed-Controllable Vision-Language-Action Policies
 
-**链接：** https://arxiv.org/abs/2606.06491
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2606.06491"
+  arxiv="2606.06491"
+>}}
 
 **一句话总结：** 提出 TempoVLA，通过变速轨迹增广（VSTA）和速度条件机制，使单个 VLA 模型实现可控执行速度，低风险阶段快速执行，高风险阶段精细减速。
 
@@ -155,7 +173,10 @@ tocopen: true
 
 ### SAM-Flow: Source-Anchored Masked Flow for Training-Free Image Editing
 
-**链接：** https://arxiv.org/abs/2606.06228
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2606.06228"
+  arxiv="2606.06228"
+>}}
 
 **一句话总结：** 提出 SAM-Flow，利用 Scout 图像和 token 注意力图定位可编辑语义区域，仅在该区域内应用差分速度更新，实现训练无关的精确局部图像编辑。
 
@@ -178,7 +199,10 @@ tocopen: true
 
 ### Adaptive Tokenisation Via Temporal Redundancy Masking And Latent Inpainting
 
-**链接：** https://arxiv.org/abs/2606.06158
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2606.06158"
+  arxiv="2606.06158"
+>}}
 
 **一句话总结：** 利用连续视频 tokenizer 的潜空间内在时序冗余性，提出无需训练的自适应 token 分配机制，配合轻量级 Latent Inpainting Transformer (LIT) 实现高效视频压缩。
 

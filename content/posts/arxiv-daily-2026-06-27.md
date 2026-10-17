@@ -17,7 +17,10 @@ tocopen: true
 
 ### DanceOPD: On-Policy Generative Field Distillation
 
-**链接：** https://arxiv.org/abs/2606.27377
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2606.27377"
+  arxiv="2606.27377"
+>}}
 
 **一句话总结：** 提出基于 on-policy 策略的生成场蒸馏框架，在 flow-matching 模型中统一 T2I、局部编辑与全局编辑等多种能力，通过将每个样本路由到单一能力场并以速度 MSE 目标训练，实现多能力组合而不牺牲基础生成质量。
 
@@ -40,7 +43,10 @@ tocopen: true
 
 ### Don't Settle at the Mode! Mitigating Diversity Collapse in Pretrained Flow Models via Feature Self-Guidance
 
-**链接：** https://arxiv.org/abs/2606.27371
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2606.27371"
+  arxiv="2606.27371"
+>}}
 
 **一句话总结：** 提出无需训练、无需额外奖励模型的 plug-and-play 特征自引导机制，通过在批量生成时分散内部特征并投影回流形来缓解预训练 flow 模型的多样性坍塌问题。
 
@@ -64,7 +70,10 @@ tocopen: true
 
 ### RayPE: Ray-Space Positional Encoding for 3D-Aware Video Generation
 
-**链接：** https://arxiv.org/abs/2606.27345
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2606.27345"
+  arxiv="2606.27345"
+>}}
 
 **一句话总结：** 提出 RayPE 位置编码扩展，将 6D Plücker 坐标注入视频 DiT 的 self-attention Q/K，以几何信息增强视频扩散模型的相机可控性和跨帧三维一致性。
 
@@ -88,7 +97,10 @@ tocopen: true
 
 ### Not All Actions Are Equal: Rethinking Conditioning for Dexterous World Model
 
-**链接：** https://arxiv.org/abs/2606.27325
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2606.27325"
+  arxiv="2606.27325"
+>}}
 
 **一句话总结：** 提出 DexAC-WM，通过结构化动作条件（tokenization + 局部细化 + 全局调制）和语义分支，解决高自由度手部操作世界模型中动作条件建模的异构性难题。
 
@@ -112,7 +124,10 @@ tocopen: true
 
 ### Self-Evolving Unified Multimodal Understanding and Generation via Self-Consistency Rewards
 
-**链接：** https://arxiv.org/abs/2606.27376
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2606.27376"
+  arxiv="2606.27376"
+>}}
 
 **一句话总结：** 提出仅用无标注图像、通过自一致性奖励（不依赖人工标注或外部奖励模型）同时提升统一多模态模型视觉理解与图像生成能力的自演化训练框架，在 BAGEL 上 MMMU 绝对提升 3.5%、GenEval 从 82% 升至 85%。
 
@@ -136,7 +151,10 @@ tocopen: true
 
 ### LISA: Likelihood Score Alignment for Visual-condition Controllable Generation
 
-**链接：** https://arxiv.org/abs/2606.27192
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2606.27192"
+  arxiv="2606.27192"
+>}}
 
 **一句话总结：** 从 score-based 生成建模视角重新解读 dual-branch 可控生成范式（side network），并提出 LISA 正则化方法，通过显式对齐 side network 中间特征与似然分数来加速训练收敛，同时提升最终生成质量且零额外推理开销。
 
@@ -160,7 +178,10 @@ tocopen: true
 
 ### NaviCache: Test-Time Self-Calibration Caching for Video Generation
 
-**链接：** https://arxiv.org/abs/2606.26795
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2606.26795"
+  arxiv="2606.26795"
+>}}
 
 **一句话总结：** 将视频扩散推理加速重新建模为惯性导航（INS）问题，提出 NaviCache，通过双状态估计架构自适应跟踪特征变化比和潜在漂移来实现有误差界限的计算跳过，在 HunyuanVideo、Wan、Open-Sora 系列上表现优异，已在 ICML 2026 发表。
 
@@ -184,7 +205,10 @@ tocopen: true
 
 ### DyRef: Scaling Multi-Reference Image Generation with Dynamic Reward Optimization
 
-**链接：** https://arxiv.org/abs/2606.26947
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2606.26947"
+  arxiv="2606.26947"
+>}}
 
 **一句话总结：** 提出 OmniRef-Bench 评估复杂多参考图像生成，以及 DyRef 两阶段框架（SFT + 动态奖励优化），显著提升开源模型处理大量混合类型参考图像的能力，已被 ECCV 2026 接收。
 
@@ -208,7 +232,10 @@ tocopen: true
 
 ### SpatialFlow-GRPO: Where Spatial Credit Drives Image Editing
 
-**链接：** https://arxiv.org/abs/2606.26872
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2606.26872"
+  arxiv="2606.26872"
+>}}
 
 **一句话总结：** 提出 SpatialFlow-GRPO，将图像编辑的强化学习优化从全图级别奖励细化为语义区域级别奖励，通过区域优势与潜变量位置对齐，在多区域编辑任务上显著优于 Flow-GRPO 基线。
 
@@ -232,7 +259,10 @@ tocopen: true
 
 ### PortraitGen: Exemplar-Driven GRPO with Dual-Reward Guidance for Photorealistic Portrait Generation
 
-**链接：** https://arxiv.org/abs/2606.26930
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2606.26930"
+  arxiv="2606.26930"
+>}}
 
 **一句话总结：** 针对 AI 人像生成中 AI 瑕疵（artifact）和生物不真实性问题，提出 PortraitGen 框架：通过将真实图像引入 GRPO 采样组（结合图像反演）打破生成分布边界，配合 OmniReward + AI-Portrait 双奖励抑制 AI 痕迹，实现前所未有的真实感人像生成。
 

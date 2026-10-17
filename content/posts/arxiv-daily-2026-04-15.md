@@ -17,7 +17,10 @@ tocopen: true
 
 ### Lyra 2.0: Explorable Generative 3D Worlds
 
-**链接：** https://arxiv.org/abs/2604.13036
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2604.13036"
+  arxiv="2604.13036"
+>}}
 
 **一句话总结：** 提出可大规模探索的持久性 3D 世界生成框架，通过解决"空间遗忘"与"时序漂移"两大核心退化问题，实现长轨迹、高一致性的 3D 场景生成。
 
@@ -40,7 +43,10 @@ tocopen: true
 
 ### Generative Refinement Networks (GRN) for Visual Synthesis
 
-**链接：** https://arxiv.org/abs/2604.13030
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2604.13030"
+  arxiv="2604.13030"
+>}}
 
 **一句话总结：** 提出新一代视觉合成范式 GRN，通过近无损的分层二值量化（HBQ）与全局细化机制克服了自回归模型的离散量化瓶颈，在 ImageNet 图像生成上刷新 SOTA。
 
@@ -63,7 +69,10 @@ tocopen: true
 
 ### Learning Versatile Humanoid Manipulation with Touch Dreaming (HTD)
 
-**链接：** https://arxiv.org/abs/2604.13015
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2604.13015"
+  arxiv="2604.13015"
+>}}
 
 **一句话总结：** 提出 HTD（Humanoid Transformer with Touch Dreaming），将触觉作为核心感知模态集成到仿人机器人全身操作策略中，通过预测未来触觉潜变量显著提升接触丰富任务的成功率。
 
@@ -86,7 +95,10 @@ tocopen: true
 
 ### XRZero-G0: Pushing the Frontier of Dexterous Robotic Manipulation with Interfaces, Quality and Ratios
 
-**链接：** https://arxiv.org/abs/2604.13001
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2604.13001"
+  arxiv="2604.13001"
+>}}
 
 **一句话总结：** 提出硬件软件协同设计的 XRZero-G0 系统，通过 VR 接口、闭环数据质控管道和机器人无关数据混合策略，构建 2000 小时数据集实现零样本跨机体迁移。
 
@@ -109,7 +121,10 @@ tocopen: true
 
 ### Real-time Multi-sensor Gaussian Splatting SLAM
 
-**链接：** https://arxiv.org/abs/2604.12942
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2604.12942"
+  arxiv="2604.12942"
+>}}
 
 **一句话总结：** 提出紧耦合 LiDAR-惯导-视觉的 3DGS SLAM 框架，通过并行化全局 Gaussian 优化与循环闭合实现大规模场景实时位姿估计和逼真建图。
 
@@ -132,7 +147,10 @@ tocopen: true
 
 ### rDPO: Visual Preference Optimization with Rubric Rewards
 
-**链接：** https://arxiv.org/abs/2604.13029
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2604.13029"
+  arxiv="2604.13029"
+>}}
 
 **一句话总结：** 提出基于实例特定 Rubric 的视觉偏好优化框架 rDPO，通过细粒度评分标准替代粗粒度结果信号，显著提升多模态模型的视觉推理对齐质量。
 
@@ -155,7 +173,10 @@ tocopen: true
 
 ### GRN-Video: Scaling Generative Refinement Networks to Text-to-Video
 
-**链接：** https://arxiv.org/abs/2604.13030
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2604.13030"
+  arxiv="2604.13030"
+>}}
 
 > *注：GRN 论文已在上方"Generative Refinement Networks"条目中完整覆盖，此处不重复列出。*
 
@@ -163,7 +184,10 @@ tocopen: true
 
 ### See, Point, Refine: Multi-Turn Approach to GUI Grounding with Visual Feedback
 
-**链接：** https://arxiv.org/abs/2604.13019
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2604.13019"
+  arxiv="2604.13019"
+>}}
 
 **一句话总结：** 提出迭代式 GUI grounding 方法，通过多轮视觉反馈闭环纠正位移误差，在代码 IDE 等高密度界面上显著超越单步预测 SOTA。
 
@@ -186,7 +210,10 @@ tocopen: true
 
 ### Tightly-Coupled LiDAR-Inertial-Visual 3DGS SLAM for Large-Scale Scenes
 
-**链接：** https://arxiv.org/abs/2604.12942
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2604.12942"
+  arxiv="2604.12942"
+>}}
 
 > *注：此论文已在上方"Real-time Multi-sensor Gaussian Splatting SLAM"条目中完整覆盖。*
 

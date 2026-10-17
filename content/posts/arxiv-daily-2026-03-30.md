@@ -17,7 +17,10 @@ tocopen: true
 
 ### Generation Is Compression: Zero-Shot Video Coding via Stochastic Rectified Flow
 
-**链接：** https://arxiv.org/abs/2603.26571
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2603.26571"
+  arxiv="2603.26571"
+>}}
 
 **一句话总结：** 将预训练视频生成模型直接用作视频编解码器，无需重训练，在 0.002 bpp 以下实现高质量视频压缩。
 
@@ -42,7 +45,10 @@ tocopen: true
 
 ### Semantic Grounding of Holistic Co-Speech Gesture Generation with Contrastive Flow-Matching
 
-**链接：** https://arxiv.org/abs/2603.26553
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2603.26553"
+  arxiv="2603.26553"
+>}}
 
 **一句话总结：** 提出对比 Flow Matching 框架，用语义不匹配样本作为负例驱动语速动作生成，实现全身语义一致的手势生成。
 
@@ -65,7 +71,10 @@ tocopen: true
 
 ### GeoSR: Make Geometry Matter for Spatial Reasoning in VLMs
 
-**链接：** https://arxiv.org/abs/2603.26639
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2603.26639"
+  arxiv="2603.26639"
+>}}
 
 **一句话总结：** 提出 GeoSR 框架，通过几何解放掩码和几何引导融合两个机制，使 VLM 真正利用几何 token 提升静态和动态场景的空间推理能力。
 
@@ -88,7 +97,10 @@ tocopen: true
 
 ### Visual Re-Examination (VRE): Boosting Multimodal Reasoning via Information-Gain-Driven Verification
 
-**链接：** https://arxiv.org/abs/2603.26348
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2603.26348"
+  arxiv="2603.26348"
+>}}
 
 **一句话总结：** 提出 VRE 自进化训练框架，使 MLLM 在推理过程中自主进行视觉内省，通过信息增益机制减少幻觉、增强多模态推理。
 
@@ -112,7 +124,10 @@ tocopen: true
 
 ### Label-Free Cross-Task LoRA Merging with Null-Space Compression
 
-**链接：** https://arxiv.org/abs/2603.26317
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2603.26317"
+  arxiv="2603.26317"
+>}}
 
 **一句话总结：** 提出 Null-Space Compression（NSC）合并方法，利用 LoRA 下投影矩阵 A 的零空间压缩作为合并权重信号，无需标签即可跨分类与回归任务合并模型。
 
@@ -136,7 +151,10 @@ tocopen: true
 
 ### TARA-Merging: Preference-Aligned LoRA Merging via Subspace Coverage and Directional Anisotropy
 
-**链接：** https://arxiv.org/abs/2603.26299
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2603.26299"
+  arxiv="2603.26299"
+>}}
 
 **一句话总结：** 从子空间覆盖度和方向各向异性两个视角重新分析 LoRA 合并问题，提出 TARA-Merging 实现更鲁棒的多任务合并。
 
@@ -159,7 +177,10 @@ tocopen: true
 
 ### Detailed Geometry and Appearance from Opportunistic Motion
 
-**链接：** https://arxiv.org/abs/2603.26665
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2603.26665"
+  arxiv="2603.26665"
+>}}
 
 **一句话总结：** 利用物体被操纵时的自然运动，在静态稀疏相机设置下有效扩充视角，实现高精度 3D 几何与外观重建。
 

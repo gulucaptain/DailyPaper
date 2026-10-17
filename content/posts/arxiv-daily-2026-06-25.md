@@ -17,7 +17,10 @@ tocopen: true
 
 ### Learning Action Priors for Cross-embodiment Robot Manipulation
 
-**链接：** https://arxiv.org/abs/2606.26095
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2606.26095"
+  arxiv="2606.26095"
+>}}
 
 **一句话总结：** 提出两阶段训练框架，在 VLA 训练前用流匹配预训练动作模块，赋予其跨具身时序运动先验，显著提升多任务操作成功率。
 
@@ -43,7 +46,10 @@ tocopen: true
 
 ### UniTeD: Unified Temporal Diffusion for Joint Perception and Planning in Autonomous Driving
 
-**链接：** https://arxiv.org/abs/2606.25736
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2606.25736"
+  arxiv="2606.25736"
+>}}
 
 **一句话总结：** 提出将感知和规划统一在共享扩散空间中联合去噪的端到端自动驾驶框架，通过双向信息交换实现互相精化，ECCV 2026 录用。
 
@@ -70,7 +76,10 @@ tocopen: true
 
 ### FORCE: Efficient VLA Reinforcement Fine-Tuning via Value-Calibrated Warm-up and Self-Distillation
 
-**链接：** https://arxiv.org/abs/2606.26006
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2606.26006"
+  arxiv="2606.26006"
+>}}
 
 **一句话总结：** 提出三阶段 VLA 强化微调框架 FORCE，通过价值校准预热和在线自蒸馏解决 RL 样本低效问题，实现 79% 绝对成功率提升，无需人工干预。
 
@@ -96,7 +105,10 @@ tocopen: true
 
 ### MVTrack4Gen: Multi-View Point Tracking as Geometric Supervision for 4D Video Generation
 
-**链接：** https://arxiv.org/abs/2606.26087
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2606.26087"
+  arxiv="2606.26087"
+>}}
 
 **一句话总结：** 提出用多视角点跟踪作为附加几何与运动监督信号的训练框架，显著提升单目参考视频新视角视频扩散生成的几何一致性和运动保真度。
 
@@ -123,7 +135,10 @@ tocopen: true
 
 ### DomainShuttle: Freeform Open Domain Subject-driven Text-to-video Generation
 
-**链接：** https://arxiv.org/abs/2606.26058
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2606.26058"
+  arxiv="2606.26058"
+>}}
 
 **一句话总结：** 提出 DomainShuttle 框架，通过 Domain-MoT 和 Video-Reference DualRoPE 统一解决视频主题个性化生成中的域内高保真与跨域灵活编辑问题。
 
@@ -149,7 +164,10 @@ tocopen: true
 
 ### RoboAtlas: Contextual Active SLAM
 
-**链接：** https://arxiv.org/abs/2606.26046
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2606.26046"
+  arxiv="2606.26046"
+>}}
 
 **一句话总结：** 提出 RoboAtlas 上下文感知主动 SLAM 框架，结合大规模 3D 语义地图与多臂老虎机决策，在 GOAT-Bench 上以 90.6% 成功率刷新 SOTA。
 
@@ -175,7 +193,10 @@ tocopen: true
 
 ### MIMFlow: Integrating Masked Image Modeling with Normalizing Flows for End-to-End Image Generation
 
-**链接：** https://arxiv.org/abs/2606.26016
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2606.26016"
+  arxiv="2606.26016"
+>}}
 
 **一句话总结：** 提出将掩码图像建模（MIM）与归一化流统一为端到端框架 MIMFlow，通过语义潜变量解耦生成任务，突破归一化流的容量瓶颈，ECCV 2026 录用。
 
@@ -201,7 +222,10 @@ tocopen: true
 
 ### PCDiff: Point Cloud Diffusion with Global and Local Reconstruction for Instance-Level 3D Anomaly Detection
 
-**链接：** https://arxiv.org/abs/2606.25740
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2606.25740"
+  arxiv="2606.25740"
+>}}
 
 **一句话总结：** 提出基于点云扩散的实例级 3D 异常检测框架 PCDiff，通过多模态条件生成弱缺陷异常并用联合局部-全局重建检测，显著超越 SOTA。
 

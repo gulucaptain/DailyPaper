@@ -21,11 +21,12 @@ tocopen: true
 
 ### 4Director: Controlling Video World Models with Rigid 3D Geometry
 
-**链接：** https://arxiv.org/abs/2610.02160
-
-**项目主页：** https://stability-ai.github.io/4director/ ｜ **代码：** https://github.com/VVeiCao/4Director
-
-**作者 / 机构：** Wei Cao, Hao Zhang, Vikram Voleti, Yuqun Wu, Mallikarjun B R, Shimon Vainer, Mark Boss, Yaoyao Liu（Stability AI；University of Illinois at Urbana-Champaign 伊利诺伊大学厄巴纳-香槟分校）
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2610.02160"
+  authors="Wei Cao, Hao Zhang, Vikram Voleti, Yuqun Wu, Mallikarjun B R, Shimon Vainer, Mark Boss, Yaoyao Liu（Stability AI；University of Illinois at Urbana-Champaign 伊利诺伊大学厄巴纳-香槟分校）"
+  arxiv="2610.02160"
+  links="[{\"url\":\"https://stability-ai.github.io/4director/\",\"label\":\"项目主页\",\"kind\":\"project\"},{\"url\":\"https://github.com/VVeiCao/4Director\",\"label\":\"GitHub\",\"kind\":\"github\"}]"
+>}}
 
 **一句话总结：** Stability AI 与 UIUC 提出 **4Director**，一种条件于**显式 4D 场景表示**的视频世界模型——每个物体从输入图重建一次 canonical mesh，此后每帧只施加一个刚性变换，与背景、相机共享同一坐标系；把受控场景渲染成深度视频后，用 Motion Adapter 把这个几何脚手架「翻译」成视频，同时合成视角一致的外观、光照与非刚性动力学。配套构建了 **RealCOD-Rigid**（20,774 条真实视频片段，由自动流水线标注刚性 3D 场景）与 **IG-IoU**（Identity-Gated IoU，同时考察物体是否按指定轨迹运动、身份是否保持）两个新资产。
 
@@ -49,11 +50,12 @@ tocopen: true
 
 ### Oneira: From Open-Ended Generation to Open-World Interaction in Video World Models
 
-**链接：** https://arxiv.org/abs/2610.01614
-
-**项目主页：** https://madaoer.github.io/projects/oneira
-
-**作者 / 机构：** Xindi Yang, Baolu Li, Liam Lee, Zhenfei Yin, Songxin Zhang, Zhuoyang Song, Xu Jia, Jianfei Cai, Tien-Tsin Wong, Bingyi Jing, Mengyue Yang（Monash University 莫纳什大学；University of Bristol 布里斯托大学；Dalian University of Technology 大连理工大学；The Chinese University of Hong Kong, Shenzhen 香港中文大学（深圳）；Oxford University 牛津大学）
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2610.01614"
+  authors="Xindi Yang, Baolu Li, Liam Lee, Zhenfei Yin, Songxin Zhang, Zhuoyang Song, Xu Jia, Jianfei Cai, Tien-Tsin Wong, Bingyi Jing, Mengyue Yang（Monash University 莫纳什大学；University of Bristol 布里斯托大学；Dalian University of Technology 大连理工大学；The Chinese University of Hong Kong, Shenzhen 香港中文大学（深圳）；Oxford University 牛津大学）"
+  arxiv="2610.01614"
+  links="[{\"url\":\"https://madaoer.github.io/projects/oneira\",\"label\":\"项目主页\",\"kind\":\"project\"}]"
+>}}
 
 **一句话总结：** 莫纳什大学、布里斯托大学、大连理工、港中深与牛津的团队提出 **Oneira**，一个闭环交互式视频世界模型：由一个 **coding agent 维护一张显式、可扩展的世界状态表**，读到观测与动作后先定位相关实体、规划交互、再把结果写回状态表；探索中出现的新物体会被纳入，使可交互空间随生成世界一起扩张，而此前引发的状态变更会跨视频段传递，成为后续世界演化的一部分。在 InteractionBench 上，交互 / 时机 / 目标三项通过率分别达到 **0.78 / 0.76 / 0.82**，PSNR **21.11 dB**、SSIM **0.64**、状态保持 **0.80**，相对最强基线分别高出 0.29 / 0.19 / 0.29。
 
@@ -77,11 +79,12 @@ tocopen: true
 
 ### MosaiChunk: Compositing Spatio-Temporal Memory for Autoregressive Video Generation
 
-**链接：** https://arxiv.org/abs/2610.02153
-
-**项目主页：** https://mosaichunk.github.io/ ｜ **代码：** https://github.com/mosaichunk/MosaiChunk ｜ **模型 / 数据：** https://huggingface.co/mosaichunk/MosaiChunk ｜ https://huggingface.co/datasets/mosaichunk/RememBench
-
-**作者 / 机构：** Yiwen Zhang, Haocheng Xi, Michael Tian-Yue Liu, Alexei A. Efros, Hadar Averbuch-Elor, Qianqian Wang, Haiwen Feng（Cornell University 康奈尔大学；University of California, Berkeley 加州大学伯克利分校；Harvard University 哈佛大学；Impossible, Inc.）
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2610.02153"
+  authors="Yiwen Zhang, Haocheng Xi, Michael Tian-Yue Liu, Alexei A. Efros, Hadar Averbuch-Elor, Qianqian Wang, Haiwen Feng（Cornell University 康奈尔大学；University of California, Berkeley 加州大学伯克利分校；Harvard University 哈佛大学；Impossible, Inc.）"
+  arxiv="2610.02153"
+  links="[{\"url\":\"https://mosaichunk.github.io/\",\"label\":\"项目主页\",\"kind\":\"project\"},{\"url\":\"https://github.com/mosaichunk/MosaiChunk\",\"label\":\"GitHub\",\"kind\":\"github\"},{\"url\":\"https://huggingface.co/mosaichunk/MosaiChunk\",\"label\":\"模型 / 数据\",\"kind\":\"huggingface\"},{\"url\":\"https://huggingface.co/datasets/mosaichunk/RememBench\",\"label\":\"模型 / 数据\",\"kind\":\"huggingface\"}]"
+>}}
 
 **一句话总结：** Cornell、UC Berkeley、Harvard 与 Impossible, Inc. 提出 **MosaiChunk**，一种为长程自回归视频生成设计的**时空记忆机制**：把跨空间与时间挑选出的历史 KV 条目拼成一块「马赛克」，在固定记忆预算下喂给**完全冻结**的视频生成器；只训练一个轻量 router 决定该纳入哪些历史片段，并用自蒸馏（教师 = 同一冻结骨干 + 更丰富的历史上下文）来训它。同时发布 **RememBench**，一个专门考察长程回访（revisit）的基准，含 prompt 驱动的 T2V 与相机驱动的 I2V 两个 split。
 
@@ -105,11 +108,12 @@ tocopen: true
 
 ### DMAD: Distribution Matching as Adversarial Distillation for Fast Visual Generation
 
-**链接：** https://arxiv.org/abs/2610.02188
-
-**项目主页：** https://yzmblog.github.io/projects/DMAD ｜ **模型：** https://huggingface.co/ZhengmingYu/DMAD
-
-**作者 / 机构：** Zhengming Yu, Junkun Yuan, Haotian Yang, Gordon Guocheng Qian, Yizhi Wang, Angtian Wang, Yiding Yang, Bo Liu, Xin Li, Wenping Wang, Chongyang Ma（Texas A&M University 德州农工大学；ByteDance 字节跳动）
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2610.02188"
+  authors="Zhengming Yu, Junkun Yuan, Haotian Yang, Gordon Guocheng Qian, Yizhi Wang, Angtian Wang, Yiding Yang, Bo Liu, Xin Li, Wenping Wang, Chongyang Ma（Texas A&M University 德州农工大学；ByteDance 字节跳动）"
+  arxiv="2610.02188"
+  links="[{\"url\":\"https://yzmblog.github.io/projects/DMAD\",\"label\":\"项目主页\",\"kind\":\"project\"},{\"url\":\"https://huggingface.co/ZhengmingYu/DMAD\",\"label\":\"模型\",\"kind\":\"huggingface\"}]"
+>}}
 
 **一句话总结：** 德州农工大学与字节跳动提出 **DMAD（Distribution Matching as Adversarial Distillation）**，把分布匹配蒸馏重铸为一个**分类问题**：在共享骨干上挂两个判别头，分别区分「真实数据 vs 学生样本」与「教师样本 vs 学生样本」，直接用线性损失训练学生，从而**彻底甩掉 DMD 必须持续维护的那个辅助扩散模型（fake score network）**。作者证明在判别器最优时这些损失恰好恢复 DMD 的分布匹配梯度——依据是判别器 logits 与 log-density ratio 之间的经典恒等式。一步生成在 ImageNet-64×64 上拿到 **FID 1.04**，四步 SDXL 在 COCO-10K 上 **14.47**，四步 Wan2.1-T2V-14B 在 VBench 总分 **85.15**。
 
@@ -133,11 +137,12 @@ tocopen: true
 
 ### DeepJEPA: Scaling World Models from Within
 
-**链接：** https://arxiv.org/abs/2610.00368
-
-**项目主页：** https://deepjepa.github.io/ ｜ **代码：** https://github.com/deepjepa/DeepJEPA
-
-**作者 / 机构：** Zijian Jin, Yunbei Zhang, Yuanzhe Liu, Ming Liu, Baian Chen, Weirui Ye, Shilong Liu, Marco Pavone（New York University 纽约大学；Tulane University 杜兰大学；University of Illinois Urbana-Champaign；Princeton University 普林斯顿大学；MIT；Columbia University 哥伦比亚大学；Stanford University 斯坦福大学）
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2610.00368"
+  authors="Zijian Jin, Yunbei Zhang, Yuanzhe Liu, Ming Liu, Baian Chen, Weirui Ye, Shilong Liu, Marco Pavone（New York University 纽约大学；Tulane University 杜兰大学；University of Illinois Urbana-Champaign；Princeton University 普林斯顿大学；MIT；Columbia University 哥伦比亚大学；Stanford University 斯坦福大学）"
+  arxiv="2610.00368"
+  links="[{\"url\":\"https://deepjepa.github.io/\",\"label\":\"项目主页\",\"kind\":\"project\"},{\"url\":\"https://github.com/deepjepa/DeepJEPA\",\"label\":\"GitHub\",\"kind\":\"github\"}]"
+>}}
 
 **一句话总结：** 提出 **DeepJEPA**，一个权重绑定（weight-tied）的联合嵌入预测世界模型，把**转移深度**当作一条**内层的 test-time scaling 轴**：不再给每次想象的转移分配相同计算，而是学会对每个候选、每个 rollout 步判断「再算一次循环更新值不值得」。在五个视觉控制设置上，它追平或超过最强的固定深度规划器，而**平均每个转移只用 1.00–1.26 次更新**；省下的计算被集中投到接触发生与持续物体交互处——恰恰是潜空间修正能改变 CEM 精英集与最终动作的地方。
 
@@ -161,11 +166,12 @@ tocopen: true
 
 ### JEPA-TTT: Persistent Test-Time Training of Latent World Models for Planning under Dynamics Shifts
 
-**链接：** https://arxiv.org/abs/2610.00722
-
-**项目主页：** https://jepa-ttt.github.io/
-
-**作者 / 机构：** Zheyuan Zhang, Suyu Ye, Nakul Agarwal, Hossein Nourkhiz Mahjoub, Ehsan Moradi Pari, Daniel Khashabi, Tianmin Shu, Vaishnav Tadiparthi（Honda Research Institute USA 本田美国研究院；Johns Hopkins University 约翰霍普金斯大学）
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2610.00722"
+  authors="Zheyuan Zhang, Suyu Ye, Nakul Agarwal, Hossein Nourkhiz Mahjoub, Ehsan Moradi Pari, Daniel Khashabi, Tianmin Shu, Vaishnav Tadiparthi（Honda Research Institute USA 本田美国研究院；Johns Hopkins University 约翰霍普金斯大学）"
+  arxiv="2610.00722"
+  links="[{\"url\":\"https://jepa-ttt.github.io/\",\"label\":\"项目主页\",\"kind\":\"project\"}]"
+>}}
 
 **一句话总结：** 本田美国研究院与约翰霍普金斯大学提出 **JEPA-TTT**，让一个预训练好的动作条件 JEPA 世界模型在**部署期持续自适应**：只更新潜动力学预测器，视觉编码器与奖励头保持冻结，自监督更新跨 episode 累积。规划过程**既不需要目标图像，也不需要在线环境奖励**。在四个连续控制环境、八种动力学偏移上，JEPA-TTT 在**每一种偏移上都改善了规划**；经过 500 轮测试时训练后，自回归潜预测误差平均下降 **83%**，规划性能相对冻结的 JEPA 世界模型提升 **153%**（best score）与 **113%**（mean AUC）。
 
@@ -189,11 +195,12 @@ tocopen: true
 
 ### TacDyn-WAM: Learning Implicit Tactile Dynamics in a Heterogeneous Visuo-Tactile World Action Model
 
-**链接：** https://arxiv.org/abs/2610.00638
-
-**项目主页：** https://enyi-bean.github.io/TacDyn-WAM-Page/
-
-**作者 / 机构：** Enyi Wang, Mingxin Wang, Quan Shi, Hetian Guo, Hongyu Wang, Xi Wang, Bin Qian, Yupeng Zheng, Wenxuan Song, Houde Liu, Yong Xu, Cheng Chi, Wenchao Ding, Yilun Chen, Yan Wang（Institute for AI Industry Research (AIR), Tsinghua University 清华大学智能产业研究院；Institute of Automation, Chinese Academy of Sciences 中国科学院自动化研究所；The Hong Kong University of Science and Technology (Guangzhou) 香港科技大学（广州）；Tsinghua University 清华大学；School of Information, Renmin University of China 中国人民大学信息学院；Fudan University 复旦大学；TARS Robotics）
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2610.00638"
+  authors="Enyi Wang, Mingxin Wang, Quan Shi, Hetian Guo, Hongyu Wang, Xi Wang, Bin Qian, Yupeng Zheng, Wenxuan Song, Houde Liu, Yong Xu, Cheng Chi, Wenchao Ding, Yilun Chen, Yan Wang（Institute for AI Industry Research (AIR), Tsinghua University 清华大学智能产业研究院；Institute of Automation, Chinese Academy of Sciences 中国科学院自动化研究所；The Hong Kong University of Science and Technology (Guangzhou) 香港科技大学（广州）；Tsinghua University 清华大学；School of Information, Renmin University of China 中国人民大学信息学院；Fudan University 复旦大学；TARS Robotics）"
+  arxiv="2610.00638"
+  links="[{\"url\":\"https://enyi-bean.github.io/TacDyn-WAM-Page/\",\"label\":\"项目主页\",\"kind\":\"project\"}]"
+>}}
 
 **一句话总结：** 清华 AIR、中科院自动化所、港科大（广州）等团队提出 **TacDyn-WAM**，一个异构视触觉世界动作模型：它**不重建未来的触觉观测像素**，而是预测**隐式触觉动力学**。核心是 **TacRep**——一个通过在触觉片段上做掩码时空预测、并用关系结构蒸馏加以正则化而学到的动力学感知触觉目标空间；视觉专家与隐式触觉动力学专家在**各自独立的目标空间**中预测未来，通过 joint attention 相互交互，触觉专家一次前向即预测多个 horizon 的未来表征及其变化，另有一个只读触觉记忆提供当前触觉状态。在 UniVTAC 上仅用给定示范即取得 **81.5%** 平均成功率，达到 SOTA 级别；真机五项任务平均 **71.0%**，小规模预训练后升至 **85.0%**（对比 FTP-1 55.0、InternVLA-A1 40.0、LingBot-VA 32.0）。
 
@@ -217,11 +224,12 @@ tocopen: true
 
 ### DriftOPD: Sequence-Level Reverse-KL Distillation for One-Step VLA Policies
 
-**链接：** https://arxiv.org/abs/2610.00317
-
-**项目主页：** https://yj-jun.github.io/DriftOPD/
-
-**作者 / 机构：** Youngjun Jun, Kyumin Choi, Youngmin Kim, Seonghyun Jin, Sunwoo Park, Jangho Park, Jong Chul Ye（KAIST 韩国科学技术院；Sungkyunkwan University 成均馆大学）
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2610.00317"
+  authors="Youngjun Jun, Kyumin Choi, Youngmin Kim, Seonghyun Jin, Sunwoo Park, Jangho Park, Jong Chul Ye（KAIST 韩国科学技术院；Sungkyunkwan University 成均馆大学）"
+  arxiv="2610.00317"
+  links="[{\"url\":\"https://yj-jun.github.io/DriftOPD/\",\"label\":\"项目主页\",\"kind\":\"project\"}]"
+>}}
 
 **一句话总结：** KAIST 与成均馆大学提出 **DriftOPD**——一个**无教师、无 rollout** 的序列级 on-policy 蒸馏框架，用于把连续 VLA 动作专家压成一步策略。关键洞察是：**序列级 reverse KL 可以精确分解为「chunk 级 reverse-KL 项」+「未来势项」**，后者刻画当前动作的长程效应；DriftOPD 分别用一步 drifting 目标与一个仅从离线示范中学到的 Q critic 来优化这两项，从而**只用离线数据、只做一步动作生成**就完成了序列级优化。在多种 VLA 架构的仿真与真机操作上，它普遍优于现有一步蒸馏基线，并达到与多步教师策略相当的成功率。
 

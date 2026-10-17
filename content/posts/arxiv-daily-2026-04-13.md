@@ -17,7 +17,10 @@ tocopen: true
 
 ### Envisioning the Future, One Step at a Time
 
-**链接：** https://arxiv.org/abs/2604.09527
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2604.09527"
+  arxiv="2604.09527"
+>}}
 
 **一句话总结：** 提出基于稀疏点轨迹的自回归扩散模型，以极低计算代价实现开放集场景未来动态预测，性能比肩甚至超越密集视频模拟器。
 
@@ -41,7 +44,10 @@ tocopen: true
 
 ### Egocentric Think-Aloud Chains for Long-Horizon Tasks
 
-**链接：** https://arxiv.org/abs/2604.09535
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2604.09535"
+  arxiv="2604.09535"
+>}}
 
 **一句话总结：** 提出 EgoTL 数据集与基准，通过"边说边做"（think-aloud）协议捕获第一人称视角的逐步目标与空间推理链，系统评估 VLM 和世界模型在真实家庭长时程任务中的能力上限。
 
@@ -65,7 +71,10 @@ tocopen: true
 
 ### Taming Visual Signals for Efficient Video Large Language Models
 
-**链接：** https://arxiv.org/abs/2604.09547
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2604.09547"
+  arxiv="2604.09547"
+>}}
 
 **一句话总结：** 提出 Tango 框架，通过多样性驱动的注意力选择和时空旋转位置编码，在保留 10% 视频 token 的条件下维持 98.9% 原始性能，推理加速 1.88×。
 
@@ -89,7 +98,10 @@ tocopen: true
 
 ### Arbitration Failure, Not Perceptual Blindness: How Vision-Language Models Resolve Visual-Linguistic Conflicts
 
-**链接：** https://arxiv.org/abs/2604.09364
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2604.09364"
+  arxiv="2604.09364"
+>}}
 
 **一句话总结：** 通过跨层 Logit Lens 探针与因果激活修补实验发现，VLM 的视觉-语言冲突中失败原因是"仲裁失败"而非"感知盲区"——模型其实看到了，但没有据此作答。
 
@@ -114,7 +126,10 @@ tocopen: true
 
 ### Decoupled Confidence Calibration for Large Vision-Language Models Reasoning
 
-**链接：** https://arxiv.org/abs/2604.09529
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2604.09529"
+  arxiv="2604.09529"
+>}}
 
 **一句话总结：** 提出 VL-Calibration，通过强化学习将 VLM 的置信度显式解耦为视觉置信度与推理置信度，在提升校准质量的同时改善视觉推理准确率。
 
@@ -138,7 +153,10 @@ tocopen: true
 
 ### Clean Image Generation from Diffusion Models Trained on Noisy Images
 
-**链接：** https://arxiv.org/abs/2604.09436
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2604.09436"
+  arxiv="2604.09436"
+>}}
 
 **一句话总结：** 提出 SCoRe（频谱截止再生成），一种无需重训练的生成时频谱修复方法，可从噪声数据训练的扩散模型中生成干净图像。
 
@@ -162,7 +180,10 @@ tocopen: true
 
 ### Visual Physics Learning and Reasoning in One Suite (PhysInOne)
 
-**链接：** https://arxiv.org/abs/2604.09415
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2604.09415"
+  arxiv="2604.09415"
+>}}
 
 **一句话总结：** 构建 PhysInOne，一个大规模合成数据集与评估套件，系统覆盖视觉物理推理所需的多种物理属性和场景，填补当前缺乏物理接地数据的关键空白。
 

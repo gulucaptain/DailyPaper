@@ -17,7 +17,10 @@ tocopen: true
 
 ### Aligning Video World Models with Executable Robot Actions via Inverse Dynamics Rewards
 
-**链接：** https://arxiv.org/abs/2603.17808
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2603.17808"
+  arxiv="2603.17808"
+>}}
 
 **一句话总结：** 提出 EVA 框架，通过逆动力学模型作为奖励信号对视频世界模型进行强化学习后训练，弥合视觉生成与机器人可执行控制之间的"可执行性鸿沟"。
 
@@ -41,7 +44,10 @@ tocopen: true
 
 ### Pixel-Wise Losses for Latent Video Diffusion via Truncated Backpropagation
 
-**链接：** https://arxiv.org/abs/2603.17812
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2603.17812"
+  arxiv="2603.17812"
+>}}
 
 **一句话总结：** 提出 ChopGrad，一种针对潜变量视频扩散模型解码器的截断反向传播方案，将像素级损失微调的显存消耗从随帧数线性增长降至常数。
 
@@ -65,7 +71,10 @@ tocopen: true
 
 ### The Unreasonable Effectiveness of Text Embedding Interpolation for Continuous Image Steering
 
-**链接：** https://arxiv.org/abs/2603.17998
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2603.17998"
+  arxiv="2603.17998"
+>}}
 
 **一句话总结：** 提出无需训练的连续图像/视频编辑框架，通过在文本编码空间中插值"去偏对比 prompt 对"生成的 steering vector，实现对生成方向的平滑连续控制。
 
@@ -89,7 +98,10 @@ tocopen: true
 
 ### AHOY! Animatable Humans under Occlusion from YouTube Videos with Gaussian Splatting and Video Diffusion Priors
 
-**链接：** https://arxiv.org/abs/2603.17975
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2603.17975"
+  arxiv="2603.17975"
+>}}
 
 **一句话总结：** 提出 AHOY，从野外单目遮挡视频重建完整可动画 3D Gaussian 人体 avatar，利用 identity-finetuned 扩散模型生成对未观测区域的监督信号。
 
@@ -113,7 +125,10 @@ tocopen: true
 
 ### Level of Semantics Tokenization for 3D Shapes
 
-**链接：** https://arxiv.org/abs/2603.17995
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2603.17995"
+  arxiv="2603.17995"
+>}}
 
 **一句话总结：** 提出 LoST（Level-of-Semantics Tokenization），按语义显著性排序 3D 形状 token，早期前缀即可解码为完整语义形状，大幅提升自回归 3D 生成效率。
 
@@ -137,7 +152,10 @@ tocopen: true
 
 ### Goal-Conditioned Multimodal Transformer for 6-DOF Object Trajectory Synthesis in 3D Scenes
 
-**链接：** https://arxiv.org/abs/2603.17993
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2603.17993"
+  arxiv="2603.17993"
+>}}
 
 **一句话总结：** 提出 GMT，一种融合 3D 边界框几何、点云上下文、语义类别和目标末端位姿的多模态 Transformer，生成精准的 6-DOF 物体操作轨迹，在 3DV 2026 被接收。
 
@@ -161,7 +179,10 @@ tocopen: true
 
 ### Transparency Aware Image-to-Video Typography Animation
 
-**链接：** https://arxiv.org/abs/2603.17944
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2603.17944"
+  arxiv="2603.17944"
+>}}
 
 **一句话总结：** 提出 TransText 框架，通过 Alpha-as-RGB 新范式在不修改预训练生成模型的前提下实现透明字形的高保真图像到视频动画。
 
@@ -185,7 +206,10 @@ tocopen: true
 
 ### Enhancing LLM-Based Embodied Planning through Rule-Augmented Memory Synergy
 
-**链接：** https://arxiv.org/abs/2603.17831
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2603.17831"
+  arxiv="2603.17831"
+>}}
 
 **一句话总结：** 提出 RPMS 架构，通过结构化规则检索约束动作可行性、轻量置信状态过滤情景记忆、规则优先仲裁解决冲突，在 ALFWorld 上以 Llama 8B 达到 59.7% 成功率（+23.9pp）。
 

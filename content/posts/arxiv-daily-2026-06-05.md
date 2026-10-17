@@ -17,7 +17,10 @@ tocopen: true
 
 ### World-Language-Action Model for Unified World Modeling, Language Reasoning, and Action Synthesis
 
-**链接：** https://arxiv.org/abs/2606.05979
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2606.05979"
+  arxiv="2606.05979"
+>}}
 
 **一句话总结：** 提出 WLA（World-Language-Action）模型，将世界建模（视频预测）、语言推理与机器人动作生成整合到单一自回归 Transformer 框架中，2B 参数原型 WLA-0 在 RoboTwin2.0 上达到 92.94% 成功率。
 
@@ -40,7 +43,10 @@ tocopen: true
 
 ### Thinking with Imagination: Agentic Visual Spatial Reasoning with World Simulators
 
-**链接：** https://arxiv.org/abs/2606.06476
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2606.06476"
+  arxiv="2606.06476"
+>}}
 
 **一句话总结：** 提出 Astra 框架，让 VLM 通过与世界模拟器交互"主动想象"不同视角的视觉证据，显著提升跨视角空间推理能力。
 
@@ -63,7 +69,10 @@ tocopen: true
 
 ### LoomVideo: Unifying Multimodal Inputs into Video Generation and Editing
 
-**链接：** https://arxiv.org/abs/2606.06042
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2606.06042"
+  arxiv="2606.06042"
+>}}
 
 **一句话总结：** LoomVideo 提出零开销的 Scale-and-Add 视频编辑条件机制，用 5B 参数模型统一视频生成与编辑，推理速度比同类模型快 5.41 倍。
 
@@ -86,7 +95,10 @@ tocopen: true
 
 ### Physics in 2-Steps: Locking Motion Priors Before Visual Refinement Erases Them
 
-**链接：** https://arxiv.org/abs/2606.06361
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2606.06361"
+  arxiv="2606.06361"
+>}}
 
 **一句话总结：** 发现视频扩散模型在 2 步去噪时物理一致性优于 50 步输出，提出 PhaseLock 通过锁定运动先验保持物理一致性，ICML 2026 收录。
 
@@ -109,7 +121,10 @@ tocopen: true
 
 ### RhymeFlow: Training-Free Acceleration for Video Generation with Asynchronous Denoising Flow Scheduling
 
-**链接：** https://arxiv.org/abs/2606.06309
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2606.06309"
+  arxiv="2606.06309"
+>}}
 
 **一句话总结：** 提出 RhymeFlow，通过对关键帧进行完整去噪、非关键帧跳步去噪，实现视频 DiT 生成的无训练加速，同时维持视觉质量。
 
@@ -132,7 +147,10 @@ tocopen: true
 
 ### Complexity-Balanced Diffusion Splitting (CBS)
 
-**链接：** https://arxiv.org/abs/2606.06477
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2606.06477"
+  arxiv="2606.06477"
+>}}
 
 **一句话总结：** CBS 基于 de Boor 等分布原理将扩散时间轴切分为等近似难度段，分配多个专用子网络，在不增加单步推理成本的前提下将 SiT-XL 的 FID 提升约 35%。
 
@@ -155,7 +173,10 @@ tocopen: true
 
 ### ReCache: Learning Budget-Aware Caching Schedules for Diffusion Models via REINFORCE
 
-**链接：** https://arxiv.org/abs/2606.06060
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2606.06060"
+  arxiv="2606.06060"
+>}}
 
 **一句话总结：** 提出 ReCache，用策略梯度学习给定计算预算下的最优特征缓存调度，在 FLUX 上 5.04× FLOPs 压缩下将 LPIPS 降低 31%，Wan 2.1 视频生成 VBench 提升 7%。
 
@@ -178,7 +199,10 @@ tocopen: true
 
 ### PAR3D: A Unified Part-Aware 3D-MLLM with Part-Aware Representation for Scene Understanding
 
-**链接：** https://arxiv.org/abs/2606.06485
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2606.06485"
+  arxiv="2606.06485"
+>}}
 
 **一句话总结：** 提出 PAR3D，首个支持零件级别感知与推理的统一 3D-MLLM，引入 ScenePart 数据集并通过层次化分割查询实现 3D 场景中物体及其零件的联合理解与定位。
 

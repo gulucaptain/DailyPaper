@@ -17,7 +17,10 @@ tocopen: true
 
 ### Towards Minute-Long Consistent World Generation with Decoupled Memory
 
-**链接：** https://arxiv.org/abs/2605.31336
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2605.31336"
+  arxiv="2605.31336"
+>}}
 
 **一句话总结：** 提出 DecMem——解耦记忆架构，通过稀疏全局记忆与锚定局部记忆的组合，实现分钟级别的高保真、高一致性可控视频生成，直接推进世界模型的长时序能力边界。
 
@@ -43,7 +46,10 @@ tocopen: true
 
 ### Representation Forcing for Bottleneck-Free Unified Multimodal Models
 
-**链接：** https://arxiv.org/abs/2605.31604
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2605.31604"
+  arxiv="2605.31604"
+>}}
 
 **一句话总结：** 提出 Representation Forcing（RF）技术，让统一多模态模型在像素空间中直接完成理解与生成，彻底消除对冻结预训练 VAE 的依赖，实现真正端到端的无瓶颈统一多模态架构。
 
@@ -67,7 +73,10 @@ tocopen: true
 
 ### Lumos-Nexus: Efficient Frequency Bridging with Homogeneous Latent Space for Video Unified Models
 
-**链接：** https://arxiv.org/abs/2605.31603
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2605.31603"
+  arxiv="2605.31603"
+>}}
 
 **一句话总结：** 提出 Lumos-Nexus 框架，通过训练阶段轻量生成器对齐 + 推理阶段渐进频率桥接（UPFB）策略，在不牺牲推理质量的前提下大幅提升视频统一模型的视觉保真度，同时引入 VR-Bench 推理驱动视频生成基准。
 
@@ -93,7 +102,10 @@ tocopen: true
 
 ### TunerDiT: Training-free Progressive Steering of Diffusion Transformer for Multi-Event Video Generation
 
-**链接：** https://arxiv.org/abs/2605.31590
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2605.31590"
+  arxiv="2605.31590"
+>}}
 
 **一句话总结：** 通过分析 DiT 去噪轨迹中的内在转折点，提出训练无关的 TunerDiT 方法，实现多事件长视频生成，在 8 项指标上达到 SOTA 且无需任何额外训练。
 
@@ -120,7 +132,10 @@ tocopen: true
 
 ### RayDer: Scalable Self-Supervised Novel View Synthesis from Real-World Video
 
-**链接：** https://arxiv.org/abs/2605.31535
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2605.31535"
+  arxiv="2605.31535"
+>}}
 
 **一句话总结：** 提出 RayDer——单一前馈 Transformer 统一相机估计、场景重建和渲染，实现新视角合成的幂律尺度扩展，零样本开集性能媲美有监督 SOTA。
 
@@ -144,7 +159,10 @@ tocopen: true
 
 ### VolFill: Single-View Amodal 3D Scene Reconstruction with Volumetric Flow Matching
 
-**链接：** https://arxiv.org/abs/2605.31466
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2605.31466"
+  arxiv="2605.31466"
+>}}
 
 **一句话总结：** 提出 VolFill，利用扩散 Transformer 对 3D VAE 压缩的有符号距离函数隐空间进行去噪，实现单图像遮挡感知的完整 3D 场景重建，显著超越现有基线。
 
@@ -168,7 +186,10 @@ tocopen: true
 
 ### DriveMA: Driving Vision-Language-Action Models with Verifiable Meta-Actions
 
-**链接：** https://arxiv.org/abs/2605.31271
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2605.31271"
+  arxiv="2605.31271"
+>}}
 
 **一句话总结：** 提出 DriveMA 框架，通过可验证元动作接口和动作中心强化学习，将高层语言决策与底层轨迹规划显式对齐，在 Waymo 端到端驾驶挑战中以 2B/4B 模型达到新 SOTA。
 
@@ -195,7 +216,10 @@ tocopen: true
 
 ### KLIP: Localized Distribution Shift Detection via KL-Divergence with Diffusion Priors in Inverse Problems
 
-**链接：** https://arxiv.org/abs/2605.31596
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2605.31596"
+  arxiv="2605.31596"
+>}}
 
 **一句话总结：** 提出基于扩散先验与后验分布 KL 散度的 OOD 检测指标 KLIP，无需任何标定数据即可检测全局和局部分布偏移，已被 CVPR 2026 接收。
 

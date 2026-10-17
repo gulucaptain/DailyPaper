@@ -17,7 +17,10 @@ tocopen: true
 
 ### PhysMoDPO: Physically-Plausible Humanoid Motion with Preference Optimization
 
-**链接：** https://arxiv.org/abs/2603.13228
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2603.13228"
+  arxiv="2603.13228"
+>}}
 
 **一句话总结：** 提出 PhysMoDPO 框架，将 Direct Preference Optimization 引入扩散模型训练，使文本驱动的人形动作生成在物理可行性和语义保真度上同时达到 SOTA，并在真实 G1 人形机器人上完成零样本迁移部署。
 
@@ -41,7 +44,10 @@ tocopen: true
 
 ### STEVO-Bench: Out of Sight, Out of Mind? Evaluating State Evolution in Video World Models
 
-**链接：** https://arxiv.org/abs/2603.13215
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2603.13215"
+  arxiv="2603.13215"
+>}}
 
 **一句话总结：** 提出 STEVO-Bench，首个专门评估视频世界模型能否将状态演化与观测过程解耦的 benchmark，揭示当前模型在"不被观测时世界依然在变化"这一基本能力上的系统性缺陷。
 
@@ -65,7 +71,10 @@ tocopen: true
 
 ### ThinkStream: Thinking in Streaming Video
 
-**链接：** https://arxiv.org/abs/2603.12938
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2603.12938"
+  arxiv="2603.12938"
+>}}
 
 **一句话总结：** 提出 ThinkStream 框架，以 Watch-Think-Speak 范式实现流式视频推理，通过推理压缩流式记忆（RCSM）和流式强化学习训练，在低延迟条件下大幅超越已有在线视频模型。
 
@@ -89,7 +98,10 @@ tocopen: true
 
 ### InterEdit: Navigating Text-Guided Multi-Human 3D Motion Editing
 
-**链接：** https://arxiv.org/abs/2603.13082
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2603.13082"
+  arxiv="2603.13082"
+>}}
 
 **一句话总结：** 提出 InterEdit3D 数据集和 InterEdit 模型，将文本引导的 3D 动作编辑扩展到多人交互场景，通过语义感知 Plan Token 对齐和基于 DCT 的频域 Token 对齐捕捉多人交互动态，达到 SOTA。
 
@@ -113,7 +125,10 @@ tocopen: true
 
 ### DecoVLN: Decoupling Observation, Reasoning, and Correction for Vision-and-Language Navigation
 
-**链接：** https://arxiv.org/abs/2603.13133
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2603.13133"
+  arxiv="2603.13133"
+>}}
 
 **一句话总结：** 提出 DecoVLN 框架（CVPR 2026），通过自适应长期记忆精炼和基于测地距离的纠错微调策略，显著提升 VLN 智能体在长距离导航任务中的鲁棒性，并部署于真实环境。
 
@@ -137,7 +152,10 @@ tocopen: true
 
 ### VoxelHound: Panoramic Multimodal Semantic Occupancy Prediction for Quadruped Robots
 
-**链接：** https://arxiv.org/abs/2603.13108
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2603.13108"
+  arxiv="2603.13108"
+>}}
 
 **一句话总结：** 提出 PanoMMOcc 数据集和 VoxelHound 框架，首个面向四足机器人全景多模态语义占用预测系统，通过垂直抖动补偿和多模态信息提示融合，在 mIoU 上超越此前 SOTA +4.16%。
 
@@ -161,7 +179,10 @@ tocopen: true
 
 ### ESPIRE: A Diagnostic Benchmark for Embodied Spatial Reasoning of Vision-Language Models
 
-**链接：** https://arxiv.org/abs/2603.13033
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2603.13033"
+  arxiv="2603.13033"
+>}}
 
 **一句话总结：** 提出 ESPIRE benchmark，通过物理仿真世界将 VLM 的空间推理能力评估从被动的视觉问答转向主动的定位-执行分解，揭示当前前沿 VLM 在具身空间推理上的系统性短板。
 
@@ -185,7 +206,10 @@ tocopen: true
 
 ### Visual-ERM: Reward Modeling for Visual Equivalence
 
-**链接：** https://arxiv.org/abs/2603.13224
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2603.13224"
+  arxiv="2603.13224"
+>}}
 
 **一句话总结：** 提出 Visual-ERM，一个多模态生成式奖励模型，在渲染视觉空间中评估 vision-to-code 任务质量，将 Qwen3-VL-8B 集成到 RL 训练中，在 chart/table/SVG 解析任务上取得显著提升并碾压更大闭源模型。
 

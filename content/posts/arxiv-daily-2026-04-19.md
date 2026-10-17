@@ -17,6 +17,11 @@ tocopen: true
 
 ### [CT-1: Vision-Language-Camera Models Transfer Spatial Reasoning Knowledge to Camera-Controllable Video Generation](https://arxiv.org/abs/2604.09201)
 
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2604.09201"
+  arxiv="2604.09201"
+>}}
+
 **一句话总结：** 提出视觉-语言-相机模型 CT-1，通过将空间推理知识迁移到视频扩散模型，实现精准的相机轨迹控制视频生成，相机控制精度提升 25.7%。
 
 **研究问题：** 现有相机可控视频生成方法要么只能从文本提示获得模糊的相机控制，要么依赖费力的手动相机轨迹参数标注，难以在自动化场景中使用。
@@ -43,6 +48,11 @@ tocopen: true
 
 ### [Motion-Adapter: A Diffusion Model Adapter for Text-to-Motion Generation of Compound Actions](https://arxiv.org/abs/2604.16135)
 
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2604.16135"
+  arxiv="2604.16135"
+>}}
+
 **一句话总结：** 提出即插即用的扩散模型适配器，通过解耦交叉注意力机制解决文本到动作生成中复合动作的两大核心问题。
 
 **研究问题：** 当前文本到动作扩散模型在合成复合动作（如"边走路边打招呼"）时，存在两个关键缺陷：（1）灾难性遗忘——后出现的动作会覆盖先前的动作；（2）注意力坍塌——交叉注意力机制中特征融合过度导致语义混乱。
@@ -65,6 +75,11 @@ tocopen: true
 
 ### [The Amazing Stability of Flow Matching](https://arxiv.org/abs/2604.16079)
 
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2604.16079"
+  arxiv="2604.16079"
+>}}
+
 **一句话总结：** 实验证明 Flow Matching 生成模型在数据集剪枝 50%、架构变更等扰动下表现出惊人稳定性，并揭示了潜在表示的保持机制。
 
 **研究问题：** 深度生成模型的成功通常被归因于特定架构和大规模训练数据，但这两个因素到底对 Flow Matching 模型的生成质量和多样性影响有多大？
@@ -86,6 +101,11 @@ tocopen: true
 ---
 
 ### [ICTone: In-Context Tone Style Transfer with Diffusion Models](https://arxiv.org/abs/2604.16114)
+
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2604.16114"
+  arxiv="2604.16114"
+>}}
 
 **一句话总结：** 提出基于扩散模型的上下文感知色调风格迁移框架 ICTone，同时构建了 10 万样本的大规模三元组数据集 TST100K。
 
@@ -110,6 +130,11 @@ tocopen: true
 ---
 
 ### [Polyglot: Multilingual Style Preserving Speech-Driven Facial Animation](https://arxiv.org/abs/2604.16108)
+
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2604.16108"
+  arxiv="2604.16108"
+>}}
 
 **一句话总结：** 提出统一扩散架构 Polyglot，通过联合语言和风格条件化，实现跨语言个性化语音驱动面部动画。
 
@@ -137,6 +162,11 @@ tocopen: true
 
 ### [LaviGen: Repurposing 3D Generative Model for Autoregressive Layout Generation](https://arxiv.org/abs/2604.16299)
 
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2604.16299"
+  arxiv="2604.16299"
+>}}
+
 **一句话总结：** 将 3D 生成模型重新用于 3D 布局生成，通过自回归建模几何关系和物理约束，比当前最优方法物理合理性高 19%、速度快 65%。
 
 **研究问题：** 3D 场景布局生成需要建模对象间几何关系和物理约束，现有方法从文本推断布局，缺乏对 3D 空间原生几何关系的显式建模。
@@ -162,6 +192,11 @@ tocopen: true
 
 ### [VEFX: A Holistic Benchmark for Generic Video Editing and Visual Effects](https://arxiv.org/abs/2604.16272)
 
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2604.16272"
+  arxiv="2604.16272"
+>}}
+
 **一句话总结：** 提出首个大规模人工标注视频编辑基准 VEFX，包含 5049 个样本和专门的视频编辑质量奖励模型。
 
 **研究问题：** 视频编辑领域缺乏大规模人工标注数据集和标准化评估体系，现有评估依赖人工审查或通用 VLM 评判器，不适合视频编辑质量的专业评测。
@@ -185,6 +220,11 @@ tocopen: true
 ---
 
 ### [FineCog-Nav: Integrating Fine-grained Cognitive Modules for Zero-shot Multimodal UAV Navigation](https://arxiv.org/abs/2604.16298)
+
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2604.16298"
+  arxiv="2604.16298"
+>}}
 
 **一句话总结：** 提出受人类认知启发的 UAV 视觉语言导航框架，通过细粒度模块化认知架构在零样本场景下实现有效的长程导航。（已被 CVPR 2026 Findings 接收）
 

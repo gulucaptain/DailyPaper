@@ -19,7 +19,10 @@ tocopen: true
 
 ### ShotStream: Streaming Multi-Shot Video Generation for Interactive Storytelling
 
-**链接：** https://arxiv.org/abs/2603.25746
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2603.25746"
+  arxiv="2603.25746"
+>}}
 
 **一句话总结：** 提出因果多镜头视频生成架构 ShotStream，通过分布匹配蒸馏实现流式交互式故事叙述，单GPU推理速度达 16 FPS。
 
@@ -47,7 +50,10 @@ tocopen: true
 
 ### Vega: A Unified Vision-Language-World-Action Model for Instruction-Following Driving
 
-**链接：** https://arxiv.org/abs/2603.25741
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2603.25741"
+  arxiv="2603.25741"
+>}}
 
 **一句话总结：** 提出统一的 Vision-Language-World-Action 模型 Vega，结合自回归与扩散范式，实现语言指令驱动的自动驾驶规划与世界建模。
 
@@ -75,7 +81,10 @@ tocopen: true
 
 ### HyDRA: Hybrid Memory for Dynamic Video World Models
 
-**链接：** https://arxiv.org/abs/2603.25716
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2603.25716"
+  arxiv="2603.25716"
+>}}
 
 **一句话总结：** 提出混合记忆范式 HyDRA，解决视频世界模型中动态主体出入视野时身份和运动丢失的问题，并构建专用基准数据集 HM-World。
 
@@ -103,7 +112,10 @@ tocopen: true
 
 ### LaMP: Learning Vision-Language-Action Policies with 3D Scene Flow as Latent Motion Prior
 
-**链接：** https://arxiv.org/abs/2603.25399
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2603.25399"
+  arxiv="2603.25399"
+>}}
 
 **一句话总结：** 提出双专家 VLA 框架 LaMP，以密集 3D 场景流作为隐运动先验，通过门控交叉注意力将运动专家与动作专家耦合，显著提升机器人操控鲁棒性。
 
@@ -131,7 +143,10 @@ tocopen: true
 
 ### Drive My Way: Preference Alignment of Vision-Language-Action Model for Personalized Driving
 
-**链接：** https://arxiv.org/abs/2603.25740
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2603.25740"
+  arxiv="2603.25740"
+>}}
 
 **一句话总结：** 提出 DMW 个性化驾驶框架，通过学习用户嵌入实现驾驶风格的长期习惯对齐与短期自然语言指令适配（CVPR 2026）。
 
@@ -159,7 +174,10 @@ tocopen: true
 
 ### SoftMimicGen: A Data Generation System for Scalable Robot Learning in Deformable Object Manipulation
 
-**链接：** https://arxiv.org/abs/2603.25725
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2603.25725"
+  arxiv="2603.25725"
+>}}
 
 **一句话总结：** 提出 SoftMimicGen 自动化数据生成流水线，面向可变形物体操作任务，覆盖四种机器人形态，填补仿真合成数据范式的关键空白。
 
@@ -187,7 +205,10 @@ tocopen: true
 
 ### Trace: Object Motion Editing in Videos with First-Frame Trajectory Guidance
 
-**链接：** https://arxiv.org/abs/2603.25707
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2603.25707"
+  arxiv="2603.25707"
+>}}
 
 **一句话总结：** 提出 Trace 框架，用户只需在锚帧上设计目标轨迹，即可实现视频中物体运动路径的可控编辑，同时保持原始场景内容一致性。
 
@@ -215,7 +236,10 @@ tocopen: true
 
 ### VISAGE: Visual Attention for Hallucination-Resilient Multimodal Diffusion LLMs
 
-**链接：** https://arxiv.org/abs/2603.25711
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2603.25711"
+  arxiv="2603.25711"
+>}}
 
 **一句话总结：** 提出免训练解码框架 VISAGE，通过量化交叉注意力的空间熵来检测和纠正多模态扩散语言模型中的幻觉，无需修改模型参数。
 

@@ -17,7 +17,10 @@ tocopen: true
 
 ### Seoul World Model: Grounding World Simulation Models in a Real-World Metropolis
 
-**链接：** https://arxiv.org/abs/2603.15583
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2603.15583"
+  arxiv="2603.15583"
+>}}
 
 **一句话总结：** 首个以真实城市（首尔）为锚点的大规模城市级世界模型 SWM，通过检索增强条件实现与现实环境真正对齐的长视野视频生成。
 
@@ -41,7 +44,10 @@ tocopen: true
 
 ### DOMINO & PUMA: Towards Generalizable Robotic Manipulation in Dynamic Environments
 
-**链接：** https://arxiv.org/abs/2603.15620
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2603.15620"
+  arxiv="2603.15620"
+>}}
 
 **一句话总结：** 提出 DOMINO 大规模动态操控数据集和 PUMA 动态感知 VLA 架构，系统填补了现有 VLA 在动态场景中的能力空白。
 
@@ -65,7 +71,10 @@ tocopen: true
 
 ### DeepVision-VLA: Enhancing Vision Foundation Representations for Vision-Language-Action Models
 
-**链接：** https://arxiv.org/abs/2603.15618
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2603.15618"
+  arxiv="2603.15618"
+>}}
 
 **一句话总结：** 系统分析 VLA 深层视觉敏感性衰减现象，提出 VL-MoT 框架和 AGVP 机制，使 VLA 的视觉表征能力在深层得到有效保持。
 
@@ -89,7 +98,10 @@ tocopen: true
 
 ### Tri-Prompting: Video Diffusion with Unified Control over Scene, Subject, and Motion
 
-**链接：** https://arxiv.org/abs/2603.15614
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2603.15614"
+  arxiv="2603.15614"
+>}}
 
 **一句话总结：** Tri-Prompting 提出统一框架，同时控制视频扩散中的场景构图、多视角主体一致性和运动轨迹，突破了现有方法各自为战的局限。
 
@@ -113,7 +125,10 @@ tocopen: true
 
 ### ViFeEdit: A Video-Free Tuner of Your Video Diffusion Transformer
 
-**链接：** https://arxiv.org/abs/2603.15478
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2603.15478"
+  arxiv="2603.15478"
+>}}
 
 **一句话总结：** ViFeEdit 仅用 2D 图像数据微调视频扩散 Transformer，无需任何视频训练数据即可实现高质量可控视频生成与编辑。
 
@@ -137,7 +152,10 @@ tocopen: true
 
 ### GlyphPrinter: Region-Grouped Direct Preference Optimization for Glyph-Accurate Visual Text Rendering
 
-**链接：** https://arxiv.org/abs/2603.15616
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2603.15616"
+  arxiv="2603.15616"
+>}}
 
 **一句话总结：** GlyphPrinter 提出区域级直接偏好优化（R-GDPO），从根本上解决扩散模型视觉文本渲染中局部字形错误难以感知和纠正的问题，被 CVPR 2026 接收。
 
@@ -161,7 +179,10 @@ tocopen: true
 
 ### HorizonMath: Measuring AI Progress Toward Mathematical Discovery with Automatic Verification
 
-**链接：** https://arxiv.org/abs/2603.15617
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2603.15617"
+  arxiv="2603.15617"
+>}}
 
 **一句话总结：** HorizonMath 是首个针对"真正未解问题"的数学发现基准——100+ 题均无已知答案，可自动验证，且已发现 GPT 5.4 Pro 对两道题给出了超越已知最优解的方案。
 
@@ -185,7 +206,10 @@ tocopen: true
 
 ### Geometry-Grounded Spatial Agent for Scene Understanding
 
-**链接：** https://arxiv.org/abs/2603.15386
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2603.15386"
+  arxiv="2603.15386"
+>}}
 
 **一句话总结：** 将空间感知与推理解耦——以明确 3D 场景图作为 LLM 的结构化接口，在 VSI-Bench 上比此前方法提升高达 16%，无需任务特化微调。
 

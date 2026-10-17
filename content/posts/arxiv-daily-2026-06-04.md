@@ -19,7 +19,10 @@ tocopen: true
 
 ### GRAIL: Generating Humanoid Loco-Manipulation from 3D Assets and Video Priors
 
-**链接：** https://arxiv.org/abs/2606.05160
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2606.05160"
+  arxiv="2606.05160"
+>}}
 
 **一句话总结：** GRAIL 是一个全虚拟数字生成流水线，利用视频基础模型（VFM）和3D资产自动合成人形机器人运动操作数据，无需物理遥操作即可生成超过20,000条运动序列，并在真实机器人上实现84%的任务成功率。
 
@@ -43,7 +46,10 @@ tocopen: true
 
 ### ForesightFlow: Potential-Guided Flow Matching for Vision-Language-Action Policy Improvement
 
-**链接：** https://arxiv.org/abs/2606.04968
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2606.04968"
+  arxiv="2606.04968"
+>}}
 
 **一句话总结：** ForesightFlow 提出一种自引导流匹配策略，通过在同一流中联合生成动作块和成功潜力轨迹，实现无外部 Critic 的最优动作推理，在 BEHAVIOR-1K 仿真和真实双臂任务上相比模仿学习基线显著提升性能，同时减少38%训练计算量。
 
@@ -67,7 +73,10 @@ tocopen: true
 
 ### WAM-Nav: Asymmetric Latent World-Action Modeling for Unified Visual Navigation
 
-**链接：** https://arxiv.org/abs/2606.04907
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2606.04907"
+  arxiv="2606.04907"
+>}}
 
 **一句话总结：** WAM-Nav 提出一种非对称联合扩散框架，在统一的 Diffusion Transformer 中同时生成长程动作序列和短程视觉预见（visual foresight），实现具有前瞻感知的机器人视觉导航，在多个 benchmark 上超越基线，真实环境零样本迁移成功率达85%。
 
@@ -91,7 +100,10 @@ tocopen: true
 
 ### SceneDiver: Breaking the Perceptual Bottleneck in Vision-Language Decision Making via Focus Plan Generation
 
-**链接：** https://arxiv.org/abs/2606.04046
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2606.04046"
+  arxiv="2606.04046"
+>}}
 
 **一句话总结：** SceneDiver 提出一种从粗到细的焦点规划生成方法，通过构建全局场景图再迭代分解任务，帮助 VLM 和 VLA 减少视觉幻觉，已被 ICML 2026 接收。
 
@@ -115,7 +127,10 @@ tocopen: true
 
 ### Endowing VLA Models with Latent 3D Priors via 3D-Thinking-Guided Co-training
 
-**链接：** https://arxiv.org/abs/2606.04436
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2606.04436"
+  arxiv="2606.04436"
+>}}
 
 **一句话总结：** 提出3D思维引导协同训练框架，通过在隐空间中分离3D几何感知（低层特征对齐）与3D空间推理（锚定token蒸馏），在不改变VLM骨干、不需要3D传感器的情况下让VLA实现隐式3D空间推理，在LIBERO、LIBERO-PLUS、SimplerEnv及真实任务上达到SOTA。
 
@@ -139,7 +154,10 @@ tocopen: true
 
 ### T2Mo: Controllable Dynamic 3D Shape Generation via 3D Trajectories and Text
 
-**链接：** https://arxiv.org/abs/2606.05162
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2606.05162"
+  arxiv="2606.05162"
+>}}
 
 **一句话总结：** T2Mo 提出前馈框架，以3D轨迹和文本为联合条件控制动态3D形状生成，通过形状锚定轨迹嵌入（shape-grounded trajectory embedding）解决任意轨迹输入的鲁棒处理问题。
 
@@ -163,7 +181,10 @@ tocopen: true
 
 ### GeM-NR: Geometry-Aware Multi-View Editing for Nonrigid Scene Changes
 
-**链接：** https://arxiv.org/abs/2606.05142
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2606.05142"
+  arxiv="2606.05142"
+>}}
 
 **一句话总结：** GeM-NR 提出无需训练的多视角一致性图像编辑方法，通过深度图估计、点云对齐和条件精化，支持包括大幅度几何变形在内的非刚性场景编辑，兼容多种生成骨干（FLUX、Qwen、BrushNet）。
 

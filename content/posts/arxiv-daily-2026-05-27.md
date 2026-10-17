@@ -17,7 +17,10 @@ tocopen: true
 
 ### MRT: Masked Region Transformer for Layered Image Generation and Editing at Scale
 
-**链接：** https://arxiv.org/abs/2605.27235
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2605.27235"
+  arxiv="2605.27235"
+>}}
 
 **一句话总结：** 提出 20B 参数的多层透明图像扩散模型 MRT，统一 text-to-layers、image-to-layers、layers-to-layers 三大任务，在速度和质量上大幅超越商业系统（CVPR 2026）。
 
@@ -41,7 +44,10 @@ tocopen: true
 
 ### FineVLA: Fine-Grained Instruction Alignment for Steerable Vision-Language-Action Policies
 
-**链接：** https://arxiv.org/abs/2605.27284
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2605.27284"
+  arxiv="2605.27284"
+>}}
 
 **一句话总结：** 构建细粒度 VLA 监督框架 FineVLA，通过精细化语言标注（执行方式而非仅任务目标）大幅提升机器人策略的可操控性与成功率。
 
@@ -65,7 +71,10 @@ tocopen: true
 
 ### PARE: Pruning and Adaptive Routing for Efficient Video Generation
 
-**链接：** https://arxiv.org/abs/2605.27336
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2605.27336"
+  arxiv="2605.27336"
+>}}
 
 **一句话总结：** 提出 PARE，通过结构感知剪枝 + 输入自适应路由联合压缩 Video DiT 的宽度和深度，在 Wan2.1-14B 上显著降低计算量同时保持生成质量。
 
@@ -89,7 +98,10 @@ tocopen: true
 
 ### PartFlow: Feedforward 3D Editing Learns from Semantic-Part Transformation
 
-**链接：** https://arxiv.org/abs/2605.27351
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2605.27351"
+  arxiv="2605.27351"
+>}}
 
 **一句话总结：** 提出 Pxform 高质量 3D 编辑数据集（10 万+对）和 PartFlow 前向网络，通过语义部件变换实现 SOTA 的 3D 几何与外观编辑。
 
@@ -113,7 +125,10 @@ tocopen: true
 
 ### SoftCap: Soft-Budget Control for Diffusion Transformer Acceleration
 
-**链接：** https://arxiv.org/abs/2605.27075
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2605.27075"
+  arxiv="2605.27075"
+>}}
 
 **一句话总结：** 提出 SoftCap，一个无训练的缓存式 DiT 推理控制层，通过 PI 控制器动态调节 full-step 触发阈值，在 FLUX.1-dev 上提升质量同时维持计算预算。
 
@@ -137,7 +152,10 @@ tocopen: true
 
 ### JLT: Clean-Latent Prediction in Latent Diffusion Transformers
 
-**链接：** https://arxiv.org/abs/2605.27102
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2605.27102"
+  arxiv="2605.27102"
+>}}
 
 **一句话总结：** 通过 130M 的 Latent DiT（JLT）实验证明：在 latent 空间中 clean-latent 预测目标在几何上优于 velocity 预测，FID 达到 2.50。
 
@@ -161,7 +179,10 @@ tocopen: true
 
 ### SpatialBench: Is Your Spatial Foundation Model an All-Round Player?
 
-**链接：** https://arxiv.org/abs/2605.27367
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2605.27367"
+  arxiv="2605.27367"
+>}}
 
 **一句话总结：** 提出 SpatialBench，涵盖 19 个数据集、546 场景、41 个模型、6 种范式的跨领域空间基础模型综合评测基准，揭示当前模型远未达到"全能选手"水平。
 
@@ -185,7 +206,10 @@ tocopen: true
 
 ### Touch-R1: Reinforcing Touch Reasoning in MLLMs
 
-**链接：** https://arxiv.org/abs/2605.27154
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2605.27154"
+  arxiv="2605.27154"
+>}}
 
 **一句话总结：** 构建 TouchReason-1M 触觉数据集和 Touch-R1 推理模型，通过触觉感知 GRPO 训练实现对 GPT-4o 的显著超越，填补多模态推理中触觉模态的空白。
 

@@ -17,7 +17,10 @@ tocopen: true
 
 ### HandX: Scaling Bimanual Motion and Interaction Generation
 
-**链接：** https://arxiv.org/abs/2603.28766
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2603.28766"
+  arxiv="2603.28766"
+>}}
 
 **一句话总结：** 提出 HandX 数据集与基准，通过大规模扩散/自回归模型实现高质量双手与手指动作生成，CVPR 2026 收录。
 
@@ -41,7 +44,10 @@ tocopen: true
 
 ### SOLE-R1: Video-Language Reasoning as the Sole Reward for On-Robot Reinforcement Learning
 
-**链接：** https://arxiv.org/abs/2603.28730
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2603.28730"
+  arxiv="2603.28730"
+>}}
 
 **一句话总结：** 提出 SOLE-R1，一个专为机器人在线 RL 设计的视频语言推理模型，仅凭视频观测和自然语言目标即可提供密集奖励信号，实现零样本在线机器人学习。
 
@@ -65,7 +71,10 @@ tocopen: true
 
 ### On-the-fly Repulsion in the Contextual Space for Rich Diversity in Diffusion Transformers
 
-**链接：** https://arxiv.org/abs/2603.28762
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2603.28762"
+  arxiv="2603.28762"
+>}}
 
 **一句话总结：** 提出在 Diffusion Transformer 多模态注意力通道的"上下文空间"中施加在线排斥（on-the-fly repulsion），在不牺牲图像质量的前提下显著提升生成多样性，SIGGRAPH 2026 条件接受。
 
@@ -89,7 +98,10 @@ tocopen: true
 
 ### Gen-Searcher: Reinforcing Agentic Search for Image Generation
 
-**链接：** https://arxiv.org/abs/2603.28767
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2603.28767"
+  arxiv="2603.28767"
+>}}
 
 **一句话总结：** 首个训练搜索增强图像生成 Agent，通过多跳推理与检索获取文本知识和参考图像，解决生成模型"知识冻结"问题。
 
@@ -113,7 +125,10 @@ tocopen: true
 
 ### DreamLite: A Lightweight On-Device Unified Model for Image Generation and Editing
 
-**链接：** https://arxiv.org/abs/2603.28713
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2603.28713"
+  arxiv="2603.28713"
+>}}
 
 **一句话总结：** 提出 DreamLite（0.39B），首个同时支持文生图与文本引导图像编辑的端侧统一扩散模型，在小米14手机上实现 1s 内生成/编辑 1024×1024 图像。
 
@@ -137,7 +152,10 @@ tocopen: true
 
 ### FocusVLA: Focused Visual Utilization for Vision-Language-Action Models
 
-**链接：** https://arxiv.org/abs/2603.28740
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2603.28740"
+  arxiv="2603.28740"
+>}}
 
 **一句话总结：** 提出 FocusVLA，通过模态级联注意力和焦点注意力机制解决 VLA 模型的视觉利用不足问题，显著提升机器人操作性能。
 
@@ -161,7 +179,10 @@ tocopen: true
 
 ### PoseDreamer: Scalable and Photorealistic Human Data Generation Pipeline with Diffusion Models
 
-**链接：** https://arxiv.org/abs/2603.28763
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2603.28763"
+  arxiv="2603.28763"
+>}}
 
 **一句话总结：** 提出 PoseDreamer，利用扩散模型生成超过 50 万张高质量 3D 人体姿态标注合成图像，在图像质量上比渲染方法提升 76%。
 

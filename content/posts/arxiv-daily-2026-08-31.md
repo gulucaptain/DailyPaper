@@ -17,9 +17,11 @@ tocopen: true
 
 ### Agentic Game Development as a Verifiable Trajectory Data Engine for Scaling World Models
 
-**链接：** https://arxiv.org/abs/2608.25518
-
-**作者 / 机构：** Pengfei Zhou, Hexin Wang, Zhengfeiyang Zhang, Yixing Ma, Zhenglin Wan, Kaipeng Zhang, Wangbo Zhao, Yang You（InfRec / Cardinal AI Lab；加州大学伯克利分校 UC Berkeley；独立研究员；香港科技大学 HKUST）
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2608.25518"
+  authors="Pengfei Zhou, Hexin Wang, Zhengfeiyang Zhang, Yixing Ma, Zhenglin Wan, Kaipeng Zhang, Wangbo Zhao, Yang You（InfRec / Cardinal AI Lab；加州大学伯克利分校 UC Berkeley；独立研究员；香港科技大学 HKUST）"
+  arxiv="2608.25518"
+>}}
 
 **一句话总结：** 提出 RLHEV（Reinforcement Learning with Human-Engine Verification），把游戏开发过程本身变成可验证的世界模型数据引擎，用游戏引擎的稠密物理检验信号叠加开发者的验收反馈，为空间世界模型提供强化学习后训练所急需的 grounded reward。
 
@@ -44,9 +46,11 @@ tocopen: true
 
 ### PAWBench: How Far Are We from Probabilistically Aligned World Modeling?
 
-**链接：** https://arxiv.org/abs/2608.27345
-
-**作者 / 机构：** Yuandong Pu, Le Zhuo, Sayak Paul, Gabriel Jorge Menezes, Avram Đorđević, Shiyang Li, Yifan Zhou, Bin Fu, Wenlong Zhang, Junjun He, Yu Qiao, Yihao Liu, Jinbo Xing, Xi Chen（上海交通大学；上海人工智能实验室；Krea AI；Hugging Face；上海创智学院 Shanghai Innovation Institute；通义实验室 Tongyi Lab；香港大学）
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2608.27345"
+  authors="Yuandong Pu, Le Zhuo, Sayak Paul, Gabriel Jorge Menezes, Avram Đorđević, Shiyang Li, Yifan Zhou, Bin Fu, Wenlong Zhang, Junjun He, Yu Qiao, Yihao Liu, Jinbo Xing, Xi Chen（上海交通大学；上海人工智能实验室；Krea AI；Hugging Face；上海创智学院 Shanghai Innovation Institute；通义实验室 Tongyi Lab；香港大学）"
+  arxiv="2608.27345"
+>}}
 
 **一句话总结：** 提出"概率对齐"（probabilistic alignment）这一分布级准则与 PAWBench 基准，用"重复采样能否恢复真实物理行为的概率分布"来检验视频生成模型是否真的够格被称为世界模型。
 
@@ -70,11 +74,12 @@ tocopen: true
 
 ### UrbanGround: From Local Perception to Spatial Agency in a Real-Scale City
 
-**链接：** https://arxiv.org/abs/2608.27456
-
-**项目主页：** https://urbanground.github.io ｜ **代码：** https://github.com/UrbanGround/UrbanGround
-
-**作者 / 机构：** Tianjie Ju, Zheng Wu, Yueqing Sun, Yuhan Cui, Bobo Li, Shengqiong Wu, Pengzhou Cheng, Haodong Zhao, Zongru Wu, Xinbei Ma, Doris Zhang, Kunling Li, Mong-Li Lee, Wynne Hsu, Hao Fei, Qi Gu, Gongshen Liu, Zhuosheng Zhang（上海交通大学；新加坡国立大学；美团；香港中文大学；上海大学；牛津大学）
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2608.27456"
+  authors="Tianjie Ju, Zheng Wu, Yueqing Sun, Yuhan Cui, Bobo Li, Shengqiong Wu, Pengzhou Cheng, Haodong Zhao, Zongru Wu, Xinbei Ma, Doris Zhang, Kunling Li, Mong-Li Lee, Wynne Hsu, Hao Fei, Qi Gu, Gongshen Liu, Zhuosheng Zhang（上海交通大学；新加坡国立大学；美团；香港中文大学；上海大学；牛津大学）"
+  arxiv="2608.27456"
+  links="[{\"url\":\"https://urbanground.github.io\",\"label\":\"项目主页\",\"kind\":\"project\"},{\"url\":\"https://github.com/UrbanGround/UrbanGround\",\"label\":\"GitHub\",\"kind\":\"github\"}]"
+>}}
 
 **一句话总结：** 提出 UrbanGround——首个在真实尺度城市中检验"局部感知能否转化为持续可靠行动"的沙盒，基于全境三维地理空间数据构建中国香港的物理受限复刻城市，系统揭示 MLLM 智能体在长程探索中"原子能力无法组合成目标导向行为"的核心失败模式。
 
@@ -99,11 +104,12 @@ tocopen: true
 
 ### Self-OPD: On-Policy Distillation for Flow Matching Models without Teacher
 
-**链接：** https://arxiv.org/abs/2608.26872
-
-**代码：** https://github.com/Shiy-Zhang/Self-OPD
-
-**作者 / 机构：** Shiyi Zhang, Mushui Liu, Yunze Tong, Wanggui He, Siyu Zou, Jinlong Liu, Yunlong Yu, Jian Song, Hao Jiang, Pipei Huang, Bo Zheng（清华大学；浙江大学；阿里巴巴集团）
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2608.26872"
+  authors="Shiyi Zhang, Mushui Liu, Yunze Tong, Wanggui He, Siyu Zou, Jinlong Liu, Yunlong Yu, Jian Song, Hao Jiang, Pipei Huang, Bo Zheng（清华大学；浙江大学；阿里巴巴集团）"
+  arxiv="2608.26872"
+  links="[{\"url\":\"https://github.com/Shiy-Zhang/Self-OPD\",\"label\":\"GitHub\",\"kind\":\"github\"}]"
+>}}
 
 **一句话总结：** 提出 Self-OPD——面向流匹配模型的免教师在线策略蒸馏框架，把学生自身的随机探索转化为逐步监督信号，无需为任何新目标额外训练专用教师模型。
 
@@ -128,11 +134,12 @@ tocopen: true
 
 ### GameWAM: A World Action Model for Video Games
 
-**链接：** https://arxiv.org/abs/2608.26200
-
-**项目主页：** https://yunncheng.github.io/GameWAM/
-
-**作者 / 机构：** Yuncheng Guo, Zhanqiu Zhang, Yiwen Guo, Weijia Li（复旦大学；LIGHTSPEED；独立研究员；清华大学深圳国际研究生院）
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2608.26200"
+  authors="Yuncheng Guo, Zhanqiu Zhang, Yiwen Guo, Weijia Li（复旦大学；LIGHTSPEED；独立研究员；清华大学深圳国际研究生院）"
+  arxiv="2608.26200"
+  links="[{\"url\":\"https://yunncheng.github.io/GameWAM/\",\"label\":\"项目主页\",\"kind\":\"project\"}]"
+>}}
 
 **一句话总结：** 提出 GameWAM——据作者所知首个面向原生闭环游戏操作与 GUI 控制的世界动作模型（World-Action Model），并行生成未来视觉观测与可执行的键鼠轨迹，并揭示生成式控制中的低频动作源烙印（LASI）失效模式。
 
@@ -157,11 +164,12 @@ tocopen: true
 
 ### Act with Intent: Distilling Behavior Intent for Vision-Language-Action Models
 
-**链接：** https://arxiv.org/abs/2608.23478
-
-**项目主页：** https://leesangoh.github.io/indi-project-page/
-
-**作者 / 机构：** Sangoh Lee, Sangwoo Mo, Wook-Shin Han（POSTECH 人工智能研究生院 GSAI；POSTECH 工业与管理工程系 IME）
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2608.23478"
+  authors="Sangoh Lee, Sangwoo Mo, Wook-Shin Han（POSTECH 人工智能研究生院 GSAI；POSTECH 工业与管理工程系 IME）"
+  arxiv="2608.23478"
+  links="[{\"url\":\"https://leesangoh.github.io/indi-project-page/\",\"label\":\"项目主页\",\"kind\":\"project\"}]"
+>}}
 
 **一句话总结：** 提出 Intention Distillation（INDI），用一个冻结的 VLM 教师把"行为意图"蒸馏进 VLA 的动作解码器，在 SimplerEnv-Bridge 上把 GR00T-N1.7 从 64.3% 提升到 84.7%。
 
@@ -185,11 +193,12 @@ tocopen: true
 
 ### Ring Forcing: Towards Precise Long-Term Memory for Autoregressive Video Diffusion
 
-**链接：** https://arxiv.org/abs/2608.26794
-
-**项目主页：** https://ringforcing.com
-
-**作者 / 机构：** Bowen Xue, Brandon Y. Feng, Chenguo Lin, Yuchen Lin, Yujia Zeng, Lvmin Zhang, Maneesh Agrawala, Honglei Yan, Panwang Pan（斯坦福大学；麻省理工学院；北京大学；加州大学伯克利分校；字节跳动）
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2608.26794"
+  authors="Bowen Xue, Brandon Y. Feng, Chenguo Lin, Yuchen Lin, Yujia Zeng, Lvmin Zhang, Maneesh Agrawala, Honglei Yan, Panwang Pan（斯坦福大学；麻省理工学院；北京大学；加州大学伯克利分校；字节跳动）"
+  arxiv="2608.26794"
+  links="[{\"url\":\"https://ringforcing.com\",\"label\":\"项目主页\",\"kind\":\"project\"}]"
+>}}
 
 **一句话总结：** 提出 Ring Forcing——面向自回归视频扩散的长程记忆框架，用环形训练策略强制模型检索远期历史，配合压缩与时间步组合策略把有效记忆跨度扩展到分钟级，并用稀疏 RoPE 实现可扩展的记忆适配。
 
@@ -213,11 +222,12 @@ tocopen: true
 
 ### TacForcing: Streaming Action Generation with Execution-Time Tactile Feedback
 
-**链接：** https://arxiv.org/abs/2608.25798
-
-**项目主页：** https://88runaway.github.io/tacforcing/
-
-**作者 / 机构：** Jianbo Zhou, Boyuan Zhao, Yuzheng Zhang, Yiyang Chen, Wenxin Chen, Qiuyue Li, Xiangyang Gu, Yuhan Cao, Xiao Xia, Yanzhe Hu, Zhijie Deng（上海交通大学计算机学院；华南理工大学；华东理工大学；华东师范大学；香港理工大学；长春工业大学；电子科技大学；华中科技大学）
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2608.25798"
+  authors="Jianbo Zhou, Boyuan Zhao, Yuzheng Zhang, Yiyang Chen, Wenxin Chen, Qiuyue Li, Xiangyang Gu, Yuhan Cao, Xiao Xia, Yanzhe Hu, Zhijie Deng（上海交通大学计算机学院；华南理工大学；华东理工大学；华东师范大学；香港理工大学；长春工业大学；电子科技大学；华中科技大学）"
+  arxiv="2608.25798"
+  links="[{\"url\":\"https://88runaway.github.io/tacforcing/\",\"label\":\"项目主页\",\"kind\":\"project\"}]"
+>}}
 
 **一句话总结：** 提出 TacForcing——把标准动作专家换成流式（streaming）动作专家，直接以执行过程中实时获得的触觉观测为条件生成动作，并提出 Execution-Aware Tactile Attention（EATA）把触觉条件限制在临近执行的动作上。
 

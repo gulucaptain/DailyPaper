@@ -21,11 +21,12 @@ tocopen: true
 
 ### World Observer: Joint Actor-Observer Generation for Persistent World Modeling
 
-**链接：** https://arxiv.org/abs/2610.02162
-
-**项目主页：** https://cvlab-kaist.github.io/world-observer
-
-**作者 / 机构：** Hyunwook Choi, Dahyun Chung, Hyunsung Kim, Siyoon Jin, Jinhyeok Choi, Junyoung Seo, Seungryong Kim（KAIST AI 韩国科学技术院人工智能研究院）
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2610.02162"
+  authors="Hyunwook Choi, Dahyun Chung, Hyunsung Kim, Siyoon Jin, Jinhyeok Choi, Junyoung Seo, Seungryong Kim（KAIST AI 韩国科学技术院人工智能研究院）"
+  arxiv="2610.02162"
+  links="[{\"url\":\"https://cvlab-kaist.github.io/world-observer\",\"label\":\"项目主页\",\"kind\":\"project\"}]"
+>}}
 
 **一句话总结：** KAIST AI 团队提出 **World Observer**，把世界模型里的「观察」与「行动」解耦：**在生成智能体中心视角（actor）的同时，联合生成一个或多个全景观察者（observer）**去盯住被选中的世界区域。物体一旦离开 actor 视野，就在 observer 里继续演化，等它重新入画时带回的是更新过而不是被冻结或凭空重建的状态。2B 模型在 Real / Synthetic 两套 OOV-Bench 上 FID **29.30 / 19.65**（最好的 28B LingBot-World 为 39.87 / 28.75）、FVD **291.7 / 196.2**，而出画动力学指标 OOV-D_gt **0.426 / 0.531**、OOV-D_self **0.408 / 0.526** 全面领先被比较的全部模型。
 
@@ -49,11 +50,12 @@ tocopen: true
 
 ### ROWBench: Do Video Models Render What the Program Specifies?
 
-**链接：** https://arxiv.org/abs/2610.02205
-
-**项目主页：** https://alaya-lab.github.io/PROWBench ｜ **代码：** https://github.com/AlayaLab/PROWBench
-
-**作者 / 机构：** Zheng-Hui Huang, Guixu Lin, Yu-Ju Tsai, Jian-Kai Zhu, Fengbo Lan, Yu-Lun Liu, Yung-Yu Chuang, Kaipeng Zhang, Zhixiang Wang（Alaya Lab）
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2610.02205"
+  authors="Zheng-Hui Huang, Guixu Lin, Yu-Ju Tsai, Jian-Kai Zhu, Fengbo Lan, Yu-Lun Liu, Yung-Yu Chuang, Kaipeng Zhang, Zhixiang Wang（Alaya Lab）"
+  arxiv="2610.02205"
+  links="[{\"url\":\"https://alaya-lab.github.io/PROWBench\",\"label\":\"项目主页\",\"kind\":\"project\"},{\"url\":\"https://github.com/AlayaLab/PROWBench\",\"label\":\"GitHub\",\"kind\":\"github\"}]"
+>}}
 
 **一句话总结：** Alaya Lab（论文与项目页内部写作 PROWBench）推出 **ROWBench**，针对「可编程世界模型」提出一个此前几乎无人测的维度——**生成的视频是否忠实渲染了程序所指定的细粒度世界事件**。基准含 **170 个程序化构建的 episode 与 600 段代理视频**，把实体状态与带时间戳的事件（包括在相机视野之外发生的）记录为**可重放的世界记录**，据此渲染同步视角与代理表示。横评 10 个前沿模型后发现：**即便给了密集深度与分割，Cosmos 2.5 在两个设置下的 Interaction Success Rate 与 Logic-Render Alignment 都是最低的**；而 LingBot 2.0 以第三低的 BBox IoU 拿到了最高的 ISR（0.733）。
 
@@ -77,11 +79,12 @@ tocopen: true
 
 ### PhysicsLENS: Diagnosing Physical Property Blindness in Video Generation Models
 
-**链接：** https://arxiv.org/abs/2610.01162
-
-**代码：** https://github.com/Isaiah-Milkey/PhysicsLENS-benchmark
-
-**作者 / 机构：** Isaiah Milkey, Som Sagar, Aditya Taparia, Xinyuan Liu, Jiqing Wen, Ransalu Senanayake（Arizona State University 亚利桑那州立大学，School of Computing and Augmented Intelligence 计算与增强智能学院）
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2610.01162"
+  authors="Isaiah Milkey, Som Sagar, Aditya Taparia, Xinyuan Liu, Jiqing Wen, Ransalu Senanayake（Arizona State University 亚利桑那州立大学，School of Computing and Augmented Intelligence 计算与增强智能学院）"
+  arxiv="2610.01162"
+  links="[{\"url\":\"https://github.com/Isaiah-Milkey/PhysicsLENS-benchmark\",\"label\":\"GitHub\",\"kind\":\"github\"}]"
+>}}
 
 **一句话总结：** 亚利桑那州立大学团队提出 **PhysicsLENS**，专门评测视频生成模型是否遵守**只写在提示里、画面上看不出来**的物理属性（重量、黏度、摩擦等）。它用**匹配场景对**——条件帧与任务完全相同，只改变场景描述里的底层物理——来隔离变量，覆盖碰撞、重力、动量、摩擦、形变、流体、因果七个域。四个生成器共 **439 段视频、400 余条人工标注**的结果相当扎心：**119 段含隐藏属性的视频里有 47 段被评为「看起来合理」，其中 34 段（72%）根本没有遵守指定属性**；MAGI 4.5B Distill 更是 21 段「合理」视频全部不合格。
 
@@ -105,11 +108,12 @@ tocopen: true
 
 ### SemanTok: Predictable Semantic Tokens for Efficient Autoregressive Video Generation
 
-**链接：** https://arxiv.org/abs/2610.00686
-
-**项目主页：** https://semantoken.github.io
-
-**作者 / 机构：** Mikhail Dereviannykh, Vikram Voleti, Simon Donné, Mallikarjun Byrasandra Ramalinga Reddy, Shimon Vainer, Mark Boss（Stability AI；Karlsruhe Institute of Technology 卡尔斯鲁厄理工学院）
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2610.00686"
+  authors="Mikhail Dereviannykh, Vikram Voleti, Simon Donné, Mallikarjun Byrasandra Ramalinga Reddy, Shimon Vainer, Mark Boss（Stability AI；Karlsruhe Institute of Technology 卡尔斯鲁厄理工学院）"
+  arxiv="2610.00686"
+  links="[{\"url\":\"https://semantoken.github.io\",\"label\":\"项目主页\",\"kind\":\"project\"}]"
+>}}
 
 **一句话总结：** Stability AI 与 KIT 团队提出 **SemanTok**，一个面向自回归视频世界模型的**可变长度视频 tokenizer**：把冻结 DINO 特征喂进编码器，并加轻量级头**要求每一段被保留的 token 前缀都能单独重建出这些语义特征**。效果是前几个粗 token 真正扛起整段的全局语义、后段再补像素细节：**201M 的 SemanTok AR 模型即可打平或超过 3.4 倍大小（约 683M）的 VideoFlexTok AR 模型**，且在全部 AR 规模上 gFVD 更低、重建到生成的「实现落差」更小。全文 29 页 22 图（正文 9 页）。
 
@@ -134,11 +138,12 @@ tocopen: true
 
 ### TOAST: Stochastic Robot Action Tokenization for Autoregressive Vision-Language-Action Models
 
-**链接：** https://arxiv.org/abs/2610.00899
-
-**项目主页：** https://kskshr.github.io/toast/
-
-**作者 / 机构：** Keisuke Shirai, Tomohiro Motoda, Hanbit Oh, Ryoichi Nakajo, Roman Mykhailyshyn, Ryo Hanai, Shotaro Miwa, Yukiyasu Domae（AIST 日本产业技术综合研究所）
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2610.00899"
+  authors="Keisuke Shirai, Tomohiro Motoda, Hanbit Oh, Ryoichi Nakajo, Roman Mykhailyshyn, Ryo Hanai, Shotaro Miwa, Yukiyasu Domae（AIST 日本产业技术综合研究所）"
+  arxiv="2610.00899"
+  links="[{\"url\":\"https://kskshr.github.io/toast/\",\"label\":\"项目主页\",\"kind\":\"project\"}]"
+>}}
 
 **一句话总结：** 日本 AIST 团队提出 **TOAST（TOkenization of Action Sequences with STochastic sampling）**，把自回归 VLA 的动作 token 化**从确定性改成随机采样**：同一段量化后的动作序列其实存在多种等价 token 化，TOAST 在训练时随机采样其中若干种，**在不增加任何示教数据的前提下把离散监督多样化**。LIBERO 上随训练数据减少增益单调变大，仅用 **1/16 数据时成功率 +6.8 分**（42.8 vs 确定性的 36.0）；四个真机任务上平均成功率 **50.8%**，相对确定性版本 **+15.8 分**、相对公开 FAST+ **+20.0 分**。
 
@@ -162,9 +167,11 @@ tocopen: true
 
 ### eRLT: Efficient VLA Reinforcement Learning via Action-Relevant Token Routing
 
-**链接：** https://arxiv.org/abs/2610.00913
-
-**作者 / 机构：** Dehao Huang, Jianbang Liu, Jianpan Gao, Chao Tang, Zilang Cen, Zedong Dan, Jiaheng Wang, Tingguang Li, Yue Wang, Hong Zhang（Southern University of Science and Technology 南方科技大学；Beijing Zhongguancun Academy 北京中关村学院；Samsung Robotics eXperience；Wuhan University 武汉大学；Sun Yat-sen University 中山大学）
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2610.00913"
+  authors="Dehao Huang, Jianbang Liu, Jianpan Gao, Chao Tang, Zilang Cen, Zedong Dan, Jiaheng Wang, Tingguang Li, Yue Wang, Hong Zhang（Southern University of Science and Technology 南方科技大学；Beijing Zhongguancun Academy 北京中关村学院；Samsung Robotics eXperience；Wuhan University 武汉大学；Sun Yat-sen University 中山大学）"
+  arxiv="2610.00913"
+>}}
 
 **一句话总结：** 南方科技大学、北京中关村学院、Samsung Robotics eXperience、武汉大学与中山大学团队提出 **eRLT**，针对「冻结 VLA + 在线强化学习」这一主流适配范式，指出样本效率的瓶颈在于**给 actor 与 critic 用的状态表示**：现有做法要么用与 VLA 无关的视觉编码器，要么对 VLA 内部表示做固定压缩，二者都没有显式抽取**与任务动作相关**的特征。eRLT 用**可学习路由 token 在冻结 VLA 的多个 token 与多个层之间聚合信息**，再由轻量层路由器汇总成固定维度的 RL token。七个仿真任务上平均归一化学习曲线 AUC 相对代表性基线提升最高 **23.7%**；真机的 USB 接插与主板排线插入任务上，AUC 相对最强基线分别提升 **108.9%** 与 **46.7%**。21 页、9 图、8 表。
 
@@ -188,9 +195,11 @@ tocopen: true
 
 ### Towards a General Humanoid Loco-Manipulation Model via Egocentric Whole-Body Human Data Pretraining
 
-**链接：** https://arxiv.org/abs/2610.00438
-
-**作者 / 机构：** Chongyang Xu, Zhao Wu, Jin Chen, Yiming Jiang, Jinhui Ye, Yuming Jiang, Shifeng Zhang, Ziliang Feng, Mu Xu, Yilun Chen, Li Lu, Steven C. H. Hoi（Alibaba Group 阿里巴巴集团；Sichuan University 四川大学；Shanghai Innovation Institute 上海创智学院；Beihang University 北京航空航天大学；Hong Kong University of Science and Technology 香港科技大学）
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2610.00438"
+  authors="Chongyang Xu, Zhao Wu, Jin Chen, Yiming Jiang, Jinhui Ye, Yuming Jiang, Shifeng Zhang, Ziliang Feng, Mu Xu, Yilun Chen, Li Lu, Steven C. H. Hoi（Alibaba Group 阿里巴巴集团；Sichuan University 四川大学；Shanghai Innovation Institute 上海创智学院；Beihang University 北京航空航天大学；Hong Kong University of Science and Technology 香港科技大学）"
+  arxiv="2610.00438"
+>}}
 
 **一句话总结：** 阿里巴巴、四川大学、上海创智学院、北航与港科大团队探索「**人类经验能否支撑人形全身操作的可扩展学习**」。他们先用轻量级可穿戴系统采集了 **HumanVerse-500**——开放世界中 **500 小时**全身人类 loco-manipulation 行为数据集，同步第一人称视频与身体、手部运动；再据此训练 **λ₀** 全身人形视觉—语言—动作策略，走三阶段训练：先从多样化第一人称数据集学交互，再用 HumanVerse-500 协调身体与手部运动，最后适配到下游任务与本体。在 SIMPLE 基准上达到 **90.0%** 成功率，四个真机全身任务上成功率 **62.5%**、任务进度 **80.4%**；消融显示去掉人类数据预训练后真机成功率从 62.5% 掉到 **15.0%**。
 
@@ -214,9 +223,11 @@ tocopen: true
 
 ### LEGO-OPD: Factorized Teacher Composition for Multimodal On-Policy Distillation
 
-**链接：** https://arxiv.org/abs/2610.00333
-
-**作者 / 机构：** Jaeyun Shin, Hangeol Chang, Jong Chul Ye（Korea Advanced Institute of Science and Technology, KAIST 韩国科学技术院）
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2610.00333"
+  authors="Jaeyun Shin, Hangeol Chang, Jong Chul Ye（Korea Advanced Institute of Science and Technology, KAIST 韩国科学技术院）"
+  arxiv="2610.00333"
+>}}
 
 **一句话总结：** KAIST 团队提出 **LEGO-OPD**，处理多模态在策蒸馏（on-policy distillation）里一个两难：直接用 VLM 的完整预测分布，会把它的视觉接地信号与自身的语言先验**纠缠**在一起，接地信息无法被独立迁移；而单纯加大视觉监督强度，又会过度强调视觉证据、损伤语言推理。LEGO-OPD 在**广义贝叶斯形式化**下把教师拆成两个因子：语言专家提供候选 token 的**先验**，接地专家提供**视觉似然**去更新这个先验，并用**自适应校准**按前缀决定似然更新先验的强度。以 Qwen3-VL-4B 为教师、Qwen3-VL-2B 为学生，多模态推理均值从初始的 40.11 提到 **46.28**（H-OPD 43.47），文本推理均值从 51.89 提到 **56.68**（H-OPD 55.57），且**视觉感知改善的同时文本推理不降反升**。
 

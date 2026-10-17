@@ -19,11 +19,12 @@ tocopen: true
 
 ### FolDeX: A Physical-World Benchmark for Long-Horizon Robotic Manipulation of Deformable Objects
 
-**链接：** https://arxiv.org/abs/2609.10243
-
-**评测平台：** https://ai.midea.com/#/fold-challenge
-
-**作者 / 机构：** Chenhuan Liu, Yi Xu, Feng Wu, Hanyang Wang, Wenxiao Kuai, Weihao Ding, Shan Wang, Yang Liu, Shuyong Gao, Wenqiang Zhang（复旦大学；美的集团（上海）AI 研究中心；卡内基梅隆大学）
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2609.10243"
+  authors="Chenhuan Liu, Yi Xu, Feng Wu, Hanyang Wang, Wenxiao Kuai, Weihao Ding, Shan Wang, Yang Liu, Shuyong Gao, Wenqiang Zhang（复旦大学；美的集团（上海）AI 研究中心；卡内基梅隆大学）"
+  arxiv="2609.10243"
+  links="[{\"url\":\"https://ai.midea.com/#/fold-challenge\",\"label\":\"评测平台\",\"kind\":\"project\"}]"
+>}}
 
 **一句话总结：** 复旦、美的与 CMU 联合推出 FolDeX，一个**完全由真机数据构建**的柔性体长程操作基准，以叠衣服为主要任务，围绕「异构物理经验如何复用」四条研究轴组织，提供 **2,000+ 小时真机数据、20+ 任务、10+ 本体**。
 
@@ -47,9 +48,11 @@ tocopen: true
 
 ### Frequency-Conditioned Flow Matching for Vision-Language-Action Models
 
-**链接：** https://arxiv.org/abs/2609.10405
-
-**作者 / 机构：** Haochen Niu, Shengye Dong, Hao Liu, Peiwen Lin, Chuang Wang（智元机器人 AGIBOT；西安交通大学）
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2609.10405"
+  authors="Haochen Niu, Shengye Dong, Hao Liu, Peiwen Lin, Chuang Wang（智元机器人 AGIBOT；西安交通大学）"
+  arxiv="2609.10405"
+>}}
 
 **一句话总结：** 智元与西安交大提出 **FreqFM**，把**动作频率从轨迹的隐含属性提升为贯穿整个生成流程的显式条件维度**，在 DCT 频率坐标下构造频谱匹配的源分布、自适应平衡各频率的目标权重并约束逐频率引导残差，在 LIBERO-Plus 上取得 **9.3 个百分点**的提升。
 
@@ -73,11 +76,12 @@ tocopen: true
 
 ### DUET-DINO: Simultaneous Cross-View World Modeling for Latent Planning in Robot Manipulation
 
-**链接：** https://arxiv.org/abs/2609.10506
-
-**项目主页：** https://utn-air.github.io/DUET-DINO
-
-**作者 / 机构：** Nisarga Nilavadi, Ralf Römer, Moritz Reuss, Michael Krawez, Tobias Jülg, Angela P. Schoellig 等（纽伦堡工业大学 UTN 人工智能与机器人实验室；慕尼黑工业大学 TUM 学习系统与机器人实验室；卡尔斯鲁厄理工学院 KIT Intuitive Robots Lab；NVIDIA）
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2609.10506"
+  authors="Nisarga Nilavadi, Ralf Römer, Moritz Reuss, Michael Krawez, Tobias Jülg, Angela P. Schoellig 等（纽伦堡工业大学 UTN 人工智能与机器人实验室；慕尼黑工业大学 TUM 学习系统与机器人实验室；卡尔斯鲁厄理工学院 KIT Intuitive Robots Lab；NVIDIA）"
+  arxiv="2609.10506"
+  links="[{\"url\":\"https://utn-air.github.io/DUET-DINO\",\"label\":\"项目主页\",\"kind\":\"project\"}]"
+>}}
 
 **一句话总结：** UTN、TUM、KIT 与 NVIDIA 联合提出 **DUET-DINO**，一个**同步跨视角**的潜空间世界模型，通过交叉视角条件同时从固定的第三人称相机与腕部相机学习动作条件预测，把潜空间规划从粗略的空间推理推进到完整的 **7-DoF 末端控制**。
 
@@ -101,9 +105,11 @@ tocopen: true
 
 ### HaWMPO: Hallucination-Aware World Model-based Policy Optimization for Generalist Robot Policy
 
-**链接：** https://arxiv.org/abs/2609.09941
-
-**作者 / 机构：** Zengjue Chen, Peidong Liu, Jiawei Li, Qi Wang（京东 Joy Future Academy；吉林大学人工智能学院）
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2609.09941"
+  authors="Zengjue Chen, Peidong Liu, Jiawei Li, Qi Wang（京东 Joy Future Academy；吉林大学人工智能学院）"
+  arxiv="2609.09941"
+>}}
 
 **一句话总结：** 京东 Joy Future Academy 与吉林大学提出 **HaWMPO**，一个用世界模型对 VLA 策略做**闭环强化学习后训练**的流水线，引入动作条件的幻觉感知模型为生成的图像序列估计可靠性，并把幻觉分数通过 Reward-Soft 机制压进 GRPO 目标，在 LIBERO 上比基座提升 **15.0%**，在 G1 真机上把两项任务的平均成功率从 **67.5% 提到 80.0%**。
 
@@ -127,9 +133,11 @@ tocopen: true
 
 ### Compact Visuotactile World Models for Lifting: Prediction, Reward Alignment, and Force Constraints
 
-**链接：** https://arxiv.org/abs/2609.09597
-
-**作者 / 机构：** Qinzhen Ma（莱斯大学），Sida Peng（浙江大学）— 8 页 / 2 图，代码与表格结果作为附件材料随论文发布
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2609.09597"
+  authors="Qinzhen Ma（莱斯大学），Sida Peng（浙江大学）— 8 页 / 2 图，代码与表格结果作为附件材料随论文发布"
+  arxiv="2609.09597"
+>}}
 
 **一句话总结：** 莱斯大学与浙江大学系统地检验了「**接触预测只有能支撑有效决策时才有意义**」这一命题，用一个**随机初始化的紧凑视触觉世界模型**配合轨迹级不确定性校准与行为初始化的 actor-critic 想象学习，在 MuJoCo Lift 上把末端力预测误差从 **1.058 N 降到 0.228 N**，并通过奖励修订把 10 cm 提升成功率从 **20.0% 提到 93.3%**。
 
@@ -153,9 +161,11 @@ tocopen: true
 
 ### Time–Frequency Geometric Cross-Attention for Chunked Vision–Language–Action Models
 
-**链接：** https://arxiv.org/abs/2609.09925
-
-**作者 / 机构：** Shengye Dong, Haochen Niu, Hao Liu, Peiwen Lin, Chuang Wang, Shanmin Pang（智元机器人 AGIBOT；西安交通大学）— 与本期 FreqFM 为同一团队同日工作，真机平台为 AgiBot A2
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2609.09925"
+  authors="Shengye Dong, Haochen Niu, Hao Liu, Peiwen Lin, Chuang Wang, Shanmin Pang（智元机器人 AGIBOT；西安交通大学）— 与本期 FreqFM 为同一团队同日工作，真机平台为 AgiBot A2"
+  arxiv="2609.09925"
+>}}
 
 **一句话总结：** 智元与西安交大提出 **TFGCA**，用**逐维度可学习的平稳小波变换（SWT）**把动作块分解成时频 token，再用**同时融合点积（相似度）与楔积模长（对近正交敏感）的交叉注意力**让时间 token 检索它们，作为一个零初始化残差的即插即用模块，在 RoboTwin 域随机化下平均提升 **28.5** 分、在 AgiBot A2 真机上提升 **11.67 个百分点**。
 
@@ -179,11 +189,12 @@ tocopen: true
 
 ### Show-Harness: Just a VLM Agent Can Play Robots
 
-**链接：** https://arxiv.org/abs/2609.10522
-
-**项目主页：** https://showlab.github.io/Show-Harness ｜ **代码：** https://github.com/showlab/Show-Harness ｜ **模型：** https://huggingface.co/showlab/Show-Harness-VLMs ｜ **数据：** https://huggingface.co/datasets/showlab/Show-Harness-Data
-
-**作者 / 机构：** Yanzhe Chen, Zechen Bai, Zhijun Cao, Wenzheng Zeng, Kevin Qinghong Lin, Yiqi Lin, Guoqiang Liang, Kevin Yuchen Ma, Qiming Huang, Mike Zheng Shou（Show Lab，新加坡国立大学 NUS）
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2609.10522"
+  authors="Yanzhe Chen, Zechen Bai, Zhijun Cao, Wenzheng Zeng, Kevin Qinghong Lin, Yiqi Lin, Guoqiang Liang, Kevin Yuchen Ma, Qiming Huang, Mike Zheng Shou（Show Lab，新加坡国立大学 NUS）"
+  arxiv="2609.10522"
+  links="[{\"url\":\"https://showlab.github.io/Show-Harness\",\"label\":\"项目主页\",\"kind\":\"project\"},{\"url\":\"https://github.com/showlab/Show-Harness\",\"label\":\"GitHub\",\"kind\":\"github\"},{\"url\":\"https://huggingface.co/showlab/Show-Harness-VLMs\",\"label\":\"模型\",\"kind\":\"huggingface\"},{\"url\":\"https://huggingface.co/datasets/showlab/Show-Harness-Data\",\"label\":\"数据\",\"kind\":\"huggingface\"}]"
+>}}
 
 **一句话总结：** NUS Show Lab 提出 **Show-Harness**，一个让 VLM 通过一个**紧凑的语义动作接口**直接「玩」机器人的具身 Harness——模型只输出 `MV_LEFT` / `GRASP` 这样的离散语义动作单元，由本体相关的解释器确定性地落地为机器人运动，在十项真实抓放任务上分别达到 **89%（零样本前沿 VLM）与 86%（微调小模型）**，远超 π0.5 的 39% 与 GR00T 的 35%。
 
@@ -207,11 +218,12 @@ tocopen: true
 
 ### Programmable World Model
 
-**链接：** https://arxiv.org/abs/2609.10540
-
-**项目主页：** https://alaya-lab.github.io/pwm ｜ **代码：** https://github.com/AlayaLab/pwm
-
-**作者 / 机构：** Zheng-Hui Huang, Guixu Lin, Jiacheng Lin, Yi-Chuan Huang, Ruihan Yu, Muyao Niu, Siqi Yang, Yu-Lun Liu, Yung-Yu Chuang, Kaipeng Zhang, Zhixiang Wang（Alaya Lab）— 通讯为 Zhixiang Wang（项目负责）与 Kaipeng Zhang
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2609.10540"
+  authors="Zheng-Hui Huang, Guixu Lin, Jiacheng Lin, Yi-Chuan Huang, Ruihan Yu, Muyao Niu, Siqi Yang, Yu-Lun Liu, Yung-Yu Chuang, Kaipeng Zhang, Zhixiang Wang（Alaya Lab）— 通讯为 Zhixiang Wang（项目负责）与 Kaipeng Zhang"
+  arxiv="2609.10540"
+  links="[{\"url\":\"https://alaya-lab.github.io/pwm\",\"label\":\"项目主页\",\"kind\":\"project\"},{\"url\":\"https://github.com/AlayaLab/pwm\",\"label\":\"GitHub\",\"kind\":\"github\"}]"
+>}}
 
 **一句话总结：** Alaya Lab 提出 **Programmable World Model（PWM）**，把**世界状态演化从视觉观测生成中解耦**——由 agent 把自然语言指令翻译成可执行程序来定义实体状态与状态转移规则，轻量引擎维护**显式、持久的全局世界状态**，再经状态增强的 3D 有向包围盒（OBB）编译成像素对齐的条件信号交给视频模型渲染，在 CombatStateBench 上取得 **94% 计数准确率与 98% 状态准确率**。
 

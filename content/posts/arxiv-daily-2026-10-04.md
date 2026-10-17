@@ -21,11 +21,12 @@ tocopen: true
 
 ### Ego2Act: Evaluating Goal-Directed Manipulation in Egocentric Video Generation
 
-**链接：** https://arxiv.org/abs/2610.01092
-
-**项目主页：** https://ego2act.github.io ｜ **代码：** https://github.com/ego2act/ego2act ｜ **数据：** https://huggingface.co/datasets/ego2act/ego2act-bench
-
-**作者 / 机构：** Patrick Amadeus Irawan, Iskandar Muda Rizky Parlambang, Rava Maulana, Qinrong Cui, Erland Hilman Fuadi, Zayd M. K. Zuhri, Nanda Ryaas, Absar Ahmed Elshabrawy, Wilfried Ariel Mulyawan, Shoubin Yu, Yue Zhang, Mohit Bansal, Alham Fikri Aji（MBZUAI 穆罕默德·本·扎耶德人工智能大学；Nanyang Technological University 南洋理工大学；UNC Chapel Hill 北卡罗来纳大学教堂山分校）
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2610.01092"
+  authors="Patrick Amadeus Irawan, Iskandar Muda Rizky Parlambang, Rava Maulana, Qinrong Cui, Erland Hilman Fuadi, Zayd M. K. Zuhri, Nanda Ryaas, Absar Ahmed Elshabrawy, Wilfried Ariel Mulyawan, Shoubin Yu, Yue Zhang, Mohit Bansal, Alham Fikri Aji（MBZUAI 穆罕默德·本·扎耶德人工智能大学；Nanyang Technological University 南洋理工大学；UNC Chapel Hill 北卡罗来纳大学教堂山分校）"
+  arxiv="2610.01092"
+  links="[{\"url\":\"https://ego2act.github.io\",\"label\":\"项目主页\",\"kind\":\"project\"},{\"url\":\"https://github.com/ego2act/ego2act\",\"label\":\"GitHub\",\"kind\":\"github\"},{\"url\":\"https://huggingface.co/datasets/ego2act/ego2act-bench\",\"label\":\"数据\",\"kind\":\"huggingface\"}]"
+>}}
 
 **一句话总结：** MBZUAI、南洋理工与 UNC 团队推出 **Ego2Act**，据其所知是首个面向**目标导向、多步第一人称操作**的视频生成评测基准：**2,640 段视频、110 个真实任务**，给定初始场景图与一个高层目标，要求模型生成「一双手完成该任务」的第一人称视频（人类成功执行的中位时长 20.4 秒、平均步数超过 5 步）。配套的 **Ego2ActJudge** 是免参考自动评测管线，与人类共识的对齐度 **r = 0.69**、评分者间一致性 **ICC = 0.86**。结论相当克制：**最好的 Seedance-2.0 综合仅 64.0 分**，而人类参照为 100.0。
 
@@ -49,11 +50,12 @@ tocopen: true
 
 ### Token-World: World Modeling in Vision-Language Model Token Space for Robot Manipulation
 
-**链接：** https://arxiv.org/abs/2610.00575
-
-**项目主页：** https://chuyaofu.github.io/Token-World/
-
-**作者 / 机构：** Chuyao Fu, Xiaowei Chi, Yuhan Rui, Yu-Kai Wang, Zezhong Qian, Xiaojie Zhang, Yunfan Lou, Kevin Zhang, Kuangzhi Ge, Chak Wing Mak, Zhiyang Chen, Athena Zhuoming Zhong, Hongyang Cheng, Haoran Li, Yike Guo, Sirui Han, Shanghang Zhang（Southern University of Science and Technology 南方科技大学；MUKA Robotics；Hong Kong University of Science and Technology 香港科技大学；State Key Laboratory of Multimedia Information Processing, Peking University 北京大学多媒体信息处理全国重点实验室；University of Pennsylvania 宾夕法尼亚大学；Institute of Automation, CAS 中国科学院自动化研究所）
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2610.00575"
+  authors="Chuyao Fu, Xiaowei Chi, Yuhan Rui, Yu-Kai Wang, Zezhong Qian, Xiaojie Zhang, Yunfan Lou, Kevin Zhang, Kuangzhi Ge, Chak Wing Mak, Zhiyang Chen, Athena Zhuoming Zhong, Hongyang Cheng, Haoran Li, Yike Guo, Sirui Han, Shanghang Zhang（Southern University of Science and Technology 南方科技大学；MUKA Robotics；Hong Kong University of Science and Technology 香港科技大学；State Key Laboratory of Multimedia Information Processing, Peking University 北京大学多媒体信息处理全国重点实验室；University of Pennsylvania 宾夕法尼亚大学；Institute of Automation, CAS 中国科学院自动化研究所）"
+  arxiv="2610.00575"
+  links="[{\"url\":\"https://chuyaofu.github.io/Token-World/\",\"label\":\"项目主页\",\"kind\":\"project\"}]"
+>}}
 
 **一句话总结：** 南方科技大学、北京大学、港科大与 MUKA Robotics 等团队提出 **Token-World**，把世界动力学建模**从像素空间搬到 VLM 视觉 token 的压缩态**：先把 VLM 特征压成一个紧凑 token 状态，在这个降维空间里学未来动力学，再把预测状态映射回策略侧原本的表示。在 RoboTwin 上特征余弦相似度 **0.7714** / NMSE **0.4892**（IRASim 0.7372 / 0.5685，Ctrl-World 0.7097 / 0.6437）；闭环评测中模拟成功率与真实策略成功率的相关性从 Ctrl-World 的 **0.583 提到 0.794**，单步仿真耗时 **0.359 秒**，相对 IRASim / Ctrl-World / WorldGym 分别快 **2.0× / 5.3× / 6.1×**。已投稿 ICRA 2027。
 
@@ -77,11 +79,12 @@ tocopen: true
 
 ### Divide-and-Remember: Recursive Action-Relevant Memory for Long-Horizon VLA Policies
 
-**链接：** https://arxiv.org/abs/2610.00982
-
-**项目主页：** https://dnr-memory.github.io/
-
-**作者 / 机构：** Xuehui Yu, Eason Yu, Meiyi Wang, Haozhe Du, Stefano V. Albrecht, Harold Soh（National University of Singapore 新加坡国立大学；Nanyang Technological University 南洋理工大学；LISTENAI）
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2610.00982"
+  authors="Xuehui Yu, Eason Yu, Meiyi Wang, Haozhe Du, Stefano V. Albrecht, Harold Soh（National University of Singapore 新加坡国立大学；Nanyang Technological University 南洋理工大学；LISTENAI）"
+  arxiv="2610.00982"
+  links="[{\"url\":\"https://dnr-memory.github.io/\",\"label\":\"项目主页\",\"kind\":\"project\"}]"
+>}}
 
 **一句话总结：** 新加坡国立大学与南洋理工团队提出 **Divide-and-Remember（D&R）**，把「该记住什么」从**设计选择**变成一个**优化问题**：从模仿学习的 POMDP 形式化出发，证明最优记忆应当最大化给定当前观测下动作与记忆的条件互信息 `I(a_t; m_t | o_t)`——直觉上就是**只保留历史里那些「当前观测还没告诉你的、但与动作有关」的信息**。在此之上，D&R 用递归的分治选择把全局历史压缩到固定预算：在 RoboMME 的 16 个长程操作任务上，**仅 64 个 token 预算**下平均成功率 **38.6%**，对比 HAMLET 32.2%、FrameSamp 27.9%、无记忆 π0.5 仅 17.9%，且在四类任务族上一致增益，真机实验复现同样的提升。
 
@@ -105,11 +108,12 @@ tocopen: true
 
 ### Are Frontier VLM Agents Ready to Be Robot Generalists? An Empirical Study with the Embodied Agent Arena
 
-**链接：** https://arxiv.org/abs/2610.00854
-
-**项目主页：** https://embodied-agent-arena.github.io/embodied-agent-arena/
-
-**作者 / 机构：** Haojian Huang, Pukun Zhao, Zexi Li, Yehang Zhang, Yangkai Wei, Wenqian Li, Han Yang, Kaiwen Zhou, Ying-Cong Chen, Yinchuan Li（HKUST (Guangzhou) 香港科技大学（广州）；The Chinese University of Hong Kong 香港中文大学；Knowin AI）
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2610.00854"
+  authors="Haojian Huang, Pukun Zhao, Zexi Li, Yehang Zhang, Yangkai Wei, Wenqian Li, Han Yang, Kaiwen Zhou, Ying-Cong Chen, Yinchuan Li（HKUST (Guangzhou) 香港科技大学（广州）；The Chinese University of Hong Kong 香港中文大学；Knowin AI）"
+  arxiv="2610.00854"
+  links="[{\"url\":\"https://embodied-agent-arena.github.io/embodied-agent-arena/\",\"label\":\"项目主页\",\"kind\":\"project\"}]"
+>}}
 
 **一句话总结：** 港科大（广州）、港中文与 Knowin AI 团队构建 **Embodied Agent Arena**，在 **1,000 个案例、32 个既有来源**之上系统审计前沿 VLM 是否具备「机器人通才」的资质，覆盖 Geometry、Spatial Reasoning、Affordance、Task Planning 与 Manipulation 五条能力线，并附带新提出的几何估计基准 **GeoProbe**（Blender 渲染图 + 真实场景图）。评测 7 个 VLM 后结论明确：**Astra 的优势集中在精确估计与可用接触定位，而「完成协调的、目标导向的动作」仍是通往机器人通才的关键缺口。**
 
@@ -133,11 +137,12 @@ tocopen: true
 
 ### Where-OPD: Spatially Guided On-Policy Self-Distillation of MLLMs with Synthetic Scenes
 
-**链接：** https://arxiv.org/abs/2610.02117
-
-**代码：** https://github.com/sirkosophia/Where-OPD
-
-**作者 / 机构：** Sophia Sirko-Galouchenko, Monika Wysoczańska, Andrei Bursuc, Nicolas Thome, Spyros Gidaris（Valeo.ai；Sorbonne Université, CNRS, ISIR 索邦大学；Institut universitaire de France (IUF)；ILLS）
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2610.02117"
+  authors="Sophia Sirko-Galouchenko, Monika Wysoczańska, Andrei Bursuc, Nicolas Thome, Spyros Gidaris（Valeo.ai；Sorbonne Université, CNRS, ISIR 索邦大学；Institut universitaire de France (IUF)；ILLS）"
+  arxiv="2610.02117"
+  links="[{\"url\":\"https://github.com/sirkosophia/Where-OPD\",\"label\":\"GitHub\",\"kind\":\"github\"}]"
+>}}
 
 **一句话总结：** Valeo.ai 与索邦大学团队提出 **Where-OPD**，给多模态大模型的在策自蒸馏（on-policy self-distillation）换了一种**特权信息形态**：不再给教师「与问题对应的图像裁剪」（视觉放大），而是给一段**文本形式的、空间接地的引导**，直接指出与查询相关的视觉元素在哪。这类引导来自**程序化生成的合成场景**——物体身份与空间坐标自动可得，因此后训练完全不需要人工标注、也不需要外部教师模型。尽管训练只用了合成场景，收益仍能迁移到真实感知基准：在 CVBench、V\*、ZoomBench、BLINK、HR-Bench 与 MME-RealWorld 六项上**平均 +3.23 分**。
 
@@ -161,9 +166,11 @@ tocopen: true
 
 ### Supervise What Decides Success: Criterion-Aligned Auxiliary Losses for Latent World-Model Planning
 
-**链接：** https://arxiv.org/abs/2610.01224
-
-**作者 / 机构：** Takumi Hara（Kyoto University 京都大学）, Kanata Suzuki（Fujitsu Limited 富士通）
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2610.01224"
+  authors="Takumi Hara（Kyoto University 京都大学）, Kanata Suzuki（Fujitsu Limited 富士通）"
+  arxiv="2610.01224"
+>}}
 
 **一句话总结：** 京都大学与富士通团队指出潜世界模型规划的一个**根本性错配**：这类模型靠潜空间里的距离给候选动作序列打分，但任务成败是由**物理量**判定的。作者在所考察的**全部四个潜世界模型**中发现，**末端执行器位置在潜状态中的编码误差，大于成功判据本身所允许的误差**——也就是说，这个潜状态在原理上就**分不出成功候选与失败候选**。解法极简：训练时在编码器与预测器输出上挂一个线性头去回归「成功判据量」，把回归误差加进训练损失，**训完就把头丢掉**，因此模型、成本与测试期输入完全不变。仅此一项，PushT 与 cube 的成功率分别**绝对提升 3.5% 与 3.4%**，且均具统计显著性。
 
@@ -187,11 +194,12 @@ tocopen: true
 
 ### NarrativeFlow: Flow-Based Vision-Language-Action Model Using Robot Velocity Fields
 
-**链接：** https://arxiv.org/abs/2610.00981
-
-**项目主页：** https://shota0520.github.io/NarrativeFlow-project-page/
-
-**作者 / 机构：** Shota Kobayashi, Koki Seno, Daichi Yashima, Komei Sugiura（Keio University 庆应义塾大学，日本）
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2610.00981"
+  authors="Shota Kobayashi, Koki Seno, Daichi Yashima, Komei Sugiura（Keio University 庆应义塾大学，日本）"
+  arxiv="2610.00981"
+  links="[{\"url\":\"https://shota0520.github.io/NarrativeFlow-project-page/\",\"label\":\"项目主页\",\"kind\":\"project\"}]"
+>}}
 
 **一句话总结：** 庆应义塾大学团队提出 **NarrativeFlow**，把「机器人流（robot flow）」——即机器人速度场——作为**跨本体、以运动为中心**的动作表示，并用**以语言为条件的流匹配**把它建模成连续速度场。在 Fractal 与 Bridge V2 两个真实机器人数据集上，ADE 分别做到 **21.68 与 30.59**，把最佳基线的 37.14 与 50.73 拉开了 **15.46 与 20.14 个点**；LTDR 达 76.29% 与 66.30%。模型约 **4.87 亿参数**、推理约 **62 ms**，并在真机多任务上取得高于基线的成功率。已被 **ACCV 2026** 接收。
 
@@ -215,9 +223,11 @@ tocopen: true
 
 ### From Reasoning Failures to Composable Video Spatial Intelligence
 
-**链接：** https://arxiv.org/abs/2610.01999
-
-**作者 / 机构：** Pengzhan Sun, Junbin Xiao, Ramanathan Rajaraman, Shiu-hong Kao, Angela Yao（National University of Singapore 新加坡国立大学；University of Science and Technology of China 中国科学技术大学）
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2610.01999"
+  authors="Pengzhan Sun, Junbin Xiao, Ramanathan Rajaraman, Shiu-hong Kao, Angela Yao（National University of Singapore 新加坡国立大学；University of Science and Technology of China 中国科学技术大学）"
+  arxiv="2610.01999"
+>}}
 
 **一句话总结：** 新加坡国立大学与中国科学技术大学团队指出，空间推理基准只给**任务级分数**，无法揭示成败到底由哪些底层能力决定。他们把每个任务拆成「恢复空间证据—表示几何—在其上推理」三步，通过在**统一 schema 与坐标契约**下比对预测与真值的空间上下文，定位出**四类反复出现的错误源**：感知不准、空间上下文缺信息、选错了度量、参考系或位姿跟踪出错。据此构建 **CROSS**——一个**免训练**的类型化几何算子与空间技能库。在五个基准上，CROSS 把 ReVSI 平均分从 **55.9% 提到 60.2%**，并把 SpatialClaw 在 DSI-Bench 上从 **62.8% 提到 66.3%**。
 

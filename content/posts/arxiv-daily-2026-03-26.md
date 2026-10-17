@@ -17,7 +17,10 @@ tocopen: true
 
 ### Polynomial Speedup in Diffusion Models with the Multilevel Euler-Maruyama Method
 
-**链接：** https://arxiv.org/abs/2603.24594
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2603.24594"
+  arxiv="2603.24594"
+>}}
 
 **一句话总结：** 提出多层次 Euler-Maruyama（ML-EM）方法，在扩散模型采样中实现多项式级加速，将采样计算量压缩至等同于单次最大网络前向传播。
 
@@ -41,7 +44,10 @@ tocopen: true
 
 ### DreamerAD: Efficient Reinforcement Learning via Latent World Model for Autonomous Driving
 
-**链接：** https://arxiv.org/abs/2603.24587
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2603.24587"
+  arxiv="2603.24587"
+>}}
 
 **一句话总结：** 将视频生成扩散模型的 latent 特征空间与 RL 结合，通过 shortcut forcing 将扩散采样从 100 步压缩至 1 步（80× 加速），在 NavSim v2 上达到 87.7 EPDMS 的 SOTA。
 
@@ -65,7 +71,10 @@ tocopen: true
 
 ### Latent-WAM: Latent World Action Modeling for End-to-End Autonomous Driving
 
-**链接：** https://arxiv.org/abs/2603.24581
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2603.24581"
+  arxiv="2603.24581"
+>}}
 
 **一句话总结：** 提出 Latent-WAM，通过空间感知压缩编码器与动态 latent 世界模型实现紧凑高效的端到端自动驾驶规划，以 104M 参数在 NAVSIM v2 上创下 89.3 EPDMS SOTA。
 
@@ -89,7 +98,10 @@ tocopen: true
 
 ### PhyGenesis: Toward Physically Consistent Driving Video World Models under Challenging Trajectories
 
-**链接：** https://arxiv.org/abs/2603.24506
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2603.24506"
+  arxiv="2603.24506"
+>}}
 
 **一句话总结：** PhyGenesis 提出物理一致性驾驶视频生成框架，通过物理条件生成器和物理增强视频生成器，解决世界模型在反事实/极端轨迹下崩溃的核心问题。
 
@@ -113,7 +125,10 @@ tocopen: true
 
 ### SEGAR: Selective Enhancement for Generative Augmented Reality
 
-**链接：** https://arxiv.org/abs/2603.24541
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2603.24541"
+  arxiv="2603.24541"
+>}}
 
 **一句话总结：** 提出 SEGAR 框架，将扩散世界模型与选择性校正阶段结合，实现未来帧的预生成与缓存，为生成式增强现实（AR）提供基础设施原型。
 
@@ -137,7 +152,10 @@ tocopen: true
 
 ### TAG: Target-Agnostic Guidance for Stable Object-Centric Inference in Vision-Language-Action Models
 
-**链接：** https://arxiv.org/abs/2603.24584
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2603.24584"
+  arxiv="2603.24584"
+>}}
 
 **一句话总结：** 提出 TAG 推理时引导机制，通过对比原始观测与目标擦除观测的策略预测差异，显著提升 VLA 机器人在杂乱场景中的抓取可靠性。
 
@@ -161,7 +179,10 @@ tocopen: true
 
 ### Chameleon: Episodic Memory for Long-Horizon Robotic Manipulation
 
-**链接：** https://arxiv.org/abs/2603.24576
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2603.24576"
+  arxiv="2603.24576"
+>}}
 
 **一句话总结：** 提出 Chameleon，以几何锚定的多模态 token 替代压缩语义记忆，通过可微分记忆栈实现目标导向的情节记忆召回，显著提升感知歧义环境下的长视野机器人操控。
 
@@ -185,7 +206,10 @@ tocopen: true
 
 ### Anti-I2V: Safeguarding Your Photos from Malicious Image-to-Video Generation
 
-**链接：** https://arxiv.org/abs/2603.24570
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2603.24570"
+  arxiv="2603.24570"
+>}}
 
 **一句话总结：** 提出 Anti-I2V，通过在 L\*a\*b\* 色彩空间和频率域联合添加对抗性扰动，针对 UNet 和 DiT 架构的图像到视频扩散模型实现 SOTA 防护效果（CVPR 2026）。
 
@@ -210,7 +234,10 @@ tocopen: true
 
 ### TextFlow: Towards Training-Free Scene Text Editing
 
-**链接：** https://arxiv.org/abs/2603.24571
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2603.24571"
+  arxiv="2603.24571"
+>}}
 
 **一句话总结：** 提出 TextFlow，无需训练地融合 Flow Manifold Steering 和 Attention Boost 两个互补模块，实现高保真、多语言场景文字编辑（CVPR 2026）。
 

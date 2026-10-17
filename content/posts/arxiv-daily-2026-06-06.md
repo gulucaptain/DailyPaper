@@ -17,7 +17,10 @@ tocopen: true
 
 ### Thinking with Imagination: Agentic Visual Spatial Reasoning with World Simulators
 
-**链接：** https://arxiv.org/abs/2606.06476
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2606.06476"
+  arxiv="2606.06476"
+>}}
 
 **一句话总结：** 提出 Astra 框架，让 VLM 在推理过程中主动调用世界模拟器生成想象视觉证据，实现真正的具身空间推理。
 
@@ -40,7 +43,10 @@ tocopen: true
 
 ### Physics in 2-Steps: Locking Motion Priors Before Visual Refinement Erases Them
 
-**链接：** https://arxiv.org/abs/2606.06361
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2606.06361"
+  arxiv="2606.06361"
+>}}
 
 **一句话总结：** 发现 Image-to-Video 扩散模型的 2 步生成在物理一致性上优于 50 步输出，并提出无训练的 PhaseLock 框架，通过锁定早期相位先验来大幅改善物理一致性。
 
@@ -63,7 +69,10 @@ tocopen: true
 
 ### Complexity-Balanced Diffusion Splitting (CBS)
 
-**链接：** https://arxiv.org/abs/2606.06477
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2606.06477"
+  arxiv="2606.06477"
+>}}
 
 **一句话总结：** 提出有原则的扩散时间轴容量分配框架 CBS，将生成工作负载分配给多个专用子网络，FID 相比朴素时间分割提升约 35%。
 
@@ -86,7 +95,10 @@ tocopen: true
 
 ### ReCache: Learning Budget-Aware Caching Schedules for Diffusion Models via REINFORCE
 
-**链接：** https://arxiv.org/abs/2606.06060
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2606.06060"
+  arxiv="2606.06060"
+>}}
 
 **一句话总结：** 提出 ReCache，通过策略梯度学习给定计算预算下最优的特征缓存调度，让计算开销成为用户可直接控制的输入量。
 
@@ -109,7 +121,10 @@ tocopen: true
 
 ### RhymeFlow: Training-Free Acceleration for Video Generation with Asynchronous Denoising Flow Scheduling
 
-**链接：** https://arxiv.org/abs/2606.06309
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2606.06309"
+  arxiv="2606.06309"
+>}}
 
 **一句话总结：** 提出 RhymeFlow，无训练框架通过解耦不同帧的去噪轨迹，让关键帧密集去噪、非关键帧跳步去噪，显著降低视频生成的推理计算量。
 
@@ -132,7 +147,10 @@ tocopen: true
 
 ### SAM-Flow: Source-Anchored Masked Flow for Training-Free Image Editing
 
-**链接：** https://arxiv.org/abs/2606.06228
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2606.06228"
+  arxiv="2606.06228"
+>}}
 
 **一句话总结：** 提出 SAM-Flow，通过将差分速度更新限制在 SAM 定位的语义区域内，并将非目标区域锚定到源图像潜在轨迹，实现背景保护的无训练图像编辑。
 
@@ -155,7 +173,10 @@ tocopen: true
 
 ### HANDOFF: Humanoid Agentic Task-Space Whole-Body Control via Distilled Complementary Teachers
 
-**链接：** https://arxiv.org/abs/2606.06493
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2606.06493"
+  arxiv="2606.06493"
+>}}
 
 **一句话总结：** 提出 HANDOFF，通过多教师 KL 蒸馏将三个互补专家（全身运动跟踪、行走、跌倒恢复）融合为单一人形机器人全身控制器，实现自然语言驱动的多样化操纵技能。
 

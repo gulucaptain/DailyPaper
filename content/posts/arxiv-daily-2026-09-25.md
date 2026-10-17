@@ -25,9 +25,11 @@ tocopen: true
 
 ### Generalizable Robotic Insertion with World Models
 
-**链接：** https://arxiv.org/abs/2609.28258
-
-**作者 / 机构：** Nicklas Hansen, Iretiayo Akinola, Yijie Guo, Jie Xu, Bingjie Tang, Hao Su, Xiaolong Wang, Abhishek Gupta, Dieter Fox, Yashraj Narang（NVIDIA；University of California San Diego；University of Southern California）
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2609.28258"
+  authors="Nicklas Hansen, Iretiayo Akinola, Yijie Guo, Jie Xu, Bingjie Tang, Hao Su, Xiaolong Wang, Abhishek Gupta, Dieter Fox, Yashraj Narang（NVIDIA；University of California San Diego；University of Southern California）"
+  arxiv="2609.28258"
+>}}
 
 **一句话总结：** NVIDIA、UCSD 与 USC 联合提出 **InsertionWM**（IROS 2026），把最多 **90 种几何形状各异的零件**的插入装配压缩进**单一世界模型**，融合腕部相机原始视觉观测与本体感知信息，在几何完全未知的未见物体上取得 **56% 零样本成功率**，而无模型基线仅 **7%**；据作者所知，这是首个完全以数据驱动方式装配未见物体的系统。
 
@@ -51,11 +53,12 @@ tocopen: true
 
 ### MemBodied: Recurrent Associative Memory for Vision-Language-Action Models
 
-**链接：** https://arxiv.org/abs/2609.28256
-
-**项目主页：** https://declare-lab.github.io/MemBodied ｜ **代码：** https://github.com/declare-lab/MemBodied
-
-**作者 / 机构：** Tej Deep Pala, Navonil Majumder, Bryce Goh, Raphael Yee, Jianfei Yang, Liming Chen, Soujanya Poria（Nanyang Technological University；Griffin Labs；École Centrale de Lyon）
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2609.28256"
+  authors="Tej Deep Pala, Navonil Majumder, Bryce Goh, Raphael Yee, Jianfei Yang, Liming Chen, Soujanya Poria（Nanyang Technological University；Griffin Labs；École Centrale de Lyon）"
+  arxiv="2609.28256"
+  links="[{\"url\":\"https://declare-lab.github.io/MemBodied\",\"label\":\"项目主页\",\"kind\":\"project\"},{\"url\":\"https://github.com/declare-lab/MemBodied\",\"label\":\"GitHub\",\"kind\":\"github\"}]"
+>}}
 
 **一句话总结：** 南洋理工大学、Griffin Labs 与里昂中央理工学院团队提出 **MemBodied**，针对绝大多数 VLA 策略不保留 episode 级历史这一缺陷，设计**固定尺寸**的情节记忆（联想状态记录跨调用交互、情节锚点保存初始场景的紧凑表示），在五个需要记忆的 RMBench 任务上达到无状态策略的 **7.81 倍**、朴素循环记忆的 **2.98 倍**，并以**少 10 倍的新增参数**超过最强记忆增强基线。
 
@@ -79,11 +82,12 @@ tocopen: true
 
 ### LiMA: Bridging Long-term Imagination to Real-time Dexterous Manipulation via Asynchronous Diffusion
 
-**链接：** https://arxiv.org/abs/2609.28431
-
-**项目主页：** https://ccdcs.github.io/LiMA_repo/
-
-**作者 / 机构：** Ning Chen, Yankai Fu, Junkai Zhao, Qianpu Sun, Guocai Yao, Pengwei Wang, Zhongyuan Wang, Shanghang Zhang（Peking University 多媒体信息处理全国重点实验室；Beijing Academy of Artificial Intelligence）
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2609.28431"
+  authors="Ning Chen, Yankai Fu, Junkai Zhao, Qianpu Sun, Guocai Yao, Pengwei Wang, Zhongyuan Wang, Shanghang Zhang（Peking University 多媒体信息处理全国重点实验室；Beijing Academy of Artificial Intelligence）"
+  arxiv="2609.28431"
+  links="[{\"url\":\"https://ccdcs.github.io/LiMA_repo/\",\"label\":\"项目主页\",\"kind\":\"project\"}]"
+>}}
 
 **一句话总结：** 北京大学与智源研究院提出 **LiMA**，针对「VLA 缺乏细粒度物理动态理解、WAM 又因迭代生成而延迟过高」的两难，设计**异步双系统**生成框架：慢系统做稀疏长程时空意图生成、快系统做稠密高频动作精修，并用**隐空间薛定谔桥耦合**把稀疏意图对齐到稠密轨迹；推理延迟较 Cosmos-Policy 降低 **45.8%**，六个双臂灵巧操作任务整体成功率 **70.8%**、子任务成功率 **78.9%**。
 
@@ -107,11 +111,12 @@ tocopen: true
 
 ### Latent evolving World Action Model
 
-**链接：** https://arxiv.org/abs/2609.27455
-
-**代码：** https://github.com/XuejiFang/LeWAM ｜ **模型：** https://huggingface.co/XuejiFang/LeWAM
-
-**作者 / 机构：** Xueji Fang, Boqiang Duan, Hua Wu, Jingdong Wang, Guo-Jun Qi（Zhejiang University；Westlake University；Baidu Inc.）
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2609.27455"
+  authors="Xueji Fang, Boqiang Duan, Hua Wu, Jingdong Wang, Guo-Jun Qi（Zhejiang University；Westlake University；Baidu Inc.）"
+  arxiv="2609.27455"
+  links="[{\"url\":\"https://github.com/XuejiFang/LeWAM\",\"label\":\"GitHub\",\"kind\":\"github\"},{\"url\":\"https://huggingface.co/XuejiFang/LeWAM\",\"label\":\"模型\",\"kind\":\"huggingface\"}]"
+>}}
 
 **一句话总结：** 浙江大学、西湖大学与百度联合提出 **LeWAM**，从理论与实证两方面追问「视觉表征如何影响 WAM 中的动作生成」：结论是 **I-JEPA 的预测式嵌入比压缩 VAE 潜变量更支撑动作生成**，据此把动作生成条件化在 JEPA 嵌入上、并在同一空间中预测未来嵌入来建模环境演化，**完全摆脱视频扩散骨干**；仅 **0.4B 可训练参数**在 RoboTwin 2.0 上取得 **92.28%** 平均成功率。
 
@@ -135,11 +140,12 @@ tocopen: true
 
 ### Frozen Flows Forget: Diagnosing and Restoring Lost Motion in a Latent-flow World Model
 
-**链接：** https://arxiv.org/abs/2609.28414
-
-**代码：** https://github.com/Mangkhut160/icassp2027 ｜ **权重：** https://huggingface.co/pzr114514/DART-PT-Flow-LIBERO
-
-**作者 / 机构：** Xiwen Chen, Rigaudiere Z. Li, Zhiruo Zhou, Xiaojun Zhu, Houde Liu（Tsinghua Shenzhen International Graduate School；Shanghai Jiaotong University；Wuhan University of Technology）
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2609.28414"
+  authors="Xiwen Chen, Rigaudiere Z. Li, Zhiruo Zhou, Xiaojun Zhu, Houde Liu（Tsinghua Shenzhen International Graduate School；Shanghai Jiaotong University；Wuhan University of Technology）"
+  arxiv="2609.28414"
+  links="[{\"url\":\"https://github.com/Mangkhut160/icassp2027\",\"label\":\"GitHub\",\"kind\":\"github\"},{\"url\":\"https://huggingface.co/pzr114514/DART-PT-Flow-LIBERO\",\"label\":\"权重\",\"kind\":\"huggingface\"}]"
+>}}
 
 **一句话总结：** 清华深圳国际研究生院、上海交通大学与武汉理工大学团队指出：在冻结自监督潜空间中训练流模型的潜世界模型虽然训练稳定、成本低，却会**静默丢掉操作最依赖的属性——运动**；作者把病根定位到**训练信号而非表征**（锚点稀疏的纯潜监督从未说明变化该发生在 horizon 的哪一段），提出 **DART** 在保持表征冻结的前提下仅用解码路径监督重训流模型，成功恢复运动的时间结构，并顺带发现一个反直觉的评测问题：**仅用像素误差会奖励「冻结的预测」**。
 
@@ -163,9 +169,11 @@ tocopen: true
 
 ### Distillation for Efficient Multitask Manipulation Policies via Conditional Flow Matching
 
-**链接：** https://arxiv.org/abs/2609.28107
-
-**作者 / 机构：** Shreya Deshmukh, Imen Mahdi, Nick Heppert, Abhinav Valada（Department of Computer Science, University of Freiburg, Germany）
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2609.28107"
+  authors="Shreya Deshmukh, Imen Mahdi, Nick Heppert, Abhinav Valada（Department of Computer Science, University of Freiburg, Germany）"
+  arxiv="2609.28107"
+>}}
 
 **一句话总结：** 弗莱堡大学团队研究多任务条件下的流匹配（CFM）策略学习：指出**为每任务各训一个模型计算代价过高**，而简单拼接演示数据会要么需要更大容量、要么直接掉点；为此把**单任务 CFM 专家学到的速度场**蒸馏进共享的多任务策略，并与原始 CFM 目标结合以保真演示，在 RLBench 上把朴素多任务的 **61.4** 提升到 **79.5**。
 
@@ -189,9 +197,11 @@ tocopen: true
 
 ### BEE: Intervention-Adaptive Real-World Reinforcement Learning with Vision-Language-Action Models
 
-**链接：** https://arxiv.org/abs/2609.27450
-
-**作者 / 机构：** Weihui Zhao, Xiaohan Yan, Zunian Wan, Xuan Du, Zhaozhan Chi, Jianbo Mao, Ruipu Wu, Rushuai Yang, Houlin Li, Shukai Yang, Jing Wu, Yuxiang Yan（South China University of Technology；AgiBot 智元机器人）
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2609.27450"
+  authors="Weihui Zhao, Xiaohan Yan, Zunian Wan, Xuan Du, Zhaozhan Chi, Jianbo Mao, Ruipu Wu, Rushuai Yang, Houlin Li, Shukai Yang, Jing Wu, Yuxiang Yan（South China University of Technology；AgiBot 智元机器人）"
+  arxiv="2609.27450"
+>}}
 
 **一句话总结：** 华南理工大学与智元机器人提出 **BEE**，指出 VLA 长程操作的成败往往系于少数**精度关键阶段**（毫米级误差会毁掉此前全部进展），而真机上的自由探索代价过高、人类纠正不可或缺；关键在于把人类纠正**不当作待复现的动作，而当作关于约束的证据**——由纠正模型预测纠正的一致性并据此**逐维设定约束松紧**，在三个真机任务加一个 LIBERO-Pro 仿真任务上平均达 **91.2%**，远超 RLT 的 57.5% 与 DSRL 的 42.1%。
 
@@ -215,11 +225,12 @@ tocopen: true
 
 ### The Past Frames the Future: Memory for Autoregressive Video Generation — A Survey
 
-**链接：** https://arxiv.org/abs/2609.28466
-
-**资源：** https://github.com/HaroldChen19/Awesome-AR-Video-Memory
-
-**作者 / 机构：** Harold Haodong Chen, Rongjin Guo, Disen Lan, Wen-Jie Shu, Hongfei Zhang, Hanzhe Hu, Shengtao Yao, Zixin Zhang, Guibin Zhang, Zhefan Rao, Jinxiu Liu, Yexin Liu 等（HKUST；City University of Hong Kong；Fudan University；ZODA；CMU；NYU；HKUST(GZ)；National University of Singapore；Georgia Tech；Peking University；MBZUAI；NVIDIA；UCF；UNITN；NTU；UC Merced）
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2609.28466"
+  authors="Harold Haodong Chen, Rongjin Guo, Disen Lan, Wen-Jie Shu, Hongfei Zhang, Hanzhe Hu, Shengtao Yao, Zixin Zhang, Guibin Zhang, Zhefan Rao, Jinxiu Liu, Yexin Liu 等（HKUST；City University of Hong Kong；Fudan University；ZODA；CMU；NYU；HKUST(GZ)；National University of Singapore；Georgia Tech；Peking University；MBZUAI；NVIDIA；UCF；UNITN；NTU；UC Merced）"
+  arxiv="2609.28466"
+  links="[{\"url\":\"https://github.com/HaroldChen19/Awesome-AR-Video-Memory\",\"label\":\"GitHub\",\"kind\":\"github\"}]"
+>}}
 
 **一句话总结：** 来自 HKUST、CMU、NVIDIA、MBZUAI 等 16 家机构的联合综述，首次系统地把**自回归视频生成中的记忆机制**确立为一个独立研究问题：随着生成序列变长，模型必须在**严格有界的上下文窗口、存储与算力**下运行，导致实体身份、动态状态、干预造成的因果变化等关键历史信息**在其相关性消失之前就已被挤出活跃上下文**；文章把记忆操作性地定义为「跨外层自回归步骤维持的持久历史信息」，并用**形式 / 功能 / 操作 / 学习 / 评测**五个互补视角组织全部文献。
 

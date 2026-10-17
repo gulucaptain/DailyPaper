@@ -19,11 +19,12 @@ tocopen: true
 
 ### GE-Act 2.0: Pretraining and Scaling a World-Action Model for Robotic Manipulation
 
-**链接：** https://arxiv.org/abs/2609.05588
-
-**项目主页：** https://ge-act-v2.github.io/
-
-**作者 / 机构：** AgiBot Research Team（智元机器人研究院）— Renhang Liu, Wenzhi Zhao, Zhuo Yang, Liliang Chen, Pengfei Zhou, Shengcong Chen, Guanghui Ren 等 45 人
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2609.05588"
+  authors="AgiBot Research Team（智元机器人研究院）— Renhang Liu, Wenzhi Zhao, Zhuo Yang, Liliang Chen, Pengfei Zhou, Shengcong Chen, Guanghui Ren 等 45 人"
+  arxiv="2609.05588"
+  links="[{\"url\":\"https://ge-act-v2.github.io/\",\"label\":\"项目主页\",\"kind\":\"project\"}]"
+>}}
 
 **一句话总结：** 智元机器人研究院提出 GE-Act 2.0，一个生成与动作组件**全部从零初始化**的世界动作模型，用「控制导向自编码器 + 单步视觉规划器 + 逆动力学模型」的可分解结构把 WAM 预训练拆成可分别优化的子问题，并首次给出 300→30,000 小时数据规模下的 WAM Scaling 曲线。
 
@@ -47,11 +48,12 @@ tocopen: true
 
 ### OpenWAM: An Open, Modular Exploration Towards Systematic World-Action Model Pretraining
 
-**链接：** https://arxiv.org/abs/2609.07398
-
-**项目主页：** https://openwam-official.github.io/ ｜ **代码：** https://github.com/OpenWAM-Official/OpenWAM ｜ **模型与数据：** https://huggingface.co/OpenWAM
-
-**作者 / 机构：** Yuran Wang, Siqiao Huang, Mingleyang Li, Chenhao Zhang 等 24 人（新加坡国立大学；清华大学；北京大学；香港大学；浙江大学；香港中文大学；上海交通大学；XPolicyLab）— Lin Shao（NUS）与 Hang Zhao（清华大学）共同指导
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2609.07398"
+  authors="Yuran Wang, Siqiao Huang, Mingleyang Li, Chenhao Zhang 等 24 人（新加坡国立大学；清华大学；北京大学；香港大学；浙江大学；香港中文大学；上海交通大学；XPolicyLab）— Lin Shao（NUS）与 Hang Zhao（清华大学）共同指导"
+  arxiv="2609.07398"
+  links="[{\"url\":\"https://openwam-official.github.io/\",\"label\":\"项目主页\",\"kind\":\"project\"},{\"url\":\"https://github.com/OpenWAM-Official/OpenWAM\",\"label\":\"GitHub\",\"kind\":\"github\"},{\"url\":\"https://huggingface.co/OpenWAM\",\"label\":\"模型与数据\",\"kind\":\"huggingface\"}]"
+>}}
 
 **一句话总结：** NUS、清华、北大等七校联合团队把紧耦合的 WAM 设计空间**因子化为可组合的模块栈**，通过受控实验回答「继承什么、世界学习与动作学习如何互动、二者协同如何扩展」三个问题，并开源了基础设施、评测协议、预训练模型与数据配方。
 
@@ -75,11 +77,12 @@ tocopen: true
 
 ### DeCAL: Towards Physically-Grounded Dexterous Vision-Language-Action Models via Contact-Aware Latent Co-Imagination
 
-**链接：** https://arxiv.org/abs/2609.09119
-
-**项目主页：** https://aureleopku.github.io/DeCAL
-
-**作者 / 机构：** Yankai Fu, Ning Chen, Junkai Zhao, Heng Zhang, Guocai Yao, Pengwei Wang, Zhongyuan Wang, Shanghang Zhang（北京大学多媒体信息处理国家重点实验室 / 计算机学院；北京人工智能研究院）
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2609.09119"
+  authors="Yankai Fu, Ning Chen, Junkai Zhao, Heng Zhang, Guocai Yao, Pengwei Wang, Zhongyuan Wang, Shanghang Zhang（北京大学多媒体信息处理国家重点实验室 / 计算机学院；北京人工智能研究院）"
+  arxiv="2609.09119"
+  links="[{\"url\":\"https://aureleopku.github.io/DeCAL\",\"label\":\"项目主页\",\"kind\":\"project\"}]"
+>}}
 
 **一句话总结：** 北大与智源团队提出 DeCAL，用 **Mixture-of-Transformers** 架构统一「理解—想象—动作生成」，并通过接触感知门控自适应融合触觉、用视觉—触觉潜空间联合想象为策略注入隐式的物理世界知识。
 
@@ -103,11 +106,12 @@ tocopen: true
 
 ### TANGO: Humanoid Navigation in Cluttered Environments with a Whole-Body Vision-Language-Action Model
 
-**链接：** https://arxiv.org/abs/2609.09158
-
-**项目主页：** https://tango-vla.github.io/
-
-**作者 / 机构：** Anqi Li, Yuxin Chen, Zhaobo Li, Zhuo Cao, Junli Ren, Masayoshi Tomizuka, Dhruv Shah（加州大学伯克利分校；北京大学；清华大学；香港大学；普林斯顿大学）
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2609.09158"
+  authors="Anqi Li, Yuxin Chen, Zhaobo Li, Zhuo Cao, Junli Ren, Masayoshi Tomizuka, Dhruv Shah（加州大学伯克利分校；北京大学；清华大学；香港大学；普林斯顿大学）"
+  arxiv="2609.09158"
+  links="[{\"url\":\"https://tango-vla.github.io/\",\"label\":\"项目主页\",\"kind\":\"project\"}]"
+>}}
 
 **一句话总结：** 伯克利团队提出 TANGO，**首个面向人形机器人的全身视觉语言导航框架**，直接从第一人称 RGB 与自然语言指令预测 **29 自由度关节空间动作**，把「导航」从 2D 路径规划重新定义为需要几何感知的全身避障穿越。
 
@@ -130,11 +134,12 @@ tocopen: true
 
 ### Mask Forcing: Improving Autoregressive Video Diffusion Distillation via Dual-Noise Masking Rollout
 
-**链接：** https://arxiv.org/abs/2609.09123
-
-**项目主页：** https://alicezrzhao.github.io/mask_forcing/
-
-**作者 / 机构：** Zhuoran Zhao, Shengju Qian, Tongtong Liang, Xianghao Kong, Songchun Zhang, Junchao Huang, Guian Fang, Xin Wang, Pan Hui, Anyi Rao（香港科技大学（广州）；香港科技大学；LIGHTSPEED；加州大学圣地亚哥分校；香港中文大学（深圳）；新加坡国立大学）
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2609.09123"
+  authors="Zhuoran Zhao, Shengju Qian, Tongtong Liang, Xianghao Kong, Songchun Zhang, Junchao Huang, Guian Fang, Xin Wang, Pan Hui, Anyi Rao（香港科技大学（广州）；香港科技大学；LIGHTSPEED；加州大学圣地亚哥分校；香港中文大学（深圳）；新加坡国立大学）"
+  arxiv="2609.09123"
+  links="[{\"url\":\"https://alicezrzhao.github.io/mask_forcing/\",\"label\":\"项目主页\",\"kind\":\"project\"}]"
+>}}
 
 **一句话总结：** 港科大（广州）等团队提出 Mask Forcing，用**双噪声掩码 rollout** 扰动自回归学生的自生成轨迹，缓解 DMD 蒸馏中反向 KL 的 mode-seeking 行为所导致的模式坍塌，在多种 AR 视频扩散蒸馏方法上一致提升视觉质量。
 
@@ -158,11 +163,12 @@ tocopen: true
 
 ### SyncWorld: Visual Calibration Enables World Models as Zero-Shot Simulators
 
-**链接：** https://arxiv.org/abs/2609.09155
-
-**项目主页：** https://umass-embodied-agi.github.io/SyncWorld/
-
-**作者 / 机构：** Yuncong Yang, Zhengtao Han, Furkan Ozyurt, Zeyuan Yang, Han Yang, Junyi Cao, Haoyu Zhen, Yilun Du, Chuang Gan（马萨诸塞大学阿默斯特分校；哈佛大学；加州大学伯克利分校；纽约大学）
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2609.09155"
+  authors="Yuncong Yang, Zhengtao Han, Furkan Ozyurt, Zeyuan Yang, Han Yang, Junyi Cao, Haoyu Zhen, Yilun Du, Chuang Gan（马萨诸塞大学阿默斯特分校；哈佛大学；加州大学伯克利分校；纽约大学）"
+  arxiv="2609.09155"
+  links="[{\"url\":\"https://umass-embodied-agi.github.io/SyncWorld/\",\"label\":\"项目主页\",\"kind\":\"project\"}]"
+>}}
 
 **一句话总结：** UMass Amherst 与哈佛团队提出 SyncWorld，用一段**视觉标定片段（visual calibration episode）**在上下文中指定「当前这套装置」特有的动作—视觉映射，让动作条件世界模型在**完全未见过的环境**中零训练地充当可交互仿真器。
 
@@ -186,11 +192,12 @@ tocopen: true
 
 ### Dex-X: Learning Visual-Tactile Dexterous Manipulation From Human Videos with Simulated Interaction
 
-**链接：** https://arxiv.org/abs/2609.07747
-
-**项目主页：** https://dexx-code.github.io/dexx-code/
-
-**作者 / 机构：** Ruoqu Chen, Feixiang Ruan, Liu Cao, Zihao Wang, Botian Xu, Shiqin Tong, Jiajun Liu, Mingzhi Pei, Chenyu Zhang, Wanli Xing, Kaifeng Zhang, Mengdi Xu（清华大学；上海期智研究院；Sharpa；同济大学）
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2609.07747"
+  authors="Ruoqu Chen, Feixiang Ruan, Liu Cao, Zihao Wang, Botian Xu, Shiqin Tong, Jiajun Liu, Mingzhi Pei, Chenyu Zhang, Wanli Xing, Kaifeng Zhang, Mengdi Xu（清华大学；上海期智研究院；Sharpa；同济大学）"
+  arxiv="2609.07747"
+  links="[{\"url\":\"https://dexx-code.github.io/dexx-code/\",\"label\":\"项目主页\",\"kind\":\"project\"}]"
+>}}
 
 **一句话总结：** 清华与上海期智研究院团队提出 Dex-X，把**仿真当作触觉补全引擎**：从单目人类示范视频重建手—物交互，用仿真中的物理接触动力学提供视频里根本不存在的触觉监督，再蒸馏成可在真机部署的视觉—触觉灵巧操作策略。
 
@@ -214,11 +221,12 @@ tocopen: true
 
 ### How to Learn from What a Human Would Avoid? Intervention-Aware World Models with Real-World RL for Dexterous Manipulation
 
-**链接：** https://arxiv.org/abs/2609.06009
-
-**项目主页：** https://whirl-dexterous.github.io/
-
-**作者 / 机构：** Jiaju Yin, Zhenhui Zhang, Lixin Xu, Heng Zhang, Jun Shao, Yating Feng, Arash Ajoudani, Renjing Xu（香港科技大学（广州）；意大利理工学院；浙江大学）— **CoRL 2026 接收**（15 页 / 8 图 / 3 表）
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2609.06009"
+  authors="Jiaju Yin, Zhenhui Zhang, Lixin Xu, Heng Zhang, Jun Shao, Yating Feng, Arash Ajoudani, Renjing Xu（香港科技大学（广州）；意大利理工学院；浙江大学）— **CoRL 2026 接收**（15 页 / 8 图 / 3 表）"
+  arxiv="2609.06009"
+  links="[{\"url\":\"https://whirl-dexterous.github.io/\",\"label\":\"项目主页\",\"kind\":\"project\"}]"
+>}}
 
 **一句话总结：** 港科大（广州）与意大利理工学院团队提出 WHIRL，把人类在环 RL 中**二值的人工接管信号**转化为**前向预测信号**，用带「干预概率头」的潜空间世界模型预测未来状态被接管的可能性，从而让策略主动规避风险区域。
 

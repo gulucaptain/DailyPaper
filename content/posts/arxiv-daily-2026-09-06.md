@@ -17,9 +17,11 @@ tocopen: true
 
 ### SV-WAM: An Efficient Surround-View World-Action Model for End-to-End Autonomous Driving
 
-**链接：** https://arxiv.org/abs/2609.03602
-
-**作者 / 机构：** Jinyang Wang, Shiwei Li, Junjian Wang, Zhiqiang Deng, Jianbin Gao, Yihang Zhao, Liu Liu, Yongjia Zhao, Jinlong Chen, Huirui Xu, Yifeng Pan, Kangwei Liu, Fan Ren, Ji Tao, Minghao Yang（中国科学院自动化研究所、重庆长安科技、中国民航大学、北京航空航天大学、桂林电子科技大学）
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2609.03602"
+  authors="Jinyang Wang, Shiwei Li, Junjian Wang, Zhiqiang Deng, Jianbin Gao, Yihang Zhao, Liu Liu, Yongjia Zhao, Jinlong Chen, Huirui Xu, Yifeng Pan, Kangwei Liu, Fan Ren, Ji Tao, Minghao Yang（中国科学院自动化研究所、重庆长安科技、中国民航大学、北京航空航天大学、桂林电子科技大学）"
+  arxiv="2609.03602"
+>}}
 
 **一句话总结：** 中科院自动化所联合长安科技的团队提出 SV-WAM，用一个**动作中心因果掩码**阻断动作 token 对未来视频 token 的注意力，把未来视频预测从"推理时输出"降级为"训练期稠密监督"，从而在保留六相机环视观测的同时实现部署时纯动作推理。
 
@@ -43,9 +45,11 @@ tocopen: true
 
 ### Long-Horizon Consistent and Interaction-Aware World Models for Multi-Style End-to-End Driving
 
-**链接：** https://arxiv.org/abs/2609.03225
-
-**作者 / 机构：** Yuxuan Han, Kunyuan Wu, Liyunong Yang, Zilu Wang, Cansen Jiang, Yi Xiao, Liang Hu（哈尔滨工业大学（深圳）智能科学与工程学院、上海 Utopilot Technology 自动驾驶中心）
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2609.03225"
+  authors="Yuxuan Han, Kunyuan Wu, Liyunong Yang, Zilu Wang, Cansen Jiang, Yi Xiao, Liang Hu（哈尔滨工业大学（深圳）智能科学与工程学院、上海 Utopilot Technology 自动驾驶中心）"
+  arxiv="2609.03225"
+>}}
 
 **一句话总结：** 哈工大（深圳）团队提出 **StyleDrive** 世界模型强化学习框架，以门控交叉注意力实现长程想象的时序一致性、以显式状态解耦分离自车相关交互状态、以 GRPO 的轨迹级相对优势支持多风格驾驶，在 Bench2Drive 上大幅超越此前最佳世界模型方法。
 
@@ -69,10 +73,12 @@ tocopen: true
 
 ### GIFT: Guided Intermediate Feature Training via Action-Oriented Structural Supervision for Robotic Manipulation
 
-**链接：** https://arxiv.org/abs/2609.04193
-
-**项目主页：** https://openphoenix-team.github.io/GIFT-pages
-**作者 / 机构：** Yupeng Zheng, Xiang Li, Songen Gu, Yuhang Zheng, Shuai Tian, Weize Li, Linbo Wang, Chaoyue Li, Qichao Zhang, Haoran Li, Zhongpu Xia, Ya-Qin Zhang, Shuicheng Yan, Dongbin Zhao（中国科学院自动化研究所、中国科学院大学、新加坡国立大学）
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2609.04193"
+  authors="Yupeng Zheng, Xiang Li, Songen Gu, Yuhang Zheng, Shuai Tian, Weize Li, Linbo Wang, Chaoyue Li, Qichao Zhang, Haoran Li, Zhongpu Xia, Ya-Qin Zhang, Shuicheng Yan, Dongbin Zhao（中国科学院自动化研究所、中国科学院大学、新加坡国立大学）"
+  arxiv="2609.04193"
+  links="[{\"url\":\"https://openphoenix-team.github.io/GIFT-pages\",\"label\":\"项目主页\",\"kind\":\"project\"}]"
+>}}
 
 **一句话总结：** 中科院自动化所与 NUS 联合团队提出 **GIFT**，把"几何（运动可行性）、可供性（指令相关实体）、目标（指令落地区域）"三类控制相关结构转化为训练期约束来引导中间特征学习，弥合视觉表征丰富度与控制效用之间的**动作充分性鸿沟（action-sufficiency gap）**。
 
@@ -96,10 +102,12 @@ tocopen: true
 
 ### RoboTok: An Internet-Scale Data Engine for Human Demonstration Retrieval and Dexterous Manipulation Learning
 
-**链接：** https://arxiv.org/abs/2609.03199
-
-**项目主页：** https://rice-robotpi-lab.github.io/RoboTok/ ｜ **代码：** https://github.com/Rice-RobotPI-Lab/RoboTok-Code ｜ **数据：** https://huggingface.co/Rice-RobotPI-Lab/robotok-public
-**作者 / 机构：** Howard Qian, Yiting Chen, Yunfei Xie, Kejia Ren, Podshara Chanrungmaneekul, Gaotian Wang, Bowen Wen, Chen Wei, Kaiyu Hang（莱斯大学 Rice University、NVIDIA）
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2609.03199"
+  authors="Howard Qian, Yiting Chen, Yunfei Xie, Kejia Ren, Podshara Chanrungmaneekul, Gaotian Wang, Bowen Wen, Chen Wei, Kaiyu Hang（莱斯大学 Rice University、NVIDIA）"
+  arxiv="2609.03199"
+  links="[{\"url\":\"https://rice-robotpi-lab.github.io/RoboTok/\",\"label\":\"项目主页\",\"kind\":\"project\"},{\"url\":\"https://github.com/Rice-RobotPI-Lab/RoboTok-Code\",\"label\":\"GitHub\",\"kind\":\"github\"},{\"url\":\"https://huggingface.co/Rice-RobotPI-Lab/robotok-public\",\"label\":\"数据\",\"kind\":\"huggingface\"}]"
+>}}
 
 **一句话总结：** 莱斯大学与 NVIDIA 团队提出 **RoboTok** 互联网规模数据引擎，在以执行者为中心的参考系下从 **3D 手部轨迹**学习隐运动空间，据此从网络视频中检索操作相关的人类演示，为灵巧操作策略提供可持续增长的监督来源。
 
@@ -123,10 +131,12 @@ tocopen: true
 
 ### Scaling Bimanual Household Manipulation from 1,500 hours of Demonstrations to On-Policy Corrections
 
-**链接：** https://arxiv.org/abs/2609.03591
-
-**数据：** https://huggingface.co/datasets/challenge-2026/challenge_data ｜ **相关页面：** https://bimanual-robot-learning.github.io/challenge/
-**作者 / 机构：** Jiafeng Xu, Qi Li, Yan Shen, Yiyu Ren, Travis Davies, Shaowen He, Ze Wang, Yifan Yang, Ran Cheng, Hao Dong（上纬新材 PrimeBot 研究院、北京大学计算机学院、Crobotia）
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2609.03591"
+  authors="Jiafeng Xu, Qi Li, Yan Shen, Yiyu Ren, Travis Davies, Shaowen He, Ze Wang, Yifan Yang, Ran Cheng, Hao Dong（上纬新材 PrimeBot 研究院、北京大学计算机学院、Crobotia）"
+  arxiv="2609.03591"
+  links="[{\"url\":\"https://huggingface.co/datasets/challenge-2026/challenge_data\",\"label\":\"数据\",\"kind\":\"huggingface\"},{\"url\":\"https://bimanual-robot-learning.github.io/challenge/\",\"label\":\"数据\",\"kind\":\"project\"}]"
+>}}
 
 **一句话总结：** PrimeBot 研究院与北京大学团队发布 **1500 小时**双臂家务操作演示语料并训练 **XR-2** VLA 模型，系统验证"扩大专家演示规模"与"在策略自身分布上做 DAgger 在线纠错"是两条**互补而非竞争**的规模化杠杆。
 
@@ -150,9 +160,11 @@ tocopen: true
 
 ### FWBC-VLA: Force-Aware Whole-Body Compensation for Contact-Rich Loco-Manipulation
 
-**链接：** https://arxiv.org/abs/2609.03889
-
-**作者 / 机构：** Yutian Zhang, Siyuan Ma, Liwen Yang, Yang Li, Ce Hao, Haozhen Chi, Dong We, Qiaojun Yu, Dibo Hou（浙江大学、上海人工智能实验室、清华大学、中关村学院、云深处科技 Deep Robotics、浙江科技大学）
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2609.03889"
+  authors="Yutian Zhang, Siyuan Ma, Liwen Yang, Yang Li, Ce Hao, Haozhen Chi, Dong We, Qiaojun Yu, Dibo Hou（浙江大学、上海人工智能实验室、清华大学、中关村学院、云深处科技 Deep Robotics、浙江科技大学）"
+  arxiv="2609.03889"
+>}}
 
 **一句话总结：** 浙大、上海人工智能实验室与云深处科技联合团队提出 **FWBC-VLA**，用**无传感器**的残差力矩估计器 HSR-Force 把接触强度及其时间变化编码为 token 注入 VLA 动作解码，并驱动低层全身补偿，让轮腿机器人感知接触起始、持续受载与释放。
 
@@ -176,10 +188,12 @@ tocopen: true
 
 ### Principia: Relational Physics Tests for Video Models
 
-**链接：** https://arxiv.org/abs/2609.04200
-
-**项目主页：** https://PrincipiaBench.github.io
-**作者 / 机构：** Varun Varma Thozhiyoor, Shivam Tripathi, Venkatesh Babu Radhakrishnan（印度科学理工学院 IISc）；Anand Bhattad（约翰霍普金斯大学）
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2609.04200"
+  authors="Varun Varma Thozhiyoor, Shivam Tripathi, Venkatesh Babu Radhakrishnan（印度科学理工学院 IISc）；Anand Bhattad（约翰霍普金斯大学）"
+  arxiv="2609.04200"
+  links="[{\"url\":\"https://PrincipiaBench.github.io\",\"label\":\"项目主页\",\"kind\":\"project\"}]"
+>}}
 
 **一句话总结：** IISc 与 JHU 团队提出 **Principia** 基准，用同一场景内**成对物体之间的运动关系**来评测视频模型的牛顿物理推理，从根上绕开帧率、物体尺度与相机标定等依赖。
 
@@ -203,10 +217,12 @@ tocopen: true
 
 ### Scal3R: Learning Efficient Multi-Relative Pose Query for Scalable Online 3D Reconstruction
 
-**链接：** https://arxiv.org/abs/2609.04201
-
-**项目主页：** https://linjohnss.github.io/scal3r/
-**作者 / 机构：** Chin-Yang Lin, Yang-Che Sun, Cheng Sun, Fu-En Yang, Min-Hung Chen, Yen-Yu Lin, Wei-Chen Chiu（阳明交通大学 NYCU 计算机科学系）；Yu-Lun Liu（NVIDIA）
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2609.04201"
+  authors="Chin-Yang Lin, Yang-Che Sun, Cheng Sun, Fu-En Yang, Min-Hung Chen, Yen-Yu Lin, Wei-Chen Chiu（阳明交通大学 NYCU 计算机科学系）；Yu-Lun Liu（NVIDIA）"
+  arxiv="2609.04201"
+  links="[{\"url\":\"https://linjohnss.github.io/scal3r/\",\"label\":\"项目主页\",\"kind\":\"project\"}]"
+>}}
 
 **一句话总结：** NYCU 与 NVIDIA 团队提出 **Scal3R**，把在线 3D 重建重新表述为**多参考相对位姿查询**——用约 1% 参数量的可学习 token 注入完全冻结的骨干，查询相对多个过去关键帧的位姿，配合在线位姿图优化抑制长程漂移。
 

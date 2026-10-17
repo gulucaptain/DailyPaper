@@ -17,7 +17,10 @@ tocopen: true
 
 ### LaST-HD: Learning Latent Physical Reasoning from Scalable Human Data for Robot Manipulation
 
-**链接：** https://arxiv.org/abs/2606.23685
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2606.23685"
+  arxiv="2606.23685"
+>}}
 
 **一句话总结：** 提出了一种基于世界模型的人-机器人动作对齐框架，通过在共享隐空间中建立前向动力学一致性，使机器人能够从人类手部演示数据中高效学习物理操作技能。
 
@@ -41,7 +44,10 @@ tocopen: true
 
 ### CoorDex: Coordinating Body and Hand Priors for Continuous Dexterous Humanoid Loco-Manipulation
 
-**链接：** https://arxiv.org/abs/2606.23680
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2606.23680"
+  arxiv="2606.23680"
+>}}
 
 **一句话总结：** 提出将高维身体与灵巧手控制压缩为协调隐残差控制的学习管线，首次实现人形机器人在行进中持续执行高自由度灵巧操作。
 
@@ -65,7 +71,10 @@ tocopen: true
 
 ### Vera: A Layered Diffusion Model for Content-Preserving Video Editing
 
-**链接：** https://arxiv.org/abs/2606.23610
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2606.23610"
+  arxiv="2606.23610"
+>}}
 
 **一句话总结：** 提出基于分层扩散的视频编辑框架，生成编辑层与 alpha 遮罩进行合成，从架构层面将创意编辑与内容保留解耦。
 
@@ -89,7 +98,10 @@ tocopen: true
 
 ### BoxCtrl: 3D-Aware Visual Prompting for Geometric Image Editing
 
-**链接：** https://arxiv.org/abs/2606.23270
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2606.23270"
+  arxiv="2606.23270"
+>}}
 
 **一句话总结：** 提出用 RGB 三维包围框作为视觉提示的 3D 感知图像编辑框架，通过 SFT+RL 两阶段训练在平移、旋转、缩放等几何编辑任务上达到 SOTA，并被 SIGGRAPH 2026 收录。
 
@@ -113,7 +125,10 @@ tocopen: true
 
 ### IMAGIN-4D: Image-Guided Controllable Interaction Generation
 
-**链接：** https://arxiv.org/abs/2606.23675
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2606.23675"
+  arxiv="2606.23675"
+>}}
 
 **一句话总结：** 提出基于扩散的人物-物体交互（HOI）动作生成模型，通过时空分解的参考图像条件控制生成序列，解决了交互中时空欠定问题。
 
@@ -137,7 +152,10 @@ tocopen: true
 
 ### Lift4D: Harmonizing Single-View 3D Estimation for 4D Reconstruction In-the-Wild
 
-**链接：** https://arxiv.org/abs/2606.23688
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2606.23688"
+  arxiv="2606.23688"
+>}}
 
 **一句话总结：** 提出测试时优化框架，将时序一致的单视图 3D 预测与可变形 3D Gaussian Splatting 结合，并用扩散先验补全遮挡区域，显著提升野外单目视频的 4D 重建质量。
 
@@ -161,7 +179,10 @@ tocopen: true
 
 ### VESFlow: Safe Few-Step Generation via Velocity Editing
 
-**链接：** https://arxiv.org/abs/2606.23267
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2606.23267"
+  arxiv="2606.23267"
+>}}
 
 **一句话总结：** 针对 Flow Matching 少步生成场景提出无训练安全方法，直接编辑速度场引导轨迹远离不安全内容，在极少采样步数（4步）下有效移除目标概念。
 

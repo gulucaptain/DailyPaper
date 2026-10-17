@@ -17,7 +17,10 @@ tocopen: true
 
 ### From Zero to Hero: Training-Free Custom Concept Spawning in World Models
 
-**链接：** https://arxiv.org/abs/2606.02575
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2606.02575"
+  arxiv="2606.02575"
+>}}
 
 **一句话总结：** 提出 SPAWN，一种免训练的方法，可将用户指定的视觉概念（角色、道具、建筑等）无缝注入自回归世界模型，无需任何微调。
 
@@ -41,7 +44,10 @@ tocopen: true
 
 ### Compositional World Models for Scalable Robot Data Synthesis
 
-**链接：** https://arxiv.org/abs/2606.02577
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2606.02577"
+  arxiv="2606.02577"
+>}}
 
 **一句话总结：** 提出 RoboDream，一种以机器人为中心的组合式世界模型，通过「检索与重生」和「无道具遥操作」两种机制，大规模合成光真实感的机器人操作演示数据。
 
@@ -65,7 +71,10 @@ tocopen: true
 
 ### Intercepting the Future: Latent-Space Predictive World Model for Dynamic VLA Manipulation
 
-**链接：** https://arxiv.org/abs/2606.02486
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2606.02486"
+  arxiv="2606.02486"
+>}}
 
 **一句话总结：** 提出 AHEAD，通过隐空间预测世界模型为冻结 VLA 模型增加动态物体抓取能力，在运动物体操作任务上将成功率从 31–58% 提升至 79–97%。
 
@@ -89,7 +98,10 @@ tocopen: true
 
 ### LongLive-RAG: A General Retrieval-Augmented Framework for Long Video Generation
 
-**链接：** https://arxiv.org/abs/2606.02553
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2606.02553"
+  arxiv="2606.02553"
+>}}
 
 **一句话总结：** 将检索增强生成（RAG）引入自回归视频扩散，通过检索历史隐变量缓解长视频生成中的误差累积和身份漂移问题。
 
@@ -113,7 +125,10 @@ tocopen: true
 
 ### AdaCodec: A Predictive Visual Code for Video MLLMs
 
-**链接：** https://arxiv.org/abs/2606.02569
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2606.02569"
+  arxiv="2606.02569"
+>}}
 
 **一句话总结：** 提出 AdaCodec，用预测性视觉编码替代视频 MLLM 中的逐帧 RGB 编码，仅用 1/7 的 token 预算即超越全预算基线，同时将首字延迟从 9.26s 降至 1.62s。
 
@@ -137,7 +152,10 @@ tocopen: true
 
 ### VLMs are Good Teachers for Video Reasoning via Adaptive Test-Time Optimization
 
-**链接：** https://arxiv.org/abs/2606.02564
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2606.02564"
+  arxiv="2606.02564"
+>}}
 
 **一句话总结：** 提出将 VLM 从「视频推理的前置求解器」转变为「测试时 LoRA 微调的教师」，通过可微分奖励引导视频生成模型进行测试时优化，在视频推理 benchmark 上获得平均 16.7 点提升。
 
@@ -161,7 +179,10 @@ tocopen: true
 
 ### HumanNOVA: Photorealistic, Universal and Rapid 3D Human Avatar Modeling from a Single Image
 
-**链接：** https://arxiv.org/abs/2606.02573
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2606.02573"
+  arxiv="2606.02573"
+>}}
 
 **一句话总结：** 提出 HumanNOVA，从单张 RGB 图像在 1 秒内生成光真实感 3D 人体 avatar，通过 10 万规模数据流水线和前馈 token 条件框架实现，被 CVPR 2026 选为 Highlight。
 
@@ -185,7 +206,10 @@ tocopen: true
 
 ### Towards an Affordance Foundation Model for Functionality Understanding
 
-**链接：** https://arxiv.org/abs/2606.02551
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2606.02551"
+  arxiv="2606.02551"
+>}}
 
 **一句话总结：** 提出通用可供性基础模型，从单张 RGB-D 图像预测功能性掩码（交互位置）和 3D 接触后运动曲线（交互方式），在 8 个测试集上平均 gIoU/cIoU 提升 +23.9/+26.3。
 
@@ -209,7 +233,10 @@ tocopen: true
 
 ### Thinking in Blender: Staged Executable Inverse Graphics with Vision-Language Models
 
-**链接：** https://arxiv.org/abs/2606.02580
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2606.02580"
+  arxiv="2606.02580"
+>}}
 
 **一句话总结：** 提出 SEIG 框架，利用预训练 VLM 直接将单张图像重建为可编辑的 Blender 程序，无需专用 2D/3D 基础模型、可微渲染或多视角监督。
 

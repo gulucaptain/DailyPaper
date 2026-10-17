@@ -21,11 +21,12 @@ tocopen: true
 
 ### SenseNova-U1.5: Towards Native Unified Visual Intelligence
 
-**链接：** https://arxiv.org/abs/2609.11929
-
-**代码：** https://github.com/OpenSenseNova/SenseNova-U1 ｜ **模型：** https://huggingface.co/collections/sensenova/sensenova-u15
-
-**作者 / 机构：** Haiwen Diao, Jiahao Wang, Chenjing Ding, Hanming Deng, Jiangnan Chen, Ruixi Zhang, Ruohui Wang, Wenwen Tong 等（商汤科技 SenseTime；论文正文未逐人标注机构，官方开源仓库为 OpenSenseNova）
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2609.11929"
+  authors="Haiwen Diao, Jiahao Wang, Chenjing Ding, Hanming Deng, Jiangnan Chen, Ruixi Zhang, Ruohui Wang, Wenwen Tong 等（商汤科技 SenseTime；论文正文未逐人标注机构，官方开源仓库为 OpenSenseNova）"
+  arxiv="2609.11929"
+  links="[{\"url\":\"https://github.com/OpenSenseNova/SenseNova-U1\",\"label\":\"GitHub\",\"kind\":\"github\"},{\"url\":\"https://huggingface.co/collections/sensenova/sensenova-u15\",\"label\":\"模型\",\"kind\":\"huggingface\"}]"
+>}}
 
 **一句话总结：** 商汤科技推出 **SenseNova-U1.5**，一个 **8B-MoT** 的**原生统一多模态模型**，在 **encoder-free 且 VAE-free** 的 NEO-unify 架构内同时完成视觉理解、推理与生成，并通过**多专家 on-policy 蒸馏**把四个专项专家的能力压回单一模型，在 GenEval 上以 **0.92** 的总分超过 GPT-Image-2（0.89）。
 
@@ -49,9 +50,11 @@ tocopen: true
 
 ### CamPilot: A Multi-Agent Cinematic Assistant for Camera-Controlled Movie Generation
 
-**链接：** https://arxiv.org/abs/2609.10943
-
-**作者 / 机构：** Yang Wu（伍斯特理工学院 Worcester Polytechnic Institute；初稿完成于 Adobe Research 实习期间）, Stefano Petrangeli, Ishita Dasgupta, Yu Shen（Adobe Research）
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2609.10943"
+  authors="Yang Wu（伍斯特理工学院 Worcester Polytechnic Institute；初稿完成于 Adobe Research 实习期间）, Stefano Petrangeli, Ishita Dasgupta, Yu Shen（Adobe Research）"
+  arxiv="2609.10943"
+>}}
 
 **一句话总结：** Adobe Research 与 WPI 提出 **CamPilot**，一个把**电影摄影规划**与**运镜控制**统一起来的多智能体框架，用 GRPO 从 **14K 部真实专业电影**中学习「运镜语法」，在相同开源骨干下把运镜分类 Macro-Acc 从 **45.5 提升到 63.7**，并超过 Claude-Sonnet-4.5（60.1）、GPT-5（53.2）等商用大模型。
 
@@ -75,9 +78,11 @@ tocopen: true
 
 ### Harnessing Intrinsic Subject-Aware Attention for Controllable Multi-Subject Video Generation
 
-**链接：** https://arxiv.org/abs/2609.11507
-
-**作者 / 机构：** Niange Yu, Biaolong Chen, Miao Lu, Aixi Zhang, Hao Jiang, Pipei Huang（阿里巴巴集团 Alibaba Group）；Ye Tian, Yunhai Tong（北京大学 Peking University）
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2609.11507"
+  authors="Niange Yu, Biaolong Chen, Miao Lu, Aixi Zhang, Hao Jiang, Pipei Huang（阿里巴巴集团 Alibaba Group）；Ye Tian, Yunhai Tong（北京大学 Peking University）"
+  arxiv="2609.11507"
+>}}
 
 **一句话总结：** 阿里巴巴与北京大学发现 **DiT 的某些注意力块会天然形成一张「内在空间接地图」（ISGM），能精确定位参考主体**，据此提出 **DIAL** 框架：低噪声阶段用 ISGM 引导注意力实现**免重训的保真强度连续控制**，高噪声阶段用同一张图**零成本自动构造偏好对**做强化学习以抑制语义漂移。
 
@@ -101,11 +106,12 @@ tocopen: true
 
 ### From Evaluation to Enhancement: Benchmarking and Improving Think-with-Video Reasoning for Video Generative Models
 
-**链接：** https://arxiv.org/abs/2609.11242
-
-**数据：** https://huggingface.co/datasets/KlingTeam/VWG-Bench
-
-**作者 / 机构：** Meng Luo（新加坡国立大学 National University of Singapore）, Yicheng Liu（南京大学）, Jiahao Wang, Yuanxing Zhang, Xin Tao, Pengfei Wan, Kun Gai（快手可灵团队 Kling Team, Kuaishou Technology）, Hao Fei（牛津大学 University of Oxford）
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2609.11242"
+  authors="Meng Luo（新加坡国立大学 National University of Singapore）, Yicheng Liu（南京大学）, Jiahao Wang, Yuanxing Zhang, Xin Tao, Pengfei Wan, Kun Gai（快手可灵团队 Kling Team, Kuaishou Technology）, Hao Fei（牛津大学 University of Oxford）"
+  arxiv="2609.11242"
+  links="[{\"url\":\"https://huggingface.co/datasets/KlingTeam/VWG-Bench\",\"label\":\"数据\",\"kind\":\"huggingface\"}]"
+>}}
 
 **一句话总结：** NUS、南京大学、快手可灵与牛津大学提出 **VWG-Bench**（覆盖 **9 个推理维度、38 个细粒度任务**）系统诊断视频生成模型能否真正「用视频思考」，发现**最强的商用模型 Veo3.1 总分仅 3.55/5**，并提出模型无关的 prompt 重写器 **Vid-PRE**，无需改动任何生成器架构就把 Wan2.2 在 MME-CoF 上的总分从 **1.72 提升到 2.58（+50%）**。
 
@@ -129,9 +135,11 @@ tocopen: true
 
 ### 2AM: Grounding Agent-Side Memory as Guidance for Steerable Action Models in Long-Horizon Manipulation
 
-**链接：** https://arxiv.org/abs/2609.11308
-
-**作者 / 机构：** Yutong Hu（比利时鲁汶大学 KU Leuven 机械工程系 Robotics, Automation and Mechatronics；美团 Meituan Inc.）, Fengjiao Chen, Xuezhi Cao（美团 Meituan Inc.）, Renaud Detry（KU Leuven；Flanders Make@KU Leuven）
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2609.11308"
+  authors="Yutong Hu（比利时鲁汶大学 KU Leuven 机械工程系 Robotics, Automation and Mechatronics；美团 Meituan Inc.）, Fengjiao Chen, Xuezhi Cao（美团 Meituan Inc.）, Renaud Detry（KU Leuven；Flanders Make@KU Leuven）"
+  arxiv="2609.11308"
+>}}
 
 **一句话总结：** KU Leuven 与美团提出 **2AM**，主张**长程操作需要的记忆不必放在动作策略内部**：让多模态 Agent 独占任务记忆，让一个仅基于 RGB 的、逐 episode 无状态的 Action Model 独占执行，Agent 把交互历史编译成子任务语言与 2D 抓取 / 放置 / 移动提示来传递物理意图，在 LIBERO-Mem 上取得 **76.29% 平均完成度**，并把 relaxed success 从 37.42% 拉到 **63.00%**。
 
@@ -155,11 +163,12 @@ tocopen: true
 
 ### UniMPA: A Unified Memory-Prediction-Action Model via Action-Grounded Transition Modeling
 
-**链接：** https://arxiv.org/abs/2609.11875
-
-**项目主页：** https://JiuTian-VL.github.io/UniMPA-page ｜ **代码：** https://github.com/JiuTian-VL/UniMPA
-
-**作者 / 机构：** Wei Li, Rui Shao, Jie He, Lingsen Zhang, Liqiang Nie（哈尔滨工业大学（深圳）计算机科学与技术学院）；Ziwei Liu（南洋理工大学 S-Lab, Nanyang Technological University）
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2609.11875"
+  authors="Wei Li, Rui Shao, Jie He, Lingsen Zhang, Liqiang Nie（哈尔滨工业大学（深圳）计算机科学与技术学院）；Ziwei Liu（南洋理工大学 S-Lab, Nanyang Technological University）"
+  arxiv="2609.11875"
+  links="[{\"url\":\"https://JiuTian-VL.github.io/UniMPA-page\",\"label\":\"项目主页\",\"kind\":\"project\"},{\"url\":\"https://github.com/JiuTian-VL/UniMPA\",\"label\":\"GitHub\",\"kind\":\"github\"}]"
+>}}
 
 **一句话总结：** 哈工大深圳与南洋理工 S-Lab 指出 VLA 的观测到动作学习受制于一个**「转移可实现性鸿沟」**（转移歧义 / 预测-执行失配 / 经验-实现失配），据此提出 **UniMPA** 用统一的**动作接地转移接口**把记忆、预测与动作串起来，在 LIBERO 上取得 **98.6%** 平均成功率且**只用 π0/π0.5 所需四分之一的训练 epoch**，真机 GALAXEA R1 Lite 21 任务上取得 **77.7% TSR / 86.3% CSR**。
 
@@ -183,11 +192,12 @@ tocopen: true
 
 ### CAP: Continuously Adaptive Perception-Blind Humanoid Locomotion via Learned Denoising
 
-**链接：** https://arxiv.org/abs/2609.11553
-
-**项目主页：** https://hoshi-no-ai.github.io/CAP ｜ **代码：** https://github.com/Hoshi-No-Ai/CAP
-
-**作者 / 机构：** Hongjin Chen, Zijun Xu（复旦大学；TARS Robotics；上海创智学院）；Shihao Ma, Yi Zhao, Xilai Liu, Ke Ma, Wei Zhang, Chunyang Xie, Pengfei Li, Jieru Zhao, Wenchao Ding（哈尔滨工业大学；上海交通大学）
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2609.11553"
+  authors="Hongjin Chen, Zijun Xu（复旦大学；TARS Robotics；上海创智学院）；Shihao Ma, Yi Zhao, Xilai Liu, Ke Ma, Wei Zhang, Chunyang Xie, Pengfei Li, Jieru Zhao, Wenchao Ding（哈尔滨工业大学；上海交通大学）"
+  arxiv="2609.11553"
+  links="[{\"url\":\"https://hoshi-no-ai.github.io/CAP\",\"label\":\"项目主页\",\"kind\":\"project\"},{\"url\":\"https://github.com/Hoshi-No-Ai/CAP\",\"label\":\"GitHub\",\"kind\":\"github\"}]"
+>}}
 
 **一句话总结：** 复旦、TARS Robotics、上海创智学院、哈工大与上海交大提出 **CAP**，把**感知世界模型编码器训练成一个"学习式去噪器"**（从被破坏的深度重建干净深度），配合并行的本体感知变分编码器，使人形机器人在深度信号**部分、间歇失效**时仍能平滑退化，在 Unitree G1 上实现 Clean **20/20**、部分遮挡 **19/20** 的通过率。
 
@@ -211,9 +221,11 @@ tocopen: true
 
 ### ObstaDiff: Generalizable Diffusion Policy Learning via Obstacle-aware Representations
 
-**链接：** https://arxiv.org/abs/2609.10918
-
-**作者 / 机构：** Jiawen Wang, Kevin Yao, Khalid Jawed（加州大学洛杉矶分校 University of California, Los Angeles）
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2609.10918"
+  authors="Jiawen Wang, Kevin Yao, Khalid Jawed（加州大学洛杉矶分校 University of California, Los Angeles）"
+  arxiv="2609.10918"
+>}}
 
 **一句话总结：** UCLA 提出 **ObstaDiff**，一个**分解式扩散策略**框架，用轻量障碍感知视觉编码器抽取结构化的**目标-障碍-背景**表示，使下游对齐策略在生成朝向"以目标为中心的瓶颈位姿"的末端轨迹时能显式推理周围障碍，在 **366 次真机执行**（每方法 61 次试验）中取得 **75.41% 平均任务成功率**与仅 **8.20% 的障碍碰撞率**。
 

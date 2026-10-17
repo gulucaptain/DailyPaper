@@ -25,11 +25,12 @@ tocopen: true
 
 ### WorldCrafter: Consistent Video World Model with Implicit 3D-aware Memory
 
-**链接：** https://arxiv.org/abs/2609.24984
-
-**项目主页：** https://drexubery.github.io/WorldCrafter ｜ **代码：** https://github.com/TencentARC/WorldCrafter ｜ **模型：** https://huggingface.co/TencentARC/WorldCrafter-Fast
-
-**作者 / 机构：** Wangbo Yu, Kunhao Liu, Wenbo Hu, Shenghai Yuan, Chaoran Feng, Haiyang Zhou, Yukun Huang, Yiran Wang, Wang Zhao, Yingmin Luo, Ying Shan（Peking University；ARC Lab, Tencent IEG）
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2609.24984"
+  authors="Wangbo Yu, Kunhao Liu, Wenbo Hu, Shenghai Yuan, Chaoran Feng, Haiyang Zhou, Yukun Huang, Yiran Wang, Wang Zhao, Yingmin Luo, Ying Shan（Peking University；ARC Lab, Tencent IEG）"
+  arxiv="2609.24984"
+  links="[{\"url\":\"https://drexubery.github.io/WorldCrafter\",\"label\":\"项目主页\",\"kind\":\"project\"},{\"url\":\"https://github.com/TencentARC/WorldCrafter\",\"label\":\"GitHub\",\"kind\":\"github\"},{\"url\":\"https://huggingface.co/TencentARC/WorldCrafter-Fast\",\"label\":\"模型\",\"kind\":\"huggingface\"}]"
+>}}
 
 **一句话总结：** 北京大学与腾讯 IEG ARC Lab 提出 **WorldCrafter**，让**请求的视角**反过来决定历史多视证据如何被压缩进视频生成器有限的 token 预算：一个记忆编码器与位姿条件化读出模块把历史观测整合成一组「目标视角专属」的 token，与视频生成器联合训练，在长程回访一致性上相对最强基线提升 47.6%。
 
@@ -53,11 +54,12 @@ tocopen: true
 
 ### NeuIDO: Neural Intrinsic Dynamics Operator for Physics-Informed 4D World Models
 
-**链接：** https://arxiv.org/abs/2609.24313
-
-**项目主页：** https://github.com/JiajingLin/NeuIDO
-
-**作者 / 机构：** Jiajing Lin, Xin Zhang, Jianhua Sun（School of Artificial Intelligence, Shanghai Jiao Tong University；School of Informatics, Xiamen University）
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2609.24313"
+  authors="Jiajing Lin, Xin Zhang, Jianhua Sun（School of Artificial Intelligence, Shanghai Jiao Tong University；School of Informatics, Xiamen University）"
+  arxiv="2609.24313"
+  links="[{\"url\":\"https://github.com/JiajingLin/NeuIDO\",\"label\":\"GitHub\",\"kind\":\"github\"}]"
+>}}
 
 **一句话总结：** 上海交大与厦门大学团队（ECCV 2026）提出 **NeuIDO**，不再给 4D 生成手工施加动力学假设，而是从跨场景的视觉观测中学出一个**统一的内禀动力学表征**：DeepONet 式的 branch–trunk 算子把动力学索引成 128 维潜变量，few-shot 适配后平均 Chamfer Distance 从 1.643 降到 1.216，超过全部基线。
 
@@ -81,9 +83,11 @@ tocopen: true
 
 ### Think Like a World Model, Act Like a VLA: Distilling World-Model Representations into Compact Robot Policies
 
-**链接：** https://arxiv.org/abs/2609.24682
-
-**作者 / 机构：** Trung Dao, Sankalp Yamsani, Jaden Park, Joohyung Kim, Yong Jae Lee（University of Wisconsin–Madison；University of Illinois Urbana-Champaign）
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2609.24682"
+  authors="Trung Dao, Sankalp Yamsani, Jaden Park, Joohyung Kim, Yong Jae Lee（University of Wisconsin–Madison；University of Illinois Urbana-Champaign）"
+  arxiv="2609.24682"
+>}}
 
 **一句话总结：** UW-Madison 与 UIUC 团队论证了世界模型的「接地」可以与其「生成代价」分离：世界模型对物理场景的知识**住在它的内部特征里**，生成未来只是当初产出这些特征的目标函数；据此只做一次离线特征对齐，把一个 0.8B 紧凑策略拉向冻结世界模型的视觉特征，训完丢弃投影器——部署的网络与未蒸馏基线完全相同，LIBERO 97.9%（+2.6）、RoboCasa-GR1 48.2%→50.5%，在 RTX 5090 上 32 ms / 1.86 GB。
 
@@ -107,11 +111,12 @@ tocopen: true
 
 ### DexTacWAM: A Visuo-Tactile World-Action Model for Dexterous Manipulation
 
-**链接：** https://arxiv.org/abs/2609.24976
-
-**项目主页：** https://dextacwam.github.io/
-
-**作者 / 机构：** Haoran Yuan, Zekai Wang, Boning Shao, Haoran Lu, Trevor Darrell, Ismini Lourentzou, Wei Zhan（University of Illinois Urbana-Champaign；University of California, Berkeley；Northwestern University）
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2609.24976"
+  authors="Haoran Yuan, Zekai Wang, Boning Shao, Haoran Lu, Trevor Darrell, Ismini Lourentzou, Wei Zhan（University of Illinois Urbana-Champaign；University of California, Berkeley；Northwestern University）"
+  arxiv="2609.24976"
+  links="[{\"url\":\"https://dextacwam.github.io/\",\"label\":\"项目主页\",\"kind\":\"project\"}]"
+>}}
 
 **一句话总结：** UIUC、UC Berkeley 与 Northwestern 联合提出 **DexTacWAM**，把触觉作为**被预测的世界状态**而非下游策略的额外输入：每个指尖独立编码，经 finger- 与 pose-aware 触觉压缩器注入视频扩散世界模型做联合视触觉世界建模，在六个接触丰富的灵巧操作任务上均值 **70.6** 对最强基线 **38.0**，并把 DiT 参与视图从 11 压到 3、端到端延迟从 363.0 ms 降到 281.6 ms。
 
@@ -136,11 +141,12 @@ tocopen: true
 
 ### HapticWAM: Distilling Imagined Touch into a World–Action Model without Inference-Time Tactile Sensing
 
-**链接：** https://arxiv.org/abs/2609.23888
-
-**项目主页：** https://advanced-robotic-manipulation.github.io/websites/hapticwam/ ｜ **代码：** https://github.com/Advanced-Robotic-Manipulation/HapticWAM ｜ **模型：** https://huggingface.co/armteam/hapticwam-student
-
-**作者 / 机构：** Mikhail Sannikov, Ilya Mikhalchuk, Konstantin Gubernatorov, Petr Kovalev, Ogunwoye Faith Oluwatobi, Dzmitry Tsetserukou（Intelligent Space Robotics Laboratory, Skolkovo Institute of Science and Technology）
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2609.23888"
+  authors="Mikhail Sannikov, Ilya Mikhalchuk, Konstantin Gubernatorov, Petr Kovalev, Ogunwoye Faith Oluwatobi, Dzmitry Tsetserukou（Intelligent Space Robotics Laboratory, Skolkovo Institute of Science and Technology）"
+  arxiv="2609.23888"
+  links="[{\"url\":\"https://advanced-robotic-manipulation.github.io/websites/hapticwam/\",\"label\":\"项目主页\",\"kind\":\"project\"},{\"url\":\"https://github.com/Advanced-Robotic-Manipulation/HapticWAM\",\"label\":\"GitHub\",\"kind\":\"github\"},{\"url\":\"https://huggingface.co/armteam/hapticwam-student\",\"label\":\"模型\",\"kind\":\"huggingface\"}]"
+>}}
 
 **一句话总结：** Skolkovo 智能空间机器人实验室（投稿 IEEE ICRA 2027）提出 **HapticWAM**，让触觉只在训练期存在：教师（基于 Cosmos-Predict2.5-2B）接收光学触觉传感、预测结构化接触事件，学生通过师生蒸馏把「想象出的触觉」内化，**部署时不需要指尖传感器**，反而在三个接触丰富抓取放置任务上以 77% 对 57% 反超教师。
 
@@ -165,9 +171,11 @@ tocopen: true
 
 ### CompVLA: A Variable Compliance Vision-Language-Action Model for Contact-rich Manipulation
 
-**链接：** https://arxiv.org/abs/2609.23614
-
-**作者 / 机构：** Jongmin Kim, Junsu Ha, Che-Sang Park, Minchang Song, Hyeokju Jeong, Himchan Hwang, Jianlong Fu, Frank C. Park（Seoul National University；Microsoft Research Asia）
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2609.23614"
+  authors="Jongmin Kim, Junsu Ha, Che-Sang Park, Minchang Song, Hyeokju Jeong, Himchan Hwang, Jianlong Fu, Frank C. Park（Seoul National University；Microsoft Research Asia）"
+  arxiv="2609.23614"
+>}}
 
 **一句话总结：** 首尔大学与微软亚洲研究院（CoRL 2026）提出 **CompVLA**，让 VLA 不再只输出运动学指令，而是**联合预测运动与时变刚度矩阵**：新增的 Compliance Expert 输出时变刚度与虚拟位移剖面，在三个接触丰富任务上平均成功率 **67.1%**，超过最强基线 12.7 个百分点，并开源了整套接触丰富演示数据集。
 
@@ -192,9 +200,11 @@ tocopen: true
 
 ### Opt2VLA: Force-Aware Vision-Language-Action for Contact-Rich Humanoid Whole-Body Manipulation
 
-**链接：** https://arxiv.org/abs/2609.23968
-
-**作者 / 机构：** Fukang Liu, Yipu Chen, Jaehwi Jang, Danfei Xu, Zsolt Kira, Ye Zhao（Institute for Robotics and Intelligent Machines, Georgia Institute of Technology）
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2609.23968"
+  authors="Fukang Liu, Yipu Chen, Jaehwi Jang, Danfei Xu, Zsolt Kira, Ye Zhao（Institute for Robotics and Intelligent Machines, Georgia Institute of Technology）"
+  arxiv="2609.23968"
+>}}
 
 **一句话总结：** Georgia Tech 团队提出 **Opt2VLA**，直面人形全身操作中被忽略的一环——现有系统用几何运动目标表示动作、底层控制器只做轨迹跟踪，**对交互力既没有显式推理也没有显式控制**；它通过力条件化训练加上力矩优化（TO）导出的未来力矩监督，把关节成功率从简单状态拼接的 27.8% 推到 **82.2%**，抓取力误差降到 0.9 ± 1.0 N。
 
@@ -218,11 +228,12 @@ tocopen: true
 
 ### Transferring the Intelligence of VLMs to Robotic Control
 
-**链接：** https://arxiv.org/abs/2609.22966
-
-**项目主页：** https://robodawn.top/
-
-**作者 / 机构：** Meng-Hao Guo, Zhe-Han Mo, Jia-Jun Wang, Yi Zhang, Kejin Wang, Yi-Xuan Deng, Jia-Peng Zhang, Yongming Rao, Shi-Min Hu（Tsinghua University；Tencent Hunyuan）
+{{< paper-meta
+  arxivURL="https://arxiv.org/abs/2609.22966"
+  authors="Meng-Hao Guo, Zhe-Han Mo, Jia-Jun Wang, Yi Zhang, Kejin Wang, Yi-Xuan Deng, Jia-Peng Zhang, Yongming Rao, Shi-Min Hu（Tsinghua University；Tencent Hunyuan）"
+  arxiv="2609.22966"
+  links="[{\"url\":\"https://robodawn.top/\",\"label\":\"项目主页\",\"kind\":\"project\"}]"
+>}}
 
 **一句话总结：** 清华与腾讯混元团队提出 **RoboDawn**，用一个符合人类直觉的极简接口（离散的平移、旋转、夹爪命令）把机器人控制暴露给智能体式 VLM，验证「数字世界的智能能否迁移到物理世界」：在 RoboTwin 2.0 C2R 上零样本取得 **53.2%**（超过 π0.5 的 46.0% 与 LingBot-VLA 的 50.4%），只给一条上下文演示即跃升至 **73.6%**。
 
