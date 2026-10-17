@@ -35,6 +35,13 @@ buildExpired = false
   showtoc = true
   tocopen = false
 
+  [params.assets]
+    favicon = "favicon.svg?v=b1"
+    favicon16x16 = "favicon-16x16.png?v=b1"
+    favicon32x32 = "favicon-32x32.png?v=b1"
+    apple_touch_icon = "apple-touch-icon.png?v=b1"
+    safari_pinned_tab = "safari-pinned-tab.svg?v=b1"
+
   [params.homeInfoParams]
     Title = "Hi, I'm gulucaptain 👋"
     Content = "技术探索 · AI · 工程实践 · [搜索论文](search/) · [📖 阅读剪藏](clips/)"
