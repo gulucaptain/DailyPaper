@@ -39,6 +39,8 @@ tocopen: true
 
 **值得进一步研究的问题：** 作者在第1.2节明确留下弱杂质区间的扩散性质与速度问题；本期建议优先关注如何降低充分局域化阈值，并与物理预测条件比较，而不要把该预测条件当成本文定理。
 
+---
+
 ### A sharp survival threshold for branching Brownian motion in a self-generated resource environment
 
 **原文：** [arXiv:2610.21476](https://arxiv.org/abs/2610.21476) · [全文v1](https://arxiv.org/html/2610.21476v1)。
@@ -66,6 +68,8 @@ tocopen: true
 **与研究主线的关联：** 这是共享资源诱导相互作用的分支粒子系统，核心问题正是灭绝、生存与临界行为。联合状态具有马尔可夫性，不宜仅因存在环境反馈就把它称为非马尔可夫定理。
 
 **值得进一步研究的问题：** 本期提出：长程相互作用或随机死亡返还量下，资源利用效率还能否导出同样尖锐的阈值？本文并未解决这些推广。
+
+---
 
 ### Persistence in probability for stochastic delay equations with multiplicative noise
 
@@ -101,6 +105,8 @@ tocopen: true
 
 **值得进一步研究的问题：** 本期提出：对特定反馈函数，显式充分条件与真实持久性边界之间的差距能否量化？数值显示的边界应与严格定理分开处理。
 
+---
+
 ### A Generalized Elephant Random Walk with Time-Dependent Memory
 
 **原文：** [arXiv:2610.16065](https://arxiv.org/abs/2610.16065) · [全文v1](https://arxiv.org/html/2610.16065v1)。
@@ -133,6 +139,8 @@ a_n=2p_n-1,\quad A_1=A_2=\tfrac12,\quad A_n=\tfrac12\prod_{k=2}^{n-1}(1+a_k/k)^{
 
 **值得进一步研究的问题：** 本期提出：振荡或分段变化的参数序列，在何种条件下具有稳定的路径空间极限？本文的单时刻CLT不能自动替代函数型极限定理。
 
+---
+
 ### The forward-loop-erased ants walk
 
 **原文：** [arXiv:2610.18453](https://arxiv.org/abs/2610.18453) · [全文v1](https://arxiv.org/html/2610.18453v1)。
@@ -154,6 +162,8 @@ a_n=2p_n-1,\quad A_1=A_2=\tfrac12,\quad A_n=\tfrac12\prod_{k=2}^{n-1}(1+a_k/k)^{
 **与研究主线的关联：** 强化发生在跨越多只蚂蚁的历史中，边权携带记忆。这里的最短路选择与单个游走的长期局域化不同，但共享历史反馈的数学结构。
 
 **值得进一步研究的问题：** 作者明确指出，距离至少3时现有方法不能直接推广；本期建议把这个障碍与完整边权向量收敛问题分别研究。
+
+---
 
 ### Stochastic Flows with Strong Shear - Part I: Strong Completeness and Set Attractors
 
