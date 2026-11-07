@@ -1,6 +1,7 @@
 ---
 title: "AI每日精选 · 2026-11-04"
 date: "2026-11-04T05:54:35+08:00"
+lastmod: "2026-11-07T15:37:58+08:00"
 draft: false
 tags: ["ArXiv", "论文精选", "视频世界模型", "Flow Matching"]
 categories: ["ArXiv 每日精选"]
@@ -11,7 +12,7 @@ arxiv_batch: "2026-11-03"
 arxiv_counts: {"cs.CV": 569, "cs.RO": 218, "cs.AI": 816, "cs.LG": 872, "cs.GR": 23, "cs.MM": 11}
 ---
 
-本期精选两篇，分别追问视频生成如何从远处的历史帧学习，以及 Flow Matching 在有限数据和有限训练步数下能保证什么。前者把历史对预测的影响单独提取出来，后者把数据不足和优化不足造成的误差分别量化。阅读时可以对照看两项工作的证据边界：重访一致性如何测量，理论预算又依赖哪些模型与优化条件。
+本期五篇连接长视频生成、Flow Matching 理论和带遮挡的机器人控制。History Forcing 与 Wave Forcing 分别改变历史监督和推理流水线，样本复杂度论文分析连续流的误差来源。PREM 和 SCOUT 则分别用视觉记忆与物体关系，在当前观测不充分时改善操作决策。
 
 ## 📄 论文精选
 
@@ -51,15 +52,69 @@ arxiv_counts: {"cs.CV": 569, "cs.RO": 218, "cs.AI": 816, "cs.LG": 872, "cs.GR": 
 
 **研究价值与局限**　定理对数据集给出高概率事件，在事件内对 SGD 随机性取期望。主定理使用精确 ODE 流，并依赖统一流稳定性、网络逼近能力与经验优化条件。二维诊断的规模不足以检验理论指数。
 
+### Wave Forcing: Towards Speed-of-Light Streaming Video Generation
+
+{{< paper-meta authors="Yijie Jin、Yuxuan Liu、Jiajun Xu 等" source="arXiv" date="2026-10-31 UTC · v1" arxiv="2611.00859" arxivURL="https://arxiv.org/abs/2611.00859v1" links="[{\"url\": \"https://huggingface.co/papers/2611.00859\", \"label\": \"HF Papers\", \"kind\": \"huggingface\"}]" directions="流式视频生成、推理加速" note="11 月 7 日增补。参见原文第 3–5 节、表 1。 Hugging Face 收录日期 2026-11-03。" >}}
+
+**研究问题**　多步去噪能否保持连续视频吞吐，同时减轻长视频漂移？
+
+**核心方法**　Wave Forcing 让不同时间块在不同噪声阶段同时推进，因果注意力读取较早且更干净的块，并把去噪与历史缓存更新跨设备流水化。
+
+**技术亮点**　训练也匹配这种错位执行，包括混合噪声训练与用模型自生成历史进行适配。
+
+**实验结果**　在 Wan2.1-T2V-1.3B 上，五步 Wave Forcing 的 VBench 总分为 81.64，五步 Rolling Forcing 为 81.15。百秒设置的 VBench-Long Quality 分别为 81.26 和 81.18。
+
+**应用场景 / 方向联系**　适合研究实时长视频生成的算法与运行时协同设计。
+
+**研究价值与局限**　流水吞吐与单条视频首帧时延不同，长期身份和镜头稳定也需结合额外诊断指标。
+
+### PREM: Prediction-Regulated Memory for Robot Manipulation
+
+{{< paper-meta authors="Xiao Huang、Ya Zhang、Weidi Xie" source="arXiv" date="2026-10-31 UTC · v1" arxiv="2611.00634" arxivURL="https://arxiv.org/abs/2611.00634v1" directions="VLA、视觉记忆" note="11 月 7 日增补。参见原文第 3 节、DOMINO 实验。" >}}
+
+**研究问题**　当前图像不足以判断下一步动作时，策略应该保留和更新哪些历史信息？
+
+**核心方法**　PREM 在训练中用动作条件的未来视觉预测监督循环记忆，执行时借助预测和新观测之间的差异调节记忆更新。
+
+**技术亮点**　预测任务同时定义记忆应保存什么，并提供判断新观测是否带来关键信息的依据。
+
+**实验结果**　DOMINO 上，以 π0.5 为基础的策略平均成功率从 9.63% 提升到 20.74%。
+
+**应用场景 / 方向联系**　适合研究存在遮挡、历史依赖或中途扰动的操作任务。
+
+**研究价值与局限**　DOMINO 的绝对成功率仍低，说明记忆改进只解决了部分长程操作失败。
+
+### SCOUT: Planning under Occlusion via Object-Centric World Model Rollouts
+
+{{< paper-meta authors="Amir Hossain Raj、Xuesu Xiao" source="arXiv" date="2026-11-01 UTC · v1" arxiv="2611.01600" arxivURL="https://arxiv.org/abs/2611.01600v1" directions="遮挡规划、物体中心世界模型" note="11 月 7 日增补。参见原文图 6、表 2、真机实验。" >}}
+
+**研究问题**　货架里的目标被遮挡时，机器人如何判断应先移动哪个障碍物？
+
+**核心方法**　SCOUT 从多视角 RGB-D 重建物体，再将遮挡、阻挡和可达通道组织成关系状态。语言模型提出操作，物理 rollout 验证和筛选。
+
+**技术亮点**　关系表示让规划器能够对移开遮挡物之后的空间变化进行推演，缩小搜索范围。
+
+**实验结果**　仿真货架的同分布平均成功率为 80.8%，最强对照为 72.8%。真机评估成功 12/20 次。
+
+**应用场景 / 方向联系**　提供了一种结合三维重建、语言规划和物理检查的操作方案。
+
+**研究价值与局限**　结果仍依赖初始几何恢复与物体级表示，真机样本量也较小。
+
 ## 📊 今日研究趋势
 
 长视频蒸馏的实验结果表明，历史监督的构造会影响重访表现。有限样本理论则将生成误差追溯到训练数据、函数类与优化预算。两者分别给出了可进一步检验的控制变量。
 
-## 🏆 最值得关注的 2 篇
+Wave Forcing 把长视频的速度问题落到流水并发，PREM 和 SCOUT 则把不完整观测分为两类。前者从历史获取已见证据，后者重建并验证被遮挡的空间。
+
+
+## 🏆 最值得关注的 3 篇
 
 1. **History Forcing** 将历史影响提取为可调节的教师残差，适合对照阅读长视频和视野外的两种训练设置。
 2. **Flow Matching 样本复杂度** 明确了数据规模与有限训练步数在误差界中的不同位置。
+3. **Wave Forcing** 把采样步骤和运行时调度一起设计，适合对照表 1 的长视频质量与速度。
 
 来源为 arXiv 原文及 11 月 3 日 Hugging Face Daily Papers。首次提交日期按 Submission history 核验。
 
 生成时间 2026-11-04T06:04:35+08:00（Asia/Singapore）。
+
+11 月 7 日增补 3 篇。

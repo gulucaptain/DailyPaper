@@ -1,6 +1,7 @@
 ---
 title: "AI每日精选 · 2026-11-07"
 date: "2026-11-07T05:59:33+08:00"
+lastmod: "2026-11-07T15:37:58+08:00"
 draft: false
 tags: ["ArXiv", "论文精选", "VLA", "空间推理"]
 categories: ["ArXiv 每日精选"]
@@ -11,7 +12,7 @@ arxiv_batch: "2026-11-06"
 arxiv_counts: {"cs.CV": 258, "cs.RO": 115, "cs.AI": 361, "cs.LG": 417, "cs.GR": 16, "cs.MM": 6}
 ---
 
-本期精选两篇机器人空间推理研究。VFlash 将轨迹和检测框作为完整结构并行生成，考察更快的解码能否保留空间精度。SLA 在持续预训练中对齐三维感知特征，考察这种监督能否迁移到物体移动和场景变化下的操作。两篇工作分别在输出与训练阶段利用空间结构。
+本期五篇围绕空间推理、触觉和自动化搜索展开。VFlash 让模型并行输出轨迹与检测框，SLA 用三维特征监督操作策略。增补的 La-JEPA 与 TactileLab 分别研究潜变量预测和触觉流，SwarmEvolve 则用隐藏状态共享加速可验证的程序搜索。
 
 ## 📄 论文精选
 
@@ -51,15 +52,69 @@ arxiv_counts: {"cs.CV": 258, "cs.RO": 115, "cs.AI": 361, "cs.LG": 417, "cs.GR": 
 
 **研究价值与局限**　表 6 分别开关持续预训练和后训练中的空间监督，有助于拆解两个阶段的作用。真机评估覆盖论文指定的两种机器人平台与任务，跨本体设置仍使用目标平台的额外示范。
 
+### La-JEPA: Compact Robot Policies with Latent World Modeling
+
+{{< paper-meta authors="Mateo Clémente、George Z. Xue、Amin Abyaneh 等" source="arXiv" date="2026-11-05 UTC · v1" arxiv="2611.08156" arxivURL="https://arxiv.org/abs/2611.08156v1" directions="JEPA、世界动作模型" note="11 月 7 日增补。参见原文图 3、表 7。" >}}
+
+**研究问题**　机器人策略能否使用预训练感知特征而无需继承大视频生成主干？
+
+**核心方法**　La-JEPA 在 V-JEPA 2.1 特征空间从头训练紧凑的策略 Transformer，训练时联合预测动作与未来特征，执行时只输出动作。
+
+**技术亮点**　把预训练感知和策略容量分开，并消融未来预测目标、视频表示和摄像头 dropout。
+
+**实验结果**　在 LIBERO-Plus 的三训练种子消融中，联合预测的平均成功率为 76.47%，仅训练动作时为 74.35%。
+
+**应用场景 / 方向联系**　可用于比较生成未来像素和学习可控潜变量对机器人策略的影响。
+
+**研究价值与局限**　这项消融依赖所用视觉编码器及指令处理协议，不能外推到所有世界动作模型。
+
+### SwarmEvolve: Latent Agent Swarms for Evolutionary Discovery and Optimization
+
+{{< paper-meta authors="Qile Jiang、George Em Karniadakis" source="arXiv" date="2026-11-05 UTC · v1" arxiv="2611.08483" arxivURL="https://arxiv.org/abs/2611.08483v1" links="[{\"url\": \"https://huggingface.co/papers/2611.08483\", \"label\": \"HF Papers\", \"kind\": \"huggingface\"}]" directions="AI Agent、自动化科研" note="11 月 7 日增补。参见原文第 4 节、表 1。 Hugging Face 收录日期 2026-11-06。" >}}
+
+**研究问题**　演化搜索的多个智能体是否可以通过传递隐藏状态来降低文本推理成本？
+
+**核心方法**　SwarmEvolve 在潜空间生成推理，用隐藏状态距离挑选新颖思路，再把多个智能体的 KV cache 交给汇总模型生成可执行程序。
+
+**技术亮点**　搜索中的改进、组合和探索以不同侧重点运行，并使用外部评分函数保留候选程序。
+
+**实验结果**　在 21 个数学与科学计算任务中，表 1 给出 60 分钟预算、三次运行的比较。作者报告在测试的各个基座模型下平均得分最高。
+
+**应用场景 / 方向联系**　可用于研究可验证科研任务中的智能体协作和低成本搜索。
+
+**研究价值与局限**　智能体与汇总器需共享兼容的标准注意力架构，实验也依赖可运行的自动评分器。
+
+### TactileLab: Sim-to-Real Dexterous Robot Manipulation with Efficient Shear-Sensitive Tactile Simulation
+
+{{< paper-meta authors="Yijiong Lin、Wenhao He、Toby Jack 等" source="arXiv" date="2026-11-05 UTC · v1" arxiv="2611.07881" arxivURL="https://arxiv.org/abs/2611.07881v1" directions="触觉仿真、灵巧操作" note="11 月 7 日增补。参见原文图 5、真实触觉迁移实验。" >}}
+
+**研究问题**　刚体仿真能否保留滑移和剪切运动线索，支持接触密集的策略学习？
+
+**核心方法**　TactileLab 用刚体接触下的切向运动估计稠密触觉流，与接触深度共同输入策略，并将真实传感器图像转换到模拟触觉域。
+
+**技术亮点**　利用运动场补充单帧压痕几何，避免为每个环境运行高成本软体求解。
+
+**实验结果**　图 5 的手内旋转实验中，触觉流优于仅用深度，两种模态联合时收敛最快、最终奖励最高。论文还测试了真机手内操作及物体跟随。
+
+**应用场景 / 方向联系**　可作为低成本触觉表示和仿真到真机迁移的对照方案。
+
+**研究价值与局限**　模拟触觉流近似的是剪切相关运动，无法复现所有材料弹性和传感器形变。
+
 ## 📊 今日研究趋势
 
 VFlash 用坐标与轨迹把空间计划显式传给下游动作模型，SLA 用训练时对齐把几何信息留在策略的隐表示里。前者可以单独评估轨迹误差与解码延迟，后者可以通过不同训练阶段的消融和真机扰动实验评估空间监督的作用。
 
-## 🏆 最值得关注的 2 篇
+La-JEPA 和 TactileLab 分别检验未来视觉特征与局部接触运动对动作的帮助。SwarmEvolve 将类似的表示问题放到程序搜索，直接测量共享潜状态能否提高固定时间内的解题质量。
+
+
+## 🏆 最值得关注的 3 篇
 
 1. **VFlash** 用同主模型的解码器对照，检验结构化并行预测对三维轨迹的影响。
 2. **SLA** 给出持续预训练与后训练分别使用空间监督的实验，并报告不同真机条件下的操作结果。
+3. **SwarmEvolve** 的固定时间预算和可执行评分，适合检验潜空间协作的实际收益。
 
 来源为 arXiv 原文与 11 月 6 日 Hugging Face Daily Papers。首次提交日期按 Submission history 核验。
 
 生成时间 2026-11-07T06:09:33+08:00（Asia/Singapore）。
+
+11 月 7 日增补 3 篇。

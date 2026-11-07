@@ -1,6 +1,7 @@
 ---
 title: "AI每日精选 · 2026-11-01"
 date: "2026-11-01T05:57:15+08:00"
+lastmod: "2026-11-07T15:37:58+08:00"
 draft: false
 tags: ["ArXiv", "论文精选", "AI研究", "补遗", "世界模型", "视频生成", "稀疏Attention", "Rectified Flow"]
 categories: ["ArXiv 每日精选"]
@@ -11,7 +12,7 @@ arxiv_batch: "2026-10-30"
 arxiv_counts: {"cs.CV": 374, "cs.RO": 189, "cs.AI": 605, "cs.LG": 608, "cs.GR": 22, "cs.MM": 14}
 ---
 
-本期为 **近期补遗，精选3篇**，围绕生成模型怎样分配计算、又怎样证明输出可靠展开：WorldProbe用主动探索检查长期记忆，AB-Attention按采样概率补偿稀疏计算，SpecSlot让频带角色决定全局通信。阅读时可关注三个问题：局部画质能否说明世界一致，接近dense输出是否等于内容更正确，减少前向计算又付出了哪些质量取舍？三篇首次提交均为10月29日，不作为今日首发报道。
+本期补遗扩展到五篇，围绕生成模型怎样分配计算、跨模态表征怎样对齐，以及操作策略怎样使用预测展开。原有的 WorldProbe、AB-Attention 和 SpecSlot 分别从长期记忆、稀疏注意力和图像 token 通信切入。本次增补的两篇分别讨论 JEPA 正样本视图的谱结构，以及机器人如何把远期里程碑与眼前动作联系起来。
 
 ## 📄 论文精选
 ### WorldProbe: When Video World Models Fall Apart under Long-Horizon Spatial Exploration
@@ -94,11 +95,46 @@ arxiv_counts: {"cs.CV": 374, "cs.RO": 189, "cs.AI": 605, "cs.LG": 608, "cs.GR": 
 
 **研究价值与局限：** 主实验使用五个独立训练种子，提供了相对扎实的预算比较；但ImageNet-256与近计算量对照的最终FID基本相当，较大分辨率收益的原因也未被完全隔离。文本实验仅256×256，前向FLOPs减少不等于完整服务或训练总成本同比下降；跨模型规模和高分辨率复杂文本生成仍需进一步验证。
 
+### Proving and Improving the Platonic Representation Hypothesis with JEPAs
+
+{{< paper-meta authors="Randall Balestriero、Yann LeCun" source="arXiv" date="2026-10-29 UTC · v1" arxiv="2610.39302" arxivURL="https://arxiv.org/abs/2610.39302v1" links="[{\"url\": \"https://huggingface.co/papers/2610.39302\", \"label\": \"HF Papers\", \"kind\": \"huggingface\"}]" directions="跨模态表征、JEPA 理论" note="11 月 7 日增补。参见原文第 2 节、第 5.1 节。 Hugging Face 收录日期 2026-10-30。" >}}
+
+**研究问题**　什么样的视图能让分别训练的图像与文本编码器学到相近的结构？
+
+**核心方法**　在有限潜在状态模型中，作者用正样本对定义转移算子，并用谱方法研究最优表示。两种模态若由相同的正样本结构生成，其谱表示可以用正交变换对齐。
+
+**技术亮点**　近似情形下，对齐误差取决于正样本算子差异与谱间隙，解释了为什么选取同一图像的不同描述可能比随机遮盖文字更有效。
+
+**实验结果**　Flickr 的 1,000 对测试样本中，同图描述视图训练的文本 JEPA 在验证集拟合一次旋转后取得 4.4% 的图到文 R@1，随机水平为 0.1%。
+
+**应用场景 / 方向联系**　对设计图文联合表征的正样本和消融实验有参考价值。
+
+**研究价值与局限**　理论依赖有限世界、可逆观测及总体目标等条件，检索实验中的旋转仍使用配对验证数据。
+
+### HiFOR: Hierarchical Foresight with Action-Guided World Grounding for Vision-Language-Action Model
+
+{{< paper-meta authors="Rongxing Ding、Hongyu Qu、Kehong Wu 等" source="arXiv" date="2026-10-29 UTC · v1" arxiv="2610.40373" arxivURL="https://arxiv.org/abs/2610.40373v1" directions="VLA、长程操作" note="11 月 7 日增补。参见原文第 3 节、表 1–2。" >}}
+
+**研究问题**　长程目标与眼前接触变化如何同时服务于动作决策？
+
+**核心方法**　HiFOR 将远期里程碑与局部未来联系起来，再用动作查询检索当前动作所需的预测信息。
+
+**技术亮点**　预测到的未来通过动作引导的检索进入策略，避免所有预测特征以同等权重参与控制。
+
+**实验结果**　RoboTwin 2.0 Hard 的 20 项仿真任务平均成功率为 49.40%。LIBERO 平均成功率从 π0.5 的 96.9% 升至 98.3%。
+
+**应用场景 / 方向联系**　可用于研究语言任务分解与低层动作如何共享预测。
+
+**研究价值与局限**　仿真均值受任务和训练协议影响，不能据此推断跨机器人平台的通用提升。
+
 ## 📊 今日研究趋势
 
 - **评价目标决定优化方向。** 世界持续性、dense输出保真和文本组合能力分别对应不同指标，不能由一个高分替代其他目标。
 - **通信预算可以按结构分配。** AB-Attention依当前激活估计重要性，SpecSlot依频带角色配置通信；两条路径都需要用实际质量与时延验证。
 - **效率报告要保留条件。** 稀疏步骤比例、模型前向GFLOPs和完整生成时延是不同量，读论文时应同时检查硬件、采样器与对照预算。
+
+两篇增补把问题延伸到潜空间的内容选择。JEPA 的正样本设计决定哪些信息在不同视图间共享，HiFOR 的动作查询则决定哪些未来信息真正进入控制。
+
 
 ## 🏆 最值得关注的 3 篇
 
@@ -108,6 +144,8 @@ arxiv_counts: {"cs.CV": 374, "cs.RO": 189, "cs.AI": 605, "cs.LG": 608, "cs.GR": 
 
 ---
 
-来源：[arXiv](https://arxiv.org/) 与 [Hugging Face Daily Papers](https://huggingface.co/papers)。本次六分类公告仍为10月30日，未出现新批次；HF未提供更新的非空一期，因此从近期未推荐论文中选择补遗，不降低质量要求或重复收录。三篇v1均为10月29日，后两篇HF收录日期为10月30日；收录不代表首次发表或会议接收。方法、结果和限制核验到arXiv v1完整HTML、表格及附录，首次日期经Submission history与API交叉确认。
+本期为 10 月 30 日公告批次补遗，所选五篇均于 10 月 29 日首次提交。Hugging Face 收录日期在对应论文条目单独列出。
 
 生成时间：2026-11-01 06:07:15（Asia/Singapore）。
+
+11 月 7 日增补 2 篇。
